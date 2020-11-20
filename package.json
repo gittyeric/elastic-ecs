@@ -1,0 +1,53 @@
+{
+  "name": "elastic-ecs",
+  "version": "0.0.0",
+  "description": "Typescript type defs for ECS Schema",
+  "keywords": [
+    "Elastic",
+    "Common",
+    "Schema",
+    "ecs",
+    "types",
+    "event"
+  ],
+  "main": "lib/index.d.ts",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gittyeric/elastic-ecs"
+  },
+  "engineStrict": false,
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.165",
+    "@types/node": "^8.10.61",
+    "csvdata": "^1.7.0",
+    "lodash": "^4.17.20",
+    "prettier": "^2.0.5",
+    "rimraf": "~2.6.2",
+    "ts-node": "^9.0.0",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.18.0",
+    "ttypescript": "^1.5.12",
+    "typescript": "^4.1.2",
+    "typescript-is": "^0.16.3"
+  },
+  "scripts": {
+    "clean": "rimraf lib ecs && prettier src/*.ts",
+    "clone-ecs": "git clone https://github.com/elastic/ecs.git",
+    "build-types": "cd ecs && git checkout $ECS_VERSION && cd .. && ts-node --compiler ttypescript build-types.ts",
+    "copy-generated": "cp src/index.d.ts lib",
+    "build": "npm run clone-ecs && npm run build-types && npm run copy-generated",
+    "deploy-dry": "npm run clean && npm run clone-ecs && npm run build && npm run lint && git status",
+    "watch": "tsc -w -p tsconfig.release.json",
+    "lint": "tslint -t stylish --project \"tsconfig.json\"",
+    "test": "tslint --fix --project \"tsconfig.json\" && npm run lint && npm run test-only",
+    "test-only": "jest --coverage --runInBand",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Eric <git@letsmakeit.com>",
+  "license": "MIT",
+  "dependencies": {}
+}

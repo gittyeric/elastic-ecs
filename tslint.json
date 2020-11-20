@@ -1,0 +1,65 @@
+{
+    "extends": [
+        "tslint:latest",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "no-any": false,
+        "prefer-method-signature": false,
+        "mocha-no-side-effect-code": false,
+        "no-multiline-string": false,
+        "no-unused-expression": false,
+        "no-empty": false,
+        "space-within-parens": false,
+        "no-console": false,
+        "no-useless-files": false,
+        "prefer-for-of": false,
+        "function-name": false,
+        "no-submodule-imports": false,
+        "no-object-literal-type-assertion": false,
+        "prefer-array-literal": false,
+        "align": false,
+        "no-suspicious-comments": false,
+        "no-unnecessary-callback-wrapper": false,
+        "variable-name": false,
+        "one-line": false,
+        "no-increment-decrement": false,
+        "prefer-template": false,
+        "semicolon": false,
+        "ordered-imports": false,
+        "no-trailing-whitespace": false,
+        "interface-name": false,
+        "newline-before-return": false,
+        "missing-jsdoc": false,
+        "no-relative-imports": false,
+        "export-name": false,
+        "promise-function-async": false,
+        "no-void-expression": false,
+        "no-redundant-jsdoc": false,
+        "prefer-type-cast": false,
+        "no-reserved-keywords": false,
+        "no-unnecessary-local-variable": false,
+        "no-function-expression": false,
+        "no-default-export": false,
+        "import-name": false,
+        "no-for-in": false,
+        "forin": false,
+        "only-arrow-functions": false,
+        "array-type": false,
+        "object-literal-sort-keys": false,
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "always",
+                "singleline": "never"
+            }
+        ],
+        "typedef": [
+            true,
+            "call-signature",
+            "parameter",
+            "property-declaration",
+            "member-variable-declaration"
+        ]
+    }
+}

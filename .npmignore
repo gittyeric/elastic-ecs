@@ -1,0 +1,10 @@
+src
+ecs
+scripts
+.vscode
+node_modules
+.prettierignore
+.prettierrc.json
+tsconfig.json
+tsconfig.release.json
+tslint.json
