@@ -38,7 +38,7 @@
     "clean": "rimraf lib ecs && prettier src/*.ts",
     "clone-ecs": "git clone https://github.com/elastic/ecs.git",
     "build-types": "cd ecs && git checkout $ECS_VERSION && cd .. && ts-node --compiler ttypescript build-types.ts",
-    "copy-generated": "cp src/index.d.ts lib",
+    "copy-generated": "mkdir lib && cp src/index.d.ts lib/",
     "build": "npm run clone-ecs && npm run build-types && npm run copy-generated",
     "deploy-dry": "npm run clean && npm run clone-ecs && npm run build && npm run lint && git status",
     "watch": "tsc -w -p tsconfig.release.json",
