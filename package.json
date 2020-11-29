@@ -1,6 +1,6 @@
 {
   "name": "elastic-ecs",
-  "version": "0.0.0",
+  "version": "1.7.0",
   "description": "Typescript type defs for ECS Schema",
   "keywords": [
     "Elastic",
@@ -14,7 +14,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gittyeric/elastic-ecs"
+    "url": "git+https://github.com/gittyeric/elastic-ecs.git"
   },
   "engineStrict": false,
   "engines": {
@@ -38,7 +38,7 @@
     "clean": "rimraf lib ecs && prettier src/*.ts",
     "clone-ecs": "git clone https://github.com/elastic/ecs.git",
     "build-types": "cd ecs && git checkout $ECS_VERSION && cd .. && ts-node --compiler ttypescript build-types.ts",
-    "copy-generated": "mkdir lib && cp src/index.d.ts lib/",
+    "copy-generated": "mkdir lib && cp src/* lib/",
     "build": "npm run clone-ecs && npm run build-types && npm run copy-generated",
     "deploy-dry": "npm run clean && npm run clone-ecs && npm run build && npm run lint && git status",
     "watch": "tsc -w -p tsconfig.release.json",
@@ -49,5 +49,12 @@
   },
   "author": "Eric <git@letsmakeit.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/gittyeric/elastic-ecs/issues"
+  },
+  "homepage": "https://github.com/gittyeric/elastic-ecs#readme",
+  "directories": {
+    "lib": "lib"
+  }
 }

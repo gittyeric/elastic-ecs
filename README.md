@@ -6,6 +6,7 @@ This wraps up the Elastic Common Schema into strict Typescript types by parsing 
 
 - Get all ECS fields as a flat associative array (EcsFields) or as a full object hierarchy (EcsTree).
 - Breakout by ECS core and/or extended fields
+- Convience Schema type util to guarantee type-safe events and schema
 - Generic enough parsing to run yourself against any ECS version
 
 ## Install
@@ -19,7 +20,7 @@ Run:
 ### Basic Usage: Reference field names/values
 
 ```
-import { EcsFields, EcsTree } from 'elastic-ecs'       s;
+import { EcsFields, EcsTree } from 'elastic-ecs';
 
 interface MyBasicEcsEvent extends EcsFields {
     [EcsFields["event.created"]]: new Date(),
@@ -30,29 +31,50 @@ interface MyBasicEcsEvent extends EcsFields {
 
 ```
 
-### Advanced usage: Force your own required fields in the TS compiler
+### Advanced Usage: Define Events through a type-safe custom schema
+
+By defining your own Schema, you can get lots of free type safety when both defining your custom fields on top of ECS fields and when defining individual events:
 
 ```
-import { EcsFields, EcsTree } from 'elastic-ecs';
 
-// The fields we want to require for all events we create
-type RequiredFieldNames = 'event.created' | 'event.action' | 'event.kind' | 'event.category'
-type MyRequiredEcsFields = Optional<EcsFields> & 
-    Pick<EcsFields, RequiredFieldNames>
+import { NewEventType, NewSchema, EcsFields } from 'elaastic-ecs'
 
-// Define an event that's 100% ECS compliant at the compiler level
-interface MyEcsEvent extends MyRequiredFields {
-    "event.created": Date,
-    "event.action": 'page-viewed',
-    "event.kind": 'event',
-    // Compile error! event.category isn't defined but is required
+// All the custom fields you ever put in events should go here
+interface MyCustomFields {
+    'customer.id': string,
+    'attempts.count': number,
 }
 
-const myEvent: MyEcsEvent = {
-    "event.created": new Date(),
-    "event.action": 'page-viewed',
-    "event.kind": 'event',
+// Use all ECS fields, another good option could be EcsCoreFields if you don't need extended fields
+type MyEcsFieldNames = keyof EcsFields 
+
+// Define my schema based on my custom fields and the ECS fields I have available
+type MySchema = NewSchema<MyCustomFields, MyEcsFieldNames>
+
+// My Event Types
+type MyLogoutEvent = NewEventType<MySchema, 
+    '@timestamp' | 'event.action' | 'customer.id'> // Required Event Fields
+
+type MyLoginEvent = NewEventType<MySchema, 
+    '@timestamp' | 'event.action' | 'customer.id', // Required Event Fields
+    'event.category' | 'attempts.count',           // Optional Event Fields
+    {'event.action': 'User Login'}                 // Per-Event schema type narrowing
+>
+
+// Concrete Event instances can't violate your Schema!
+const loginEvent: MyLoginEvent = {
+    'event.action': 'User Login',
+    '@timestamp': new Date(),
+    'attempts.count': 1,
+    'customer.id': '123',
 };
+
+const logoutEvent: MyLogoutEvent = {
+    '@timestamp': new Date(),
+    'event.action': 'User Logout',
+    'customer.id': '123',
+};
+
 ```
 
 ## Keeping up-to-date

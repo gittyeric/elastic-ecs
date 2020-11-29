@@ -110,10 +110,10 @@ ${allFields.join('')}
     const wholeTreeHierarchy = expandTreeRootToStr(wholeHierarchy, 'EcsTree')
 
     // And finally...
-    const indexTs = 'export type GeoPoint = { lon: number, lat: number }\n\n' +
+    const ecsTs = 'export type GeoPoint = { lon: number, lat: number }\n\n' +
         `${coreFieldsStr}\n\n${extendedFieldsStr}\n\n${allFieldsStr}\n\n${coreTreeStr}\n\n${extendedTreeStr}\n\n${wholeTreeHierarchy}`
 
-    writeFileSync('src/index.d.ts', indexTs)
+    writeFileSync('src/ecs.d.ts', ecsTs)
 }
 
 function expandTreeRootToStr(node: { [key: string]: any }, typeName: string): string {
