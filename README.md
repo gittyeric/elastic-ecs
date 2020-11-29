@@ -15,6 +15,10 @@ Run:
 
 `npm install elastic-ecs`
 
+## Versioning
+
+This NPM package's version is pinned to the associated ECS version, so version 1.7.0 of this lib would represent ECS version 1.7.0, for example.
+
 ## Example Usage
 
 ### Basic Usage: Reference field names/values
