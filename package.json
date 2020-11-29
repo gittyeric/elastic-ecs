@@ -37,7 +37,7 @@
   "scripts": {
     "clean": "rimraf lib ecs && prettier src/*.ts",
     "clone-ecs": "git clone https://github.com/elastic/ecs.git",
-    "build-types": "cd ecs && git checkout $ECS_VERSION && cd .. && ts-node --compiler ttypescript build-types.ts",
+    "build-types": "cd ecs && git checkout 1.7 && cd .. && ts-node --compiler ttypescript build-types.ts",
     "copy-generated": "mkdir lib && cp src/* lib/",
     "build": "npm run clone-ecs && npm run build-types && npm run copy-generated",
     "deploy-dry": "npm run clean && npm run clone-ecs && npm run build && npm run lint && git status",

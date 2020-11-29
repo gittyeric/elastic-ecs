@@ -3,7 +3,7 @@ export type GeoPoint = { lon: number, lat: number }
 export interface EcsCoreFields {
 	/**
 	* @timestamp
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -14,7 +14,7 @@ export interface EcsCoreFields {
 
 	/**
 	* agent.build.original
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: core
@@ -25,7 +25,7 @@ export interface EcsCoreFields {
 
 	/**
 	* agent.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: core
@@ -36,7 +36,7 @@ export interface EcsCoreFields {
 
 	/**
 	* agent.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: core
@@ -47,7 +47,7 @@ export interface EcsCoreFields {
 
 	/**
 	* agent.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: core
@@ -58,7 +58,7 @@ export interface EcsCoreFields {
 
 	/**
 	* agent.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: core
@@ -69,7 +69,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -80,7 +80,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -91,7 +91,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -102,7 +102,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -113,7 +113,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -124,7 +124,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -135,7 +135,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -146,7 +146,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -157,7 +157,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -168,7 +168,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -179,7 +179,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -190,7 +190,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.packets
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -201,7 +201,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -212,7 +212,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -223,7 +223,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -234,7 +234,7 @@ export interface EcsCoreFields {
 
 	/**
 	* client.user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -245,7 +245,7 @@ export interface EcsCoreFields {
 
 	/**
 	* container.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: core
@@ -256,7 +256,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -267,7 +267,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -278,7 +278,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -289,7 +289,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -300,7 +300,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -311,7 +311,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -322,7 +322,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -333,7 +333,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -344,7 +344,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -355,7 +355,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -366,7 +366,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -377,7 +377,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.packets
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -388,7 +388,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -399,7 +399,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -410,7 +410,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -421,7 +421,7 @@ export interface EcsCoreFields {
 
 	/**
 	* destination.user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -432,7 +432,7 @@ export interface EcsCoreFields {
 
 	/**
 	* dll.code_signature.exists
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: core
@@ -443,7 +443,7 @@ export interface EcsCoreFields {
 
 	/**
 	* dll.code_signature.subject_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: core
@@ -454,7 +454,7 @@ export interface EcsCoreFields {
 
 	/**
 	* dll.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: core
@@ -465,7 +465,7 @@ export interface EcsCoreFields {
 
 	/**
 	* ecs.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-ecs.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-ecs.html
 	* Field Set: ecs
 	* Is Indexed: true
 	* Level: core
@@ -476,7 +476,7 @@ export interface EcsCoreFields {
 
 	/**
 	* error.code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: true
 	* Level: core
@@ -487,7 +487,7 @@ export interface EcsCoreFields {
 
 	/**
 	* error.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: true
 	* Level: core
@@ -498,7 +498,7 @@ export interface EcsCoreFields {
 
 	/**
 	* error.message
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: true
 	* Level: core
@@ -509,7 +509,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.action
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -520,7 +520,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.category
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -531,7 +531,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.created
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -542,7 +542,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.dataset
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -553,7 +553,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.duration
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -564,7 +564,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -575,7 +575,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.ingested
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -586,7 +586,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.kind
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -597,7 +597,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.module
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -608,7 +608,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.original
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: false
 	* Level: core
@@ -619,7 +619,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.outcome
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -630,7 +630,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.risk_score
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -641,7 +641,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.severity
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -652,7 +652,7 @@ export interface EcsCoreFields {
 
 	/**
 	* event.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -663,7 +663,7 @@ export interface EcsCoreFields {
 
 	/**
 	* file.code_signature.exists
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: core
@@ -674,7 +674,7 @@ export interface EcsCoreFields {
 
 	/**
 	* file.code_signature.subject_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: core
@@ -685,7 +685,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -696,7 +696,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -707,7 +707,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -718,7 +718,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -729,7 +729,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -740,7 +740,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -751,7 +751,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -762,7 +762,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -773,7 +773,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.hostname
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -784,7 +784,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -795,7 +795,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -806,7 +806,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -817,7 +817,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -828,7 +828,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -839,7 +839,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -850,7 +850,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -861,7 +861,7 @@ export interface EcsCoreFields {
 
 	/**
 	* host.user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -872,7 +872,7 @@ export interface EcsCoreFields {
 
 	/**
 	* labels
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -883,7 +883,7 @@ export interface EcsCoreFields {
 
 	/**
 	* log.level
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: core
@@ -894,7 +894,7 @@ export interface EcsCoreFields {
 
 	/**
 	* log.logger
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: core
@@ -905,7 +905,7 @@ export interface EcsCoreFields {
 
 	/**
 	* log.original
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: false
 	* Level: core
@@ -916,7 +916,7 @@ export interface EcsCoreFields {
 
 	/**
 	* message
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -927,7 +927,7 @@ export interface EcsCoreFields {
 
 	/**
 	* network.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -938,7 +938,7 @@ export interface EcsCoreFields {
 
 	/**
 	* network.direction
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -949,7 +949,7 @@ export interface EcsCoreFields {
 
 	/**
 	* network.forwarded_ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -960,7 +960,7 @@ export interface EcsCoreFields {
 
 	/**
 	* network.packets
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -971,7 +971,7 @@ export interface EcsCoreFields {
 
 	/**
 	* network.protocol
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -982,7 +982,7 @@ export interface EcsCoreFields {
 
 	/**
 	* network.transport
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -993,7 +993,7 @@ export interface EcsCoreFields {
 
 	/**
 	* network.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -1004,7 +1004,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1015,7 +1015,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1026,7 +1026,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1037,7 +1037,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1048,7 +1048,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1059,7 +1059,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1070,7 +1070,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1081,7 +1081,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.hostname
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1092,7 +1092,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1103,7 +1103,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1114,7 +1114,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1125,7 +1125,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.vendor
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1136,7 +1136,7 @@ export interface EcsCoreFields {
 
 	/**
 	* observer.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -1147,7 +1147,7 @@ export interface EcsCoreFields {
 
 	/**
 	* process.code_signature.exists
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -1158,7 +1158,7 @@ export interface EcsCoreFields {
 
 	/**
 	* process.code_signature.subject_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -1169,7 +1169,7 @@ export interface EcsCoreFields {
 
 	/**
 	* process.parent.code_signature.exists
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -1180,7 +1180,7 @@ export interface EcsCoreFields {
 
 	/**
 	* process.parent.code_signature.subject_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -1191,7 +1191,7 @@ export interface EcsCoreFields {
 
 	/**
 	* process.parent.pid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -1202,7 +1202,7 @@ export interface EcsCoreFields {
 
 	/**
 	* process.pid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -1213,7 +1213,7 @@ export interface EcsCoreFields {
 
 	/**
 	* registry.data.strings
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -1224,7 +1224,7 @@ export interface EcsCoreFields {
 
 	/**
 	* registry.data.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -1235,7 +1235,7 @@ export interface EcsCoreFields {
 
 	/**
 	* registry.hive
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -1246,7 +1246,7 @@ export interface EcsCoreFields {
 
 	/**
 	* registry.key
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -1257,7 +1257,7 @@ export interface EcsCoreFields {
 
 	/**
 	* registry.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -1268,7 +1268,7 @@ export interface EcsCoreFields {
 
 	/**
 	* registry.value
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -1279,7 +1279,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1290,7 +1290,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1301,7 +1301,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1312,7 +1312,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1323,7 +1323,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1334,7 +1334,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1345,7 +1345,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1356,7 +1356,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1367,7 +1367,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1378,7 +1378,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1389,7 +1389,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1400,7 +1400,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.packets
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1411,7 +1411,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1422,7 +1422,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1433,7 +1433,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1444,7 +1444,7 @@ export interface EcsCoreFields {
 
 	/**
 	* server.user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -1455,7 +1455,7 @@ export interface EcsCoreFields {
 
 	/**
 	* service.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: core
@@ -1466,7 +1466,7 @@ export interface EcsCoreFields {
 
 	/**
 	* service.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: core
@@ -1477,7 +1477,7 @@ export interface EcsCoreFields {
 
 	/**
 	* service.state
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: core
@@ -1488,7 +1488,7 @@ export interface EcsCoreFields {
 
 	/**
 	* service.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: core
@@ -1499,7 +1499,7 @@ export interface EcsCoreFields {
 
 	/**
 	* service.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: core
@@ -1510,7 +1510,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1521,7 +1521,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1532,7 +1532,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1543,7 +1543,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1554,7 +1554,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1565,7 +1565,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1576,7 +1576,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1587,7 +1587,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1598,7 +1598,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1609,7 +1609,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1620,7 +1620,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1631,7 +1631,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.packets
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1642,7 +1642,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1653,7 +1653,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1664,7 +1664,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1675,7 +1675,7 @@ export interface EcsCoreFields {
 
 	/**
 	* source.user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -1686,7 +1686,7 @@ export interface EcsCoreFields {
 
 	/**
 	* tags
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -1697,7 +1697,7 @@ export interface EcsCoreFields {
 
 	/**
 	* user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: core
@@ -1708,7 +1708,7 @@ export interface EcsCoreFields {
 
 	/**
 	* user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: core
@@ -1719,7 +1719,7 @@ export interface EcsCoreFields {
 
 	/**
 	* user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: core
@@ -1734,7 +1734,7 @@ export interface EcsCoreFields {
 export interface EcsExtendedFields {
 	/**
 	* agent.ephemeral_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: extended
@@ -1745,7 +1745,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.address
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1756,7 +1756,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.as.number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1767,7 +1767,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.as.organization.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1778,7 +1778,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.as.organization.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1789,7 +1789,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1800,7 +1800,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.nat.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1811,7 +1811,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.nat.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1822,7 +1822,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1833,7 +1833,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1844,7 +1844,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1855,7 +1855,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1866,7 +1866,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1877,7 +1877,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1888,7 +1888,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1899,7 +1899,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1910,7 +1910,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1921,7 +1921,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1932,7 +1932,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1943,7 +1943,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* client.user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -1954,7 +1954,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* cloud.account.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -1965,7 +1965,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* cloud.account.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -1976,7 +1976,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* cloud.availability_zone
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -1987,7 +1987,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* cloud.instance.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -1998,7 +1998,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* cloud.instance.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -2009,7 +2009,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* cloud.machine.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -2020,7 +2020,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* cloud.project.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -2031,7 +2031,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* cloud.project.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -2042,7 +2042,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* cloud.provider
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -2053,7 +2053,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* cloud.region
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -2064,7 +2064,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* container.image.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: extended
@@ -2075,7 +2075,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* container.image.tag
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: extended
@@ -2086,7 +2086,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* container.labels
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: extended
@@ -2097,7 +2097,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* container.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: extended
@@ -2108,7 +2108,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* container.runtime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: extended
@@ -2119,7 +2119,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.address
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2130,7 +2130,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.as.number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2141,7 +2141,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.as.organization.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2152,7 +2152,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.as.organization.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2163,7 +2163,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2174,7 +2174,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.nat.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2185,7 +2185,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.nat.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2196,7 +2196,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2207,7 +2207,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2218,7 +2218,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2229,7 +2229,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2240,7 +2240,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2251,7 +2251,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2262,7 +2262,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2273,7 +2273,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2284,7 +2284,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2295,7 +2295,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2306,7 +2306,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2317,7 +2317,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* destination.user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -2328,7 +2328,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.code_signature.status
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2339,7 +2339,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.code_signature.trusted
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2350,7 +2350,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.code_signature.valid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2361,7 +2361,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2372,7 +2372,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2383,7 +2383,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2394,7 +2394,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.hash.sha512
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2405,7 +2405,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2416,7 +2416,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.pe.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2427,7 +2427,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.pe.company
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2438,7 +2438,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.pe.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2449,7 +2449,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.pe.file_version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2460,7 +2460,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.pe.imphash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2471,7 +2471,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.pe.original_file_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2482,7 +2482,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dll.pe.product
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -2493,7 +2493,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.answers
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2504,7 +2504,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.answers.class
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2515,7 +2515,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.answers.data
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2526,7 +2526,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.answers.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2537,7 +2537,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.answers.ttl
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2548,7 +2548,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.answers.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2559,7 +2559,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.header_flags
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2570,7 +2570,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2581,7 +2581,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.op_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2592,7 +2592,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.question.class
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2603,7 +2603,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.question.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2614,7 +2614,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.question.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2625,7 +2625,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.question.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2636,7 +2636,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.question.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2647,7 +2647,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.question.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2658,7 +2658,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.resolved_ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2669,7 +2669,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.response_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2680,7 +2680,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* dns.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -2691,7 +2691,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* error.stack_trace
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: false
 	* Level: extended
@@ -2702,7 +2702,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* error.stack_trace.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: false
 	* Level: extended
@@ -2713,7 +2713,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* error.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: true
 	* Level: extended
@@ -2724,7 +2724,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* event.code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -2735,7 +2735,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* event.end
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -2746,7 +2746,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* event.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -2757,7 +2757,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* event.provider
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -2768,7 +2768,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* event.reason
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -2779,7 +2779,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* event.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -2790,7 +2790,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* event.risk_score_norm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -2801,7 +2801,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* event.sequence
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -2812,7 +2812,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* event.start
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -2823,7 +2823,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* event.timezone
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -2834,7 +2834,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* event.url
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -2845,7 +2845,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.accessed
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2856,7 +2856,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.attributes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2867,7 +2867,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.code_signature.status
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2878,7 +2878,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.code_signature.trusted
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2889,7 +2889,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.code_signature.valid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2900,7 +2900,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.created
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2911,7 +2911,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.ctime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2922,7 +2922,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.device
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2933,7 +2933,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.directory
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2944,7 +2944,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.drive_letter
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2955,7 +2955,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.extension
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2966,7 +2966,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.gid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2977,7 +2977,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.group
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2988,7 +2988,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -2999,7 +2999,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3010,7 +3010,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3021,7 +3021,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.hash.sha512
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3032,7 +3032,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.inode
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3043,7 +3043,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.mime_type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3054,7 +3054,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.mode
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3065,7 +3065,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.mtime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3076,7 +3076,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3087,7 +3087,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.owner
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3098,7 +3098,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3109,7 +3109,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.path.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3120,7 +3120,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.pe.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3131,7 +3131,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.pe.company
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3142,7 +3142,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.pe.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3153,7 +3153,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.pe.file_version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3164,7 +3164,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.pe.imphash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3175,7 +3175,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.pe.original_file_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3186,7 +3186,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.pe.product
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3197,7 +3197,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.size
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3208,7 +3208,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.target_path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3219,7 +3219,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.target_path.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3230,7 +3230,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3241,7 +3241,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.uid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3252,7 +3252,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.alternative_names
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3263,7 +3263,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.issuer.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3274,7 +3274,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.issuer.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3285,7 +3285,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.issuer.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3296,7 +3296,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.issuer.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3307,7 +3307,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.issuer.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3318,7 +3318,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.issuer.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3329,7 +3329,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.issuer.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3340,7 +3340,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.not_after
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3351,7 +3351,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.not_before
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3362,7 +3362,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.public_key_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3373,7 +3373,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.public_key_curve
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3384,7 +3384,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.public_key_exponent
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: false
 	* Level: extended
@@ -3395,7 +3395,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.public_key_size
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3406,7 +3406,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.serial_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3417,7 +3417,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.signature_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3428,7 +3428,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.subject.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3439,7 +3439,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.subject.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3450,7 +3450,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.subject.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3461,7 +3461,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.subject.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3472,7 +3472,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.subject.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3483,7 +3483,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.subject.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3494,7 +3494,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.subject.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3505,7 +3505,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* file.x509.version_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -3516,7 +3516,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 	* Field Set: group
 	* Is Indexed: true
 	* Level: extended
@@ -3527,7 +3527,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 	* Field Set: group
 	* Is Indexed: true
 	* Level: extended
@@ -3538,7 +3538,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 	* Field Set: group
 	* Is Indexed: true
 	* Level: extended
@@ -3549,7 +3549,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3560,7 +3560,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3571,7 +3571,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.os.family
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3582,7 +3582,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.os.full
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3593,7 +3593,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.os.full.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3604,7 +3604,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.os.kernel
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3615,7 +3615,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.os.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3626,7 +3626,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.os.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3637,7 +3637,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.os.platform
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3647,19 +3647,8 @@ export interface EcsExtendedFields {
 	"host.os.platform": string,
 
 	/**
-	* host.os.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
-	* Field Set: host
-	* Is Indexed: true
-	* Level: extended
-	* Elasticsearch type: keyword
-	* Example: macos
-	*/
-	"host.os.type": string,
-
-	/**
 	* host.os.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3670,7 +3659,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.uptime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3681,7 +3670,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3692,7 +3681,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3703,7 +3692,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3714,7 +3703,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3725,7 +3714,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3736,7 +3725,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3747,7 +3736,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3758,7 +3747,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3769,7 +3758,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* host.user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -3780,7 +3769,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.request.body.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3791,7 +3780,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.request.body.content
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3802,7 +3791,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.request.body.content.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3813,7 +3802,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.request.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3824,7 +3813,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.request.method
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3835,7 +3824,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.request.mime_type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3846,7 +3835,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.request.referrer
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3857,7 +3846,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.response.body.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3868,7 +3857,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.response.body.content
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3879,7 +3868,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.response.body.content.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3890,7 +3879,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.response.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3901,7 +3890,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.response.mime_type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3912,7 +3901,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.response.status_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3923,7 +3912,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* http.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -3934,7 +3923,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* log.file.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -3945,7 +3934,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* log.origin.file.line
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -3956,7 +3945,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* log.origin.file.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -3967,7 +3956,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* log.origin.function
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -3978,7 +3967,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* log.syslog
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -3989,7 +3978,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* log.syslog.facility.code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -4000,7 +3989,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* log.syslog.facility.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -4011,7 +4000,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* log.syslog.priority
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -4022,7 +4011,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* log.syslog.severity.code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -4033,7 +4022,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* log.syslog.severity.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -4044,7 +4033,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* network.application
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -4055,7 +4044,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* network.community_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -4066,7 +4055,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* network.iana_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -4077,7 +4066,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* network.inner
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -4088,7 +4077,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* network.inner.vlan.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -4099,7 +4088,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* network.inner.vlan.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -4110,7 +4099,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* network.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -4121,7 +4110,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* network.vlan.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -4132,7 +4121,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* network.vlan.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -4143,7 +4132,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.egress
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4154,7 +4143,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.egress.interface.alias
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4165,7 +4154,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.egress.interface.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4176,7 +4165,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.egress.interface.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4187,7 +4176,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.egress.vlan.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4198,7 +4187,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.egress.vlan.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4209,7 +4198,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.egress.zone
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4220,7 +4209,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4231,7 +4220,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.ingress
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4242,7 +4231,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.ingress.interface.alias
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4253,7 +4242,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.ingress.interface.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4264,7 +4253,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.ingress.interface.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4275,7 +4264,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.ingress.vlan.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4286,7 +4275,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.ingress.vlan.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4297,7 +4286,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.ingress.zone
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4308,7 +4297,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4319,7 +4308,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.os.family
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4330,7 +4319,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.os.full
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4341,7 +4330,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.os.full.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4352,7 +4341,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.os.kernel
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4363,7 +4352,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.os.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4374,7 +4363,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.os.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4385,7 +4374,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.os.platform
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4395,19 +4384,8 @@ export interface EcsExtendedFields {
 	"observer.os.platform": string,
 
 	/**
-	* observer.os.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
-	* Field Set: observer
-	* Is Indexed: true
-	* Level: extended
-	* Elasticsearch type: keyword
-	* Example: macos
-	*/
-	"observer.os.type": string,
-
-	/**
 	* observer.os.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4418,7 +4396,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.product
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4429,7 +4407,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* observer.serial_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -4440,7 +4418,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* organization.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-organization.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-organization.html
 	* Field Set: organization
 	* Is Indexed: true
 	* Level: extended
@@ -4451,7 +4429,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* organization.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-organization.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-organization.html
 	* Field Set: organization
 	* Is Indexed: true
 	* Level: extended
@@ -4462,7 +4440,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* organization.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-organization.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-organization.html
 	* Field Set: organization
 	* Is Indexed: true
 	* Level: extended
@@ -4473,7 +4451,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4484,7 +4462,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.build_version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4495,7 +4473,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.checksum
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4506,7 +4484,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4517,7 +4495,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.install_scope
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4528,7 +4506,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.installed
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4539,7 +4517,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.license
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4550,7 +4528,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4561,7 +4539,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4572,7 +4550,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4583,7 +4561,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.size
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4594,7 +4572,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4605,7 +4583,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* package.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -4616,7 +4594,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.args
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4627,7 +4605,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.args_count
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4638,7 +4616,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.code_signature.status
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4649,7 +4627,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.code_signature.trusted
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4660,7 +4638,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.code_signature.valid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4671,7 +4649,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.command_line
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4682,7 +4660,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.command_line.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4693,7 +4671,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.entity_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4704,7 +4682,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.executable
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4715,7 +4693,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.executable.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4726,7 +4704,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.exit_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4737,7 +4715,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4748,7 +4726,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4759,7 +4737,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4770,7 +4748,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.hash.sha512
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4781,7 +4759,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4792,7 +4770,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4803,7 +4781,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.args
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4814,7 +4792,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.args_count
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4825,7 +4803,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.code_signature.status
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4836,7 +4814,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.code_signature.trusted
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4847,7 +4825,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.code_signature.valid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4858,7 +4836,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.command_line
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4869,7 +4847,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.command_line.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4880,7 +4858,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.entity_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4891,7 +4869,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.executable
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4902,7 +4880,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.executable.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4913,7 +4891,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.exit_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4924,7 +4902,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4935,7 +4913,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4946,7 +4924,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4957,7 +4935,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.hash.sha512
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4968,7 +4946,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4979,7 +4957,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -4990,7 +4968,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.pe.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5001,7 +4979,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.pe.company
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5012,7 +4990,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.pe.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5023,7 +5001,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.pe.file_version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5034,7 +5012,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.pe.imphash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5045,7 +5023,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.pe.original_file_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5056,7 +5034,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.pe.product
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5067,7 +5045,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.pgid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5078,7 +5056,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.ppid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5089,7 +5067,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.start
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5100,7 +5078,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.thread.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5111,7 +5089,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.thread.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5122,7 +5100,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.title
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5133,7 +5111,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.title.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5144,7 +5122,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.uptime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5155,7 +5133,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.working_directory
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5166,7 +5144,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.parent.working_directory.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5177,7 +5155,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.pe.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5188,7 +5166,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.pe.company
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5199,7 +5177,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.pe.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5210,7 +5188,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.pe.file_version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5221,7 +5199,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.pe.imphash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5232,7 +5210,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.pe.original_file_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5243,7 +5221,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.pe.product
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5254,7 +5232,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.pgid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5265,7 +5243,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.ppid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5276,7 +5254,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.start
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5287,7 +5265,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.thread.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5298,7 +5276,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.thread.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5309,7 +5287,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.title
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5320,7 +5298,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.title.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5331,7 +5309,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.uptime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5342,7 +5320,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.working_directory
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5353,7 +5331,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* process.working_directory.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -5364,7 +5342,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* registry.data.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: extended
@@ -5375,7 +5353,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* related.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 	* Field Set: related
 	* Is Indexed: true
 	* Level: extended
@@ -5386,7 +5364,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* related.hosts
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 	* Field Set: related
 	* Is Indexed: true
 	* Level: extended
@@ -5397,7 +5375,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* related.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 	* Field Set: related
 	* Is Indexed: true
 	* Level: extended
@@ -5408,7 +5386,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* related.user
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 	* Field Set: related
 	* Is Indexed: true
 	* Level: extended
@@ -5419,7 +5397,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* rule.author
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -5430,7 +5408,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* rule.category
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -5441,7 +5419,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* rule.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -5452,7 +5430,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* rule.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -5463,7 +5441,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* rule.license
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -5474,7 +5452,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* rule.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -5485,7 +5463,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* rule.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -5496,7 +5474,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* rule.ruleset
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -5507,7 +5485,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* rule.uuid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -5518,7 +5496,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* rule.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -5529,7 +5507,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.address
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5540,7 +5518,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.as.number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5551,7 +5529,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.as.organization.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5562,7 +5540,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.as.organization.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5573,7 +5551,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5584,7 +5562,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.nat.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5595,7 +5573,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.nat.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5606,7 +5584,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5617,7 +5595,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5628,7 +5606,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5639,7 +5617,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5650,7 +5628,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5661,7 +5639,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5672,7 +5650,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5683,7 +5661,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5694,7 +5672,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5705,7 +5683,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5716,7 +5694,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5727,7 +5705,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* server.user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -5738,7 +5716,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* service.ephemeral_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: extended
@@ -5749,7 +5727,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* service.node.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: extended
@@ -5760,7 +5738,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.address
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5771,7 +5749,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.as.number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5782,7 +5760,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.as.organization.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5793,7 +5771,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.as.organization.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5804,7 +5782,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5815,7 +5793,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.nat.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5826,7 +5804,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.nat.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5837,7 +5815,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5848,7 +5826,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5859,7 +5837,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5870,7 +5848,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5881,7 +5859,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5892,7 +5870,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5903,7 +5881,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5914,7 +5892,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5925,7 +5903,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5936,7 +5914,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5947,7 +5925,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5958,7 +5936,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* source.user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -5969,7 +5947,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* span.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-span.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-span.html
 	* Field Set: span
 	* Is Indexed: true
 	* Level: extended
@@ -5980,7 +5958,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.framework
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -5991,7 +5969,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.tactic.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -6002,7 +5980,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.tactic.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -6013,7 +5991,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.tactic.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -6024,7 +6002,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.technique.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -6035,7 +6013,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.technique.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -6046,7 +6024,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.technique.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -6057,7 +6035,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.technique.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -6068,7 +6046,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.technique.subtechnique.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -6079,7 +6057,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.technique.subtechnique.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -6090,7 +6068,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.technique.subtechnique.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -6101,7 +6079,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* threat.technique.subtechnique.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -6112,7 +6090,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.cipher
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6123,7 +6101,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.certificate
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6134,7 +6112,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.certificate_chain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6145,7 +6123,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6156,7 +6134,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6167,7 +6145,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6178,7 +6156,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.issuer
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6189,7 +6167,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.ja3
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6200,7 +6178,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.not_after
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6211,7 +6189,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.not_before
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6222,7 +6200,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.server_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6233,7 +6211,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.subject
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6244,7 +6222,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.supported_ciphers
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6255,7 +6233,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.alternative_names
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6266,7 +6244,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.issuer.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6277,7 +6255,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.issuer.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6288,7 +6266,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.issuer.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6299,7 +6277,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.issuer.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6310,7 +6288,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.issuer.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6321,7 +6299,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.issuer.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6332,7 +6310,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.issuer.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6343,7 +6321,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.not_after
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6354,7 +6332,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.not_before
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6365,7 +6343,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.public_key_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6376,7 +6354,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.public_key_curve
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6387,7 +6365,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.public_key_exponent
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: false
 	* Level: extended
@@ -6398,7 +6376,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.public_key_size
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6409,7 +6387,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.serial_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6420,7 +6398,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.signature_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6431,7 +6409,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.subject.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6442,7 +6420,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.subject.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6453,7 +6431,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.subject.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6464,7 +6442,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.subject.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6475,7 +6453,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.subject.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6486,7 +6464,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.subject.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6497,7 +6475,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.subject.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6508,7 +6486,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.client.x509.version_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6519,7 +6497,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.curve
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6530,7 +6508,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.established
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6541,7 +6519,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.next_protocol
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6552,7 +6530,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.resumed
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6563,7 +6541,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.certificate
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6574,7 +6552,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.certificate_chain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6585,7 +6563,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6596,7 +6574,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6607,7 +6585,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6618,7 +6596,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.issuer
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6629,7 +6607,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.ja3s
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6640,7 +6618,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.not_after
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6651,7 +6629,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.not_before
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6662,7 +6640,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.subject
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6673,7 +6651,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.alternative_names
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6684,7 +6662,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.issuer.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6695,7 +6673,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.issuer.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6706,7 +6684,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.issuer.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6717,7 +6695,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.issuer.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6728,7 +6706,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.issuer.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6739,7 +6717,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.issuer.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6750,7 +6728,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.issuer.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6761,7 +6739,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.not_after
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6772,7 +6750,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.not_before
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6783,7 +6761,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.public_key_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6794,7 +6772,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.public_key_curve
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6805,7 +6783,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.public_key_exponent
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: false
 	* Level: extended
@@ -6816,7 +6794,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.public_key_size
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6827,7 +6805,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.serial_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6838,7 +6816,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.signature_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6849,7 +6827,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.subject.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6860,7 +6838,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.subject.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6871,7 +6849,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.subject.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6882,7 +6860,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.subject.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6893,7 +6871,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.subject.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6904,7 +6882,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.subject.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6915,7 +6893,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.subject.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6926,7 +6904,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.server.x509.version_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6937,7 +6915,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6948,7 +6926,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* tls.version_protocol
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -6959,7 +6937,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* trace.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-trace.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-trace.html
 	* Field Set: trace
 	* Is Indexed: true
 	* Level: extended
@@ -6970,7 +6948,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* transaction.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-transaction.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-transaction.html
 	* Field Set: transaction
 	* Is Indexed: true
 	* Level: extended
@@ -6981,7 +6959,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -6992,7 +6970,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.extension
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7003,7 +6981,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.fragment
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7014,7 +6992,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.full
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7025,7 +7003,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.full.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7036,7 +7014,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.original
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7047,7 +7025,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.original.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7058,7 +7036,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.password
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7069,7 +7047,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7080,7 +7058,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7091,7 +7069,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.query
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7102,7 +7080,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7113,7 +7091,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.scheme
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7124,7 +7102,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7135,7 +7113,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7146,7 +7124,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* url.username
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -7157,7 +7135,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -7168,7 +7146,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -7179,7 +7157,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -7190,7 +7168,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -7201,7 +7179,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -7212,7 +7190,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -7223,7 +7201,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -7234,7 +7212,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -7245,7 +7223,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -7256,7 +7234,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.device.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7267,7 +7245,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7278,7 +7256,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.original
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7289,7 +7267,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.original.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7300,7 +7278,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.os.family
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7311,7 +7289,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.os.full
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7322,7 +7300,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.os.full.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7333,7 +7311,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.os.kernel
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7344,7 +7322,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.os.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7355,7 +7333,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.os.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7366,7 +7344,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.os.platform
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7376,19 +7354,8 @@ export interface EcsExtendedFields {
 	"user_agent.os.platform": string,
 
 	/**
-	* user_agent.os.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
-	* Field Set: user_agent
-	* Is Indexed: true
-	* Level: extended
-	* Elasticsearch type: keyword
-	* Example: macos
-	*/
-	"user_agent.os.type": string,
-
-	/**
 	* user_agent.os.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7399,7 +7366,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* user_agent.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -7410,7 +7377,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.category
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7421,7 +7388,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.classification
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7432,7 +7399,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7443,7 +7410,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.description.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7454,7 +7421,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.enumeration
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7465,7 +7432,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7476,7 +7443,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7487,7 +7454,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.report_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7498,7 +7465,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.scanner.vendor
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7509,7 +7476,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.score.base
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7520,7 +7487,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.score.environmental
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7531,7 +7498,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.score.temporal
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7542,7 +7509,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.score.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7553,7 +7520,7 @@ export interface EcsExtendedFields {
 
 	/**
 	* vulnerability.severity
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -7568,7 +7535,7 @@ export interface EcsExtendedFields {
 export interface EcsFields {
 	/**
 	* @timestamp
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -7579,7 +7546,7 @@ export interface EcsFields {
 
 	/**
 	* agent.build.original
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: core
@@ -7590,7 +7557,7 @@ export interface EcsFields {
 
 	/**
 	* agent.ephemeral_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: extended
@@ -7601,7 +7568,7 @@ export interface EcsFields {
 
 	/**
 	* agent.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: core
@@ -7612,7 +7579,7 @@ export interface EcsFields {
 
 	/**
 	* agent.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: core
@@ -7623,7 +7590,7 @@ export interface EcsFields {
 
 	/**
 	* agent.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: core
@@ -7634,7 +7601,7 @@ export interface EcsFields {
 
 	/**
 	* agent.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 	* Field Set: agent
 	* Is Indexed: true
 	* Level: core
@@ -7645,7 +7612,7 @@ export interface EcsFields {
 
 	/**
 	* client.address
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7656,7 +7623,7 @@ export interface EcsFields {
 
 	/**
 	* client.as.number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7667,7 +7634,7 @@ export interface EcsFields {
 
 	/**
 	* client.as.organization.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7678,7 +7645,7 @@ export interface EcsFields {
 
 	/**
 	* client.as.organization.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7689,7 +7656,7 @@ export interface EcsFields {
 
 	/**
 	* client.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7700,7 +7667,7 @@ export interface EcsFields {
 
 	/**
 	* client.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7711,7 +7678,7 @@ export interface EcsFields {
 
 	/**
 	* client.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7722,7 +7689,7 @@ export interface EcsFields {
 
 	/**
 	* client.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7733,7 +7700,7 @@ export interface EcsFields {
 
 	/**
 	* client.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7744,7 +7711,7 @@ export interface EcsFields {
 
 	/**
 	* client.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7755,7 +7722,7 @@ export interface EcsFields {
 
 	/**
 	* client.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7766,7 +7733,7 @@ export interface EcsFields {
 
 	/**
 	* client.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7777,7 +7744,7 @@ export interface EcsFields {
 
 	/**
 	* client.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7788,7 +7755,7 @@ export interface EcsFields {
 
 	/**
 	* client.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7799,7 +7766,7 @@ export interface EcsFields {
 
 	/**
 	* client.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7810,7 +7777,7 @@ export interface EcsFields {
 
 	/**
 	* client.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7821,7 +7788,7 @@ export interface EcsFields {
 
 	/**
 	* client.nat.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7832,7 +7799,7 @@ export interface EcsFields {
 
 	/**
 	* client.nat.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7843,7 +7810,7 @@ export interface EcsFields {
 
 	/**
 	* client.packets
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7854,7 +7821,7 @@ export interface EcsFields {
 
 	/**
 	* client.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7865,7 +7832,7 @@ export interface EcsFields {
 
 	/**
 	* client.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7876,7 +7843,7 @@ export interface EcsFields {
 
 	/**
 	* client.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7887,7 +7854,7 @@ export interface EcsFields {
 
 	/**
 	* client.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7898,7 +7865,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7909,7 +7876,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7920,7 +7887,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7931,7 +7898,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7942,7 +7909,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7953,7 +7920,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7964,7 +7931,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7975,7 +7942,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -7986,7 +7953,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -7997,7 +7964,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -8008,7 +7975,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: core
@@ -8019,7 +7986,7 @@ export interface EcsFields {
 
 	/**
 	* client.user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 	* Field Set: client
 	* Is Indexed: true
 	* Level: extended
@@ -8030,7 +7997,7 @@ export interface EcsFields {
 
 	/**
 	* cloud.account.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -8041,7 +8008,7 @@ export interface EcsFields {
 
 	/**
 	* cloud.account.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -8052,7 +8019,7 @@ export interface EcsFields {
 
 	/**
 	* cloud.availability_zone
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -8063,7 +8030,7 @@ export interface EcsFields {
 
 	/**
 	* cloud.instance.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -8074,7 +8041,7 @@ export interface EcsFields {
 
 	/**
 	* cloud.instance.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -8085,7 +8052,7 @@ export interface EcsFields {
 
 	/**
 	* cloud.machine.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -8096,7 +8063,7 @@ export interface EcsFields {
 
 	/**
 	* cloud.project.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -8107,7 +8074,7 @@ export interface EcsFields {
 
 	/**
 	* cloud.project.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -8118,7 +8085,7 @@ export interface EcsFields {
 
 	/**
 	* cloud.provider
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -8129,7 +8096,7 @@ export interface EcsFields {
 
 	/**
 	* cloud.region
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 	* Field Set: cloud
 	* Is Indexed: true
 	* Level: extended
@@ -8140,7 +8107,7 @@ export interface EcsFields {
 
 	/**
 	* container.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: core
@@ -8151,7 +8118,7 @@ export interface EcsFields {
 
 	/**
 	* container.image.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: extended
@@ -8162,7 +8129,7 @@ export interface EcsFields {
 
 	/**
 	* container.image.tag
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: extended
@@ -8173,7 +8140,7 @@ export interface EcsFields {
 
 	/**
 	* container.labels
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: extended
@@ -8184,7 +8151,7 @@ export interface EcsFields {
 
 	/**
 	* container.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: extended
@@ -8195,7 +8162,7 @@ export interface EcsFields {
 
 	/**
 	* container.runtime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 	* Field Set: container
 	* Is Indexed: true
 	* Level: extended
@@ -8206,7 +8173,7 @@ export interface EcsFields {
 
 	/**
 	* destination.address
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8217,7 +8184,7 @@ export interface EcsFields {
 
 	/**
 	* destination.as.number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8228,7 +8195,7 @@ export interface EcsFields {
 
 	/**
 	* destination.as.organization.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8239,7 +8206,7 @@ export interface EcsFields {
 
 	/**
 	* destination.as.organization.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8250,7 +8217,7 @@ export interface EcsFields {
 
 	/**
 	* destination.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8261,7 +8228,7 @@ export interface EcsFields {
 
 	/**
 	* destination.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8272,7 +8239,7 @@ export interface EcsFields {
 
 	/**
 	* destination.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8283,7 +8250,7 @@ export interface EcsFields {
 
 	/**
 	* destination.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8294,7 +8261,7 @@ export interface EcsFields {
 
 	/**
 	* destination.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8305,7 +8272,7 @@ export interface EcsFields {
 
 	/**
 	* destination.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8316,7 +8283,7 @@ export interface EcsFields {
 
 	/**
 	* destination.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8327,7 +8294,7 @@ export interface EcsFields {
 
 	/**
 	* destination.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8338,7 +8305,7 @@ export interface EcsFields {
 
 	/**
 	* destination.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8349,7 +8316,7 @@ export interface EcsFields {
 
 	/**
 	* destination.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8360,7 +8327,7 @@ export interface EcsFields {
 
 	/**
 	* destination.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8371,7 +8338,7 @@ export interface EcsFields {
 
 	/**
 	* destination.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8382,7 +8349,7 @@ export interface EcsFields {
 
 	/**
 	* destination.nat.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8393,7 +8360,7 @@ export interface EcsFields {
 
 	/**
 	* destination.nat.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8404,7 +8371,7 @@ export interface EcsFields {
 
 	/**
 	* destination.packets
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8415,7 +8382,7 @@ export interface EcsFields {
 
 	/**
 	* destination.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8426,7 +8393,7 @@ export interface EcsFields {
 
 	/**
 	* destination.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8437,7 +8404,7 @@ export interface EcsFields {
 
 	/**
 	* destination.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8448,7 +8415,7 @@ export interface EcsFields {
 
 	/**
 	* destination.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8459,7 +8426,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8470,7 +8437,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8481,7 +8448,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8492,7 +8459,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8503,7 +8470,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8514,7 +8481,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8525,7 +8492,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8536,7 +8503,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8547,7 +8514,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8558,7 +8525,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8569,7 +8536,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: core
@@ -8580,7 +8547,7 @@ export interface EcsFields {
 
 	/**
 	* destination.user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 	* Field Set: destination
 	* Is Indexed: true
 	* Level: extended
@@ -8591,7 +8558,7 @@ export interface EcsFields {
 
 	/**
 	* dll.code_signature.exists
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: core
@@ -8602,7 +8569,7 @@ export interface EcsFields {
 
 	/**
 	* dll.code_signature.status
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8613,7 +8580,7 @@ export interface EcsFields {
 
 	/**
 	* dll.code_signature.subject_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: core
@@ -8624,7 +8591,7 @@ export interface EcsFields {
 
 	/**
 	* dll.code_signature.trusted
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8635,7 +8602,7 @@ export interface EcsFields {
 
 	/**
 	* dll.code_signature.valid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8646,7 +8613,7 @@ export interface EcsFields {
 
 	/**
 	* dll.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8657,7 +8624,7 @@ export interface EcsFields {
 
 	/**
 	* dll.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8668,7 +8635,7 @@ export interface EcsFields {
 
 	/**
 	* dll.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8679,7 +8646,7 @@ export interface EcsFields {
 
 	/**
 	* dll.hash.sha512
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8690,7 +8657,7 @@ export interface EcsFields {
 
 	/**
 	* dll.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: core
@@ -8701,7 +8668,7 @@ export interface EcsFields {
 
 	/**
 	* dll.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8712,7 +8679,7 @@ export interface EcsFields {
 
 	/**
 	* dll.pe.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8723,7 +8690,7 @@ export interface EcsFields {
 
 	/**
 	* dll.pe.company
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8734,7 +8701,7 @@ export interface EcsFields {
 
 	/**
 	* dll.pe.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8745,7 +8712,7 @@ export interface EcsFields {
 
 	/**
 	* dll.pe.file_version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8756,7 +8723,7 @@ export interface EcsFields {
 
 	/**
 	* dll.pe.imphash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8767,7 +8734,7 @@ export interface EcsFields {
 
 	/**
 	* dll.pe.original_file_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8778,7 +8745,7 @@ export interface EcsFields {
 
 	/**
 	* dll.pe.product
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 	* Field Set: dll
 	* Is Indexed: true
 	* Level: extended
@@ -8789,7 +8756,7 @@ export interface EcsFields {
 
 	/**
 	* dns.answers
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8800,7 +8767,7 @@ export interface EcsFields {
 
 	/**
 	* dns.answers.class
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8811,7 +8778,7 @@ export interface EcsFields {
 
 	/**
 	* dns.answers.data
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8822,7 +8789,7 @@ export interface EcsFields {
 
 	/**
 	* dns.answers.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8833,7 +8800,7 @@ export interface EcsFields {
 
 	/**
 	* dns.answers.ttl
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8844,7 +8811,7 @@ export interface EcsFields {
 
 	/**
 	* dns.answers.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8855,7 +8822,7 @@ export interface EcsFields {
 
 	/**
 	* dns.header_flags
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8866,7 +8833,7 @@ export interface EcsFields {
 
 	/**
 	* dns.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8877,7 +8844,7 @@ export interface EcsFields {
 
 	/**
 	* dns.op_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8888,7 +8855,7 @@ export interface EcsFields {
 
 	/**
 	* dns.question.class
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8899,7 +8866,7 @@ export interface EcsFields {
 
 	/**
 	* dns.question.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8910,7 +8877,7 @@ export interface EcsFields {
 
 	/**
 	* dns.question.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8921,7 +8888,7 @@ export interface EcsFields {
 
 	/**
 	* dns.question.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8932,7 +8899,7 @@ export interface EcsFields {
 
 	/**
 	* dns.question.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8943,7 +8910,7 @@ export interface EcsFields {
 
 	/**
 	* dns.question.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8954,7 +8921,7 @@ export interface EcsFields {
 
 	/**
 	* dns.resolved_ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8965,7 +8932,7 @@ export interface EcsFields {
 
 	/**
 	* dns.response_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8976,7 +8943,7 @@ export interface EcsFields {
 
 	/**
 	* dns.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 	* Field Set: dns
 	* Is Indexed: true
 	* Level: extended
@@ -8987,7 +8954,7 @@ export interface EcsFields {
 
 	/**
 	* ecs.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-ecs.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-ecs.html
 	* Field Set: ecs
 	* Is Indexed: true
 	* Level: core
@@ -8998,7 +8965,7 @@ export interface EcsFields {
 
 	/**
 	* error.code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: true
 	* Level: core
@@ -9009,7 +8976,7 @@ export interface EcsFields {
 
 	/**
 	* error.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: true
 	* Level: core
@@ -9020,7 +8987,7 @@ export interface EcsFields {
 
 	/**
 	* error.message
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: true
 	* Level: core
@@ -9031,7 +8998,7 @@ export interface EcsFields {
 
 	/**
 	* error.stack_trace
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: false
 	* Level: extended
@@ -9042,7 +9009,7 @@ export interface EcsFields {
 
 	/**
 	* error.stack_trace.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: false
 	* Level: extended
@@ -9053,7 +9020,7 @@ export interface EcsFields {
 
 	/**
 	* error.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 	* Field Set: error
 	* Is Indexed: true
 	* Level: extended
@@ -9064,7 +9031,7 @@ export interface EcsFields {
 
 	/**
 	* event.action
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9075,7 +9042,7 @@ export interface EcsFields {
 
 	/**
 	* event.category
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9086,7 +9053,7 @@ export interface EcsFields {
 
 	/**
 	* event.code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -9097,7 +9064,7 @@ export interface EcsFields {
 
 	/**
 	* event.created
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9108,7 +9075,7 @@ export interface EcsFields {
 
 	/**
 	* event.dataset
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9119,7 +9086,7 @@ export interface EcsFields {
 
 	/**
 	* event.duration
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9130,7 +9097,7 @@ export interface EcsFields {
 
 	/**
 	* event.end
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -9141,7 +9108,7 @@ export interface EcsFields {
 
 	/**
 	* event.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -9152,7 +9119,7 @@ export interface EcsFields {
 
 	/**
 	* event.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9163,7 +9130,7 @@ export interface EcsFields {
 
 	/**
 	* event.ingested
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9174,7 +9141,7 @@ export interface EcsFields {
 
 	/**
 	* event.kind
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9185,7 +9152,7 @@ export interface EcsFields {
 
 	/**
 	* event.module
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9196,7 +9163,7 @@ export interface EcsFields {
 
 	/**
 	* event.original
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: false
 	* Level: core
@@ -9207,7 +9174,7 @@ export interface EcsFields {
 
 	/**
 	* event.outcome
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9218,7 +9185,7 @@ export interface EcsFields {
 
 	/**
 	* event.provider
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -9229,7 +9196,7 @@ export interface EcsFields {
 
 	/**
 	* event.reason
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -9240,7 +9207,7 @@ export interface EcsFields {
 
 	/**
 	* event.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -9251,7 +9218,7 @@ export interface EcsFields {
 
 	/**
 	* event.risk_score
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9262,7 +9229,7 @@ export interface EcsFields {
 
 	/**
 	* event.risk_score_norm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -9273,7 +9240,7 @@ export interface EcsFields {
 
 	/**
 	* event.sequence
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -9284,7 +9251,7 @@ export interface EcsFields {
 
 	/**
 	* event.severity
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9295,7 +9262,7 @@ export interface EcsFields {
 
 	/**
 	* event.start
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -9306,7 +9273,7 @@ export interface EcsFields {
 
 	/**
 	* event.timezone
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -9317,7 +9284,7 @@ export interface EcsFields {
 
 	/**
 	* event.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: core
@@ -9328,7 +9295,7 @@ export interface EcsFields {
 
 	/**
 	* event.url
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 	* Field Set: event
 	* Is Indexed: true
 	* Level: extended
@@ -9339,7 +9306,7 @@ export interface EcsFields {
 
 	/**
 	* file.accessed
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9350,7 +9317,7 @@ export interface EcsFields {
 
 	/**
 	* file.attributes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9361,7 +9328,7 @@ export interface EcsFields {
 
 	/**
 	* file.code_signature.exists
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: core
@@ -9372,7 +9339,7 @@ export interface EcsFields {
 
 	/**
 	* file.code_signature.status
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9383,7 +9350,7 @@ export interface EcsFields {
 
 	/**
 	* file.code_signature.subject_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: core
@@ -9394,7 +9361,7 @@ export interface EcsFields {
 
 	/**
 	* file.code_signature.trusted
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9405,7 +9372,7 @@ export interface EcsFields {
 
 	/**
 	* file.code_signature.valid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9416,7 +9383,7 @@ export interface EcsFields {
 
 	/**
 	* file.created
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9427,7 +9394,7 @@ export interface EcsFields {
 
 	/**
 	* file.ctime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9438,7 +9405,7 @@ export interface EcsFields {
 
 	/**
 	* file.device
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9449,7 +9416,7 @@ export interface EcsFields {
 
 	/**
 	* file.directory
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9460,7 +9427,7 @@ export interface EcsFields {
 
 	/**
 	* file.drive_letter
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9471,7 +9438,7 @@ export interface EcsFields {
 
 	/**
 	* file.extension
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9482,7 +9449,7 @@ export interface EcsFields {
 
 	/**
 	* file.gid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9493,7 +9460,7 @@ export interface EcsFields {
 
 	/**
 	* file.group
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9504,7 +9471,7 @@ export interface EcsFields {
 
 	/**
 	* file.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9515,7 +9482,7 @@ export interface EcsFields {
 
 	/**
 	* file.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9526,7 +9493,7 @@ export interface EcsFields {
 
 	/**
 	* file.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9537,7 +9504,7 @@ export interface EcsFields {
 
 	/**
 	* file.hash.sha512
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9548,7 +9515,7 @@ export interface EcsFields {
 
 	/**
 	* file.inode
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9559,7 +9526,7 @@ export interface EcsFields {
 
 	/**
 	* file.mime_type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9570,7 +9537,7 @@ export interface EcsFields {
 
 	/**
 	* file.mode
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9581,7 +9548,7 @@ export interface EcsFields {
 
 	/**
 	* file.mtime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9592,7 +9559,7 @@ export interface EcsFields {
 
 	/**
 	* file.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9603,7 +9570,7 @@ export interface EcsFields {
 
 	/**
 	* file.owner
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9614,7 +9581,7 @@ export interface EcsFields {
 
 	/**
 	* file.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9625,7 +9592,7 @@ export interface EcsFields {
 
 	/**
 	* file.path.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9636,7 +9603,7 @@ export interface EcsFields {
 
 	/**
 	* file.pe.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9647,7 +9614,7 @@ export interface EcsFields {
 
 	/**
 	* file.pe.company
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9658,7 +9625,7 @@ export interface EcsFields {
 
 	/**
 	* file.pe.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9669,7 +9636,7 @@ export interface EcsFields {
 
 	/**
 	* file.pe.file_version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9680,7 +9647,7 @@ export interface EcsFields {
 
 	/**
 	* file.pe.imphash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9691,7 +9658,7 @@ export interface EcsFields {
 
 	/**
 	* file.pe.original_file_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9702,7 +9669,7 @@ export interface EcsFields {
 
 	/**
 	* file.pe.product
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9713,7 +9680,7 @@ export interface EcsFields {
 
 	/**
 	* file.size
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9724,7 +9691,7 @@ export interface EcsFields {
 
 	/**
 	* file.target_path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9735,7 +9702,7 @@ export interface EcsFields {
 
 	/**
 	* file.target_path.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9746,7 +9713,7 @@ export interface EcsFields {
 
 	/**
 	* file.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9757,7 +9724,7 @@ export interface EcsFields {
 
 	/**
 	* file.uid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9768,7 +9735,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.alternative_names
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9779,7 +9746,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.issuer.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9790,7 +9757,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.issuer.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9801,7 +9768,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.issuer.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9812,7 +9779,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.issuer.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9823,7 +9790,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.issuer.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9834,7 +9801,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.issuer.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9845,7 +9812,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.issuer.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9856,7 +9823,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.not_after
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9867,7 +9834,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.not_before
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9878,7 +9845,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.public_key_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9889,7 +9856,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.public_key_curve
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9900,7 +9867,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.public_key_exponent
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: false
 	* Level: extended
@@ -9911,7 +9878,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.public_key_size
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9922,7 +9889,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.serial_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9933,7 +9900,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.signature_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9944,7 +9911,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.subject.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9955,7 +9922,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.subject.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9966,7 +9933,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.subject.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9977,7 +9944,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.subject.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9988,7 +9955,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.subject.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -9999,7 +9966,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.subject.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -10010,7 +9977,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.subject.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -10021,7 +9988,7 @@ export interface EcsFields {
 
 	/**
 	* file.x509.version_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 	* Field Set: file
 	* Is Indexed: true
 	* Level: extended
@@ -10032,7 +9999,7 @@ export interface EcsFields {
 
 	/**
 	* group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 	* Field Set: group
 	* Is Indexed: true
 	* Level: extended
@@ -10043,7 +10010,7 @@ export interface EcsFields {
 
 	/**
 	* group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 	* Field Set: group
 	* Is Indexed: true
 	* Level: extended
@@ -10054,7 +10021,7 @@ export interface EcsFields {
 
 	/**
 	* group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 	* Field Set: group
 	* Is Indexed: true
 	* Level: extended
@@ -10065,7 +10032,7 @@ export interface EcsFields {
 
 	/**
 	* host.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10076,7 +10043,7 @@ export interface EcsFields {
 
 	/**
 	* host.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10087,7 +10054,7 @@ export interface EcsFields {
 
 	/**
 	* host.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10098,7 +10065,7 @@ export interface EcsFields {
 
 	/**
 	* host.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10109,7 +10076,7 @@ export interface EcsFields {
 
 	/**
 	* host.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10120,7 +10087,7 @@ export interface EcsFields {
 
 	/**
 	* host.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10131,7 +10098,7 @@ export interface EcsFields {
 
 	/**
 	* host.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10142,7 +10109,7 @@ export interface EcsFields {
 
 	/**
 	* host.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10153,7 +10120,7 @@ export interface EcsFields {
 
 	/**
 	* host.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10164,7 +10131,7 @@ export interface EcsFields {
 
 	/**
 	* host.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10175,7 +10142,7 @@ export interface EcsFields {
 
 	/**
 	* host.hostname
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10186,7 +10153,7 @@ export interface EcsFields {
 
 	/**
 	* host.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10197,7 +10164,7 @@ export interface EcsFields {
 
 	/**
 	* host.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10208,7 +10175,7 @@ export interface EcsFields {
 
 	/**
 	* host.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10219,7 +10186,7 @@ export interface EcsFields {
 
 	/**
 	* host.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10230,7 +10197,7 @@ export interface EcsFields {
 
 	/**
 	* host.os.family
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10241,7 +10208,7 @@ export interface EcsFields {
 
 	/**
 	* host.os.full
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10252,7 +10219,7 @@ export interface EcsFields {
 
 	/**
 	* host.os.full.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10263,7 +10230,7 @@ export interface EcsFields {
 
 	/**
 	* host.os.kernel
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10274,7 +10241,7 @@ export interface EcsFields {
 
 	/**
 	* host.os.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10285,7 +10252,7 @@ export interface EcsFields {
 
 	/**
 	* host.os.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10296,7 +10263,7 @@ export interface EcsFields {
 
 	/**
 	* host.os.platform
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10306,19 +10273,8 @@ export interface EcsFields {
 	"host.os.platform": string,
 
 	/**
-	* host.os.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
-	* Field Set: host
-	* Is Indexed: true
-	* Level: extended
-	* Elasticsearch type: keyword
-	* Example: macos
-	*/
-	"host.os.type": string,
-
-	/**
 	* host.os.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10329,7 +10285,7 @@ export interface EcsFields {
 
 	/**
 	* host.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10340,7 +10296,7 @@ export interface EcsFields {
 
 	/**
 	* host.uptime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10351,7 +10307,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10362,7 +10318,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10373,7 +10329,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10384,7 +10340,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10395,7 +10351,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10406,7 +10362,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10417,7 +10373,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10428,7 +10384,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10439,7 +10395,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10450,7 +10406,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10461,7 +10417,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: core
@@ -10472,7 +10428,7 @@ export interface EcsFields {
 
 	/**
 	* host.user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 	* Field Set: host
 	* Is Indexed: true
 	* Level: extended
@@ -10483,7 +10439,7 @@ export interface EcsFields {
 
 	/**
 	* http.request.body.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10494,7 +10450,7 @@ export interface EcsFields {
 
 	/**
 	* http.request.body.content
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10505,7 +10461,7 @@ export interface EcsFields {
 
 	/**
 	* http.request.body.content.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10516,7 +10472,7 @@ export interface EcsFields {
 
 	/**
 	* http.request.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10527,7 +10483,7 @@ export interface EcsFields {
 
 	/**
 	* http.request.method
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10538,7 +10494,7 @@ export interface EcsFields {
 
 	/**
 	* http.request.mime_type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10549,7 +10505,7 @@ export interface EcsFields {
 
 	/**
 	* http.request.referrer
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10560,7 +10516,7 @@ export interface EcsFields {
 
 	/**
 	* http.response.body.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10571,7 +10527,7 @@ export interface EcsFields {
 
 	/**
 	* http.response.body.content
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10582,7 +10538,7 @@ export interface EcsFields {
 
 	/**
 	* http.response.body.content.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10593,7 +10549,7 @@ export interface EcsFields {
 
 	/**
 	* http.response.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10604,7 +10560,7 @@ export interface EcsFields {
 
 	/**
 	* http.response.mime_type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10615,7 +10571,7 @@ export interface EcsFields {
 
 	/**
 	* http.response.status_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10626,7 +10582,7 @@ export interface EcsFields {
 
 	/**
 	* http.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 	* Field Set: http
 	* Is Indexed: true
 	* Level: extended
@@ -10637,7 +10593,7 @@ export interface EcsFields {
 
 	/**
 	* labels
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -10648,7 +10604,7 @@ export interface EcsFields {
 
 	/**
 	* log.file.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -10659,7 +10615,7 @@ export interface EcsFields {
 
 	/**
 	* log.level
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: core
@@ -10670,7 +10626,7 @@ export interface EcsFields {
 
 	/**
 	* log.logger
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: core
@@ -10681,7 +10637,7 @@ export interface EcsFields {
 
 	/**
 	* log.origin.file.line
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -10692,7 +10648,7 @@ export interface EcsFields {
 
 	/**
 	* log.origin.file.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -10703,7 +10659,7 @@ export interface EcsFields {
 
 	/**
 	* log.origin.function
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -10714,7 +10670,7 @@ export interface EcsFields {
 
 	/**
 	* log.original
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: false
 	* Level: core
@@ -10725,7 +10681,7 @@ export interface EcsFields {
 
 	/**
 	* log.syslog
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -10736,7 +10692,7 @@ export interface EcsFields {
 
 	/**
 	* log.syslog.facility.code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -10747,7 +10703,7 @@ export interface EcsFields {
 
 	/**
 	* log.syslog.facility.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -10758,7 +10714,7 @@ export interface EcsFields {
 
 	/**
 	* log.syslog.priority
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -10769,7 +10725,7 @@ export interface EcsFields {
 
 	/**
 	* log.syslog.severity.code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -10780,7 +10736,7 @@ export interface EcsFields {
 
 	/**
 	* log.syslog.severity.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 	* Field Set: log
 	* Is Indexed: true
 	* Level: extended
@@ -10791,7 +10747,7 @@ export interface EcsFields {
 
 	/**
 	* message
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -10802,7 +10758,7 @@ export interface EcsFields {
 
 	/**
 	* network.application
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -10813,7 +10769,7 @@ export interface EcsFields {
 
 	/**
 	* network.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -10824,7 +10780,7 @@ export interface EcsFields {
 
 	/**
 	* network.community_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -10835,7 +10791,7 @@ export interface EcsFields {
 
 	/**
 	* network.direction
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -10846,7 +10802,7 @@ export interface EcsFields {
 
 	/**
 	* network.forwarded_ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -10857,7 +10813,7 @@ export interface EcsFields {
 
 	/**
 	* network.iana_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -10868,7 +10824,7 @@ export interface EcsFields {
 
 	/**
 	* network.inner
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -10879,7 +10835,7 @@ export interface EcsFields {
 
 	/**
 	* network.inner.vlan.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -10890,7 +10846,7 @@ export interface EcsFields {
 
 	/**
 	* network.inner.vlan.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -10901,7 +10857,7 @@ export interface EcsFields {
 
 	/**
 	* network.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -10912,7 +10868,7 @@ export interface EcsFields {
 
 	/**
 	* network.packets
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -10923,7 +10879,7 @@ export interface EcsFields {
 
 	/**
 	* network.protocol
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -10934,7 +10890,7 @@ export interface EcsFields {
 
 	/**
 	* network.transport
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -10945,7 +10901,7 @@ export interface EcsFields {
 
 	/**
 	* network.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: core
@@ -10956,7 +10912,7 @@ export interface EcsFields {
 
 	/**
 	* network.vlan.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -10967,7 +10923,7 @@ export interface EcsFields {
 
 	/**
 	* network.vlan.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 	* Field Set: network
 	* Is Indexed: true
 	* Level: extended
@@ -10978,7 +10934,7 @@ export interface EcsFields {
 
 	/**
 	* observer.egress
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -10989,7 +10945,7 @@ export interface EcsFields {
 
 	/**
 	* observer.egress.interface.alias
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11000,7 +10956,7 @@ export interface EcsFields {
 
 	/**
 	* observer.egress.interface.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11011,7 +10967,7 @@ export interface EcsFields {
 
 	/**
 	* observer.egress.interface.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11022,7 +10978,7 @@ export interface EcsFields {
 
 	/**
 	* observer.egress.vlan.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11033,7 +10989,7 @@ export interface EcsFields {
 
 	/**
 	* observer.egress.vlan.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11044,7 +11000,7 @@ export interface EcsFields {
 
 	/**
 	* observer.egress.zone
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11055,7 +11011,7 @@ export interface EcsFields {
 
 	/**
 	* observer.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11066,7 +11022,7 @@ export interface EcsFields {
 
 	/**
 	* observer.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11077,7 +11033,7 @@ export interface EcsFields {
 
 	/**
 	* observer.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11088,7 +11044,7 @@ export interface EcsFields {
 
 	/**
 	* observer.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11099,7 +11055,7 @@ export interface EcsFields {
 
 	/**
 	* observer.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11110,7 +11066,7 @@ export interface EcsFields {
 
 	/**
 	* observer.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11121,7 +11077,7 @@ export interface EcsFields {
 
 	/**
 	* observer.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11132,7 +11088,7 @@ export interface EcsFields {
 
 	/**
 	* observer.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11143,7 +11099,7 @@ export interface EcsFields {
 
 	/**
 	* observer.hostname
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11154,7 +11110,7 @@ export interface EcsFields {
 
 	/**
 	* observer.ingress
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11165,7 +11121,7 @@ export interface EcsFields {
 
 	/**
 	* observer.ingress.interface.alias
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11176,7 +11132,7 @@ export interface EcsFields {
 
 	/**
 	* observer.ingress.interface.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11187,7 +11143,7 @@ export interface EcsFields {
 
 	/**
 	* observer.ingress.interface.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11198,7 +11154,7 @@ export interface EcsFields {
 
 	/**
 	* observer.ingress.vlan.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11209,7 +11165,7 @@ export interface EcsFields {
 
 	/**
 	* observer.ingress.vlan.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11220,7 +11176,7 @@ export interface EcsFields {
 
 	/**
 	* observer.ingress.zone
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11231,7 +11187,7 @@ export interface EcsFields {
 
 	/**
 	* observer.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11242,7 +11198,7 @@ export interface EcsFields {
 
 	/**
 	* observer.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11253,7 +11209,7 @@ export interface EcsFields {
 
 	/**
 	* observer.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11264,7 +11220,7 @@ export interface EcsFields {
 
 	/**
 	* observer.os.family
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11275,7 +11231,7 @@ export interface EcsFields {
 
 	/**
 	* observer.os.full
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11286,7 +11242,7 @@ export interface EcsFields {
 
 	/**
 	* observer.os.full.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11297,7 +11253,7 @@ export interface EcsFields {
 
 	/**
 	* observer.os.kernel
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11308,7 +11264,7 @@ export interface EcsFields {
 
 	/**
 	* observer.os.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11319,7 +11275,7 @@ export interface EcsFields {
 
 	/**
 	* observer.os.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11330,7 +11286,7 @@ export interface EcsFields {
 
 	/**
 	* observer.os.platform
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11340,19 +11296,8 @@ export interface EcsFields {
 	"observer.os.platform": string,
 
 	/**
-	* observer.os.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
-	* Field Set: observer
-	* Is Indexed: true
-	* Level: extended
-	* Elasticsearch type: keyword
-	* Example: macos
-	*/
-	"observer.os.type": string,
-
-	/**
 	* observer.os.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11363,7 +11308,7 @@ export interface EcsFields {
 
 	/**
 	* observer.product
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11374,7 +11319,7 @@ export interface EcsFields {
 
 	/**
 	* observer.serial_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: extended
@@ -11385,7 +11330,7 @@ export interface EcsFields {
 
 	/**
 	* observer.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11396,7 +11341,7 @@ export interface EcsFields {
 
 	/**
 	* observer.vendor
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11407,7 +11352,7 @@ export interface EcsFields {
 
 	/**
 	* observer.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 	* Field Set: observer
 	* Is Indexed: true
 	* Level: core
@@ -11418,7 +11363,7 @@ export interface EcsFields {
 
 	/**
 	* organization.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-organization.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-organization.html
 	* Field Set: organization
 	* Is Indexed: true
 	* Level: extended
@@ -11429,7 +11374,7 @@ export interface EcsFields {
 
 	/**
 	* organization.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-organization.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-organization.html
 	* Field Set: organization
 	* Is Indexed: true
 	* Level: extended
@@ -11440,7 +11385,7 @@ export interface EcsFields {
 
 	/**
 	* organization.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-organization.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-organization.html
 	* Field Set: organization
 	* Is Indexed: true
 	* Level: extended
@@ -11451,7 +11396,7 @@ export interface EcsFields {
 
 	/**
 	* package.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11462,7 +11407,7 @@ export interface EcsFields {
 
 	/**
 	* package.build_version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11473,7 +11418,7 @@ export interface EcsFields {
 
 	/**
 	* package.checksum
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11484,7 +11429,7 @@ export interface EcsFields {
 
 	/**
 	* package.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11495,7 +11440,7 @@ export interface EcsFields {
 
 	/**
 	* package.install_scope
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11506,7 +11451,7 @@ export interface EcsFields {
 
 	/**
 	* package.installed
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11517,7 +11462,7 @@ export interface EcsFields {
 
 	/**
 	* package.license
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11528,7 +11473,7 @@ export interface EcsFields {
 
 	/**
 	* package.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11539,7 +11484,7 @@ export interface EcsFields {
 
 	/**
 	* package.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11550,7 +11495,7 @@ export interface EcsFields {
 
 	/**
 	* package.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11561,7 +11506,7 @@ export interface EcsFields {
 
 	/**
 	* package.size
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11572,7 +11517,7 @@ export interface EcsFields {
 
 	/**
 	* package.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11583,7 +11528,7 @@ export interface EcsFields {
 
 	/**
 	* package.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 	* Field Set: package
 	* Is Indexed: true
 	* Level: extended
@@ -11594,7 +11539,7 @@ export interface EcsFields {
 
 	/**
 	* process.args
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11605,7 +11550,7 @@ export interface EcsFields {
 
 	/**
 	* process.args_count
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11616,7 +11561,7 @@ export interface EcsFields {
 
 	/**
 	* process.code_signature.exists
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -11627,7 +11572,7 @@ export interface EcsFields {
 
 	/**
 	* process.code_signature.status
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11638,7 +11583,7 @@ export interface EcsFields {
 
 	/**
 	* process.code_signature.subject_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -11649,7 +11594,7 @@ export interface EcsFields {
 
 	/**
 	* process.code_signature.trusted
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11660,7 +11605,7 @@ export interface EcsFields {
 
 	/**
 	* process.code_signature.valid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11671,7 +11616,7 @@ export interface EcsFields {
 
 	/**
 	* process.command_line
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11682,7 +11627,7 @@ export interface EcsFields {
 
 	/**
 	* process.command_line.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11693,7 +11638,7 @@ export interface EcsFields {
 
 	/**
 	* process.entity_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11704,7 +11649,7 @@ export interface EcsFields {
 
 	/**
 	* process.executable
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11715,7 +11660,7 @@ export interface EcsFields {
 
 	/**
 	* process.executable.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11726,7 +11671,7 @@ export interface EcsFields {
 
 	/**
 	* process.exit_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11737,7 +11682,7 @@ export interface EcsFields {
 
 	/**
 	* process.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11748,7 +11693,7 @@ export interface EcsFields {
 
 	/**
 	* process.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11759,7 +11704,7 @@ export interface EcsFields {
 
 	/**
 	* process.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11770,7 +11715,7 @@ export interface EcsFields {
 
 	/**
 	* process.hash.sha512
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11781,7 +11726,7 @@ export interface EcsFields {
 
 	/**
 	* process.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11792,7 +11737,7 @@ export interface EcsFields {
 
 	/**
 	* process.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11803,7 +11748,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.args
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11814,7 +11759,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.args_count
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11825,7 +11770,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.code_signature.exists
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -11836,7 +11781,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.code_signature.status
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11847,7 +11792,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.code_signature.subject_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -11858,7 +11803,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.code_signature.trusted
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11869,7 +11814,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.code_signature.valid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11880,7 +11825,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.command_line
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11891,7 +11836,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.command_line.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11902,7 +11847,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.entity_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11913,7 +11858,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.executable
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11924,7 +11869,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.executable.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11935,7 +11880,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.exit_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11946,7 +11891,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11957,7 +11902,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11968,7 +11913,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11979,7 +11924,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.hash.sha512
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -11990,7 +11935,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12001,7 +11946,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12012,7 +11957,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.pe.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12023,7 +11968,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.pe.company
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12034,7 +11979,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.pe.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12045,7 +11990,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.pe.file_version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12056,7 +12001,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.pe.imphash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12067,7 +12012,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.pe.original_file_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12078,7 +12023,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.pe.product
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12089,7 +12034,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.pgid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12100,7 +12045,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.pid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -12111,7 +12056,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.ppid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12122,7 +12067,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.start
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12133,7 +12078,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.thread.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12144,7 +12089,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.thread.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12155,7 +12100,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.title
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12166,7 +12111,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.title.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12177,7 +12122,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.uptime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12188,7 +12133,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.working_directory
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12199,7 +12144,7 @@ export interface EcsFields {
 
 	/**
 	* process.parent.working_directory.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12210,7 +12155,7 @@ export interface EcsFields {
 
 	/**
 	* process.pe.architecture
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12221,7 +12166,7 @@ export interface EcsFields {
 
 	/**
 	* process.pe.company
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12232,7 +12177,7 @@ export interface EcsFields {
 
 	/**
 	* process.pe.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12243,7 +12188,7 @@ export interface EcsFields {
 
 	/**
 	* process.pe.file_version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12254,7 +12199,7 @@ export interface EcsFields {
 
 	/**
 	* process.pe.imphash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12265,7 +12210,7 @@ export interface EcsFields {
 
 	/**
 	* process.pe.original_file_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12276,7 +12221,7 @@ export interface EcsFields {
 
 	/**
 	* process.pe.product
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12287,7 +12232,7 @@ export interface EcsFields {
 
 	/**
 	* process.pgid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12298,7 +12243,7 @@ export interface EcsFields {
 
 	/**
 	* process.pid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: core
@@ -12309,7 +12254,7 @@ export interface EcsFields {
 
 	/**
 	* process.ppid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12320,7 +12265,7 @@ export interface EcsFields {
 
 	/**
 	* process.start
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12331,7 +12276,7 @@ export interface EcsFields {
 
 	/**
 	* process.thread.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12342,7 +12287,7 @@ export interface EcsFields {
 
 	/**
 	* process.thread.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12353,7 +12298,7 @@ export interface EcsFields {
 
 	/**
 	* process.title
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12364,7 +12309,7 @@ export interface EcsFields {
 
 	/**
 	* process.title.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12375,7 +12320,7 @@ export interface EcsFields {
 
 	/**
 	* process.uptime
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12386,7 +12331,7 @@ export interface EcsFields {
 
 	/**
 	* process.working_directory
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12397,7 +12342,7 @@ export interface EcsFields {
 
 	/**
 	* process.working_directory.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 	* Field Set: process
 	* Is Indexed: true
 	* Level: extended
@@ -12408,7 +12353,7 @@ export interface EcsFields {
 
 	/**
 	* registry.data.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: extended
@@ -12419,7 +12364,7 @@ export interface EcsFields {
 
 	/**
 	* registry.data.strings
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -12430,7 +12375,7 @@ export interface EcsFields {
 
 	/**
 	* registry.data.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -12441,7 +12386,7 @@ export interface EcsFields {
 
 	/**
 	* registry.hive
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -12452,7 +12397,7 @@ export interface EcsFields {
 
 	/**
 	* registry.key
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -12463,7 +12408,7 @@ export interface EcsFields {
 
 	/**
 	* registry.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -12474,7 +12419,7 @@ export interface EcsFields {
 
 	/**
 	* registry.value
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 	* Field Set: registry
 	* Is Indexed: true
 	* Level: core
@@ -12485,7 +12430,7 @@ export interface EcsFields {
 
 	/**
 	* related.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 	* Field Set: related
 	* Is Indexed: true
 	* Level: extended
@@ -12496,7 +12441,7 @@ export interface EcsFields {
 
 	/**
 	* related.hosts
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 	* Field Set: related
 	* Is Indexed: true
 	* Level: extended
@@ -12507,7 +12452,7 @@ export interface EcsFields {
 
 	/**
 	* related.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 	* Field Set: related
 	* Is Indexed: true
 	* Level: extended
@@ -12518,7 +12463,7 @@ export interface EcsFields {
 
 	/**
 	* related.user
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 	* Field Set: related
 	* Is Indexed: true
 	* Level: extended
@@ -12529,7 +12474,7 @@ export interface EcsFields {
 
 	/**
 	* rule.author
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -12540,7 +12485,7 @@ export interface EcsFields {
 
 	/**
 	* rule.category
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -12551,7 +12496,7 @@ export interface EcsFields {
 
 	/**
 	* rule.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -12562,7 +12507,7 @@ export interface EcsFields {
 
 	/**
 	* rule.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -12573,7 +12518,7 @@ export interface EcsFields {
 
 	/**
 	* rule.license
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -12584,7 +12529,7 @@ export interface EcsFields {
 
 	/**
 	* rule.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -12595,7 +12540,7 @@ export interface EcsFields {
 
 	/**
 	* rule.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -12606,7 +12551,7 @@ export interface EcsFields {
 
 	/**
 	* rule.ruleset
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -12617,7 +12562,7 @@ export interface EcsFields {
 
 	/**
 	* rule.uuid
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -12628,7 +12573,7 @@ export interface EcsFields {
 
 	/**
 	* rule.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 	* Field Set: rule
 	* Is Indexed: true
 	* Level: extended
@@ -12639,7 +12584,7 @@ export interface EcsFields {
 
 	/**
 	* server.address
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12650,7 +12595,7 @@ export interface EcsFields {
 
 	/**
 	* server.as.number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12661,7 +12606,7 @@ export interface EcsFields {
 
 	/**
 	* server.as.organization.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12672,7 +12617,7 @@ export interface EcsFields {
 
 	/**
 	* server.as.organization.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12683,7 +12628,7 @@ export interface EcsFields {
 
 	/**
 	* server.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12694,7 +12639,7 @@ export interface EcsFields {
 
 	/**
 	* server.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12705,7 +12650,7 @@ export interface EcsFields {
 
 	/**
 	* server.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12716,7 +12661,7 @@ export interface EcsFields {
 
 	/**
 	* server.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12727,7 +12672,7 @@ export interface EcsFields {
 
 	/**
 	* server.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12738,7 +12683,7 @@ export interface EcsFields {
 
 	/**
 	* server.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12749,7 +12694,7 @@ export interface EcsFields {
 
 	/**
 	* server.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12760,7 +12705,7 @@ export interface EcsFields {
 
 	/**
 	* server.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12771,7 +12716,7 @@ export interface EcsFields {
 
 	/**
 	* server.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12782,7 +12727,7 @@ export interface EcsFields {
 
 	/**
 	* server.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12793,7 +12738,7 @@ export interface EcsFields {
 
 	/**
 	* server.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12804,7 +12749,7 @@ export interface EcsFields {
 
 	/**
 	* server.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12815,7 +12760,7 @@ export interface EcsFields {
 
 	/**
 	* server.nat.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12826,7 +12771,7 @@ export interface EcsFields {
 
 	/**
 	* server.nat.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12837,7 +12782,7 @@ export interface EcsFields {
 
 	/**
 	* server.packets
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12848,7 +12793,7 @@ export interface EcsFields {
 
 	/**
 	* server.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12859,7 +12804,7 @@ export interface EcsFields {
 
 	/**
 	* server.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12870,7 +12815,7 @@ export interface EcsFields {
 
 	/**
 	* server.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12881,7 +12826,7 @@ export interface EcsFields {
 
 	/**
 	* server.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12892,7 +12837,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12903,7 +12848,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12914,7 +12859,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12925,7 +12870,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12936,7 +12881,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12947,7 +12892,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12958,7 +12903,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12969,7 +12914,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -12980,7 +12925,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -12991,7 +12936,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -13002,7 +12947,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: core
@@ -13013,7 +12958,7 @@ export interface EcsFields {
 
 	/**
 	* server.user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 	* Field Set: server
 	* Is Indexed: true
 	* Level: extended
@@ -13024,7 +12969,7 @@ export interface EcsFields {
 
 	/**
 	* service.ephemeral_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: extended
@@ -13035,7 +12980,7 @@ export interface EcsFields {
 
 	/**
 	* service.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: core
@@ -13046,7 +12991,7 @@ export interface EcsFields {
 
 	/**
 	* service.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: core
@@ -13057,7 +13002,7 @@ export interface EcsFields {
 
 	/**
 	* service.node.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: extended
@@ -13068,7 +13013,7 @@ export interface EcsFields {
 
 	/**
 	* service.state
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: core
@@ -13079,7 +13024,7 @@ export interface EcsFields {
 
 	/**
 	* service.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: core
@@ -13090,7 +13035,7 @@ export interface EcsFields {
 
 	/**
 	* service.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 	* Field Set: service
 	* Is Indexed: true
 	* Level: core
@@ -13101,7 +13046,7 @@ export interface EcsFields {
 
 	/**
 	* source.address
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13112,7 +13057,7 @@ export interface EcsFields {
 
 	/**
 	* source.as.number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13123,7 +13068,7 @@ export interface EcsFields {
 
 	/**
 	* source.as.organization.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13134,7 +13079,7 @@ export interface EcsFields {
 
 	/**
 	* source.as.organization.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13145,7 +13090,7 @@ export interface EcsFields {
 
 	/**
 	* source.bytes
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13156,7 +13101,7 @@ export interface EcsFields {
 
 	/**
 	* source.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13167,7 +13112,7 @@ export interface EcsFields {
 
 	/**
 	* source.geo.city_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13178,7 +13123,7 @@ export interface EcsFields {
 
 	/**
 	* source.geo.continent_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13189,7 +13134,7 @@ export interface EcsFields {
 
 	/**
 	* source.geo.country_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13200,7 +13145,7 @@ export interface EcsFields {
 
 	/**
 	* source.geo.country_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13211,7 +13156,7 @@ export interface EcsFields {
 
 	/**
 	* source.geo.location
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13222,7 +13167,7 @@ export interface EcsFields {
 
 	/**
 	* source.geo.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13233,7 +13178,7 @@ export interface EcsFields {
 
 	/**
 	* source.geo.region_iso_code
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13244,7 +13189,7 @@ export interface EcsFields {
 
 	/**
 	* source.geo.region_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13255,7 +13200,7 @@ export interface EcsFields {
 
 	/**
 	* source.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13266,7 +13211,7 @@ export interface EcsFields {
 
 	/**
 	* source.mac
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13277,7 +13222,7 @@ export interface EcsFields {
 
 	/**
 	* source.nat.ip
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13288,7 +13233,7 @@ export interface EcsFields {
 
 	/**
 	* source.nat.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13299,7 +13244,7 @@ export interface EcsFields {
 
 	/**
 	* source.packets
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13310,7 +13255,7 @@ export interface EcsFields {
 
 	/**
 	* source.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13321,7 +13266,7 @@ export interface EcsFields {
 
 	/**
 	* source.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13332,7 +13277,7 @@ export interface EcsFields {
 
 	/**
 	* source.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13343,7 +13288,7 @@ export interface EcsFields {
 
 	/**
 	* source.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13354,7 +13299,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13365,7 +13310,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13376,7 +13321,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13387,7 +13332,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13398,7 +13343,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13409,7 +13354,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13420,7 +13365,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13431,7 +13376,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13442,7 +13387,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13453,7 +13398,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13464,7 +13409,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: core
@@ -13475,7 +13420,7 @@ export interface EcsFields {
 
 	/**
 	* source.user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 	* Field Set: source
 	* Is Indexed: true
 	* Level: extended
@@ -13486,7 +13431,7 @@ export interface EcsFields {
 
 	/**
 	* span.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-span.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-span.html
 	* Field Set: span
 	* Is Indexed: true
 	* Level: extended
@@ -13497,7 +13442,7 @@ export interface EcsFields {
 
 	/**
 	* tags
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -13508,7 +13453,7 @@ export interface EcsFields {
 
 	/**
 	* threat.framework
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13519,7 +13464,7 @@ export interface EcsFields {
 
 	/**
 	* threat.tactic.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13530,7 +13475,7 @@ export interface EcsFields {
 
 	/**
 	* threat.tactic.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13541,7 +13486,7 @@ export interface EcsFields {
 
 	/**
 	* threat.tactic.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13552,7 +13497,7 @@ export interface EcsFields {
 
 	/**
 	* threat.technique.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13563,7 +13508,7 @@ export interface EcsFields {
 
 	/**
 	* threat.technique.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13574,7 +13519,7 @@ export interface EcsFields {
 
 	/**
 	* threat.technique.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13585,7 +13530,7 @@ export interface EcsFields {
 
 	/**
 	* threat.technique.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13596,7 +13541,7 @@ export interface EcsFields {
 
 	/**
 	* threat.technique.subtechnique.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13607,7 +13552,7 @@ export interface EcsFields {
 
 	/**
 	* threat.technique.subtechnique.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13618,7 +13563,7 @@ export interface EcsFields {
 
 	/**
 	* threat.technique.subtechnique.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13629,7 +13574,7 @@ export interface EcsFields {
 
 	/**
 	* threat.technique.subtechnique.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 	* Field Set: threat
 	* Is Indexed: true
 	* Level: extended
@@ -13640,7 +13585,7 @@ export interface EcsFields {
 
 	/**
 	* tls.cipher
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13651,7 +13596,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.certificate
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13662,7 +13607,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.certificate_chain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13673,7 +13618,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13684,7 +13629,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13695,7 +13640,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13706,7 +13651,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.issuer
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13717,7 +13662,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.ja3
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13728,7 +13673,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.not_after
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13739,7 +13684,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.not_before
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13750,7 +13695,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.server_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13761,7 +13706,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.subject
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13772,7 +13717,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.supported_ciphers
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13783,7 +13728,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.alternative_names
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13794,7 +13739,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.issuer.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13805,7 +13750,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.issuer.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13816,7 +13761,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.issuer.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13827,7 +13772,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.issuer.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13838,7 +13783,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.issuer.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13849,7 +13794,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.issuer.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13860,7 +13805,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.issuer.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13871,7 +13816,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.not_after
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13882,7 +13827,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.not_before
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13893,7 +13838,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.public_key_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13904,7 +13849,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.public_key_curve
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13915,7 +13860,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.public_key_exponent
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: false
 	* Level: extended
@@ -13926,7 +13871,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.public_key_size
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13937,7 +13882,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.serial_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13948,7 +13893,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.signature_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13959,7 +13904,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.subject.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13970,7 +13915,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.subject.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13981,7 +13926,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.subject.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -13992,7 +13937,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.subject.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14003,7 +13948,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.subject.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14014,7 +13959,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.subject.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14025,7 +13970,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.subject.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14036,7 +13981,7 @@ export interface EcsFields {
 
 	/**
 	* tls.client.x509.version_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14047,7 +13992,7 @@ export interface EcsFields {
 
 	/**
 	* tls.curve
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14058,7 +14003,7 @@ export interface EcsFields {
 
 	/**
 	* tls.established
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14069,7 +14014,7 @@ export interface EcsFields {
 
 	/**
 	* tls.next_protocol
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14080,7 +14025,7 @@ export interface EcsFields {
 
 	/**
 	* tls.resumed
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14091,7 +14036,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.certificate
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14102,7 +14047,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.certificate_chain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14113,7 +14058,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.hash.md5
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14124,7 +14069,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.hash.sha1
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14135,7 +14080,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.hash.sha256
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14146,7 +14091,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.issuer
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14157,7 +14102,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.ja3s
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14168,7 +14113,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.not_after
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14179,7 +14124,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.not_before
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14190,7 +14135,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.subject
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14201,7 +14146,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.alternative_names
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14212,7 +14157,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.issuer.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14223,7 +14168,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.issuer.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14234,7 +14179,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.issuer.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14245,7 +14190,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.issuer.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14256,7 +14201,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.issuer.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14267,7 +14212,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.issuer.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14278,7 +14223,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.issuer.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14289,7 +14234,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.not_after
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14300,7 +14245,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.not_before
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14311,7 +14256,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.public_key_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14322,7 +14267,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.public_key_curve
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14333,7 +14278,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.public_key_exponent
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: false
 	* Level: extended
@@ -14344,7 +14289,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.public_key_size
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14355,7 +14300,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.serial_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14366,7 +14311,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.signature_algorithm
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14377,7 +14322,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.subject.common_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14388,7 +14333,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.subject.country
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14399,7 +14344,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.subject.distinguished_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14410,7 +14355,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.subject.locality
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14421,7 +14366,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.subject.organization
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14432,7 +14377,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.subject.organizational_unit
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14443,7 +14388,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.subject.state_or_province
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14454,7 +14399,7 @@ export interface EcsFields {
 
 	/**
 	* tls.server.x509.version_number
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14465,7 +14410,7 @@ export interface EcsFields {
 
 	/**
 	* tls.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14476,7 +14421,7 @@ export interface EcsFields {
 
 	/**
 	* tls.version_protocol
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 	* Field Set: tls
 	* Is Indexed: true
 	* Level: extended
@@ -14487,7 +14432,7 @@ export interface EcsFields {
 
 	/**
 	* trace.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-trace.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-trace.html
 	* Field Set: trace
 	* Is Indexed: true
 	* Level: extended
@@ -14498,7 +14443,7 @@ export interface EcsFields {
 
 	/**
 	* transaction.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-transaction.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-transaction.html
 	* Field Set: transaction
 	* Is Indexed: true
 	* Level: extended
@@ -14509,7 +14454,7 @@ export interface EcsFields {
 
 	/**
 	* url.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14520,7 +14465,7 @@ export interface EcsFields {
 
 	/**
 	* url.extension
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14531,7 +14476,7 @@ export interface EcsFields {
 
 	/**
 	* url.fragment
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14542,7 +14487,7 @@ export interface EcsFields {
 
 	/**
 	* url.full
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14553,7 +14498,7 @@ export interface EcsFields {
 
 	/**
 	* url.full.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14564,7 +14509,7 @@ export interface EcsFields {
 
 	/**
 	* url.original
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14575,7 +14520,7 @@ export interface EcsFields {
 
 	/**
 	* url.original.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14586,7 +14531,7 @@ export interface EcsFields {
 
 	/**
 	* url.password
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14597,7 +14542,7 @@ export interface EcsFields {
 
 	/**
 	* url.path
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14608,7 +14553,7 @@ export interface EcsFields {
 
 	/**
 	* url.port
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14619,7 +14564,7 @@ export interface EcsFields {
 
 	/**
 	* url.query
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14630,7 +14575,7 @@ export interface EcsFields {
 
 	/**
 	* url.registered_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14641,7 +14586,7 @@ export interface EcsFields {
 
 	/**
 	* url.scheme
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14652,7 +14597,7 @@ export interface EcsFields {
 
 	/**
 	* url.subdomain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14663,7 +14608,7 @@ export interface EcsFields {
 
 	/**
 	* url.top_level_domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14674,7 +14619,7 @@ export interface EcsFields {
 
 	/**
 	* url.username
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 	* Field Set: url
 	* Is Indexed: true
 	* Level: extended
@@ -14685,7 +14630,7 @@ export interface EcsFields {
 
 	/**
 	* user.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -14696,7 +14641,7 @@ export interface EcsFields {
 
 	/**
 	* user.email
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -14707,7 +14652,7 @@ export interface EcsFields {
 
 	/**
 	* user.full_name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -14718,7 +14663,7 @@ export interface EcsFields {
 
 	/**
 	* user.full_name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -14729,7 +14674,7 @@ export interface EcsFields {
 
 	/**
 	* user.group.domain
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -14740,7 +14685,7 @@ export interface EcsFields {
 
 	/**
 	* user.group.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -14751,7 +14696,7 @@ export interface EcsFields {
 
 	/**
 	* user.group.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -14762,7 +14707,7 @@ export interface EcsFields {
 
 	/**
 	* user.hash
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -14773,7 +14718,7 @@ export interface EcsFields {
 
 	/**
 	* user.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: core
@@ -14784,7 +14729,7 @@ export interface EcsFields {
 
 	/**
 	* user.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: core
@@ -14795,7 +14740,7 @@ export interface EcsFields {
 
 	/**
 	* user.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: core
@@ -14806,7 +14751,7 @@ export interface EcsFields {
 
 	/**
 	* user.roles
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 	* Field Set: user
 	* Is Indexed: true
 	* Level: extended
@@ -14817,7 +14762,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.device.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14828,7 +14773,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14839,7 +14784,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.original
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14850,7 +14795,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.original.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14861,7 +14806,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.os.family
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14872,7 +14817,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.os.full
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14883,7 +14828,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.os.full.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14894,7 +14839,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.os.kernel
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14905,7 +14850,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.os.name
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14916,7 +14861,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.os.name.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14927,7 +14872,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.os.platform
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14937,19 +14882,8 @@ export interface EcsFields {
 	"user_agent.os.platform": string,
 
 	/**
-	* user_agent.os.type
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
-	* Field Set: user_agent
-	* Is Indexed: true
-	* Level: extended
-	* Elasticsearch type: keyword
-	* Example: macos
-	*/
-	"user_agent.os.type": string,
-
-	/**
 	* user_agent.os.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14960,7 +14894,7 @@ export interface EcsFields {
 
 	/**
 	* user_agent.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 	* Field Set: user_agent
 	* Is Indexed: true
 	* Level: extended
@@ -14971,7 +14905,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.category
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -14982,7 +14916,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.classification
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -14993,7 +14927,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.description
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15004,7 +14938,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.description.text
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15015,7 +14949,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.enumeration
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15026,7 +14960,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15037,7 +14971,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.reference
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15048,7 +14982,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.report_id
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15059,7 +14993,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.scanner.vendor
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15070,7 +15004,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.score.base
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15081,7 +15015,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.score.environmental
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15092,7 +15026,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.score.temporal
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15103,7 +15037,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.score.version
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15114,7 +15048,7 @@ export interface EcsFields {
 
 	/**
 	* vulnerability.severity
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 	* Field Set: vulnerability
 	* Is Indexed: true
 	* Level: extended
@@ -15129,7 +15063,7 @@ export interface EcsFields {
 export interface EcsCoreTree {
 	/**
 	* @timestamp
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -15142,7 +15076,7 @@ export interface EcsCoreTree {
 		build: {
 			/**
 			* agent.build.original
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 			* Field Set: agent
 			* Is Indexed: true
 			* Level: core
@@ -15154,7 +15088,7 @@ export interface EcsCoreTree {
 		}
 		/**
 		* agent.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 		* Field Set: agent
 		* Is Indexed: true
 		* Level: core
@@ -15165,7 +15099,7 @@ export interface EcsCoreTree {
 
 		/**
 		* agent.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 		* Field Set: agent
 		* Is Indexed: true
 		* Level: core
@@ -15176,7 +15110,7 @@ export interface EcsCoreTree {
 
 		/**
 		* agent.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 		* Field Set: agent
 		* Is Indexed: true
 		* Level: core
@@ -15187,7 +15121,7 @@ export interface EcsCoreTree {
 
 		/**
 		* agent.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 		* Field Set: agent
 		* Is Indexed: true
 		* Level: core
@@ -15200,7 +15134,7 @@ export interface EcsCoreTree {
 	client: {
 		/**
 		* client.bytes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -15211,7 +15145,7 @@ export interface EcsCoreTree {
 
 		/**
 		* client.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -15223,7 +15157,7 @@ export interface EcsCoreTree {
 		geo: {
 			/**
 			* client.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -15234,7 +15168,7 @@ export interface EcsCoreTree {
 
 			/**
 			* client.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -15245,7 +15179,7 @@ export interface EcsCoreTree {
 
 			/**
 			* client.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -15256,7 +15190,7 @@ export interface EcsCoreTree {
 
 			/**
 			* client.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -15267,7 +15201,7 @@ export interface EcsCoreTree {
 
 			/**
 			* client.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -15278,7 +15212,7 @@ export interface EcsCoreTree {
 
 			/**
 			* client.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -15289,7 +15223,7 @@ export interface EcsCoreTree {
 
 			/**
 			* client.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -15301,7 +15235,7 @@ export interface EcsCoreTree {
 		}
 		/**
 		* client.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -15312,7 +15246,7 @@ export interface EcsCoreTree {
 
 		/**
 		* client.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -15323,7 +15257,7 @@ export interface EcsCoreTree {
 
 		/**
 		* client.packets
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -15334,7 +15268,7 @@ export interface EcsCoreTree {
 
 		/**
 		* client.port
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -15346,7 +15280,7 @@ export interface EcsCoreTree {
 		user: {
 			/**
 			* client.user.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -15357,7 +15291,7 @@ export interface EcsCoreTree {
 
 			/**
 			* client.user.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -15371,7 +15305,7 @@ export interface EcsCoreTree {
 	container: {
 		/**
 		* container.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 		* Field Set: container
 		* Is Indexed: true
 		* Level: core
@@ -15384,7 +15318,7 @@ export interface EcsCoreTree {
 	destination: {
 		/**
 		* destination.bytes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -15395,7 +15329,7 @@ export interface EcsCoreTree {
 
 		/**
 		* destination.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -15407,7 +15341,7 @@ export interface EcsCoreTree {
 		geo: {
 			/**
 			* destination.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -15418,7 +15352,7 @@ export interface EcsCoreTree {
 
 			/**
 			* destination.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -15429,7 +15363,7 @@ export interface EcsCoreTree {
 
 			/**
 			* destination.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -15440,7 +15374,7 @@ export interface EcsCoreTree {
 
 			/**
 			* destination.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -15451,7 +15385,7 @@ export interface EcsCoreTree {
 
 			/**
 			* destination.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -15462,7 +15396,7 @@ export interface EcsCoreTree {
 
 			/**
 			* destination.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -15473,7 +15407,7 @@ export interface EcsCoreTree {
 
 			/**
 			* destination.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -15485,7 +15419,7 @@ export interface EcsCoreTree {
 		}
 		/**
 		* destination.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -15496,7 +15430,7 @@ export interface EcsCoreTree {
 
 		/**
 		* destination.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -15507,7 +15441,7 @@ export interface EcsCoreTree {
 
 		/**
 		* destination.packets
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -15518,7 +15452,7 @@ export interface EcsCoreTree {
 
 		/**
 		* destination.port
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -15530,7 +15464,7 @@ export interface EcsCoreTree {
 		user: {
 			/**
 			* destination.user.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -15541,7 +15475,7 @@ export interface EcsCoreTree {
 
 			/**
 			* destination.user.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -15556,7 +15490,7 @@ export interface EcsCoreTree {
 		code_signature: {
 			/**
 			* dll.code_signature.exists
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: core
@@ -15567,7 +15501,7 @@ export interface EcsCoreTree {
 
 			/**
 			* dll.code_signature.subject_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: core
@@ -15579,7 +15513,7 @@ export interface EcsCoreTree {
 		}
 		/**
 		* dll.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 		* Field Set: dll
 		* Is Indexed: true
 		* Level: core
@@ -15592,7 +15526,7 @@ export interface EcsCoreTree {
 	ecs: {
 		/**
 		* ecs.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-ecs.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-ecs.html
 		* Field Set: ecs
 		* Is Indexed: true
 		* Level: core
@@ -15605,7 +15539,7 @@ export interface EcsCoreTree {
 	error: {
 		/**
 		* error.code
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 		* Field Set: error
 		* Is Indexed: true
 		* Level: core
@@ -15616,7 +15550,7 @@ export interface EcsCoreTree {
 
 		/**
 		* error.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 		* Field Set: error
 		* Is Indexed: true
 		* Level: core
@@ -15627,7 +15561,7 @@ export interface EcsCoreTree {
 
 		/**
 		* error.message
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 		* Field Set: error
 		* Is Indexed: true
 		* Level: core
@@ -15640,7 +15574,7 @@ export interface EcsCoreTree {
 	event: {
 		/**
 		* event.action
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15651,7 +15585,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.category
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15662,7 +15596,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.created
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15673,7 +15607,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.dataset
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15684,7 +15618,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.duration
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15695,7 +15629,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15706,7 +15640,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.ingested
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15717,7 +15651,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.kind
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15728,7 +15662,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.module
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15739,7 +15673,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.original
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: false
 		* Level: core
@@ -15750,7 +15684,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.outcome
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15761,7 +15695,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.risk_score
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15772,7 +15706,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.severity
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15783,7 +15717,7 @@ export interface EcsCoreTree {
 
 		/**
 		* event.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -15797,7 +15731,7 @@ export interface EcsCoreTree {
 		code_signature: {
 			/**
 			* file.code_signature.exists
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: core
@@ -15808,7 +15742,7 @@ export interface EcsCoreTree {
 
 			/**
 			* file.code_signature.subject_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: core
@@ -15822,7 +15756,7 @@ export interface EcsCoreTree {
 	host: {
 		/**
 		* host.architecture
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -15834,7 +15768,7 @@ export interface EcsCoreTree {
 		geo: {
 			/**
 			* host.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -15845,7 +15779,7 @@ export interface EcsCoreTree {
 
 			/**
 			* host.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -15856,7 +15790,7 @@ export interface EcsCoreTree {
 
 			/**
 			* host.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -15867,7 +15801,7 @@ export interface EcsCoreTree {
 
 			/**
 			* host.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -15878,7 +15812,7 @@ export interface EcsCoreTree {
 
 			/**
 			* host.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -15889,7 +15823,7 @@ export interface EcsCoreTree {
 
 			/**
 			* host.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -15900,7 +15834,7 @@ export interface EcsCoreTree {
 
 			/**
 			* host.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -15912,7 +15846,7 @@ export interface EcsCoreTree {
 		}
 		/**
 		* host.hostname
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -15923,7 +15857,7 @@ export interface EcsCoreTree {
 
 		/**
 		* host.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -15934,7 +15868,7 @@ export interface EcsCoreTree {
 
 		/**
 		* host.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -15945,7 +15879,7 @@ export interface EcsCoreTree {
 
 		/**
 		* host.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -15956,7 +15890,7 @@ export interface EcsCoreTree {
 
 		/**
 		* host.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -15967,7 +15901,7 @@ export interface EcsCoreTree {
 
 		/**
 		* host.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -15979,7 +15913,7 @@ export interface EcsCoreTree {
 		user: {
 			/**
 			* host.user.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -15990,7 +15924,7 @@ export interface EcsCoreTree {
 
 			/**
 			* host.user.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -16003,7 +15937,7 @@ export interface EcsCoreTree {
 	}
 	/**
 	* labels
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -16015,7 +15949,7 @@ export interface EcsCoreTree {
 	log: {
 		/**
 		* log.level
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 		* Field Set: log
 		* Is Indexed: true
 		* Level: core
@@ -16026,7 +15960,7 @@ export interface EcsCoreTree {
 
 		/**
 		* log.logger
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 		* Field Set: log
 		* Is Indexed: true
 		* Level: core
@@ -16037,7 +15971,7 @@ export interface EcsCoreTree {
 
 		/**
 		* log.original
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 		* Field Set: log
 		* Is Indexed: false
 		* Level: core
@@ -16049,7 +15983,7 @@ export interface EcsCoreTree {
 	}
 	/**
 	* message
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -16061,7 +15995,7 @@ export interface EcsCoreTree {
 	network: {
 		/**
 		* network.bytes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -16072,7 +16006,7 @@ export interface EcsCoreTree {
 
 		/**
 		* network.direction
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -16083,7 +16017,7 @@ export interface EcsCoreTree {
 
 		/**
 		* network.forwarded_ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -16094,7 +16028,7 @@ export interface EcsCoreTree {
 
 		/**
 		* network.packets
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -16105,7 +16039,7 @@ export interface EcsCoreTree {
 
 		/**
 		* network.protocol
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -16116,7 +16050,7 @@ export interface EcsCoreTree {
 
 		/**
 		* network.transport
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -16127,7 +16061,7 @@ export interface EcsCoreTree {
 
 		/**
 		* network.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -16141,7 +16075,7 @@ export interface EcsCoreTree {
 		geo: {
 			/**
 			* observer.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -16152,7 +16086,7 @@ export interface EcsCoreTree {
 
 			/**
 			* observer.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -16163,7 +16097,7 @@ export interface EcsCoreTree {
 
 			/**
 			* observer.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -16174,7 +16108,7 @@ export interface EcsCoreTree {
 
 			/**
 			* observer.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -16185,7 +16119,7 @@ export interface EcsCoreTree {
 
 			/**
 			* observer.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -16196,7 +16130,7 @@ export interface EcsCoreTree {
 
 			/**
 			* observer.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -16207,7 +16141,7 @@ export interface EcsCoreTree {
 
 			/**
 			* observer.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -16219,7 +16153,7 @@ export interface EcsCoreTree {
 		}
 		/**
 		* observer.hostname
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -16230,7 +16164,7 @@ export interface EcsCoreTree {
 
 		/**
 		* observer.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -16241,7 +16175,7 @@ export interface EcsCoreTree {
 
 		/**
 		* observer.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -16252,7 +16186,7 @@ export interface EcsCoreTree {
 
 		/**
 		* observer.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -16263,7 +16197,7 @@ export interface EcsCoreTree {
 
 		/**
 		* observer.vendor
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -16274,7 +16208,7 @@ export interface EcsCoreTree {
 
 		/**
 		* observer.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -16288,7 +16222,7 @@ export interface EcsCoreTree {
 		code_signature: {
 			/**
 			* process.code_signature.exists
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: core
@@ -16299,7 +16233,7 @@ export interface EcsCoreTree {
 
 			/**
 			* process.code_signature.subject_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: core
@@ -16313,7 +16247,7 @@ export interface EcsCoreTree {
 			code_signature: {
 				/**
 				* process.parent.code_signature.exists
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: core
@@ -16324,7 +16258,7 @@ export interface EcsCoreTree {
 
 				/**
 				* process.parent.code_signature.subject_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: core
@@ -16336,7 +16270,7 @@ export interface EcsCoreTree {
 			}
 			/**
 			* process.parent.pid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: core
@@ -16348,7 +16282,7 @@ export interface EcsCoreTree {
 		}
 		/**
 		* process.pid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: core
@@ -16362,7 +16296,7 @@ export interface EcsCoreTree {
 		data: {
 			/**
 			* registry.data.strings
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 			* Field Set: registry
 			* Is Indexed: true
 			* Level: core
@@ -16373,7 +16307,7 @@ export interface EcsCoreTree {
 
 			/**
 			* registry.data.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 			* Field Set: registry
 			* Is Indexed: true
 			* Level: core
@@ -16385,7 +16319,7 @@ export interface EcsCoreTree {
 		}
 		/**
 		* registry.hive
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 		* Field Set: registry
 		* Is Indexed: true
 		* Level: core
@@ -16396,7 +16330,7 @@ export interface EcsCoreTree {
 
 		/**
 		* registry.key
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 		* Field Set: registry
 		* Is Indexed: true
 		* Level: core
@@ -16407,7 +16341,7 @@ export interface EcsCoreTree {
 
 		/**
 		* registry.path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 		* Field Set: registry
 		* Is Indexed: true
 		* Level: core
@@ -16418,7 +16352,7 @@ export interface EcsCoreTree {
 
 		/**
 		* registry.value
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 		* Field Set: registry
 		* Is Indexed: true
 		* Level: core
@@ -16431,7 +16365,7 @@ export interface EcsCoreTree {
 	server: {
 		/**
 		* server.bytes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -16442,7 +16376,7 @@ export interface EcsCoreTree {
 
 		/**
 		* server.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -16454,7 +16388,7 @@ export interface EcsCoreTree {
 		geo: {
 			/**
 			* server.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -16465,7 +16399,7 @@ export interface EcsCoreTree {
 
 			/**
 			* server.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -16476,7 +16410,7 @@ export interface EcsCoreTree {
 
 			/**
 			* server.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -16487,7 +16421,7 @@ export interface EcsCoreTree {
 
 			/**
 			* server.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -16498,7 +16432,7 @@ export interface EcsCoreTree {
 
 			/**
 			* server.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -16509,7 +16443,7 @@ export interface EcsCoreTree {
 
 			/**
 			* server.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -16520,7 +16454,7 @@ export interface EcsCoreTree {
 
 			/**
 			* server.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -16532,7 +16466,7 @@ export interface EcsCoreTree {
 		}
 		/**
 		* server.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -16543,7 +16477,7 @@ export interface EcsCoreTree {
 
 		/**
 		* server.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -16554,7 +16488,7 @@ export interface EcsCoreTree {
 
 		/**
 		* server.packets
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -16565,7 +16499,7 @@ export interface EcsCoreTree {
 
 		/**
 		* server.port
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -16577,7 +16511,7 @@ export interface EcsCoreTree {
 		user: {
 			/**
 			* server.user.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -16588,7 +16522,7 @@ export interface EcsCoreTree {
 
 			/**
 			* server.user.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -16602,7 +16536,7 @@ export interface EcsCoreTree {
 	service: {
 		/**
 		* service.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: core
@@ -16613,7 +16547,7 @@ export interface EcsCoreTree {
 
 		/**
 		* service.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: core
@@ -16624,7 +16558,7 @@ export interface EcsCoreTree {
 
 		/**
 		* service.state
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: core
@@ -16635,7 +16569,7 @@ export interface EcsCoreTree {
 
 		/**
 		* service.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: core
@@ -16646,7 +16580,7 @@ export interface EcsCoreTree {
 
 		/**
 		* service.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: core
@@ -16659,7 +16593,7 @@ export interface EcsCoreTree {
 	source: {
 		/**
 		* source.bytes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -16670,7 +16604,7 @@ export interface EcsCoreTree {
 
 		/**
 		* source.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -16682,7 +16616,7 @@ export interface EcsCoreTree {
 		geo: {
 			/**
 			* source.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -16693,7 +16627,7 @@ export interface EcsCoreTree {
 
 			/**
 			* source.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -16704,7 +16638,7 @@ export interface EcsCoreTree {
 
 			/**
 			* source.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -16715,7 +16649,7 @@ export interface EcsCoreTree {
 
 			/**
 			* source.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -16726,7 +16660,7 @@ export interface EcsCoreTree {
 
 			/**
 			* source.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -16737,7 +16671,7 @@ export interface EcsCoreTree {
 
 			/**
 			* source.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -16748,7 +16682,7 @@ export interface EcsCoreTree {
 
 			/**
 			* source.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -16760,7 +16694,7 @@ export interface EcsCoreTree {
 		}
 		/**
 		* source.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -16771,7 +16705,7 @@ export interface EcsCoreTree {
 
 		/**
 		* source.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -16782,7 +16716,7 @@ export interface EcsCoreTree {
 
 		/**
 		* source.packets
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -16793,7 +16727,7 @@ export interface EcsCoreTree {
 
 		/**
 		* source.port
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -16805,7 +16739,7 @@ export interface EcsCoreTree {
 		user: {
 			/**
 			* source.user.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -16816,7 +16750,7 @@ export interface EcsCoreTree {
 
 			/**
 			* source.user.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -16829,7 +16763,7 @@ export interface EcsCoreTree {
 	}
 	/**
 	* tags
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -16841,7 +16775,7 @@ export interface EcsCoreTree {
 	user: {
 		/**
 		* user.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: core
@@ -16852,7 +16786,7 @@ export interface EcsCoreTree {
 
 		/**
 		* user.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: core
@@ -16869,7 +16803,7 @@ export interface EcsExtendedTree {
 	agent: {
 		/**
 		* agent.ephemeral_id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 		* Field Set: agent
 		* Is Indexed: true
 		* Level: extended
@@ -16882,7 +16816,7 @@ export interface EcsExtendedTree {
 	client: {
 		/**
 		* client.address
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: extended
@@ -16894,7 +16828,7 @@ export interface EcsExtendedTree {
 		as: {
 			/**
 			* client.as.number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -16906,7 +16840,7 @@ export interface EcsExtendedTree {
 			organization: {
 				/**
 				* client.as.organization.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 				* Field Set: client
 				* Is Indexed: true
 				* Level: extended
@@ -16920,7 +16854,7 @@ export interface EcsExtendedTree {
 		geo: {
 			/**
 			* client.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -16933,7 +16867,7 @@ export interface EcsExtendedTree {
 		nat: {
 			/**
 			* client.nat.ip
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -16944,7 +16878,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* client.nat.port
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -16956,7 +16890,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* client.registered_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: extended
@@ -16967,7 +16901,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* client.subdomain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: extended
@@ -16978,7 +16912,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* client.top_level_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: extended
@@ -16990,7 +16924,7 @@ export interface EcsExtendedTree {
 		user: {
 			/**
 			* client.user.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -17001,7 +16935,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* client.user.email
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -17012,7 +16946,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* client.user.full_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -17024,7 +16958,7 @@ export interface EcsExtendedTree {
 			group: {
 				/**
 				* client.user.group.domain
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 				* Field Set: client
 				* Is Indexed: true
 				* Level: extended
@@ -17035,7 +16969,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* client.user.group.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 				* Field Set: client
 				* Is Indexed: true
 				* Level: extended
@@ -17046,7 +16980,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* client.user.group.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 				* Field Set: client
 				* Is Indexed: true
 				* Level: extended
@@ -17058,7 +16992,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* client.user.hash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -17069,7 +17003,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* client.user.roles
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -17084,7 +17018,7 @@ export interface EcsExtendedTree {
 		account: {
 			/**
 			* cloud.account.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -17095,7 +17029,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* cloud.account.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -17107,7 +17041,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* cloud.availability_zone
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 		* Field Set: cloud
 		* Is Indexed: true
 		* Level: extended
@@ -17119,7 +17053,7 @@ export interface EcsExtendedTree {
 		instance: {
 			/**
 			* cloud.instance.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -17130,7 +17064,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* cloud.instance.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -17143,7 +17077,7 @@ export interface EcsExtendedTree {
 		machine: {
 			/**
 			* cloud.machine.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -17156,7 +17090,7 @@ export interface EcsExtendedTree {
 		project: {
 			/**
 			* cloud.project.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -17167,7 +17101,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* cloud.project.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -17179,7 +17113,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* cloud.provider
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 		* Field Set: cloud
 		* Is Indexed: true
 		* Level: extended
@@ -17190,7 +17124,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* cloud.region
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 		* Field Set: cloud
 		* Is Indexed: true
 		* Level: extended
@@ -17204,7 +17138,7 @@ export interface EcsExtendedTree {
 		image: {
 			/**
 			* container.image.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 			* Field Set: container
 			* Is Indexed: true
 			* Level: extended
@@ -17215,7 +17149,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* container.image.tag
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 			* Field Set: container
 			* Is Indexed: true
 			* Level: extended
@@ -17227,7 +17161,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* container.labels
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 		* Field Set: container
 		* Is Indexed: true
 		* Level: extended
@@ -17238,7 +17172,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* container.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 		* Field Set: container
 		* Is Indexed: true
 		* Level: extended
@@ -17249,7 +17183,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* container.runtime
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 		* Field Set: container
 		* Is Indexed: true
 		* Level: extended
@@ -17262,7 +17196,7 @@ export interface EcsExtendedTree {
 	destination: {
 		/**
 		* destination.address
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: extended
@@ -17274,7 +17208,7 @@ export interface EcsExtendedTree {
 		as: {
 			/**
 			* destination.as.number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -17286,7 +17220,7 @@ export interface EcsExtendedTree {
 			organization: {
 				/**
 				* destination.as.organization.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 				* Field Set: destination
 				* Is Indexed: true
 				* Level: extended
@@ -17300,7 +17234,7 @@ export interface EcsExtendedTree {
 		geo: {
 			/**
 			* destination.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -17313,7 +17247,7 @@ export interface EcsExtendedTree {
 		nat: {
 			/**
 			* destination.nat.ip
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -17324,7 +17258,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* destination.nat.port
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -17336,7 +17270,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* destination.registered_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: extended
@@ -17347,7 +17281,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* destination.subdomain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: extended
@@ -17358,7 +17292,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* destination.top_level_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: extended
@@ -17370,7 +17304,7 @@ export interface EcsExtendedTree {
 		user: {
 			/**
 			* destination.user.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -17381,7 +17315,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* destination.user.email
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -17392,7 +17326,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* destination.user.full_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -17404,7 +17338,7 @@ export interface EcsExtendedTree {
 			group: {
 				/**
 				* destination.user.group.domain
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 				* Field Set: destination
 				* Is Indexed: true
 				* Level: extended
@@ -17415,7 +17349,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* destination.user.group.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 				* Field Set: destination
 				* Is Indexed: true
 				* Level: extended
@@ -17426,7 +17360,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* destination.user.group.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 				* Field Set: destination
 				* Is Indexed: true
 				* Level: extended
@@ -17438,7 +17372,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* destination.user.hash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -17449,7 +17383,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* destination.user.roles
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -17464,7 +17398,7 @@ export interface EcsExtendedTree {
 		code_signature: {
 			/**
 			* dll.code_signature.status
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17475,7 +17409,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dll.code_signature.trusted
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17486,7 +17420,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dll.code_signature.valid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17499,7 +17433,7 @@ export interface EcsExtendedTree {
 		hash: {
 			/**
 			* dll.hash.md5
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17510,7 +17444,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dll.hash.sha1
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17521,7 +17455,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dll.hash.sha256
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17532,7 +17466,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dll.hash.sha512
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17544,7 +17478,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* dll.path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 		* Field Set: dll
 		* Is Indexed: true
 		* Level: extended
@@ -17556,7 +17490,7 @@ export interface EcsExtendedTree {
 		pe: {
 			/**
 			* dll.pe.architecture
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17567,7 +17501,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dll.pe.company
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17578,7 +17512,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dll.pe.description
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17589,7 +17523,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dll.pe.file_version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17600,7 +17534,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dll.pe.imphash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17611,7 +17545,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dll.pe.original_file_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17622,7 +17556,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dll.pe.product
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -17636,7 +17570,7 @@ export interface EcsExtendedTree {
 	dns: {
 		/**
 		* dns.answers
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -17647,7 +17581,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* dns.header_flags
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -17658,7 +17592,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* dns.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -17669,7 +17603,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* dns.op_code
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -17681,7 +17615,7 @@ export interface EcsExtendedTree {
 		question: {
 			/**
 			* dns.question.class
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -17692,7 +17626,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dns.question.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -17703,7 +17637,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dns.question.registered_domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -17714,7 +17648,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dns.question.subdomain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -17725,7 +17659,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dns.question.top_level_domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -17736,7 +17670,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* dns.question.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -17748,7 +17682,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* dns.resolved_ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -17759,7 +17693,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* dns.response_code
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -17770,7 +17704,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* dns.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -17783,7 +17717,7 @@ export interface EcsExtendedTree {
 	error: {
 		/**
 		* error.stack_trace
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 		* Field Set: error
 		* Is Indexed: false
 		* Level: extended
@@ -17794,7 +17728,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* error.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 		* Field Set: error
 		* Is Indexed: true
 		* Level: extended
@@ -17807,7 +17741,7 @@ export interface EcsExtendedTree {
 	event: {
 		/**
 		* event.code
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -17818,7 +17752,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* event.end
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -17829,7 +17763,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* event.hash
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -17840,7 +17774,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* event.provider
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -17851,7 +17785,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* event.reason
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -17862,7 +17796,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* event.reference
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -17873,7 +17807,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* event.risk_score_norm
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -17884,7 +17818,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* event.sequence
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -17895,7 +17829,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* event.start
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -17906,7 +17840,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* event.timezone
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -17917,7 +17851,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* event.url
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -17930,7 +17864,7 @@ export interface EcsExtendedTree {
 	file: {
 		/**
 		* file.accessed
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -17941,7 +17875,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.attributes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -17953,7 +17887,7 @@ export interface EcsExtendedTree {
 		code_signature: {
 			/**
 			* file.code_signature.status
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -17964,7 +17898,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.code_signature.trusted
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -17975,7 +17909,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.code_signature.valid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -17987,7 +17921,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* file.created
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -17998,7 +17932,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.ctime
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18009,7 +17943,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.device
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18020,7 +17954,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.directory
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18031,7 +17965,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.drive_letter
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18042,7 +17976,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.extension
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18053,7 +17987,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.gid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18064,7 +17998,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.group
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18076,7 +18010,7 @@ export interface EcsExtendedTree {
 		hash: {
 			/**
 			* file.hash.md5
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18087,7 +18021,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.hash.sha1
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18098,7 +18032,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.hash.sha256
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18109,7 +18043,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.hash.sha512
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18121,7 +18055,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* file.inode
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18132,7 +18066,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.mime_type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18143,7 +18077,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.mode
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18154,7 +18088,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.mtime
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18165,7 +18099,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18176,7 +18110,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.owner
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18187,7 +18121,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18199,7 +18133,7 @@ export interface EcsExtendedTree {
 		pe: {
 			/**
 			* file.pe.architecture
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18210,7 +18144,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.pe.company
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18221,7 +18155,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.pe.description
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18232,7 +18166,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.pe.file_version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18243,7 +18177,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.pe.imphash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18254,7 +18188,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.pe.original_file_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18265,7 +18199,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.pe.product
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18277,7 +18211,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* file.size
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18288,7 +18222,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.target_path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18299,7 +18233,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18310,7 +18244,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* file.uid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -18322,7 +18256,7 @@ export interface EcsExtendedTree {
 		x509: {
 			/**
 			* file.x509.alternative_names
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18334,7 +18268,7 @@ export interface EcsExtendedTree {
 			issuer: {
 				/**
 				* file.x509.issuer.common_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18345,7 +18279,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.issuer.country
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18356,7 +18290,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.issuer.distinguished_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18367,7 +18301,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.issuer.locality
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18378,7 +18312,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.issuer.organization
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18389,7 +18323,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.issuer.organizational_unit
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18400,7 +18334,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.issuer.state_or_province
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18412,7 +18346,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* file.x509.not_after
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18423,7 +18357,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.x509.not_before
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18434,7 +18368,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.x509.public_key_algorithm
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18445,7 +18379,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.x509.public_key_curve
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18456,7 +18390,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.x509.public_key_exponent
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: false
 			* Level: extended
@@ -18467,7 +18401,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.x509.public_key_size
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18478,7 +18412,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.x509.serial_number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18489,7 +18423,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* file.x509.signature_algorithm
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18501,7 +18435,7 @@ export interface EcsExtendedTree {
 			subject: {
 				/**
 				* file.x509.subject.common_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18512,7 +18446,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.subject.country
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18523,7 +18457,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.subject.distinguished_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18534,7 +18468,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.subject.locality
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18545,7 +18479,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.subject.organization
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18556,7 +18490,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.subject.organizational_unit
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18567,7 +18501,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* file.x509.subject.state_or_province
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -18579,7 +18513,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* file.x509.version_number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -18593,7 +18527,7 @@ export interface EcsExtendedTree {
 	group: {
 		/**
 		* group.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 		* Field Set: group
 		* Is Indexed: true
 		* Level: extended
@@ -18604,7 +18538,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* group.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 		* Field Set: group
 		* Is Indexed: true
 		* Level: extended
@@ -18615,7 +18549,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* group.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 		* Field Set: group
 		* Is Indexed: true
 		* Level: extended
@@ -18628,7 +18562,7 @@ export interface EcsExtendedTree {
 	host: {
 		/**
 		* host.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: extended
@@ -18640,7 +18574,7 @@ export interface EcsExtendedTree {
 		geo: {
 			/**
 			* host.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18653,7 +18587,7 @@ export interface EcsExtendedTree {
 		os: {
 			/**
 			* host.os.family
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18664,7 +18598,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* host.os.full
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18675,7 +18609,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* host.os.kernel
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18686,7 +18620,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* host.os.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18697,7 +18631,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* host.os.platform
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18707,19 +18641,8 @@ export interface EcsExtendedTree {
 			"platform": string,
 
 			/**
-			* host.os.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
-			* Field Set: host
-			* Is Indexed: true
-			* Level: extended
-			* Elasticsearch type: keyword
-			* Example: macos
-			*/
-			"type": string,
-
-			/**
 			* host.os.version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18731,7 +18654,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* host.uptime
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: extended
@@ -18743,7 +18666,7 @@ export interface EcsExtendedTree {
 		user: {
 			/**
 			* host.user.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18754,7 +18677,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* host.user.email
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18765,7 +18688,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* host.user.full_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18777,7 +18700,7 @@ export interface EcsExtendedTree {
 			group: {
 				/**
 				* host.user.group.domain
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 				* Field Set: host
 				* Is Indexed: true
 				* Level: extended
@@ -18788,7 +18711,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* host.user.group.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 				* Field Set: host
 				* Is Indexed: true
 				* Level: extended
@@ -18799,7 +18722,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* host.user.group.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 				* Field Set: host
 				* Is Indexed: true
 				* Level: extended
@@ -18811,7 +18734,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* host.user.hash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18822,7 +18745,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* host.user.roles
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -18838,7 +18761,7 @@ export interface EcsExtendedTree {
 			body: {
 				/**
 				* http.request.body.bytes
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 				* Field Set: http
 				* Is Indexed: true
 				* Level: extended
@@ -18849,7 +18772,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* http.request.body.content
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 				* Field Set: http
 				* Is Indexed: true
 				* Level: extended
@@ -18861,7 +18784,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* http.request.bytes
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -18872,7 +18795,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* http.request.method
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -18883,7 +18806,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* http.request.mime_type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -18894,7 +18817,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* http.request.referrer
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -18908,7 +18831,7 @@ export interface EcsExtendedTree {
 			body: {
 				/**
 				* http.response.body.bytes
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 				* Field Set: http
 				* Is Indexed: true
 				* Level: extended
@@ -18919,7 +18842,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* http.response.body.content
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 				* Field Set: http
 				* Is Indexed: true
 				* Level: extended
@@ -18931,7 +18854,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* http.response.bytes
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -18942,7 +18865,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* http.response.mime_type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -18953,7 +18876,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* http.response.status_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -18965,7 +18888,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* http.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 		* Field Set: http
 		* Is Indexed: true
 		* Level: extended
@@ -18979,7 +18902,7 @@ export interface EcsExtendedTree {
 		file: {
 			/**
 			* log.file.path
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 			* Field Set: log
 			* Is Indexed: true
 			* Level: extended
@@ -18993,7 +18916,7 @@ export interface EcsExtendedTree {
 			file: {
 				/**
 				* log.origin.file.line
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 				* Field Set: log
 				* Is Indexed: true
 				* Level: extended
@@ -19004,7 +18927,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* log.origin.file.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 				* Field Set: log
 				* Is Indexed: true
 				* Level: extended
@@ -19016,7 +18939,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* log.origin.function
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 			* Field Set: log
 			* Is Indexed: true
 			* Level: extended
@@ -19028,7 +18951,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* log.syslog
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 		* Field Set: log
 		* Is Indexed: true
 		* Level: extended
@@ -19041,7 +18964,7 @@ export interface EcsExtendedTree {
 	network: {
 		/**
 		* network.application
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: extended
@@ -19052,7 +18975,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* network.community_id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: extended
@@ -19063,7 +18986,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* network.iana_number
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: extended
@@ -19074,7 +18997,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* network.inner
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: extended
@@ -19085,7 +19008,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* network.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: extended
@@ -19097,7 +19020,7 @@ export interface EcsExtendedTree {
 		vlan: {
 			/**
 			* network.vlan.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 			* Field Set: network
 			* Is Indexed: true
 			* Level: extended
@@ -19108,7 +19031,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* network.vlan.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 			* Field Set: network
 			* Is Indexed: true
 			* Level: extended
@@ -19122,7 +19045,7 @@ export interface EcsExtendedTree {
 	observer: {
 		/**
 		* observer.egress
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: extended
@@ -19134,7 +19057,7 @@ export interface EcsExtendedTree {
 		geo: {
 			/**
 			* observer.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -19146,7 +19069,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* observer.ingress
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: extended
@@ -19157,7 +19080,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* observer.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: extended
@@ -19169,7 +19092,7 @@ export interface EcsExtendedTree {
 		os: {
 			/**
 			* observer.os.family
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -19180,7 +19103,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* observer.os.full
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -19191,7 +19114,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* observer.os.kernel
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -19202,7 +19125,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* observer.os.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -19213,7 +19136,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* observer.os.platform
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -19223,19 +19146,8 @@ export interface EcsExtendedTree {
 			"platform": string,
 
 			/**
-			* observer.os.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
-			* Field Set: observer
-			* Is Indexed: true
-			* Level: extended
-			* Elasticsearch type: keyword
-			* Example: macos
-			*/
-			"type": string,
-
-			/**
 			* observer.os.version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -19247,7 +19159,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* observer.product
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: extended
@@ -19258,7 +19170,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* observer.serial_number
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: extended
@@ -19271,7 +19183,7 @@ export interface EcsExtendedTree {
 	organization: {
 		/**
 		* organization.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-organization.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-organization.html
 		* Field Set: organization
 		* Is Indexed: true
 		* Level: extended
@@ -19282,7 +19194,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* organization.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-organization.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-organization.html
 		* Field Set: organization
 		* Is Indexed: true
 		* Level: extended
@@ -19295,7 +19207,7 @@ export interface EcsExtendedTree {
 	package: {
 		/**
 		* package.architecture
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19306,7 +19218,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.build_version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19317,7 +19229,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.checksum
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19328,7 +19240,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.description
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19339,7 +19251,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.install_scope
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19350,7 +19262,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.installed
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19361,7 +19273,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.license
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19372,7 +19284,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19383,7 +19295,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19394,7 +19306,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.reference
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19405,7 +19317,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.size
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19416,7 +19328,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19427,7 +19339,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* package.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -19440,7 +19352,7 @@ export interface EcsExtendedTree {
 	process: {
 		/**
 		* process.args
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -19451,7 +19363,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* process.args_count
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -19463,7 +19375,7 @@ export interface EcsExtendedTree {
 		code_signature: {
 			/**
 			* process.code_signature.status
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19474,7 +19386,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.code_signature.trusted
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19485,7 +19397,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.code_signature.valid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19497,7 +19409,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* process.command_line
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -19508,7 +19420,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* process.entity_id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -19519,7 +19431,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* process.executable
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -19530,7 +19442,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* process.exit_code
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -19542,7 +19454,7 @@ export interface EcsExtendedTree {
 		hash: {
 			/**
 			* process.hash.md5
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19553,7 +19465,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.hash.sha1
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19564,7 +19476,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.hash.sha256
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19575,7 +19487,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.hash.sha512
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19587,7 +19499,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* process.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -19599,7 +19511,7 @@ export interface EcsExtendedTree {
 		parent: {
 			/**
 			* process.parent.args
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19610,7 +19522,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.parent.args_count
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19622,7 +19534,7 @@ export interface EcsExtendedTree {
 			code_signature: {
 				/**
 				* process.parent.code_signature.status
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19633,7 +19545,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.code_signature.trusted
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19644,7 +19556,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.code_signature.valid
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19656,7 +19568,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* process.parent.command_line
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19667,7 +19579,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.parent.entity_id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19678,7 +19590,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.parent.executable
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19689,7 +19601,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.parent.exit_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19701,7 +19613,7 @@ export interface EcsExtendedTree {
 			hash: {
 				/**
 				* process.parent.hash.md5
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19712,7 +19624,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.hash.sha1
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19723,7 +19635,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.hash.sha256
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19734,7 +19646,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.hash.sha512
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19746,7 +19658,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* process.parent.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19758,7 +19670,7 @@ export interface EcsExtendedTree {
 			pe: {
 				/**
 				* process.parent.pe.architecture
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19769,7 +19681,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.pe.company
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19780,7 +19692,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.pe.description
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19791,7 +19703,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.pe.file_version
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19802,7 +19714,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.pe.imphash
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19813,7 +19725,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.pe.original_file_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19824,7 +19736,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.pe.product
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19836,7 +19748,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* process.parent.pgid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19847,7 +19759,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.parent.ppid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19858,7 +19770,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.parent.start
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19870,7 +19782,7 @@ export interface EcsExtendedTree {
 			thread: {
 				/**
 				* process.parent.thread.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19881,7 +19793,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* process.parent.thread.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -19893,7 +19805,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* process.parent.title
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19904,7 +19816,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.parent.uptime
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19915,7 +19827,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.parent.working_directory
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19928,7 +19840,7 @@ export interface EcsExtendedTree {
 		pe: {
 			/**
 			* process.pe.architecture
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19939,7 +19851,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.pe.company
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19950,7 +19862,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.pe.description
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19961,7 +19873,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.pe.file_version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19972,7 +19884,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.pe.imphash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19983,7 +19895,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.pe.original_file_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -19994,7 +19906,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.pe.product
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -20006,7 +19918,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* process.pgid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -20017,7 +19929,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* process.ppid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -20028,7 +19940,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* process.start
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -20040,7 +19952,7 @@ export interface EcsExtendedTree {
 		thread: {
 			/**
 			* process.thread.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -20051,7 +19963,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* process.thread.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -20063,7 +19975,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* process.title
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -20074,7 +19986,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* process.uptime
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -20085,7 +19997,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* process.working_directory
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -20099,7 +20011,7 @@ export interface EcsExtendedTree {
 		data: {
 			/**
 			* registry.data.bytes
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 			* Field Set: registry
 			* Is Indexed: true
 			* Level: extended
@@ -20113,7 +20025,7 @@ export interface EcsExtendedTree {
 	related: {
 		/**
 		* related.hash
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 		* Field Set: related
 		* Is Indexed: true
 		* Level: extended
@@ -20124,7 +20036,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* related.hosts
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 		* Field Set: related
 		* Is Indexed: true
 		* Level: extended
@@ -20135,7 +20047,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* related.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 		* Field Set: related
 		* Is Indexed: true
 		* Level: extended
@@ -20146,7 +20058,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* related.user
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 		* Field Set: related
 		* Is Indexed: true
 		* Level: extended
@@ -20159,7 +20071,7 @@ export interface EcsExtendedTree {
 	rule: {
 		/**
 		* rule.author
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -20170,7 +20082,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* rule.category
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -20181,7 +20093,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* rule.description
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -20192,7 +20104,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* rule.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -20203,7 +20115,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* rule.license
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -20214,7 +20126,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* rule.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -20225,7 +20137,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* rule.reference
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -20236,7 +20148,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* rule.ruleset
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -20247,7 +20159,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* rule.uuid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -20258,7 +20170,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* rule.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -20271,7 +20183,7 @@ export interface EcsExtendedTree {
 	server: {
 		/**
 		* server.address
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: extended
@@ -20283,7 +20195,7 @@ export interface EcsExtendedTree {
 		as: {
 			/**
 			* server.as.number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -20295,7 +20207,7 @@ export interface EcsExtendedTree {
 			organization: {
 				/**
 				* server.as.organization.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 				* Field Set: server
 				* Is Indexed: true
 				* Level: extended
@@ -20309,7 +20221,7 @@ export interface EcsExtendedTree {
 		geo: {
 			/**
 			* server.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -20322,7 +20234,7 @@ export interface EcsExtendedTree {
 		nat: {
 			/**
 			* server.nat.ip
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -20333,7 +20245,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* server.nat.port
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -20345,7 +20257,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* server.registered_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: extended
@@ -20356,7 +20268,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* server.subdomain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: extended
@@ -20367,7 +20279,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* server.top_level_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: extended
@@ -20379,7 +20291,7 @@ export interface EcsExtendedTree {
 		user: {
 			/**
 			* server.user.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -20390,7 +20302,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* server.user.email
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -20401,7 +20313,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* server.user.full_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -20413,7 +20325,7 @@ export interface EcsExtendedTree {
 			group: {
 				/**
 				* server.user.group.domain
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 				* Field Set: server
 				* Is Indexed: true
 				* Level: extended
@@ -20424,7 +20336,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* server.user.group.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 				* Field Set: server
 				* Is Indexed: true
 				* Level: extended
@@ -20435,7 +20347,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* server.user.group.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 				* Field Set: server
 				* Is Indexed: true
 				* Level: extended
@@ -20447,7 +20359,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* server.user.hash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -20458,7 +20370,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* server.user.roles
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -20472,7 +20384,7 @@ export interface EcsExtendedTree {
 	service: {
 		/**
 		* service.ephemeral_id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: extended
@@ -20484,7 +20396,7 @@ export interface EcsExtendedTree {
 		node: {
 			/**
 			* service.node.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 			* Field Set: service
 			* Is Indexed: true
 			* Level: extended
@@ -20498,7 +20410,7 @@ export interface EcsExtendedTree {
 	source: {
 		/**
 		* source.address
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: extended
@@ -20510,7 +20422,7 @@ export interface EcsExtendedTree {
 		as: {
 			/**
 			* source.as.number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -20522,7 +20434,7 @@ export interface EcsExtendedTree {
 			organization: {
 				/**
 				* source.as.organization.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 				* Field Set: source
 				* Is Indexed: true
 				* Level: extended
@@ -20536,7 +20448,7 @@ export interface EcsExtendedTree {
 		geo: {
 			/**
 			* source.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -20549,7 +20461,7 @@ export interface EcsExtendedTree {
 		nat: {
 			/**
 			* source.nat.ip
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -20560,7 +20472,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* source.nat.port
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -20572,7 +20484,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* source.registered_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: extended
@@ -20583,7 +20495,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* source.subdomain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: extended
@@ -20594,7 +20506,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* source.top_level_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: extended
@@ -20606,7 +20518,7 @@ export interface EcsExtendedTree {
 		user: {
 			/**
 			* source.user.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -20617,7 +20529,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* source.user.email
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -20628,7 +20540,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* source.user.full_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -20640,7 +20552,7 @@ export interface EcsExtendedTree {
 			group: {
 				/**
 				* source.user.group.domain
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 				* Field Set: source
 				* Is Indexed: true
 				* Level: extended
@@ -20651,7 +20563,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* source.user.group.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 				* Field Set: source
 				* Is Indexed: true
 				* Level: extended
@@ -20662,7 +20574,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* source.user.group.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 				* Field Set: source
 				* Is Indexed: true
 				* Level: extended
@@ -20674,7 +20586,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* source.user.hash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -20685,7 +20597,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* source.user.roles
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -20699,7 +20611,7 @@ export interface EcsExtendedTree {
 	span: {
 		/**
 		* span.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-span.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-span.html
 		* Field Set: span
 		* Is Indexed: true
 		* Level: extended
@@ -20712,7 +20624,7 @@ export interface EcsExtendedTree {
 	threat: {
 		/**
 		* threat.framework
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 		* Field Set: threat
 		* Is Indexed: true
 		* Level: extended
@@ -20724,7 +20636,7 @@ export interface EcsExtendedTree {
 		tactic: {
 			/**
 			* threat.tactic.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -20735,7 +20647,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* threat.tactic.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -20746,7 +20658,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* threat.tactic.reference
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -20759,7 +20671,7 @@ export interface EcsExtendedTree {
 		technique: {
 			/**
 			* threat.technique.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -20770,7 +20682,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* threat.technique.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -20781,7 +20693,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* threat.technique.reference
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -20793,7 +20705,7 @@ export interface EcsExtendedTree {
 			subtechnique: {
 				/**
 				* threat.technique.subtechnique.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 				* Field Set: threat
 				* Is Indexed: true
 				* Level: extended
@@ -20804,7 +20716,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* threat.technique.subtechnique.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 				* Field Set: threat
 				* Is Indexed: true
 				* Level: extended
@@ -20815,7 +20727,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* threat.technique.subtechnique.reference
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 				* Field Set: threat
 				* Is Indexed: true
 				* Level: extended
@@ -20830,7 +20742,7 @@ export interface EcsExtendedTree {
 	tls: {
 		/**
 		* tls.cipher
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -20842,7 +20754,7 @@ export interface EcsExtendedTree {
 		client: {
 			/**
 			* tls.client.certificate
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -20853,7 +20765,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.client.certificate_chain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -20865,7 +20777,7 @@ export interface EcsExtendedTree {
 			hash: {
 				/**
 				* tls.client.hash.md5
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -20876,7 +20788,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.client.hash.sha1
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -20887,7 +20799,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.client.hash.sha256
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -20899,7 +20811,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* tls.client.issuer
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -20910,7 +20822,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.client.ja3
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -20921,7 +20833,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.client.not_after
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -20932,7 +20844,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.client.not_before
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -20943,7 +20855,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.client.server_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -20954,7 +20866,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.client.subject
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -20965,7 +20877,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.client.supported_ciphers
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -20977,7 +20889,7 @@ export interface EcsExtendedTree {
 			x509: {
 				/**
 				* tls.client.x509.alternative_names
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -20989,7 +20901,7 @@ export interface EcsExtendedTree {
 				issuer: {
 					/**
 					* tls.client.x509.issuer.common_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21000,7 +20912,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.issuer.country
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21011,7 +20923,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.issuer.distinguished_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21022,7 +20934,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.issuer.locality
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21033,7 +20945,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.issuer.organization
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21044,7 +20956,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.issuer.organizational_unit
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21055,7 +20967,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.issuer.state_or_province
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21067,7 +20979,7 @@ export interface EcsExtendedTree {
 				}
 				/**
 				* tls.client.x509.not_after
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21078,7 +20990,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.client.x509.not_before
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21089,7 +21001,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.client.x509.public_key_algorithm
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21100,7 +21012,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.client.x509.public_key_curve
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21111,7 +21023,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.client.x509.public_key_exponent
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: false
 				* Level: extended
@@ -21122,7 +21034,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.client.x509.public_key_size
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21133,7 +21045,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.client.x509.serial_number
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21144,7 +21056,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.client.x509.signature_algorithm
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21156,7 +21068,7 @@ export interface EcsExtendedTree {
 				subject: {
 					/**
 					* tls.client.x509.subject.common_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21167,7 +21079,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.subject.country
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21178,7 +21090,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.subject.distinguished_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21189,7 +21101,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.subject.locality
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21200,7 +21112,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.subject.organization
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21211,7 +21123,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.subject.organizational_unit
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21222,7 +21134,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.client.x509.subject.state_or_province
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21234,7 +21146,7 @@ export interface EcsExtendedTree {
 				}
 				/**
 				* tls.client.x509.version_number
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21247,7 +21159,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* tls.curve
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -21258,7 +21170,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* tls.established
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -21269,7 +21181,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* tls.next_protocol
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -21280,7 +21192,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* tls.resumed
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -21292,7 +21204,7 @@ export interface EcsExtendedTree {
 		server: {
 			/**
 			* tls.server.certificate
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -21303,7 +21215,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.server.certificate_chain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -21315,7 +21227,7 @@ export interface EcsExtendedTree {
 			hash: {
 				/**
 				* tls.server.hash.md5
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21326,7 +21238,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.server.hash.sha1
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21337,7 +21249,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.server.hash.sha256
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21349,7 +21261,7 @@ export interface EcsExtendedTree {
 			}
 			/**
 			* tls.server.issuer
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -21360,7 +21272,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.server.ja3s
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -21371,7 +21283,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.server.not_after
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -21382,7 +21294,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.server.not_before
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -21393,7 +21305,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* tls.server.subject
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -21405,7 +21317,7 @@ export interface EcsExtendedTree {
 			x509: {
 				/**
 				* tls.server.x509.alternative_names
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21417,7 +21329,7 @@ export interface EcsExtendedTree {
 				issuer: {
 					/**
 					* tls.server.x509.issuer.common_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21428,7 +21340,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.issuer.country
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21439,7 +21351,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.issuer.distinguished_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21450,7 +21362,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.issuer.locality
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21461,7 +21373,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.issuer.organization
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21472,7 +21384,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.issuer.organizational_unit
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21483,7 +21395,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.issuer.state_or_province
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21495,7 +21407,7 @@ export interface EcsExtendedTree {
 				}
 				/**
 				* tls.server.x509.not_after
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21506,7 +21418,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.server.x509.not_before
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21517,7 +21429,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.server.x509.public_key_algorithm
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21528,7 +21440,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.server.x509.public_key_curve
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21539,7 +21451,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.server.x509.public_key_exponent
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: false
 				* Level: extended
@@ -21550,7 +21462,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.server.x509.public_key_size
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21561,7 +21473,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.server.x509.serial_number
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21572,7 +21484,7 @@ export interface EcsExtendedTree {
 
 				/**
 				* tls.server.x509.signature_algorithm
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21584,7 +21496,7 @@ export interface EcsExtendedTree {
 				subject: {
 					/**
 					* tls.server.x509.subject.common_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21595,7 +21507,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.subject.country
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21606,7 +21518,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.subject.distinguished_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21617,7 +21529,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.subject.locality
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21628,7 +21540,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.subject.organization
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21639,7 +21551,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.subject.organizational_unit
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21650,7 +21562,7 @@ export interface EcsExtendedTree {
 
 					/**
 					* tls.server.x509.subject.state_or_province
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -21662,7 +21574,7 @@ export interface EcsExtendedTree {
 				}
 				/**
 				* tls.server.x509.version_number
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -21675,7 +21587,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* tls.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -21686,7 +21598,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* tls.version_protocol
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -21699,7 +21611,7 @@ export interface EcsExtendedTree {
 	trace: {
 		/**
 		* trace.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-trace.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-trace.html
 		* Field Set: trace
 		* Is Indexed: true
 		* Level: extended
@@ -21712,7 +21624,7 @@ export interface EcsExtendedTree {
 	transaction: {
 		/**
 		* transaction.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-transaction.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-transaction.html
 		* Field Set: transaction
 		* Is Indexed: true
 		* Level: extended
@@ -21725,7 +21637,7 @@ export interface EcsExtendedTree {
 	url: {
 		/**
 		* url.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21736,7 +21648,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.extension
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21747,7 +21659,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.fragment
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21758,7 +21670,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.full
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21769,7 +21681,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.original
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21780,7 +21692,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.password
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21791,7 +21703,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21802,7 +21714,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.port
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21813,7 +21725,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.query
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21824,7 +21736,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.registered_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21835,7 +21747,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.scheme
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21846,7 +21758,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.subdomain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21857,7 +21769,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.top_level_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21868,7 +21780,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* url.username
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -21881,7 +21793,7 @@ export interface EcsExtendedTree {
 	user: {
 		/**
 		* user.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: extended
@@ -21892,7 +21804,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* user.email
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: extended
@@ -21903,7 +21815,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* user.full_name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: extended
@@ -21915,7 +21827,7 @@ export interface EcsExtendedTree {
 		group: {
 			/**
 			* user.group.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 			* Field Set: user
 			* Is Indexed: true
 			* Level: extended
@@ -21926,7 +21838,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* user.group.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 			* Field Set: user
 			* Is Indexed: true
 			* Level: extended
@@ -21937,7 +21849,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* user.group.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 			* Field Set: user
 			* Is Indexed: true
 			* Level: extended
@@ -21949,7 +21861,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* user.hash
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: extended
@@ -21960,7 +21872,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* user.roles
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: extended
@@ -21974,7 +21886,7 @@ export interface EcsExtendedTree {
 		device: {
 			/**
 			* user_agent.device.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -21986,7 +21898,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* user_agent.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 		* Field Set: user_agent
 		* Is Indexed: true
 		* Level: extended
@@ -21997,7 +21909,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* user_agent.original
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 		* Field Set: user_agent
 		* Is Indexed: true
 		* Level: extended
@@ -22009,7 +21921,7 @@ export interface EcsExtendedTree {
 		os: {
 			/**
 			* user_agent.os.family
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -22020,7 +21932,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* user_agent.os.full
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -22031,7 +21943,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* user_agent.os.kernel
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -22042,7 +21954,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* user_agent.os.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -22053,7 +21965,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* user_agent.os.platform
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -22063,19 +21975,8 @@ export interface EcsExtendedTree {
 			"platform": string,
 
 			/**
-			* user_agent.os.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
-			* Field Set: user_agent
-			* Is Indexed: true
-			* Level: extended
-			* Elasticsearch type: keyword
-			* Example: macos
-			*/
-			"type": string,
-
-			/**
 			* user_agent.os.version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -22087,7 +21988,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* user_agent.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 		* Field Set: user_agent
 		* Is Indexed: true
 		* Level: extended
@@ -22100,7 +22001,7 @@ export interface EcsExtendedTree {
 	vulnerability: {
 		/**
 		* vulnerability.category
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -22111,7 +22012,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* vulnerability.classification
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -22122,7 +22023,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* vulnerability.description
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -22133,7 +22034,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* vulnerability.enumeration
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -22144,7 +22045,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* vulnerability.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -22155,7 +22056,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* vulnerability.reference
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -22166,7 +22067,7 @@ export interface EcsExtendedTree {
 
 		/**
 		* vulnerability.report_id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -22178,7 +22079,7 @@ export interface EcsExtendedTree {
 		scanner: {
 			/**
 			* vulnerability.scanner.vendor
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 			* Field Set: vulnerability
 			* Is Indexed: true
 			* Level: extended
@@ -22191,7 +22092,7 @@ export interface EcsExtendedTree {
 		score: {
 			/**
 			* vulnerability.score.base
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 			* Field Set: vulnerability
 			* Is Indexed: true
 			* Level: extended
@@ -22202,7 +22103,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* vulnerability.score.environmental
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 			* Field Set: vulnerability
 			* Is Indexed: true
 			* Level: extended
@@ -22213,7 +22114,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* vulnerability.score.temporal
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 			* Field Set: vulnerability
 			* Is Indexed: true
 			* Level: extended
@@ -22224,7 +22125,7 @@ export interface EcsExtendedTree {
 
 			/**
 			* vulnerability.score.version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 			* Field Set: vulnerability
 			* Is Indexed: true
 			* Level: extended
@@ -22236,7 +22137,7 @@ export interface EcsExtendedTree {
 		}
 		/**
 		* vulnerability.severity
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -22252,7 +22153,7 @@ export interface EcsExtendedTree {
 export interface EcsTree {
 	/**
 	* @timestamp
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -22265,7 +22166,7 @@ export interface EcsTree {
 		build: {
 			/**
 			* agent.build.original
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 			* Field Set: agent
 			* Is Indexed: true
 			* Level: core
@@ -22277,7 +22178,7 @@ export interface EcsTree {
 		}
 		/**
 		* agent.ephemeral_id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 		* Field Set: agent
 		* Is Indexed: true
 		* Level: extended
@@ -22288,7 +22189,7 @@ export interface EcsTree {
 
 		/**
 		* agent.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 		* Field Set: agent
 		* Is Indexed: true
 		* Level: core
@@ -22299,7 +22200,7 @@ export interface EcsTree {
 
 		/**
 		* agent.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 		* Field Set: agent
 		* Is Indexed: true
 		* Level: core
@@ -22310,7 +22211,7 @@ export interface EcsTree {
 
 		/**
 		* agent.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 		* Field Set: agent
 		* Is Indexed: true
 		* Level: core
@@ -22321,7 +22222,7 @@ export interface EcsTree {
 
 		/**
 		* agent.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-agent.html
 		* Field Set: agent
 		* Is Indexed: true
 		* Level: core
@@ -22334,7 +22235,7 @@ export interface EcsTree {
 	client: {
 		/**
 		* client.address
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: extended
@@ -22346,7 +22247,7 @@ export interface EcsTree {
 		as: {
 			/**
 			* client.as.number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -22358,7 +22259,7 @@ export interface EcsTree {
 			organization: {
 				/**
 				* client.as.organization.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 				* Field Set: client
 				* Is Indexed: true
 				* Level: extended
@@ -22371,7 +22272,7 @@ export interface EcsTree {
 		}
 		/**
 		* client.bytes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -22382,7 +22283,7 @@ export interface EcsTree {
 
 		/**
 		* client.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -22394,7 +22295,7 @@ export interface EcsTree {
 		geo: {
 			/**
 			* client.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -22405,7 +22306,7 @@ export interface EcsTree {
 
 			/**
 			* client.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -22416,7 +22317,7 @@ export interface EcsTree {
 
 			/**
 			* client.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -22427,7 +22328,7 @@ export interface EcsTree {
 
 			/**
 			* client.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -22438,7 +22339,7 @@ export interface EcsTree {
 
 			/**
 			* client.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -22449,7 +22350,7 @@ export interface EcsTree {
 
 			/**
 			* client.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -22460,7 +22361,7 @@ export interface EcsTree {
 
 			/**
 			* client.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -22471,7 +22372,7 @@ export interface EcsTree {
 
 			/**
 			* client.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -22483,7 +22384,7 @@ export interface EcsTree {
 		}
 		/**
 		* client.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -22494,7 +22395,7 @@ export interface EcsTree {
 
 		/**
 		* client.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -22506,7 +22407,7 @@ export interface EcsTree {
 		nat: {
 			/**
 			* client.nat.ip
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -22517,7 +22418,7 @@ export interface EcsTree {
 
 			/**
 			* client.nat.port
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -22529,7 +22430,7 @@ export interface EcsTree {
 		}
 		/**
 		* client.packets
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -22540,7 +22441,7 @@ export interface EcsTree {
 
 		/**
 		* client.port
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: core
@@ -22551,7 +22452,7 @@ export interface EcsTree {
 
 		/**
 		* client.registered_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: extended
@@ -22562,7 +22463,7 @@ export interface EcsTree {
 
 		/**
 		* client.subdomain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: extended
@@ -22573,7 +22474,7 @@ export interface EcsTree {
 
 		/**
 		* client.top_level_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 		* Field Set: client
 		* Is Indexed: true
 		* Level: extended
@@ -22585,7 +22486,7 @@ export interface EcsTree {
 		user: {
 			/**
 			* client.user.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -22596,7 +22497,7 @@ export interface EcsTree {
 
 			/**
 			* client.user.email
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -22607,7 +22508,7 @@ export interface EcsTree {
 
 			/**
 			* client.user.full_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -22619,7 +22520,7 @@ export interface EcsTree {
 			group: {
 				/**
 				* client.user.group.domain
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 				* Field Set: client
 				* Is Indexed: true
 				* Level: extended
@@ -22630,7 +22531,7 @@ export interface EcsTree {
 
 				/**
 				* client.user.group.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 				* Field Set: client
 				* Is Indexed: true
 				* Level: extended
@@ -22641,7 +22542,7 @@ export interface EcsTree {
 
 				/**
 				* client.user.group.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 				* Field Set: client
 				* Is Indexed: true
 				* Level: extended
@@ -22653,7 +22554,7 @@ export interface EcsTree {
 			}
 			/**
 			* client.user.hash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -22664,7 +22565,7 @@ export interface EcsTree {
 
 			/**
 			* client.user.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -22675,7 +22576,7 @@ export interface EcsTree {
 
 			/**
 			* client.user.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: core
@@ -22686,7 +22587,7 @@ export interface EcsTree {
 
 			/**
 			* client.user.roles
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-client.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-client.html
 			* Field Set: client
 			* Is Indexed: true
 			* Level: extended
@@ -22701,7 +22602,7 @@ export interface EcsTree {
 		account: {
 			/**
 			* cloud.account.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -22712,7 +22613,7 @@ export interface EcsTree {
 
 			/**
 			* cloud.account.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -22724,7 +22625,7 @@ export interface EcsTree {
 		}
 		/**
 		* cloud.availability_zone
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 		* Field Set: cloud
 		* Is Indexed: true
 		* Level: extended
@@ -22736,7 +22637,7 @@ export interface EcsTree {
 		instance: {
 			/**
 			* cloud.instance.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -22747,7 +22648,7 @@ export interface EcsTree {
 
 			/**
 			* cloud.instance.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -22760,7 +22661,7 @@ export interface EcsTree {
 		machine: {
 			/**
 			* cloud.machine.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -22773,7 +22674,7 @@ export interface EcsTree {
 		project: {
 			/**
 			* cloud.project.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -22784,7 +22685,7 @@ export interface EcsTree {
 
 			/**
 			* cloud.project.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 			* Field Set: cloud
 			* Is Indexed: true
 			* Level: extended
@@ -22796,7 +22697,7 @@ export interface EcsTree {
 		}
 		/**
 		* cloud.provider
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 		* Field Set: cloud
 		* Is Indexed: true
 		* Level: extended
@@ -22807,7 +22708,7 @@ export interface EcsTree {
 
 		/**
 		* cloud.region
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-cloud.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-cloud.html
 		* Field Set: cloud
 		* Is Indexed: true
 		* Level: extended
@@ -22820,7 +22721,7 @@ export interface EcsTree {
 	container: {
 		/**
 		* container.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 		* Field Set: container
 		* Is Indexed: true
 		* Level: core
@@ -22832,7 +22733,7 @@ export interface EcsTree {
 		image: {
 			/**
 			* container.image.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 			* Field Set: container
 			* Is Indexed: true
 			* Level: extended
@@ -22843,7 +22744,7 @@ export interface EcsTree {
 
 			/**
 			* container.image.tag
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 			* Field Set: container
 			* Is Indexed: true
 			* Level: extended
@@ -22855,7 +22756,7 @@ export interface EcsTree {
 		}
 		/**
 		* container.labels
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 		* Field Set: container
 		* Is Indexed: true
 		* Level: extended
@@ -22866,7 +22767,7 @@ export interface EcsTree {
 
 		/**
 		* container.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 		* Field Set: container
 		* Is Indexed: true
 		* Level: extended
@@ -22877,7 +22778,7 @@ export interface EcsTree {
 
 		/**
 		* container.runtime
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-container.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-container.html
 		* Field Set: container
 		* Is Indexed: true
 		* Level: extended
@@ -22890,7 +22791,7 @@ export interface EcsTree {
 	destination: {
 		/**
 		* destination.address
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: extended
@@ -22902,7 +22803,7 @@ export interface EcsTree {
 		as: {
 			/**
 			* destination.as.number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -22914,7 +22815,7 @@ export interface EcsTree {
 			organization: {
 				/**
 				* destination.as.organization.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 				* Field Set: destination
 				* Is Indexed: true
 				* Level: extended
@@ -22927,7 +22828,7 @@ export interface EcsTree {
 		}
 		/**
 		* destination.bytes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -22938,7 +22839,7 @@ export interface EcsTree {
 
 		/**
 		* destination.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -22950,7 +22851,7 @@ export interface EcsTree {
 		geo: {
 			/**
 			* destination.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -22961,7 +22862,7 @@ export interface EcsTree {
 
 			/**
 			* destination.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -22972,7 +22873,7 @@ export interface EcsTree {
 
 			/**
 			* destination.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -22983,7 +22884,7 @@ export interface EcsTree {
 
 			/**
 			* destination.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -22994,7 +22895,7 @@ export interface EcsTree {
 
 			/**
 			* destination.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -23005,7 +22906,7 @@ export interface EcsTree {
 
 			/**
 			* destination.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -23016,7 +22917,7 @@ export interface EcsTree {
 
 			/**
 			* destination.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -23027,7 +22928,7 @@ export interface EcsTree {
 
 			/**
 			* destination.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -23039,7 +22940,7 @@ export interface EcsTree {
 		}
 		/**
 		* destination.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -23050,7 +22951,7 @@ export interface EcsTree {
 
 		/**
 		* destination.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -23062,7 +22963,7 @@ export interface EcsTree {
 		nat: {
 			/**
 			* destination.nat.ip
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -23073,7 +22974,7 @@ export interface EcsTree {
 
 			/**
 			* destination.nat.port
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -23085,7 +22986,7 @@ export interface EcsTree {
 		}
 		/**
 		* destination.packets
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -23096,7 +22997,7 @@ export interface EcsTree {
 
 		/**
 		* destination.port
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: core
@@ -23107,7 +23008,7 @@ export interface EcsTree {
 
 		/**
 		* destination.registered_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: extended
@@ -23118,7 +23019,7 @@ export interface EcsTree {
 
 		/**
 		* destination.subdomain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: extended
@@ -23129,7 +23030,7 @@ export interface EcsTree {
 
 		/**
 		* destination.top_level_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 		* Field Set: destination
 		* Is Indexed: true
 		* Level: extended
@@ -23141,7 +23042,7 @@ export interface EcsTree {
 		user: {
 			/**
 			* destination.user.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -23152,7 +23053,7 @@ export interface EcsTree {
 
 			/**
 			* destination.user.email
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -23163,7 +23064,7 @@ export interface EcsTree {
 
 			/**
 			* destination.user.full_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -23175,7 +23076,7 @@ export interface EcsTree {
 			group: {
 				/**
 				* destination.user.group.domain
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 				* Field Set: destination
 				* Is Indexed: true
 				* Level: extended
@@ -23186,7 +23087,7 @@ export interface EcsTree {
 
 				/**
 				* destination.user.group.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 				* Field Set: destination
 				* Is Indexed: true
 				* Level: extended
@@ -23197,7 +23098,7 @@ export interface EcsTree {
 
 				/**
 				* destination.user.group.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 				* Field Set: destination
 				* Is Indexed: true
 				* Level: extended
@@ -23209,7 +23110,7 @@ export interface EcsTree {
 			}
 			/**
 			* destination.user.hash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -23220,7 +23121,7 @@ export interface EcsTree {
 
 			/**
 			* destination.user.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -23231,7 +23132,7 @@ export interface EcsTree {
 
 			/**
 			* destination.user.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: core
@@ -23242,7 +23143,7 @@ export interface EcsTree {
 
 			/**
 			* destination.user.roles
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-destination.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-destination.html
 			* Field Set: destination
 			* Is Indexed: true
 			* Level: extended
@@ -23257,7 +23158,7 @@ export interface EcsTree {
 		code_signature: {
 			/**
 			* dll.code_signature.exists
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: core
@@ -23268,7 +23169,7 @@ export interface EcsTree {
 
 			/**
 			* dll.code_signature.status
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23279,7 +23180,7 @@ export interface EcsTree {
 
 			/**
 			* dll.code_signature.subject_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: core
@@ -23290,7 +23191,7 @@ export interface EcsTree {
 
 			/**
 			* dll.code_signature.trusted
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23301,7 +23202,7 @@ export interface EcsTree {
 
 			/**
 			* dll.code_signature.valid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23314,7 +23215,7 @@ export interface EcsTree {
 		hash: {
 			/**
 			* dll.hash.md5
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23325,7 +23226,7 @@ export interface EcsTree {
 
 			/**
 			* dll.hash.sha1
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23336,7 +23237,7 @@ export interface EcsTree {
 
 			/**
 			* dll.hash.sha256
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23347,7 +23248,7 @@ export interface EcsTree {
 
 			/**
 			* dll.hash.sha512
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23359,7 +23260,7 @@ export interface EcsTree {
 		}
 		/**
 		* dll.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 		* Field Set: dll
 		* Is Indexed: true
 		* Level: core
@@ -23370,7 +23271,7 @@ export interface EcsTree {
 
 		/**
 		* dll.path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 		* Field Set: dll
 		* Is Indexed: true
 		* Level: extended
@@ -23382,7 +23283,7 @@ export interface EcsTree {
 		pe: {
 			/**
 			* dll.pe.architecture
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23393,7 +23294,7 @@ export interface EcsTree {
 
 			/**
 			* dll.pe.company
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23404,7 +23305,7 @@ export interface EcsTree {
 
 			/**
 			* dll.pe.description
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23415,7 +23316,7 @@ export interface EcsTree {
 
 			/**
 			* dll.pe.file_version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23426,7 +23327,7 @@ export interface EcsTree {
 
 			/**
 			* dll.pe.imphash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23437,7 +23338,7 @@ export interface EcsTree {
 
 			/**
 			* dll.pe.original_file_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23448,7 +23349,7 @@ export interface EcsTree {
 
 			/**
 			* dll.pe.product
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dll.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dll.html
 			* Field Set: dll
 			* Is Indexed: true
 			* Level: extended
@@ -23462,7 +23363,7 @@ export interface EcsTree {
 	dns: {
 		/**
 		* dns.answers
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -23473,7 +23374,7 @@ export interface EcsTree {
 
 		/**
 		* dns.header_flags
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -23484,7 +23385,7 @@ export interface EcsTree {
 
 		/**
 		* dns.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -23495,7 +23396,7 @@ export interface EcsTree {
 
 		/**
 		* dns.op_code
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -23507,7 +23408,7 @@ export interface EcsTree {
 		question: {
 			/**
 			* dns.question.class
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -23518,7 +23419,7 @@ export interface EcsTree {
 
 			/**
 			* dns.question.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -23529,7 +23430,7 @@ export interface EcsTree {
 
 			/**
 			* dns.question.registered_domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -23540,7 +23441,7 @@ export interface EcsTree {
 
 			/**
 			* dns.question.subdomain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -23551,7 +23452,7 @@ export interface EcsTree {
 
 			/**
 			* dns.question.top_level_domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -23562,7 +23463,7 @@ export interface EcsTree {
 
 			/**
 			* dns.question.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 			* Field Set: dns
 			* Is Indexed: true
 			* Level: extended
@@ -23574,7 +23475,7 @@ export interface EcsTree {
 		}
 		/**
 		* dns.resolved_ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -23585,7 +23486,7 @@ export interface EcsTree {
 
 		/**
 		* dns.response_code
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -23596,7 +23497,7 @@ export interface EcsTree {
 
 		/**
 		* dns.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-dns.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-dns.html
 		* Field Set: dns
 		* Is Indexed: true
 		* Level: extended
@@ -23609,7 +23510,7 @@ export interface EcsTree {
 	ecs: {
 		/**
 		* ecs.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-ecs.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-ecs.html
 		* Field Set: ecs
 		* Is Indexed: true
 		* Level: core
@@ -23622,7 +23523,7 @@ export interface EcsTree {
 	error: {
 		/**
 		* error.code
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 		* Field Set: error
 		* Is Indexed: true
 		* Level: core
@@ -23633,7 +23534,7 @@ export interface EcsTree {
 
 		/**
 		* error.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 		* Field Set: error
 		* Is Indexed: true
 		* Level: core
@@ -23644,7 +23545,7 @@ export interface EcsTree {
 
 		/**
 		* error.message
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 		* Field Set: error
 		* Is Indexed: true
 		* Level: core
@@ -23655,7 +23556,7 @@ export interface EcsTree {
 
 		/**
 		* error.stack_trace
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 		* Field Set: error
 		* Is Indexed: false
 		* Level: extended
@@ -23666,7 +23567,7 @@ export interface EcsTree {
 
 		/**
 		* error.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-error.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-error.html
 		* Field Set: error
 		* Is Indexed: true
 		* Level: extended
@@ -23679,7 +23580,7 @@ export interface EcsTree {
 	event: {
 		/**
 		* event.action
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23690,7 +23591,7 @@ export interface EcsTree {
 
 		/**
 		* event.category
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23701,7 +23602,7 @@ export interface EcsTree {
 
 		/**
 		* event.code
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -23712,7 +23613,7 @@ export interface EcsTree {
 
 		/**
 		* event.created
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23723,7 +23624,7 @@ export interface EcsTree {
 
 		/**
 		* event.dataset
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23734,7 +23635,7 @@ export interface EcsTree {
 
 		/**
 		* event.duration
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23745,7 +23646,7 @@ export interface EcsTree {
 
 		/**
 		* event.end
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -23756,7 +23657,7 @@ export interface EcsTree {
 
 		/**
 		* event.hash
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -23767,7 +23668,7 @@ export interface EcsTree {
 
 		/**
 		* event.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23778,7 +23679,7 @@ export interface EcsTree {
 
 		/**
 		* event.ingested
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23789,7 +23690,7 @@ export interface EcsTree {
 
 		/**
 		* event.kind
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23800,7 +23701,7 @@ export interface EcsTree {
 
 		/**
 		* event.module
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23811,7 +23712,7 @@ export interface EcsTree {
 
 		/**
 		* event.original
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: false
 		* Level: core
@@ -23822,7 +23723,7 @@ export interface EcsTree {
 
 		/**
 		* event.outcome
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23833,7 +23734,7 @@ export interface EcsTree {
 
 		/**
 		* event.provider
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -23844,7 +23745,7 @@ export interface EcsTree {
 
 		/**
 		* event.reason
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -23855,7 +23756,7 @@ export interface EcsTree {
 
 		/**
 		* event.reference
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -23866,7 +23767,7 @@ export interface EcsTree {
 
 		/**
 		* event.risk_score
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23877,7 +23778,7 @@ export interface EcsTree {
 
 		/**
 		* event.risk_score_norm
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -23888,7 +23789,7 @@ export interface EcsTree {
 
 		/**
 		* event.sequence
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -23899,7 +23800,7 @@ export interface EcsTree {
 
 		/**
 		* event.severity
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23910,7 +23811,7 @@ export interface EcsTree {
 
 		/**
 		* event.start
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -23921,7 +23822,7 @@ export interface EcsTree {
 
 		/**
 		* event.timezone
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -23932,7 +23833,7 @@ export interface EcsTree {
 
 		/**
 		* event.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: core
@@ -23943,7 +23844,7 @@ export interface EcsTree {
 
 		/**
 		* event.url
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-event.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-event.html
 		* Field Set: event
 		* Is Indexed: true
 		* Level: extended
@@ -23956,7 +23857,7 @@ export interface EcsTree {
 	file: {
 		/**
 		* file.accessed
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -23967,7 +23868,7 @@ export interface EcsTree {
 
 		/**
 		* file.attributes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -23979,7 +23880,7 @@ export interface EcsTree {
 		code_signature: {
 			/**
 			* file.code_signature.exists
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: core
@@ -23990,7 +23891,7 @@ export interface EcsTree {
 
 			/**
 			* file.code_signature.status
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24001,7 +23902,7 @@ export interface EcsTree {
 
 			/**
 			* file.code_signature.subject_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: core
@@ -24012,7 +23913,7 @@ export interface EcsTree {
 
 			/**
 			* file.code_signature.trusted
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24023,7 +23924,7 @@ export interface EcsTree {
 
 			/**
 			* file.code_signature.valid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24035,7 +23936,7 @@ export interface EcsTree {
 		}
 		/**
 		* file.created
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24046,7 +23947,7 @@ export interface EcsTree {
 
 		/**
 		* file.ctime
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24057,7 +23958,7 @@ export interface EcsTree {
 
 		/**
 		* file.device
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24068,7 +23969,7 @@ export interface EcsTree {
 
 		/**
 		* file.directory
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24079,7 +23980,7 @@ export interface EcsTree {
 
 		/**
 		* file.drive_letter
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24090,7 +23991,7 @@ export interface EcsTree {
 
 		/**
 		* file.extension
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24101,7 +24002,7 @@ export interface EcsTree {
 
 		/**
 		* file.gid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24112,7 +24013,7 @@ export interface EcsTree {
 
 		/**
 		* file.group
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24124,7 +24025,7 @@ export interface EcsTree {
 		hash: {
 			/**
 			* file.hash.md5
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24135,7 +24036,7 @@ export interface EcsTree {
 
 			/**
 			* file.hash.sha1
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24146,7 +24047,7 @@ export interface EcsTree {
 
 			/**
 			* file.hash.sha256
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24157,7 +24058,7 @@ export interface EcsTree {
 
 			/**
 			* file.hash.sha512
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24169,7 +24070,7 @@ export interface EcsTree {
 		}
 		/**
 		* file.inode
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24180,7 +24081,7 @@ export interface EcsTree {
 
 		/**
 		* file.mime_type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24191,7 +24092,7 @@ export interface EcsTree {
 
 		/**
 		* file.mode
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24202,7 +24103,7 @@ export interface EcsTree {
 
 		/**
 		* file.mtime
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24213,7 +24114,7 @@ export interface EcsTree {
 
 		/**
 		* file.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24224,7 +24125,7 @@ export interface EcsTree {
 
 		/**
 		* file.owner
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24235,7 +24136,7 @@ export interface EcsTree {
 
 		/**
 		* file.path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24247,7 +24148,7 @@ export interface EcsTree {
 		pe: {
 			/**
 			* file.pe.architecture
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24258,7 +24159,7 @@ export interface EcsTree {
 
 			/**
 			* file.pe.company
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24269,7 +24170,7 @@ export interface EcsTree {
 
 			/**
 			* file.pe.description
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24280,7 +24181,7 @@ export interface EcsTree {
 
 			/**
 			* file.pe.file_version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24291,7 +24192,7 @@ export interface EcsTree {
 
 			/**
 			* file.pe.imphash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24302,7 +24203,7 @@ export interface EcsTree {
 
 			/**
 			* file.pe.original_file_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24313,7 +24214,7 @@ export interface EcsTree {
 
 			/**
 			* file.pe.product
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24325,7 +24226,7 @@ export interface EcsTree {
 		}
 		/**
 		* file.size
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24336,7 +24237,7 @@ export interface EcsTree {
 
 		/**
 		* file.target_path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24347,7 +24248,7 @@ export interface EcsTree {
 
 		/**
 		* file.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24358,7 +24259,7 @@ export interface EcsTree {
 
 		/**
 		* file.uid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 		* Field Set: file
 		* Is Indexed: true
 		* Level: extended
@@ -24370,7 +24271,7 @@ export interface EcsTree {
 		x509: {
 			/**
 			* file.x509.alternative_names
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24382,7 +24283,7 @@ export interface EcsTree {
 			issuer: {
 				/**
 				* file.x509.issuer.common_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24393,7 +24294,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.issuer.country
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24404,7 +24305,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.issuer.distinguished_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24415,7 +24316,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.issuer.locality
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24426,7 +24327,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.issuer.organization
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24437,7 +24338,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.issuer.organizational_unit
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24448,7 +24349,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.issuer.state_or_province
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24460,7 +24361,7 @@ export interface EcsTree {
 			}
 			/**
 			* file.x509.not_after
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24471,7 +24372,7 @@ export interface EcsTree {
 
 			/**
 			* file.x509.not_before
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24482,7 +24383,7 @@ export interface EcsTree {
 
 			/**
 			* file.x509.public_key_algorithm
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24493,7 +24394,7 @@ export interface EcsTree {
 
 			/**
 			* file.x509.public_key_curve
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24504,7 +24405,7 @@ export interface EcsTree {
 
 			/**
 			* file.x509.public_key_exponent
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: false
 			* Level: extended
@@ -24515,7 +24416,7 @@ export interface EcsTree {
 
 			/**
 			* file.x509.public_key_size
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24526,7 +24427,7 @@ export interface EcsTree {
 
 			/**
 			* file.x509.serial_number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24537,7 +24438,7 @@ export interface EcsTree {
 
 			/**
 			* file.x509.signature_algorithm
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24549,7 +24450,7 @@ export interface EcsTree {
 			subject: {
 				/**
 				* file.x509.subject.common_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24560,7 +24461,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.subject.country
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24571,7 +24472,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.subject.distinguished_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24582,7 +24483,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.subject.locality
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24593,7 +24494,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.subject.organization
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24604,7 +24505,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.subject.organizational_unit
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24615,7 +24516,7 @@ export interface EcsTree {
 
 				/**
 				* file.x509.subject.state_or_province
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 				* Field Set: file
 				* Is Indexed: true
 				* Level: extended
@@ -24627,7 +24528,7 @@ export interface EcsTree {
 			}
 			/**
 			* file.x509.version_number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-file.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-file.html
 			* Field Set: file
 			* Is Indexed: true
 			* Level: extended
@@ -24641,7 +24542,7 @@ export interface EcsTree {
 	group: {
 		/**
 		* group.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 		* Field Set: group
 		* Is Indexed: true
 		* Level: extended
@@ -24652,7 +24553,7 @@ export interface EcsTree {
 
 		/**
 		* group.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 		* Field Set: group
 		* Is Indexed: true
 		* Level: extended
@@ -24663,7 +24564,7 @@ export interface EcsTree {
 
 		/**
 		* group.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-group.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-group.html
 		* Field Set: group
 		* Is Indexed: true
 		* Level: extended
@@ -24676,7 +24577,7 @@ export interface EcsTree {
 	host: {
 		/**
 		* host.architecture
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -24687,7 +24588,7 @@ export interface EcsTree {
 
 		/**
 		* host.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: extended
@@ -24699,7 +24600,7 @@ export interface EcsTree {
 		geo: {
 			/**
 			* host.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -24710,7 +24611,7 @@ export interface EcsTree {
 
 			/**
 			* host.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -24721,7 +24622,7 @@ export interface EcsTree {
 
 			/**
 			* host.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -24732,7 +24633,7 @@ export interface EcsTree {
 
 			/**
 			* host.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -24743,7 +24644,7 @@ export interface EcsTree {
 
 			/**
 			* host.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -24754,7 +24655,7 @@ export interface EcsTree {
 
 			/**
 			* host.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -24765,7 +24666,7 @@ export interface EcsTree {
 
 			/**
 			* host.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -24776,7 +24677,7 @@ export interface EcsTree {
 
 			/**
 			* host.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -24788,7 +24689,7 @@ export interface EcsTree {
 		}
 		/**
 		* host.hostname
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -24799,7 +24700,7 @@ export interface EcsTree {
 
 		/**
 		* host.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -24810,7 +24711,7 @@ export interface EcsTree {
 
 		/**
 		* host.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -24821,7 +24722,7 @@ export interface EcsTree {
 
 		/**
 		* host.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -24832,7 +24733,7 @@ export interface EcsTree {
 
 		/**
 		* host.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -24844,7 +24745,7 @@ export interface EcsTree {
 		os: {
 			/**
 			* host.os.family
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -24855,7 +24756,7 @@ export interface EcsTree {
 
 			/**
 			* host.os.full
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -24866,7 +24767,7 @@ export interface EcsTree {
 
 			/**
 			* host.os.kernel
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -24877,7 +24778,7 @@ export interface EcsTree {
 
 			/**
 			* host.os.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -24888,7 +24789,7 @@ export interface EcsTree {
 
 			/**
 			* host.os.platform
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -24898,19 +24799,8 @@ export interface EcsTree {
 			"platform": string,
 
 			/**
-			* host.os.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
-			* Field Set: host
-			* Is Indexed: true
-			* Level: extended
-			* Elasticsearch type: keyword
-			* Example: macos
-			*/
-			"type": string,
-
-			/**
 			* host.os.version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -24922,7 +24812,7 @@ export interface EcsTree {
 		}
 		/**
 		* host.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: core
@@ -24933,7 +24823,7 @@ export interface EcsTree {
 
 		/**
 		* host.uptime
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 		* Field Set: host
 		* Is Indexed: true
 		* Level: extended
@@ -24945,7 +24835,7 @@ export interface EcsTree {
 		user: {
 			/**
 			* host.user.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -24956,7 +24846,7 @@ export interface EcsTree {
 
 			/**
 			* host.user.email
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -24967,7 +24857,7 @@ export interface EcsTree {
 
 			/**
 			* host.user.full_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -24979,7 +24869,7 @@ export interface EcsTree {
 			group: {
 				/**
 				* host.user.group.domain
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 				* Field Set: host
 				* Is Indexed: true
 				* Level: extended
@@ -24990,7 +24880,7 @@ export interface EcsTree {
 
 				/**
 				* host.user.group.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 				* Field Set: host
 				* Is Indexed: true
 				* Level: extended
@@ -25001,7 +24891,7 @@ export interface EcsTree {
 
 				/**
 				* host.user.group.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 				* Field Set: host
 				* Is Indexed: true
 				* Level: extended
@@ -25013,7 +24903,7 @@ export interface EcsTree {
 			}
 			/**
 			* host.user.hash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -25024,7 +24914,7 @@ export interface EcsTree {
 
 			/**
 			* host.user.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -25035,7 +24925,7 @@ export interface EcsTree {
 
 			/**
 			* host.user.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: core
@@ -25046,7 +24936,7 @@ export interface EcsTree {
 
 			/**
 			* host.user.roles
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-host.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-host.html
 			* Field Set: host
 			* Is Indexed: true
 			* Level: extended
@@ -25062,7 +24952,7 @@ export interface EcsTree {
 			body: {
 				/**
 				* http.request.body.bytes
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 				* Field Set: http
 				* Is Indexed: true
 				* Level: extended
@@ -25073,7 +24963,7 @@ export interface EcsTree {
 
 				/**
 				* http.request.body.content
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 				* Field Set: http
 				* Is Indexed: true
 				* Level: extended
@@ -25085,7 +24975,7 @@ export interface EcsTree {
 			}
 			/**
 			* http.request.bytes
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -25096,7 +24986,7 @@ export interface EcsTree {
 
 			/**
 			* http.request.method
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -25107,7 +24997,7 @@ export interface EcsTree {
 
 			/**
 			* http.request.mime_type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -25118,7 +25008,7 @@ export interface EcsTree {
 
 			/**
 			* http.request.referrer
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -25132,7 +25022,7 @@ export interface EcsTree {
 			body: {
 				/**
 				* http.response.body.bytes
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 				* Field Set: http
 				* Is Indexed: true
 				* Level: extended
@@ -25143,7 +25033,7 @@ export interface EcsTree {
 
 				/**
 				* http.response.body.content
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 				* Field Set: http
 				* Is Indexed: true
 				* Level: extended
@@ -25155,7 +25045,7 @@ export interface EcsTree {
 			}
 			/**
 			* http.response.bytes
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -25166,7 +25056,7 @@ export interface EcsTree {
 
 			/**
 			* http.response.mime_type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -25177,7 +25067,7 @@ export interface EcsTree {
 
 			/**
 			* http.response.status_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 			* Field Set: http
 			* Is Indexed: true
 			* Level: extended
@@ -25189,7 +25079,7 @@ export interface EcsTree {
 		}
 		/**
 		* http.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-http.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-http.html
 		* Field Set: http
 		* Is Indexed: true
 		* Level: extended
@@ -25201,7 +25091,7 @@ export interface EcsTree {
 	}
 	/**
 	* labels
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -25214,7 +25104,7 @@ export interface EcsTree {
 		file: {
 			/**
 			* log.file.path
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 			* Field Set: log
 			* Is Indexed: true
 			* Level: extended
@@ -25226,7 +25116,7 @@ export interface EcsTree {
 		}
 		/**
 		* log.level
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 		* Field Set: log
 		* Is Indexed: true
 		* Level: core
@@ -25237,7 +25127,7 @@ export interface EcsTree {
 
 		/**
 		* log.logger
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 		* Field Set: log
 		* Is Indexed: true
 		* Level: core
@@ -25250,7 +25140,7 @@ export interface EcsTree {
 			file: {
 				/**
 				* log.origin.file.line
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 				* Field Set: log
 				* Is Indexed: true
 				* Level: extended
@@ -25261,7 +25151,7 @@ export interface EcsTree {
 
 				/**
 				* log.origin.file.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 				* Field Set: log
 				* Is Indexed: true
 				* Level: extended
@@ -25273,7 +25163,7 @@ export interface EcsTree {
 			}
 			/**
 			* log.origin.function
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 			* Field Set: log
 			* Is Indexed: true
 			* Level: extended
@@ -25285,7 +25175,7 @@ export interface EcsTree {
 		}
 		/**
 		* log.original
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 		* Field Set: log
 		* Is Indexed: false
 		* Level: core
@@ -25296,7 +25186,7 @@ export interface EcsTree {
 
 		/**
 		* log.syslog
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-log.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-log.html
 		* Field Set: log
 		* Is Indexed: true
 		* Level: extended
@@ -25308,7 +25198,7 @@ export interface EcsTree {
 	}
 	/**
 	* message
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -25320,7 +25210,7 @@ export interface EcsTree {
 	network: {
 		/**
 		* network.application
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: extended
@@ -25331,7 +25221,7 @@ export interface EcsTree {
 
 		/**
 		* network.bytes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -25342,7 +25232,7 @@ export interface EcsTree {
 
 		/**
 		* network.community_id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: extended
@@ -25353,7 +25243,7 @@ export interface EcsTree {
 
 		/**
 		* network.direction
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -25364,7 +25254,7 @@ export interface EcsTree {
 
 		/**
 		* network.forwarded_ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -25375,7 +25265,7 @@ export interface EcsTree {
 
 		/**
 		* network.iana_number
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: extended
@@ -25386,7 +25276,7 @@ export interface EcsTree {
 
 		/**
 		* network.inner
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: extended
@@ -25397,7 +25287,7 @@ export interface EcsTree {
 
 		/**
 		* network.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: extended
@@ -25408,7 +25298,7 @@ export interface EcsTree {
 
 		/**
 		* network.packets
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -25419,7 +25309,7 @@ export interface EcsTree {
 
 		/**
 		* network.protocol
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -25430,7 +25320,7 @@ export interface EcsTree {
 
 		/**
 		* network.transport
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -25441,7 +25331,7 @@ export interface EcsTree {
 
 		/**
 		* network.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 		* Field Set: network
 		* Is Indexed: true
 		* Level: core
@@ -25453,7 +25343,7 @@ export interface EcsTree {
 		vlan: {
 			/**
 			* network.vlan.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 			* Field Set: network
 			* Is Indexed: true
 			* Level: extended
@@ -25464,7 +25354,7 @@ export interface EcsTree {
 
 			/**
 			* network.vlan.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-network.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-network.html
 			* Field Set: network
 			* Is Indexed: true
 			* Level: extended
@@ -25478,7 +25368,7 @@ export interface EcsTree {
 	observer: {
 		/**
 		* observer.egress
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: extended
@@ -25490,7 +25380,7 @@ export interface EcsTree {
 		geo: {
 			/**
 			* observer.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -25501,7 +25391,7 @@ export interface EcsTree {
 
 			/**
 			* observer.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -25512,7 +25402,7 @@ export interface EcsTree {
 
 			/**
 			* observer.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -25523,7 +25413,7 @@ export interface EcsTree {
 
 			/**
 			* observer.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -25534,7 +25424,7 @@ export interface EcsTree {
 
 			/**
 			* observer.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -25545,7 +25435,7 @@ export interface EcsTree {
 
 			/**
 			* observer.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -25556,7 +25446,7 @@ export interface EcsTree {
 
 			/**
 			* observer.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -25567,7 +25457,7 @@ export interface EcsTree {
 
 			/**
 			* observer.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: core
@@ -25579,7 +25469,7 @@ export interface EcsTree {
 		}
 		/**
 		* observer.hostname
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -25590,7 +25480,7 @@ export interface EcsTree {
 
 		/**
 		* observer.ingress
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: extended
@@ -25601,7 +25491,7 @@ export interface EcsTree {
 
 		/**
 		* observer.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -25612,7 +25502,7 @@ export interface EcsTree {
 
 		/**
 		* observer.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -25623,7 +25513,7 @@ export interface EcsTree {
 
 		/**
 		* observer.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: extended
@@ -25635,7 +25525,7 @@ export interface EcsTree {
 		os: {
 			/**
 			* observer.os.family
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -25646,7 +25536,7 @@ export interface EcsTree {
 
 			/**
 			* observer.os.full
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -25657,7 +25547,7 @@ export interface EcsTree {
 
 			/**
 			* observer.os.kernel
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -25668,7 +25558,7 @@ export interface EcsTree {
 
 			/**
 			* observer.os.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -25679,7 +25569,7 @@ export interface EcsTree {
 
 			/**
 			* observer.os.platform
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -25689,19 +25579,8 @@ export interface EcsTree {
 			"platform": string,
 
 			/**
-			* observer.os.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
-			* Field Set: observer
-			* Is Indexed: true
-			* Level: extended
-			* Elasticsearch type: keyword
-			* Example: macos
-			*/
-			"type": string,
-
-			/**
 			* observer.os.version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 			* Field Set: observer
 			* Is Indexed: true
 			* Level: extended
@@ -25713,7 +25592,7 @@ export interface EcsTree {
 		}
 		/**
 		* observer.product
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: extended
@@ -25724,7 +25603,7 @@ export interface EcsTree {
 
 		/**
 		* observer.serial_number
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: extended
@@ -25735,7 +25614,7 @@ export interface EcsTree {
 
 		/**
 		* observer.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -25746,7 +25625,7 @@ export interface EcsTree {
 
 		/**
 		* observer.vendor
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -25757,7 +25636,7 @@ export interface EcsTree {
 
 		/**
 		* observer.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-observer.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-observer.html
 		* Field Set: observer
 		* Is Indexed: true
 		* Level: core
@@ -25770,7 +25649,7 @@ export interface EcsTree {
 	organization: {
 		/**
 		* organization.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-organization.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-organization.html
 		* Field Set: organization
 		* Is Indexed: true
 		* Level: extended
@@ -25781,7 +25660,7 @@ export interface EcsTree {
 
 		/**
 		* organization.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-organization.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-organization.html
 		* Field Set: organization
 		* Is Indexed: true
 		* Level: extended
@@ -25794,7 +25673,7 @@ export interface EcsTree {
 	package: {
 		/**
 		* package.architecture
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25805,7 +25684,7 @@ export interface EcsTree {
 
 		/**
 		* package.build_version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25816,7 +25695,7 @@ export interface EcsTree {
 
 		/**
 		* package.checksum
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25827,7 +25706,7 @@ export interface EcsTree {
 
 		/**
 		* package.description
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25838,7 +25717,7 @@ export interface EcsTree {
 
 		/**
 		* package.install_scope
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25849,7 +25728,7 @@ export interface EcsTree {
 
 		/**
 		* package.installed
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25860,7 +25739,7 @@ export interface EcsTree {
 
 		/**
 		* package.license
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25871,7 +25750,7 @@ export interface EcsTree {
 
 		/**
 		* package.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25882,7 +25761,7 @@ export interface EcsTree {
 
 		/**
 		* package.path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25893,7 +25772,7 @@ export interface EcsTree {
 
 		/**
 		* package.reference
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25904,7 +25783,7 @@ export interface EcsTree {
 
 		/**
 		* package.size
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25915,7 +25794,7 @@ export interface EcsTree {
 
 		/**
 		* package.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25926,7 +25805,7 @@ export interface EcsTree {
 
 		/**
 		* package.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-package.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-package.html
 		* Field Set: package
 		* Is Indexed: true
 		* Level: extended
@@ -25939,7 +25818,7 @@ export interface EcsTree {
 	process: {
 		/**
 		* process.args
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -25950,7 +25829,7 @@ export interface EcsTree {
 
 		/**
 		* process.args_count
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -25962,7 +25841,7 @@ export interface EcsTree {
 		code_signature: {
 			/**
 			* process.code_signature.exists
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: core
@@ -25973,7 +25852,7 @@ export interface EcsTree {
 
 			/**
 			* process.code_signature.status
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -25984,7 +25863,7 @@ export interface EcsTree {
 
 			/**
 			* process.code_signature.subject_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: core
@@ -25995,7 +25874,7 @@ export interface EcsTree {
 
 			/**
 			* process.code_signature.trusted
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26006,7 +25885,7 @@ export interface EcsTree {
 
 			/**
 			* process.code_signature.valid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26018,7 +25897,7 @@ export interface EcsTree {
 		}
 		/**
 		* process.command_line
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -26029,7 +25908,7 @@ export interface EcsTree {
 
 		/**
 		* process.entity_id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -26040,7 +25919,7 @@ export interface EcsTree {
 
 		/**
 		* process.executable
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -26051,7 +25930,7 @@ export interface EcsTree {
 
 		/**
 		* process.exit_code
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -26063,7 +25942,7 @@ export interface EcsTree {
 		hash: {
 			/**
 			* process.hash.md5
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26074,7 +25953,7 @@ export interface EcsTree {
 
 			/**
 			* process.hash.sha1
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26085,7 +25964,7 @@ export interface EcsTree {
 
 			/**
 			* process.hash.sha256
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26096,7 +25975,7 @@ export interface EcsTree {
 
 			/**
 			* process.hash.sha512
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26108,7 +25987,7 @@ export interface EcsTree {
 		}
 		/**
 		* process.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -26120,7 +25999,7 @@ export interface EcsTree {
 		parent: {
 			/**
 			* process.parent.args
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26131,7 +26010,7 @@ export interface EcsTree {
 
 			/**
 			* process.parent.args_count
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26143,7 +26022,7 @@ export interface EcsTree {
 			code_signature: {
 				/**
 				* process.parent.code_signature.exists
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: core
@@ -26154,7 +26033,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.code_signature.status
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26165,7 +26044,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.code_signature.subject_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: core
@@ -26176,7 +26055,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.code_signature.trusted
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26187,7 +26066,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.code_signature.valid
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26199,7 +26078,7 @@ export interface EcsTree {
 			}
 			/**
 			* process.parent.command_line
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26210,7 +26089,7 @@ export interface EcsTree {
 
 			/**
 			* process.parent.entity_id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26221,7 +26100,7 @@ export interface EcsTree {
 
 			/**
 			* process.parent.executable
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26232,7 +26111,7 @@ export interface EcsTree {
 
 			/**
 			* process.parent.exit_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26244,7 +26123,7 @@ export interface EcsTree {
 			hash: {
 				/**
 				* process.parent.hash.md5
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26255,7 +26134,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.hash.sha1
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26266,7 +26145,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.hash.sha256
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26277,7 +26156,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.hash.sha512
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26289,7 +26168,7 @@ export interface EcsTree {
 			}
 			/**
 			* process.parent.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26301,7 +26180,7 @@ export interface EcsTree {
 			pe: {
 				/**
 				* process.parent.pe.architecture
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26312,7 +26191,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.pe.company
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26323,7 +26202,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.pe.description
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26334,7 +26213,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.pe.file_version
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26345,7 +26224,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.pe.imphash
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26356,7 +26235,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.pe.original_file_name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26367,7 +26246,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.pe.product
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26379,7 +26258,7 @@ export interface EcsTree {
 			}
 			/**
 			* process.parent.pgid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26390,7 +26269,7 @@ export interface EcsTree {
 
 			/**
 			* process.parent.pid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: core
@@ -26401,7 +26280,7 @@ export interface EcsTree {
 
 			/**
 			* process.parent.ppid
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26412,7 +26291,7 @@ export interface EcsTree {
 
 			/**
 			* process.parent.start
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26424,7 +26303,7 @@ export interface EcsTree {
 			thread: {
 				/**
 				* process.parent.thread.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26435,7 +26314,7 @@ export interface EcsTree {
 
 				/**
 				* process.parent.thread.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 				* Field Set: process
 				* Is Indexed: true
 				* Level: extended
@@ -26447,7 +26326,7 @@ export interface EcsTree {
 			}
 			/**
 			* process.parent.title
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26458,7 +26337,7 @@ export interface EcsTree {
 
 			/**
 			* process.parent.uptime
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26469,7 +26348,7 @@ export interface EcsTree {
 
 			/**
 			* process.parent.working_directory
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26482,7 +26361,7 @@ export interface EcsTree {
 		pe: {
 			/**
 			* process.pe.architecture
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26493,7 +26372,7 @@ export interface EcsTree {
 
 			/**
 			* process.pe.company
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26504,7 +26383,7 @@ export interface EcsTree {
 
 			/**
 			* process.pe.description
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26515,7 +26394,7 @@ export interface EcsTree {
 
 			/**
 			* process.pe.file_version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26526,7 +26405,7 @@ export interface EcsTree {
 
 			/**
 			* process.pe.imphash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26537,7 +26416,7 @@ export interface EcsTree {
 
 			/**
 			* process.pe.original_file_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26548,7 +26427,7 @@ export interface EcsTree {
 
 			/**
 			* process.pe.product
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26560,7 +26439,7 @@ export interface EcsTree {
 		}
 		/**
 		* process.pgid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -26571,7 +26450,7 @@ export interface EcsTree {
 
 		/**
 		* process.pid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: core
@@ -26582,7 +26461,7 @@ export interface EcsTree {
 
 		/**
 		* process.ppid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -26593,7 +26472,7 @@ export interface EcsTree {
 
 		/**
 		* process.start
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -26605,7 +26484,7 @@ export interface EcsTree {
 		thread: {
 			/**
 			* process.thread.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26616,7 +26495,7 @@ export interface EcsTree {
 
 			/**
 			* process.thread.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 			* Field Set: process
 			* Is Indexed: true
 			* Level: extended
@@ -26628,7 +26507,7 @@ export interface EcsTree {
 		}
 		/**
 		* process.title
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -26639,7 +26518,7 @@ export interface EcsTree {
 
 		/**
 		* process.uptime
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -26650,7 +26529,7 @@ export interface EcsTree {
 
 		/**
 		* process.working_directory
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-process.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-process.html
 		* Field Set: process
 		* Is Indexed: true
 		* Level: extended
@@ -26664,7 +26543,7 @@ export interface EcsTree {
 		data: {
 			/**
 			* registry.data.bytes
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 			* Field Set: registry
 			* Is Indexed: true
 			* Level: extended
@@ -26675,7 +26554,7 @@ export interface EcsTree {
 
 			/**
 			* registry.data.strings
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 			* Field Set: registry
 			* Is Indexed: true
 			* Level: core
@@ -26686,7 +26565,7 @@ export interface EcsTree {
 
 			/**
 			* registry.data.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 			* Field Set: registry
 			* Is Indexed: true
 			* Level: core
@@ -26698,7 +26577,7 @@ export interface EcsTree {
 		}
 		/**
 		* registry.hive
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 		* Field Set: registry
 		* Is Indexed: true
 		* Level: core
@@ -26709,7 +26588,7 @@ export interface EcsTree {
 
 		/**
 		* registry.key
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 		* Field Set: registry
 		* Is Indexed: true
 		* Level: core
@@ -26720,7 +26599,7 @@ export interface EcsTree {
 
 		/**
 		* registry.path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 		* Field Set: registry
 		* Is Indexed: true
 		* Level: core
@@ -26731,7 +26610,7 @@ export interface EcsTree {
 
 		/**
 		* registry.value
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-registry.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-registry.html
 		* Field Set: registry
 		* Is Indexed: true
 		* Level: core
@@ -26744,7 +26623,7 @@ export interface EcsTree {
 	related: {
 		/**
 		* related.hash
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 		* Field Set: related
 		* Is Indexed: true
 		* Level: extended
@@ -26755,7 +26634,7 @@ export interface EcsTree {
 
 		/**
 		* related.hosts
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 		* Field Set: related
 		* Is Indexed: true
 		* Level: extended
@@ -26766,7 +26645,7 @@ export interface EcsTree {
 
 		/**
 		* related.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 		* Field Set: related
 		* Is Indexed: true
 		* Level: extended
@@ -26777,7 +26656,7 @@ export interface EcsTree {
 
 		/**
 		* related.user
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-related.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-related.html
 		* Field Set: related
 		* Is Indexed: true
 		* Level: extended
@@ -26790,7 +26669,7 @@ export interface EcsTree {
 	rule: {
 		/**
 		* rule.author
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -26801,7 +26680,7 @@ export interface EcsTree {
 
 		/**
 		* rule.category
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -26812,7 +26691,7 @@ export interface EcsTree {
 
 		/**
 		* rule.description
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -26823,7 +26702,7 @@ export interface EcsTree {
 
 		/**
 		* rule.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -26834,7 +26713,7 @@ export interface EcsTree {
 
 		/**
 		* rule.license
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -26845,7 +26724,7 @@ export interface EcsTree {
 
 		/**
 		* rule.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -26856,7 +26735,7 @@ export interface EcsTree {
 
 		/**
 		* rule.reference
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -26867,7 +26746,7 @@ export interface EcsTree {
 
 		/**
 		* rule.ruleset
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -26878,7 +26757,7 @@ export interface EcsTree {
 
 		/**
 		* rule.uuid
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -26889,7 +26768,7 @@ export interface EcsTree {
 
 		/**
 		* rule.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-rule.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-rule.html
 		* Field Set: rule
 		* Is Indexed: true
 		* Level: extended
@@ -26902,7 +26781,7 @@ export interface EcsTree {
 	server: {
 		/**
 		* server.address
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: extended
@@ -26914,7 +26793,7 @@ export interface EcsTree {
 		as: {
 			/**
 			* server.as.number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -26926,7 +26805,7 @@ export interface EcsTree {
 			organization: {
 				/**
 				* server.as.organization.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 				* Field Set: server
 				* Is Indexed: true
 				* Level: extended
@@ -26939,7 +26818,7 @@ export interface EcsTree {
 		}
 		/**
 		* server.bytes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -26950,7 +26829,7 @@ export interface EcsTree {
 
 		/**
 		* server.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -26962,7 +26841,7 @@ export interface EcsTree {
 		geo: {
 			/**
 			* server.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -26973,7 +26852,7 @@ export interface EcsTree {
 
 			/**
 			* server.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -26984,7 +26863,7 @@ export interface EcsTree {
 
 			/**
 			* server.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -26995,7 +26874,7 @@ export interface EcsTree {
 
 			/**
 			* server.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -27006,7 +26885,7 @@ export interface EcsTree {
 
 			/**
 			* server.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -27017,7 +26896,7 @@ export interface EcsTree {
 
 			/**
 			* server.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -27028,7 +26907,7 @@ export interface EcsTree {
 
 			/**
 			* server.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -27039,7 +26918,7 @@ export interface EcsTree {
 
 			/**
 			* server.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -27051,7 +26930,7 @@ export interface EcsTree {
 		}
 		/**
 		* server.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -27062,7 +26941,7 @@ export interface EcsTree {
 
 		/**
 		* server.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -27074,7 +26953,7 @@ export interface EcsTree {
 		nat: {
 			/**
 			* server.nat.ip
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -27085,7 +26964,7 @@ export interface EcsTree {
 
 			/**
 			* server.nat.port
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -27097,7 +26976,7 @@ export interface EcsTree {
 		}
 		/**
 		* server.packets
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -27108,7 +26987,7 @@ export interface EcsTree {
 
 		/**
 		* server.port
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: core
@@ -27119,7 +26998,7 @@ export interface EcsTree {
 
 		/**
 		* server.registered_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: extended
@@ -27130,7 +27009,7 @@ export interface EcsTree {
 
 		/**
 		* server.subdomain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: extended
@@ -27141,7 +27020,7 @@ export interface EcsTree {
 
 		/**
 		* server.top_level_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 		* Field Set: server
 		* Is Indexed: true
 		* Level: extended
@@ -27153,7 +27032,7 @@ export interface EcsTree {
 		user: {
 			/**
 			* server.user.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -27164,7 +27043,7 @@ export interface EcsTree {
 
 			/**
 			* server.user.email
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -27175,7 +27054,7 @@ export interface EcsTree {
 
 			/**
 			* server.user.full_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -27187,7 +27066,7 @@ export interface EcsTree {
 			group: {
 				/**
 				* server.user.group.domain
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 				* Field Set: server
 				* Is Indexed: true
 				* Level: extended
@@ -27198,7 +27077,7 @@ export interface EcsTree {
 
 				/**
 				* server.user.group.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 				* Field Set: server
 				* Is Indexed: true
 				* Level: extended
@@ -27209,7 +27088,7 @@ export interface EcsTree {
 
 				/**
 				* server.user.group.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 				* Field Set: server
 				* Is Indexed: true
 				* Level: extended
@@ -27221,7 +27100,7 @@ export interface EcsTree {
 			}
 			/**
 			* server.user.hash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -27232,7 +27111,7 @@ export interface EcsTree {
 
 			/**
 			* server.user.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -27243,7 +27122,7 @@ export interface EcsTree {
 
 			/**
 			* server.user.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: core
@@ -27254,7 +27133,7 @@ export interface EcsTree {
 
 			/**
 			* server.user.roles
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-server.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-server.html
 			* Field Set: server
 			* Is Indexed: true
 			* Level: extended
@@ -27268,7 +27147,7 @@ export interface EcsTree {
 	service: {
 		/**
 		* service.ephemeral_id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: extended
@@ -27279,7 +27158,7 @@ export interface EcsTree {
 
 		/**
 		* service.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: core
@@ -27290,7 +27169,7 @@ export interface EcsTree {
 
 		/**
 		* service.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: core
@@ -27302,7 +27181,7 @@ export interface EcsTree {
 		node: {
 			/**
 			* service.node.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 			* Field Set: service
 			* Is Indexed: true
 			* Level: extended
@@ -27314,7 +27193,7 @@ export interface EcsTree {
 		}
 		/**
 		* service.state
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: core
@@ -27325,7 +27204,7 @@ export interface EcsTree {
 
 		/**
 		* service.type
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: core
@@ -27336,7 +27215,7 @@ export interface EcsTree {
 
 		/**
 		* service.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-service.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-service.html
 		* Field Set: service
 		* Is Indexed: true
 		* Level: core
@@ -27349,7 +27228,7 @@ export interface EcsTree {
 	source: {
 		/**
 		* source.address
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: extended
@@ -27361,7 +27240,7 @@ export interface EcsTree {
 		as: {
 			/**
 			* source.as.number
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -27373,7 +27252,7 @@ export interface EcsTree {
 			organization: {
 				/**
 				* source.as.organization.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 				* Field Set: source
 				* Is Indexed: true
 				* Level: extended
@@ -27386,7 +27265,7 @@ export interface EcsTree {
 		}
 		/**
 		* source.bytes
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -27397,7 +27276,7 @@ export interface EcsTree {
 
 		/**
 		* source.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -27409,7 +27288,7 @@ export interface EcsTree {
 		geo: {
 			/**
 			* source.geo.city_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -27420,7 +27299,7 @@ export interface EcsTree {
 
 			/**
 			* source.geo.continent_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -27431,7 +27310,7 @@ export interface EcsTree {
 
 			/**
 			* source.geo.country_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -27442,7 +27321,7 @@ export interface EcsTree {
 
 			/**
 			* source.geo.country_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -27453,7 +27332,7 @@ export interface EcsTree {
 
 			/**
 			* source.geo.location
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -27464,7 +27343,7 @@ export interface EcsTree {
 
 			/**
 			* source.geo.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -27475,7 +27354,7 @@ export interface EcsTree {
 
 			/**
 			* source.geo.region_iso_code
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -27486,7 +27365,7 @@ export interface EcsTree {
 
 			/**
 			* source.geo.region_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -27498,7 +27377,7 @@ export interface EcsTree {
 		}
 		/**
 		* source.ip
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -27509,7 +27388,7 @@ export interface EcsTree {
 
 		/**
 		* source.mac
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -27521,7 +27400,7 @@ export interface EcsTree {
 		nat: {
 			/**
 			* source.nat.ip
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -27532,7 +27411,7 @@ export interface EcsTree {
 
 			/**
 			* source.nat.port
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -27544,7 +27423,7 @@ export interface EcsTree {
 		}
 		/**
 		* source.packets
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -27555,7 +27434,7 @@ export interface EcsTree {
 
 		/**
 		* source.port
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: core
@@ -27566,7 +27445,7 @@ export interface EcsTree {
 
 		/**
 		* source.registered_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: extended
@@ -27577,7 +27456,7 @@ export interface EcsTree {
 
 		/**
 		* source.subdomain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: extended
@@ -27588,7 +27467,7 @@ export interface EcsTree {
 
 		/**
 		* source.top_level_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 		* Field Set: source
 		* Is Indexed: true
 		* Level: extended
@@ -27600,7 +27479,7 @@ export interface EcsTree {
 		user: {
 			/**
 			* source.user.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -27611,7 +27490,7 @@ export interface EcsTree {
 
 			/**
 			* source.user.email
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -27622,7 +27501,7 @@ export interface EcsTree {
 
 			/**
 			* source.user.full_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -27634,7 +27513,7 @@ export interface EcsTree {
 			group: {
 				/**
 				* source.user.group.domain
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 				* Field Set: source
 				* Is Indexed: true
 				* Level: extended
@@ -27645,7 +27524,7 @@ export interface EcsTree {
 
 				/**
 				* source.user.group.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 				* Field Set: source
 				* Is Indexed: true
 				* Level: extended
@@ -27656,7 +27535,7 @@ export interface EcsTree {
 
 				/**
 				* source.user.group.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 				* Field Set: source
 				* Is Indexed: true
 				* Level: extended
@@ -27668,7 +27547,7 @@ export interface EcsTree {
 			}
 			/**
 			* source.user.hash
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -27679,7 +27558,7 @@ export interface EcsTree {
 
 			/**
 			* source.user.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -27690,7 +27569,7 @@ export interface EcsTree {
 
 			/**
 			* source.user.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: core
@@ -27701,7 +27580,7 @@ export interface EcsTree {
 
 			/**
 			* source.user.roles
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-source.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-source.html
 			* Field Set: source
 			* Is Indexed: true
 			* Level: extended
@@ -27715,7 +27594,7 @@ export interface EcsTree {
 	span: {
 		/**
 		* span.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-span.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-span.html
 		* Field Set: span
 		* Is Indexed: true
 		* Level: extended
@@ -27727,7 +27606,7 @@ export interface EcsTree {
 	}
 	/**
 	* tags
-	* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-base.html
+	* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-base.html
 	* Field Set: base
 	* Is Indexed: true
 	* Level: core
@@ -27739,7 +27618,7 @@ export interface EcsTree {
 	threat: {
 		/**
 		* threat.framework
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 		* Field Set: threat
 		* Is Indexed: true
 		* Level: extended
@@ -27751,7 +27630,7 @@ export interface EcsTree {
 		tactic: {
 			/**
 			* threat.tactic.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -27762,7 +27641,7 @@ export interface EcsTree {
 
 			/**
 			* threat.tactic.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -27773,7 +27652,7 @@ export interface EcsTree {
 
 			/**
 			* threat.tactic.reference
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -27786,7 +27665,7 @@ export interface EcsTree {
 		technique: {
 			/**
 			* threat.technique.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -27797,7 +27676,7 @@ export interface EcsTree {
 
 			/**
 			* threat.technique.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -27808,7 +27687,7 @@ export interface EcsTree {
 
 			/**
 			* threat.technique.reference
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 			* Field Set: threat
 			* Is Indexed: true
 			* Level: extended
@@ -27820,7 +27699,7 @@ export interface EcsTree {
 			subtechnique: {
 				/**
 				* threat.technique.subtechnique.id
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 				* Field Set: threat
 				* Is Indexed: true
 				* Level: extended
@@ -27831,7 +27710,7 @@ export interface EcsTree {
 
 				/**
 				* threat.technique.subtechnique.name
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 				* Field Set: threat
 				* Is Indexed: true
 				* Level: extended
@@ -27842,7 +27721,7 @@ export interface EcsTree {
 
 				/**
 				* threat.technique.subtechnique.reference
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-threat.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-threat.html
 				* Field Set: threat
 				* Is Indexed: true
 				* Level: extended
@@ -27857,7 +27736,7 @@ export interface EcsTree {
 	tls: {
 		/**
 		* tls.cipher
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -27869,7 +27748,7 @@ export interface EcsTree {
 		client: {
 			/**
 			* tls.client.certificate
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -27880,7 +27759,7 @@ export interface EcsTree {
 
 			/**
 			* tls.client.certificate_chain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -27892,7 +27771,7 @@ export interface EcsTree {
 			hash: {
 				/**
 				* tls.client.hash.md5
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -27903,7 +27782,7 @@ export interface EcsTree {
 
 				/**
 				* tls.client.hash.sha1
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -27914,7 +27793,7 @@ export interface EcsTree {
 
 				/**
 				* tls.client.hash.sha256
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -27926,7 +27805,7 @@ export interface EcsTree {
 			}
 			/**
 			* tls.client.issuer
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -27937,7 +27816,7 @@ export interface EcsTree {
 
 			/**
 			* tls.client.ja3
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -27948,7 +27827,7 @@ export interface EcsTree {
 
 			/**
 			* tls.client.not_after
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -27959,7 +27838,7 @@ export interface EcsTree {
 
 			/**
 			* tls.client.not_before
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -27970,7 +27849,7 @@ export interface EcsTree {
 
 			/**
 			* tls.client.server_name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -27981,7 +27860,7 @@ export interface EcsTree {
 
 			/**
 			* tls.client.subject
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -27992,7 +27871,7 @@ export interface EcsTree {
 
 			/**
 			* tls.client.supported_ciphers
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -28004,7 +27883,7 @@ export interface EcsTree {
 			x509: {
 				/**
 				* tls.client.x509.alternative_names
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28016,7 +27895,7 @@ export interface EcsTree {
 				issuer: {
 					/**
 					* tls.client.x509.issuer.common_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28027,7 +27906,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.issuer.country
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28038,7 +27917,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.issuer.distinguished_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28049,7 +27928,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.issuer.locality
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28060,7 +27939,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.issuer.organization
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28071,7 +27950,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.issuer.organizational_unit
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28082,7 +27961,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.issuer.state_or_province
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28094,7 +27973,7 @@ export interface EcsTree {
 				}
 				/**
 				* tls.client.x509.not_after
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28105,7 +27984,7 @@ export interface EcsTree {
 
 				/**
 				* tls.client.x509.not_before
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28116,7 +27995,7 @@ export interface EcsTree {
 
 				/**
 				* tls.client.x509.public_key_algorithm
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28127,7 +28006,7 @@ export interface EcsTree {
 
 				/**
 				* tls.client.x509.public_key_curve
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28138,7 +28017,7 @@ export interface EcsTree {
 
 				/**
 				* tls.client.x509.public_key_exponent
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: false
 				* Level: extended
@@ -28149,7 +28028,7 @@ export interface EcsTree {
 
 				/**
 				* tls.client.x509.public_key_size
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28160,7 +28039,7 @@ export interface EcsTree {
 
 				/**
 				* tls.client.x509.serial_number
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28171,7 +28050,7 @@ export interface EcsTree {
 
 				/**
 				* tls.client.x509.signature_algorithm
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28183,7 +28062,7 @@ export interface EcsTree {
 				subject: {
 					/**
 					* tls.client.x509.subject.common_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28194,7 +28073,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.subject.country
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28205,7 +28084,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.subject.distinguished_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28216,7 +28095,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.subject.locality
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28227,7 +28106,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.subject.organization
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28238,7 +28117,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.subject.organizational_unit
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28249,7 +28128,7 @@ export interface EcsTree {
 
 					/**
 					* tls.client.x509.subject.state_or_province
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28261,7 +28140,7 @@ export interface EcsTree {
 				}
 				/**
 				* tls.client.x509.version_number
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28274,7 +28153,7 @@ export interface EcsTree {
 		}
 		/**
 		* tls.curve
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -28285,7 +28164,7 @@ export interface EcsTree {
 
 		/**
 		* tls.established
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -28296,7 +28175,7 @@ export interface EcsTree {
 
 		/**
 		* tls.next_protocol
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -28307,7 +28186,7 @@ export interface EcsTree {
 
 		/**
 		* tls.resumed
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -28319,7 +28198,7 @@ export interface EcsTree {
 		server: {
 			/**
 			* tls.server.certificate
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -28330,7 +28209,7 @@ export interface EcsTree {
 
 			/**
 			* tls.server.certificate_chain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -28342,7 +28221,7 @@ export interface EcsTree {
 			hash: {
 				/**
 				* tls.server.hash.md5
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28353,7 +28232,7 @@ export interface EcsTree {
 
 				/**
 				* tls.server.hash.sha1
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28364,7 +28243,7 @@ export interface EcsTree {
 
 				/**
 				* tls.server.hash.sha256
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28376,7 +28255,7 @@ export interface EcsTree {
 			}
 			/**
 			* tls.server.issuer
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -28387,7 +28266,7 @@ export interface EcsTree {
 
 			/**
 			* tls.server.ja3s
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -28398,7 +28277,7 @@ export interface EcsTree {
 
 			/**
 			* tls.server.not_after
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -28409,7 +28288,7 @@ export interface EcsTree {
 
 			/**
 			* tls.server.not_before
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -28420,7 +28299,7 @@ export interface EcsTree {
 
 			/**
 			* tls.server.subject
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 			* Field Set: tls
 			* Is Indexed: true
 			* Level: extended
@@ -28432,7 +28311,7 @@ export interface EcsTree {
 			x509: {
 				/**
 				* tls.server.x509.alternative_names
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28444,7 +28323,7 @@ export interface EcsTree {
 				issuer: {
 					/**
 					* tls.server.x509.issuer.common_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28455,7 +28334,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.issuer.country
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28466,7 +28345,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.issuer.distinguished_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28477,7 +28356,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.issuer.locality
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28488,7 +28367,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.issuer.organization
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28499,7 +28378,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.issuer.organizational_unit
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28510,7 +28389,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.issuer.state_or_province
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28522,7 +28401,7 @@ export interface EcsTree {
 				}
 				/**
 				* tls.server.x509.not_after
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28533,7 +28412,7 @@ export interface EcsTree {
 
 				/**
 				* tls.server.x509.not_before
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28544,7 +28423,7 @@ export interface EcsTree {
 
 				/**
 				* tls.server.x509.public_key_algorithm
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28555,7 +28434,7 @@ export interface EcsTree {
 
 				/**
 				* tls.server.x509.public_key_curve
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28566,7 +28445,7 @@ export interface EcsTree {
 
 				/**
 				* tls.server.x509.public_key_exponent
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: false
 				* Level: extended
@@ -28577,7 +28456,7 @@ export interface EcsTree {
 
 				/**
 				* tls.server.x509.public_key_size
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28588,7 +28467,7 @@ export interface EcsTree {
 
 				/**
 				* tls.server.x509.serial_number
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28599,7 +28478,7 @@ export interface EcsTree {
 
 				/**
 				* tls.server.x509.signature_algorithm
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28611,7 +28490,7 @@ export interface EcsTree {
 				subject: {
 					/**
 					* tls.server.x509.subject.common_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28622,7 +28501,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.subject.country
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28633,7 +28512,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.subject.distinguished_name
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28644,7 +28523,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.subject.locality
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28655,7 +28534,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.subject.organization
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28666,7 +28545,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.subject.organizational_unit
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28677,7 +28556,7 @@ export interface EcsTree {
 
 					/**
 					* tls.server.x509.subject.state_or_province
-					* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+					* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 					* Field Set: tls
 					* Is Indexed: true
 					* Level: extended
@@ -28689,7 +28568,7 @@ export interface EcsTree {
 				}
 				/**
 				* tls.server.x509.version_number
-				* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+				* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 				* Field Set: tls
 				* Is Indexed: true
 				* Level: extended
@@ -28702,7 +28581,7 @@ export interface EcsTree {
 		}
 		/**
 		* tls.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -28713,7 +28592,7 @@ export interface EcsTree {
 
 		/**
 		* tls.version_protocol
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-tls.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-tls.html
 		* Field Set: tls
 		* Is Indexed: true
 		* Level: extended
@@ -28726,7 +28605,7 @@ export interface EcsTree {
 	trace: {
 		/**
 		* trace.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-trace.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-trace.html
 		* Field Set: trace
 		* Is Indexed: true
 		* Level: extended
@@ -28739,7 +28618,7 @@ export interface EcsTree {
 	transaction: {
 		/**
 		* transaction.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-transaction.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-transaction.html
 		* Field Set: transaction
 		* Is Indexed: true
 		* Level: extended
@@ -28752,7 +28631,7 @@ export interface EcsTree {
 	url: {
 		/**
 		* url.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28763,7 +28642,7 @@ export interface EcsTree {
 
 		/**
 		* url.extension
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28774,7 +28653,7 @@ export interface EcsTree {
 
 		/**
 		* url.fragment
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28785,7 +28664,7 @@ export interface EcsTree {
 
 		/**
 		* url.full
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28796,7 +28675,7 @@ export interface EcsTree {
 
 		/**
 		* url.original
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28807,7 +28686,7 @@ export interface EcsTree {
 
 		/**
 		* url.password
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28818,7 +28697,7 @@ export interface EcsTree {
 
 		/**
 		* url.path
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28829,7 +28708,7 @@ export interface EcsTree {
 
 		/**
 		* url.port
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28840,7 +28719,7 @@ export interface EcsTree {
 
 		/**
 		* url.query
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28851,7 +28730,7 @@ export interface EcsTree {
 
 		/**
 		* url.registered_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28862,7 +28741,7 @@ export interface EcsTree {
 
 		/**
 		* url.scheme
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28873,7 +28752,7 @@ export interface EcsTree {
 
 		/**
 		* url.subdomain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28884,7 +28763,7 @@ export interface EcsTree {
 
 		/**
 		* url.top_level_domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28895,7 +28774,7 @@ export interface EcsTree {
 
 		/**
 		* url.username
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-url.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-url.html
 		* Field Set: url
 		* Is Indexed: true
 		* Level: extended
@@ -28908,7 +28787,7 @@ export interface EcsTree {
 	user: {
 		/**
 		* user.domain
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: extended
@@ -28919,7 +28798,7 @@ export interface EcsTree {
 
 		/**
 		* user.email
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: extended
@@ -28930,7 +28809,7 @@ export interface EcsTree {
 
 		/**
 		* user.full_name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: extended
@@ -28942,7 +28821,7 @@ export interface EcsTree {
 		group: {
 			/**
 			* user.group.domain
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 			* Field Set: user
 			* Is Indexed: true
 			* Level: extended
@@ -28953,7 +28832,7 @@ export interface EcsTree {
 
 			/**
 			* user.group.id
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 			* Field Set: user
 			* Is Indexed: true
 			* Level: extended
@@ -28964,7 +28843,7 @@ export interface EcsTree {
 
 			/**
 			* user.group.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 			* Field Set: user
 			* Is Indexed: true
 			* Level: extended
@@ -28976,7 +28855,7 @@ export interface EcsTree {
 		}
 		/**
 		* user.hash
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: extended
@@ -28987,7 +28866,7 @@ export interface EcsTree {
 
 		/**
 		* user.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: core
@@ -28998,7 +28877,7 @@ export interface EcsTree {
 
 		/**
 		* user.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: core
@@ -29009,7 +28888,7 @@ export interface EcsTree {
 
 		/**
 		* user.roles
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user.html
 		* Field Set: user
 		* Is Indexed: true
 		* Level: extended
@@ -29023,7 +28902,7 @@ export interface EcsTree {
 		device: {
 			/**
 			* user_agent.device.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -29035,7 +28914,7 @@ export interface EcsTree {
 		}
 		/**
 		* user_agent.name
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 		* Field Set: user_agent
 		* Is Indexed: true
 		* Level: extended
@@ -29046,7 +28925,7 @@ export interface EcsTree {
 
 		/**
 		* user_agent.original
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 		* Field Set: user_agent
 		* Is Indexed: true
 		* Level: extended
@@ -29058,7 +28937,7 @@ export interface EcsTree {
 		os: {
 			/**
 			* user_agent.os.family
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -29069,7 +28948,7 @@ export interface EcsTree {
 
 			/**
 			* user_agent.os.full
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -29080,7 +28959,7 @@ export interface EcsTree {
 
 			/**
 			* user_agent.os.kernel
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -29091,7 +28970,7 @@ export interface EcsTree {
 
 			/**
 			* user_agent.os.name
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -29102,7 +28981,7 @@ export interface EcsTree {
 
 			/**
 			* user_agent.os.platform
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -29112,19 +28991,8 @@ export interface EcsTree {
 			"platform": string,
 
 			/**
-			* user_agent.os.type
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
-			* Field Set: user_agent
-			* Is Indexed: true
-			* Level: extended
-			* Elasticsearch type: keyword
-			* Example: macos
-			*/
-			"type": string,
-
-			/**
 			* user_agent.os.version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 			* Field Set: user_agent
 			* Is Indexed: true
 			* Level: extended
@@ -29136,7 +29004,7 @@ export interface EcsTree {
 		}
 		/**
 		* user_agent.version
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-user_agent.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-user_agent.html
 		* Field Set: user_agent
 		* Is Indexed: true
 		* Level: extended
@@ -29149,7 +29017,7 @@ export interface EcsTree {
 	vulnerability: {
 		/**
 		* vulnerability.category
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -29160,7 +29028,7 @@ export interface EcsTree {
 
 		/**
 		* vulnerability.classification
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -29171,7 +29039,7 @@ export interface EcsTree {
 
 		/**
 		* vulnerability.description
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -29182,7 +29050,7 @@ export interface EcsTree {
 
 		/**
 		* vulnerability.enumeration
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -29193,7 +29061,7 @@ export interface EcsTree {
 
 		/**
 		* vulnerability.id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -29204,7 +29072,7 @@ export interface EcsTree {
 
 		/**
 		* vulnerability.reference
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -29215,7 +29083,7 @@ export interface EcsTree {
 
 		/**
 		* vulnerability.report_id
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
@@ -29227,7 +29095,7 @@ export interface EcsTree {
 		scanner: {
 			/**
 			* vulnerability.scanner.vendor
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 			* Field Set: vulnerability
 			* Is Indexed: true
 			* Level: extended
@@ -29240,7 +29108,7 @@ export interface EcsTree {
 		score: {
 			/**
 			* vulnerability.score.base
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 			* Field Set: vulnerability
 			* Is Indexed: true
 			* Level: extended
@@ -29251,7 +29119,7 @@ export interface EcsTree {
 
 			/**
 			* vulnerability.score.environmental
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 			* Field Set: vulnerability
 			* Is Indexed: true
 			* Level: extended
@@ -29262,7 +29130,7 @@ export interface EcsTree {
 
 			/**
 			* vulnerability.score.temporal
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 			* Field Set: vulnerability
 			* Is Indexed: true
 			* Level: extended
@@ -29273,7 +29141,7 @@ export interface EcsTree {
 
 			/**
 			* vulnerability.score.version
-			* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+			* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 			* Field Set: vulnerability
 			* Is Indexed: true
 			* Level: extended
@@ -29285,7 +29153,7 @@ export interface EcsTree {
 		}
 		/**
 		* vulnerability.severity
-		* Docs: https://www.elastic.co/guide/en/ecs/2.0/ecs-vulnerability.html
+		* Docs: https://www.elastic.co/guide/en/ecs/1.7/ecs-vulnerability.html
 		* Field Set: vulnerability
 		* Is Indexed: true
 		* Level: extended
