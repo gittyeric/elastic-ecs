@@ -41,7 +41,7 @@ type AssertValidEvent<
         ) :
         'Required and Optional fields overlap'
 
-// Create a new type-safe event that's constrained by SCHEMA
+// Minimally define a new type-safe event that's constrained by SCHEMA
 export type NewEventType<
     SCHEMA extends Schema<any, any>,
     REQUIRED_FIELDS extends keyof (SCHEMA['ecsFields'] & SCHEMA['customFields']),
@@ -51,3 +51,7 @@ export type NewEventType<
     AssertValidEvent<SCHEMA, REQUIRED_FIELDS, OPTIONAL_FIELDS> extends true ? 
         EventType<SCHEMA, REQUIRED_FIELDS, OPTIONAL_FIELDS, NARROWED_EVENT_SCHEMA> :
         AssertValidEvent<SCHEMA, REQUIRED_FIELDS, OPTIONAL_FIELDS>
+
+// Define an event type just like NewEventType but more verbosely by including the field types
+export type NewEventSchema<SCHEMA extends Schema<any, any>, EVENT_SCHEMA extends Partial<SCHEMA['ecsFields'] & SCHEMA['customFields']>> = 
+    EventType<SCHEMA, never, never, EVENT_SCHEMA>

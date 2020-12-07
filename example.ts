@@ -1,6 +1,6 @@
 // Define a custom ECS-based schema and define the first 2 event types in it
 
-import { NewEventType, NewSchema, EcsFields } from 'elastic-ecs'
+import { NewEventType, NewSchema, EcsFields, NewEventSchema } from 'elastic-ecs'
 
 // All the custom fields you ever put in events should go here
 interface MyCustomFields {
@@ -15,9 +15,18 @@ type MyEcsFieldNames = keyof EcsFields
 type MySchema = NewSchema<MyCustomFields, MyEcsFieldNames>
 
 // My Event Types
-type MyLogoutEvent = NewEventType<MySchema, 
-    '@timestamp' | 'event.action' | 'customer.id'> // Required Event Fields
 
+// Verbose schema, spell out the field names AND types
+type MyLogoutEvent = NewEventSchema<MySchema, {
+    '@timestamp': Date,
+    'event.action': 'User Logout',
+    'customer.id': string
+    
+    // Optional fields
+    'event.category'?: 'user'[],
+}>
+
+// Shorthand schema, don't need to include fields' types
 type MyLoginEvent = NewEventType<MySchema, 
     '@timestamp' | 'event.action' | 'customer.id', // Required Event Fields
     'event.category' | 'attempts.count',           // Optional Event Fields
