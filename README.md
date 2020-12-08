@@ -19,6 +19,8 @@ Run:
 
 This NPM package's version is pinned to the associated ECS version, so version 1.7.0 of this lib would represent ECS version 1.7.0, for example.
 
+Any patch or minor updates will be reflected with appending -[a-z]* to the ECS semver version.
+
 ## Example Usage
 
 ### Basic Usage: Reference field names/values

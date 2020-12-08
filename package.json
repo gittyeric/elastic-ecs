@@ -1,6 +1,6 @@
 {
   "name": "elastic-ecs",
-  "version": "1.7.0-a",
+  "version": "1.7.0-c",
   "description": "Typescript type defs for ECS Schema",
   "keywords": [
     "Elastic",
@@ -32,13 +32,14 @@
     "tslint-config-prettier": "^1.18.0",
     "ttypescript": "^1.5.12",
     "typescript": "^4.1.2",
-    "typescript-is": "^0.16.3"
+    "yaml": "^1.10.0"
   },
   "scripts": {
     "clean": "rimraf lib ecs && prettier src/*.ts",
     "clone-ecs": "git clone https://github.com/elastic/ecs.git",
-    "build-types": "cd ecs && git checkout 1.7 && cd .. && ts-node --compiler ttypescript build-types.ts",
-    "copy-generated": "mkdir lib && cp src/* lib/",
+    "convert-yaml": "ts-node preprocess.ts",
+    "build-types": "ECS_VERSION=1.7 && cd ecs && git checkout $ECS_VERSION && cd .. && npm run convert-yaml && ts-node build-types.ts $ECS_VERSION",
+    "copy-generated": "rm -rf lib && mkdir lib && cp src/* lib/",
     "build": "npm run clone-ecs && npm run build-types && npm run copy-generated",
     "deploy-dry": "npm run clean && npm run clone-ecs && npm run build && npm run lint && git status",
     "watch": "tsc -w -p tsconfig.release.json",

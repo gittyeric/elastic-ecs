@@ -1,88 +1,100 @@
-import { assertType } from 'typescript-is';
 import { set, merge } from 'lodash';
 import {  writeFileSync } from 'fs'
+import rawSchema from './ecs/generated/beats/fields.ecs.yml.json';
+import rawAll from './ecs/all.json';
 
-type EcsCsvRow = {
-    ECS_Version: string,
-    Indexed: 'true' | 'false',
-    Field_Set: string,
-    Field: string,
-    Type: 'date' | 'object' | 'keyword' | 'text' | 'boolean' | 'long' | 'float' | 'integer' | 'geo_point' | 'ip',
-    Level: 'core' | 'extended',
-    Normalization: '' | 'array',
-    Example: string | number,
+const schema = rawSchema[0]['fields']
+
+interface JsDocRequirements {
+    name: string,
+    level: string,
+    type: string,
+    description: string,
+    example?: number | string,
 }
-type EcsCsv = EcsCsvRow[]
-const csvdata = require('csvdata') as { load: (file: string) => Promise<EcsCsv> };
-
-async function loadEcsCsv(file: string): Promise<EcsCsv> {
-    const csv = await csvdata.load(file);
-    assertType<EcsCsv>(csv);
-    return csv;
+interface FieldSet {
+    name?: string,
 }
-
-function toJsDoc(row: EcsCsvRow): string {
-    const minorVersion = `${row.ECS_Version.split('.')[0]}.${row.ECS_Version.split('.')[1]}`
+function toJsDoc(fieldSet: FieldSet, row: JsDocRequirements, majorMinorVersion: string): string {
     return '' +
         `/**
-* ${row.Field}
-* Docs: https://www.elastic.co/guide/en/ecs/${minorVersion}/ecs-${row.Field_Set}.html
-* Field Set: ${row.Field_Set}
-* Is Indexed: ${row.Indexed}
-* Level: ${row.Level}
-* Elasticsearch type: ${row.Type}
-* Example: ${row.Example}
+* ${!fieldSet.name ? '' : `${fieldSet.name}.`}${row.name}
+* Docs: https://www.elastic.co/guide/en/ecs/${majorMinorVersion}/ecs-${fieldSet.name || 'base'}.html
+* Field Set: ${fieldSet.name || 'base'}
+* Level: ${row.level}
+* Elasticsearch type: ${row.type}
+* Description: ${row.description.replace(/\n/, ' ')}
+* Example: ${row.example || '<None>'}
 */`
 }
 
-function parseType(row: EcsCsvRow): string {
-    const suffix = row.Normalization === 'array' ? '[]' : ''
+interface ParseTypeRequirements {
+    name: string,
+    type: string,
+}
+function parseType(row: ParseTypeRequirements, parent: {name?:string}): string {
     let t: string = ''
-    if (row.Type === 'date') {
+    const fsName = parent.name || 'base'
+    const allMatchFs: any = rawAll.find((fs: any) => fs.name === fsName);
+    const allMatch = allMatchFs.fields.find((f: any) => `${fsName}.${f.name}`.endsWith(row.name))
+    const suffix = allMatch && allMatch.normalize && allMatch.normalize[0] === 'array' ? '[]' : ''
+    if (allMatch && allMatch.allowed_values) {
+        t = '(' + allMatch.allowed_values.map((av: any) => `'${av.name}'`).join(' | ') + ')'
+    }
+    else if (row.type === 'date') {
         t = 'Date'
     }
-    else if (row.Type in { keyword: 1, text: 1, ip: 1 }) {
+    else if (row.type in { keyword: 1, text: 1, ip: 1 }) {
         t = 'string'
     }
-    else if (row.Type === 'long' || row.Type === 'float' || row.Type === 'integer') {
+    else if (row.type === 'long' || row.type === 'float' || row.type === 'integer') {
         t = 'number'
     }
-    else if (row.Type === 'object') {
+    else if (row.type === 'object') {
         t = 'object'
     }
-    else if (row.Type === 'boolean') {
+    else if (row.type === 'boolean') {
         t = 'boolean'
     }
-    else if (row.Type === 'geo_point') {
+    else if (row.type === 'geo_point') {
         t = 'GeoPoint'
     }
     else {
-        throw new Error(`Unknown type ${row.Type}, how to convert to JS primitive?`);
+        throw new Error(`Unknown type ${row.type}, how to convert to JS primitive?`);
     }
     return `${t}${suffix}`;
 }
 
-async function generateEcsTypes(): Promise<void> {
-    const csv = await loadEcsCsv('ecs/generated/csv/fields.csv')
-
+async function generateEcsTypes(majorMinorVersion: string): Promise<void> {
     const coreFields: string[] = [];
     const extendedFields: string[] = [];
     const coreHierarchy = {};
     const extendedHierarchy = {};
-
-    csv.forEach((row) => {
-        const comment = toJsDoc(row)
-        const jsType = parseType(row)
-        const fieldLine = `${tabComment(comment, '\t')}\n\t"${row.Field}": ${jsType},\n\n`
-
-        if (row.Level === 'core') {
-            set(coreHierarchy, row.Field, {__data__: { comment, jsType, name: row.Field }})
-            coreFields.push(fieldLine)
+    
+    const processField = (fieldSet: any, parent: any) => {
+        if (fieldSet.hasOwnProperty('group')) {
+            fieldSet.fields.forEach((field: any) => {
+                processField(field, fieldSet)
+            })
         }
         else {
-            set(extendedHierarchy, row.Field, {__data__: { comment, jsType, name: row.Field }})
-            extendedFields.push(fieldLine)
+                const comment = toJsDoc(parent, fieldSet, majorMinorVersion);
+                const jsType = parseType(fieldSet, parent);
+                const fieldLine = `${tabComment(comment, '\t')}\n\t"${parent.name ? `${parent.name}.` : ''}${fieldSet.name}": ${jsType},\n\n`
+
+                if (fieldSet.level === 'core') {
+                    set(coreHierarchy, fieldSet.name, {__data__: { comment, jsType, name: fieldSet.name }})
+                    coreFields.push(fieldLine)
+                }
+                else {
+                    set(extendedHierarchy, fieldSet.name, {__data__: { comment, jsType, name: fieldSet.name }})
+                    extendedFields.push(fieldLine)
+                }
         }
+    }
+
+    schema.forEach((fieldSet) => {
+        processField(fieldSet, {})
     });
 
     coreFields.sort();
@@ -159,4 +171,5 @@ function tabComment(comment: string, tabs: string): string {
     return comment.replace(/^/g, tabs).replace(/\n/g, `\n${tabs}`)
 }
 
-generateEcsTypes();
+const ECS_VERSION = process.argv[2];
+generateEcsTypes(ECS_VERSION);
