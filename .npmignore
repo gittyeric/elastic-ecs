@@ -1,5 +1,7 @@
 src
 ecs
+preprocess.ts
+example.ts
 scripts
 .vscode
 node_modules
