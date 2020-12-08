@@ -12,7 +12,7 @@ export interface EcsCoreFields {
 	Required field for all events.
 	* Example: 2016-05-23T08:05:34.853Z
 	*/
-	"@timestamp": Date,
+	"@timestamp"?: Date,
 
 	/**
 	* agent.build.original
@@ -23,7 +23,7 @@ export interface EcsCoreFields {
 	* Description: Extended build information for the agent. This field is intended to contain any build information that a data source may provide, no specific formatting is required.
 	* Example: metricbeat version 7.6.0 (amd64), libbeat 7.6.0 [6a23e8f8f30f5001ba344e4e54d8d9cb82cb107c built 2020-02-05 23:10:10 +0000 UTC]
 	*/
-	"agent.build.original": string,
+	"agent.build.original"?: string,
 
 	/**
 	* agent.id
@@ -34,7 +34,7 @@ export interface EcsCoreFields {
 	* Description: Unique identifier of this agent (if one exists). Example: For Beats this would be beat.id.
 	* Example: 8a4f500d
 	*/
-	"agent.id": string,
+	"agent.id"?: string,
 
 	/**
 	* agent.name
@@ -46,7 +46,7 @@ export interface EcsCoreFields {
 	If no name is given, the name is often left empty.
 	* Example: foo
 	*/
-	"agent.name": string,
+	"agent.name"?: string,
 
 	/**
 	* agent.type
@@ -57,7 +57,7 @@ export interface EcsCoreFields {
 	* Description: Type of the agent. The agent type always stays the same and should be given by the agent used. In case of Filebeat the agent would always be Filebeat also if two Filebeat instances are run on the same machine.
 	* Example: filebeat
 	*/
-	"agent.type": string,
+	"agent.type"?: string,
 
 	/**
 	* agent.version
@@ -68,7 +68,7 @@ export interface EcsCoreFields {
 	* Description: Version of the agent.
 	* Example: 6.0.0-rc2
 	*/
-	"agent.version": string,
+	"agent.version"?: string,
 
 	/**
 	* client.bytes
@@ -79,7 +79,7 @@ export interface EcsCoreFields {
 	* Description: Bytes sent from the client to the server.
 	* Example: 184
 	*/
-	"client.bytes": number,
+	"client.bytes"?: number,
 
 	/**
 	* client.domain
@@ -90,7 +90,7 @@ export interface EcsCoreFields {
 	* Description: Client domain.
 	* Example: <None>
 	*/
-	"client.domain": string,
+	"client.domain"?: string,
 
 	/**
 	* client.geo.city_name
@@ -101,7 +101,7 @@ export interface EcsCoreFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"client.geo.city_name": string,
+	"client.geo.city_name"?: string,
 
 	/**
 	* client.geo.continent_name
@@ -112,7 +112,7 @@ export interface EcsCoreFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"client.geo.continent_name": string,
+	"client.geo.continent_name"?: string,
 
 	/**
 	* client.geo.country_iso_code
@@ -123,7 +123,7 @@ export interface EcsCoreFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"client.geo.country_iso_code": string,
+	"client.geo.country_iso_code"?: string,
 
 	/**
 	* client.geo.country_name
@@ -134,7 +134,7 @@ export interface EcsCoreFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"client.geo.country_name": string,
+	"client.geo.country_name"?: string,
 
 	/**
 	* client.geo.location
@@ -145,7 +145,7 @@ export interface EcsCoreFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"client.geo.location": GeoPoint,
+	"client.geo.location"?: GeoPoint,
 
 	/**
 	* client.geo.region_iso_code
@@ -156,7 +156,7 @@ export interface EcsCoreFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"client.geo.region_iso_code": string,
+	"client.geo.region_iso_code"?: string,
 
 	/**
 	* client.geo.region_name
@@ -167,7 +167,7 @@ export interface EcsCoreFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"client.geo.region_name": string,
+	"client.geo.region_name"?: string,
 
 	/**
 	* client.ip
@@ -178,7 +178,7 @@ export interface EcsCoreFields {
 	* Description: IP address of the client (IPv4 or IPv6).
 	* Example: <None>
 	*/
-	"client.ip": string,
+	"client.ip"?: string,
 
 	/**
 	* client.mac
@@ -189,7 +189,7 @@ export interface EcsCoreFields {
 	* Description: MAC address of the client.
 	* Example: <None>
 	*/
-	"client.mac": string,
+	"client.mac"?: string,
 
 	/**
 	* client.packets
@@ -200,7 +200,7 @@ export interface EcsCoreFields {
 	* Description: Packets sent from the client to the server.
 	* Example: 12
 	*/
-	"client.packets": number,
+	"client.packets"?: number,
 
 	/**
 	* client.port
@@ -211,7 +211,7 @@ export interface EcsCoreFields {
 	* Description: Port of the client.
 	* Example: <None>
 	*/
-	"client.port": number,
+	"client.port"?: number,
 
 	/**
 	* client.user.id
@@ -222,7 +222,7 @@ export interface EcsCoreFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"client.user.id": string,
+	"client.user.id"?: string,
 
 	/**
 	* client.user.name
@@ -233,7 +233,7 @@ export interface EcsCoreFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"client.user.name": string,
+	"client.user.name"?: string,
 
 	/**
 	* code_signature.exists
@@ -244,7 +244,7 @@ export interface EcsCoreFields {
 	* Description: Boolean to capture if a signature is present.
 	* Example: true
 	*/
-	"code_signature.exists": boolean,
+	"code_signature.exists"?: boolean,
 
 	/**
 	* code_signature.subject_name
@@ -255,7 +255,7 @@ export interface EcsCoreFields {
 	* Description: Subject name of the code signer
 	* Example: Microsoft Corporation
 	*/
-	"code_signature.subject_name": string,
+	"code_signature.subject_name"?: string,
 
 	/**
 	* container.id
@@ -266,7 +266,7 @@ export interface EcsCoreFields {
 	* Description: Unique container id.
 	* Example: <None>
 	*/
-	"container.id": string,
+	"container.id"?: string,
 
 	/**
 	* destination.bytes
@@ -277,7 +277,7 @@ export interface EcsCoreFields {
 	* Description: Bytes sent from the destination to the source.
 	* Example: 184
 	*/
-	"destination.bytes": number,
+	"destination.bytes"?: number,
 
 	/**
 	* destination.domain
@@ -288,7 +288,7 @@ export interface EcsCoreFields {
 	* Description: Destination domain.
 	* Example: <None>
 	*/
-	"destination.domain": string,
+	"destination.domain"?: string,
 
 	/**
 	* destination.geo.city_name
@@ -299,7 +299,7 @@ export interface EcsCoreFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"destination.geo.city_name": string,
+	"destination.geo.city_name"?: string,
 
 	/**
 	* destination.geo.continent_name
@@ -310,7 +310,7 @@ export interface EcsCoreFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"destination.geo.continent_name": string,
+	"destination.geo.continent_name"?: string,
 
 	/**
 	* destination.geo.country_iso_code
@@ -321,7 +321,7 @@ export interface EcsCoreFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"destination.geo.country_iso_code": string,
+	"destination.geo.country_iso_code"?: string,
 
 	/**
 	* destination.geo.country_name
@@ -332,7 +332,7 @@ export interface EcsCoreFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"destination.geo.country_name": string,
+	"destination.geo.country_name"?: string,
 
 	/**
 	* destination.geo.location
@@ -343,7 +343,7 @@ export interface EcsCoreFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"destination.geo.location": GeoPoint,
+	"destination.geo.location"?: GeoPoint,
 
 	/**
 	* destination.geo.region_iso_code
@@ -354,7 +354,7 @@ export interface EcsCoreFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"destination.geo.region_iso_code": string,
+	"destination.geo.region_iso_code"?: string,
 
 	/**
 	* destination.geo.region_name
@@ -365,7 +365,7 @@ export interface EcsCoreFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"destination.geo.region_name": string,
+	"destination.geo.region_name"?: string,
 
 	/**
 	* destination.ip
@@ -376,7 +376,7 @@ export interface EcsCoreFields {
 	* Description: IP address of the destination (IPv4 or IPv6).
 	* Example: <None>
 	*/
-	"destination.ip": string,
+	"destination.ip"?: string,
 
 	/**
 	* destination.mac
@@ -387,7 +387,7 @@ export interface EcsCoreFields {
 	* Description: MAC address of the destination.
 	* Example: <None>
 	*/
-	"destination.mac": string,
+	"destination.mac"?: string,
 
 	/**
 	* destination.packets
@@ -398,7 +398,7 @@ export interface EcsCoreFields {
 	* Description: Packets sent from the destination to the source.
 	* Example: 12
 	*/
-	"destination.packets": number,
+	"destination.packets"?: number,
 
 	/**
 	* destination.port
@@ -409,7 +409,7 @@ export interface EcsCoreFields {
 	* Description: Port of the destination.
 	* Example: <None>
 	*/
-	"destination.port": number,
+	"destination.port"?: number,
 
 	/**
 	* destination.user.id
@@ -420,7 +420,7 @@ export interface EcsCoreFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"destination.user.id": string,
+	"destination.user.id"?: string,
 
 	/**
 	* destination.user.name
@@ -431,7 +431,7 @@ export interface EcsCoreFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"destination.user.name": string,
+	"destination.user.name"?: string,
 
 	/**
 	* dll.code_signature.exists
@@ -442,7 +442,7 @@ export interface EcsCoreFields {
 	* Description: Boolean to capture if a signature is present.
 	* Example: true
 	*/
-	"dll.code_signature.exists": boolean,
+	"dll.code_signature.exists"?: boolean,
 
 	/**
 	* dll.code_signature.subject_name
@@ -453,7 +453,7 @@ export interface EcsCoreFields {
 	* Description: Subject name of the code signer
 	* Example: Microsoft Corporation
 	*/
-	"dll.code_signature.subject_name": string,
+	"dll.code_signature.subject_name"?: string,
 
 	/**
 	* dll.name
@@ -464,7 +464,7 @@ export interface EcsCoreFields {
 	* Description: Name of the library. This generally maps to the name of the file on disk.
 	* Example: kernel32.dll
 	*/
-	"dll.name": string,
+	"dll.name"?: string,
 
 	/**
 	* ecs.version
@@ -475,7 +475,7 @@ export interface EcsCoreFields {
 	* Description: ECS version this event conforms to. `ecs.version` is a required field and must exist in all events. When querying across multiple indices -- which may conform to slightly different ECS versions -- this field lets integrations adjust to the schema version of the events.
 	* Example: 1.0.0
 	*/
-	"ecs.version": string,
+	"ecs.version"?: string,
 
 	/**
 	* error.code
@@ -486,7 +486,7 @@ export interface EcsCoreFields {
 	* Description: Error code describing the error.
 	* Example: <None>
 	*/
-	"error.code": string,
+	"error.code"?: string,
 
 	/**
 	* error.id
@@ -497,7 +497,7 @@ export interface EcsCoreFields {
 	* Description: Unique identifier for the error.
 	* Example: <None>
 	*/
-	"error.id": string,
+	"error.id"?: string,
 
 	/**
 	* error.message
@@ -508,7 +508,7 @@ export interface EcsCoreFields {
 	* Description: Error message.
 	* Example: <None>
 	*/
-	"error.message": string,
+	"error.message"?: string,
 
 	/**
 	* event.action
@@ -519,7 +519,7 @@ export interface EcsCoreFields {
 	* Description: The action captured by the event. This describes the information in the event. It is more specific than `event.category`. Examples are `group-add`, `process-started`, `file-created`. The value is normally defined by the implementer.
 	* Example: user-password-change
 	*/
-	"event.action": string,
+	"event.action"?: string,
 
 	/**
 	* event.category
@@ -531,7 +531,7 @@ export interface EcsCoreFields {
 	This field is an array. This will allow proper categorization of some events that fall in multiple categories.
 	* Example: authentication
 	*/
-	"event.category": ('authentication' | 'configuration' | 'database' | 'driver' | 'file' | 'host' | 'iam' | 'intrusion_detection' | 'malware' | 'network' | 'package' | 'process' | 'web')[],
+	"event.category"?: ('authentication' | 'configuration' | 'database' | 'driver' | 'file' | 'host' | 'iam' | 'intrusion_detection' | 'malware' | 'network' | 'package' | 'process' | 'web')[],
 
 	/**
 	* event.created
@@ -544,7 +544,7 @@ export interface EcsCoreFields {
 	In case the two timestamps are identical, @timestamp should be used.
 	* Example: 2016-05-23T08:05:34.857Z
 	*/
-	"event.created": Date,
+	"event.created"?: Date,
 
 	/**
 	* event.dataset
@@ -556,7 +556,7 @@ export interface EcsCoreFields {
 	It's recommended but not required to start the dataset name with the module name, followed by a dot, then the dataset name.
 	* Example: apache.access
 	*/
-	"event.dataset": string,
+	"event.dataset"?: string,
 
 	/**
 	* event.duration
@@ -567,7 +567,7 @@ export interface EcsCoreFields {
 	* Description: Duration of the event in nanoseconds. If event.start and event.end are known this value should be the difference between the end and start time.
 	* Example: <None>
 	*/
-	"event.duration": number,
+	"event.duration"?: number,
 
 	/**
 	* event.id
@@ -578,7 +578,7 @@ export interface EcsCoreFields {
 	* Description: Unique ID to describe the event.
 	* Example: 8a4f500d
 	*/
-	"event.id": string,
+	"event.id"?: string,
 
 	/**
 	* event.ingested
@@ -590,7 +590,7 @@ export interface EcsCoreFields {
 	In normal conditions, assuming no tampering, the timestamps should chronologically look like this: `@timestamp` < `event.created` < `event.ingested`.
 	* Example: 2016-05-23T08:05:35.101Z
 	*/
-	"event.ingested": Date,
+	"event.ingested"?: Date,
 
 	/**
 	* event.kind
@@ -602,7 +602,7 @@ export interface EcsCoreFields {
 	The value of this field can be used to inform how these kinds of events should be handled. They may warrant different retention, different access control, it may also help understand whether the data coming in at a regular interval or not.
 	* Example: alert
 	*/
-	"event.kind": ('alert' | 'event' | 'metric' | 'state' | 'pipeline_error' | 'signal'),
+	"event.kind"?: ('alert' | 'event' | 'metric' | 'state' | 'pipeline_error' | 'signal'),
 
 	/**
 	* event.module
@@ -613,7 +613,7 @@ export interface EcsCoreFields {
 	* Description: Name of the module this data is coming from. If your monitoring agent supports the concept of modules or plugins to process events of a given source (e.g. Apache logs), `event.module` should contain the name of this module.
 	* Example: apache
 	*/
-	"event.module": string,
+	"event.module"?: string,
 
 	/**
 	* event.original
@@ -624,7 +624,7 @@ export interface EcsCoreFields {
 	* Description: Raw text message of entire event. Used to demonstrate log integrity. This field is not indexed and doc_values are disabled. It cannot be searched, but it can be retrieved from `_source`.
 	* Example: Sep 19 08:26:10 host CEF:0&#124;Security&#124; threatmanager&#124;1.0&#124;100&#124; worm successfully stopped&#124;10&#124;src=10.0.0.1 dst=2.1.2.2spt=1232
 	*/
-	"event.original": string,
+	"event.original"?: string,
 
 	/**
 	* event.outcome
@@ -638,7 +638,7 @@ export interface EcsCoreFields {
 	Further note that not all events will have an associated outcome. For example, this field is generally not populated for metric events, events with `event.type:info`, or any events for which an outcome does not make logical sense.
 	* Example: success
 	*/
-	"event.outcome": ('failure' | 'success' | 'unknown'),
+	"event.outcome"?: ('failure' | 'success' | 'unknown'),
 
 	/**
 	* event.risk_score
@@ -649,7 +649,7 @@ export interface EcsCoreFields {
 	* Description: Risk score or priority of the event (e.g. security solutions). Use your system's original value here.
 	* Example: <None>
 	*/
-	"event.risk_score": number,
+	"event.risk_score"?: number,
 
 	/**
 	* event.severity
@@ -661,7 +661,7 @@ export interface EcsCoreFields {
 	The Syslog severity belongs in `log.syslog.severity.code`. `event.severity` is meant to represent the severity according to the event source (e.g. firewall, IDS). If the event source does not publish its own severity, you may optionally copy the `log.syslog.severity.code` to `event.severity`.
 	* Example: 7
 	*/
-	"event.severity": number,
+	"event.severity"?: number,
 
 	/**
 	* event.type
@@ -673,7 +673,7 @@ export interface EcsCoreFields {
 	This field is an array. This will allow proper categorization of some events that fall in multiple event types.
 	* Example: <None>
 	*/
-	"event.type": ('access' | 'admin' | 'allowed' | 'change' | 'connection' | 'creation' | 'deletion' | 'denied' | 'end' | 'error' | 'group' | 'info' | 'installation' | 'protocol' | 'start' | 'user')[],
+	"event.type"?: ('access' | 'admin' | 'allowed' | 'change' | 'connection' | 'creation' | 'deletion' | 'denied' | 'end' | 'error' | 'group' | 'info' | 'installation' | 'protocol' | 'start' | 'user')[],
 
 	/**
 	* file.code_signature.exists
@@ -684,7 +684,7 @@ export interface EcsCoreFields {
 	* Description: Boolean to capture if a signature is present.
 	* Example: true
 	*/
-	"file.code_signature.exists": boolean,
+	"file.code_signature.exists"?: boolean,
 
 	/**
 	* file.code_signature.subject_name
@@ -695,7 +695,7 @@ export interface EcsCoreFields {
 	* Description: Subject name of the code signer
 	* Example: Microsoft Corporation
 	*/
-	"file.code_signature.subject_name": string,
+	"file.code_signature.subject_name"?: string,
 
 	/**
 	* geo.city_name
@@ -706,7 +706,7 @@ export interface EcsCoreFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"geo.city_name": string,
+	"geo.city_name"?: string,
 
 	/**
 	* geo.continent_name
@@ -717,7 +717,7 @@ export interface EcsCoreFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"geo.continent_name": string,
+	"geo.continent_name"?: string,
 
 	/**
 	* geo.country_iso_code
@@ -728,7 +728,7 @@ export interface EcsCoreFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"geo.country_iso_code": string,
+	"geo.country_iso_code"?: string,
 
 	/**
 	* geo.country_name
@@ -739,7 +739,7 @@ export interface EcsCoreFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"geo.country_name": string,
+	"geo.country_name"?: string,
 
 	/**
 	* geo.location
@@ -750,7 +750,7 @@ export interface EcsCoreFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"geo.location": GeoPoint,
+	"geo.location"?: GeoPoint,
 
 	/**
 	* geo.region_iso_code
@@ -761,7 +761,7 @@ export interface EcsCoreFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"geo.region_iso_code": string,
+	"geo.region_iso_code"?: string,
 
 	/**
 	* geo.region_name
@@ -772,7 +772,7 @@ export interface EcsCoreFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"geo.region_name": string,
+	"geo.region_name"?: string,
 
 	/**
 	* host.architecture
@@ -783,7 +783,7 @@ export interface EcsCoreFields {
 	* Description: Operating system architecture.
 	* Example: x86_64
 	*/
-	"host.architecture": string,
+	"host.architecture"?: string,
 
 	/**
 	* host.geo.city_name
@@ -794,7 +794,7 @@ export interface EcsCoreFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"host.geo.city_name": string,
+	"host.geo.city_name"?: string,
 
 	/**
 	* host.geo.continent_name
@@ -805,7 +805,7 @@ export interface EcsCoreFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"host.geo.continent_name": string,
+	"host.geo.continent_name"?: string,
 
 	/**
 	* host.geo.country_iso_code
@@ -816,7 +816,7 @@ export interface EcsCoreFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"host.geo.country_iso_code": string,
+	"host.geo.country_iso_code"?: string,
 
 	/**
 	* host.geo.country_name
@@ -827,7 +827,7 @@ export interface EcsCoreFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"host.geo.country_name": string,
+	"host.geo.country_name"?: string,
 
 	/**
 	* host.geo.location
@@ -838,7 +838,7 @@ export interface EcsCoreFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"host.geo.location": GeoPoint,
+	"host.geo.location"?: GeoPoint,
 
 	/**
 	* host.geo.region_iso_code
@@ -849,7 +849,7 @@ export interface EcsCoreFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"host.geo.region_iso_code": string,
+	"host.geo.region_iso_code"?: string,
 
 	/**
 	* host.geo.region_name
@@ -860,7 +860,7 @@ export interface EcsCoreFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"host.geo.region_name": string,
+	"host.geo.region_name"?: string,
 
 	/**
 	* host.hostname
@@ -871,7 +871,7 @@ export interface EcsCoreFields {
 	* Description: Hostname of the host. It normally contains what the `hostname` command returns on the host machine.
 	* Example: <None>
 	*/
-	"host.hostname": string,
+	"host.hostname"?: string,
 
 	/**
 	* host.id
@@ -883,7 +883,7 @@ export interface EcsCoreFields {
 	Example: The current usage of `beat.name`.
 	* Example: <None>
 	*/
-	"host.id": string,
+	"host.id"?: string,
 
 	/**
 	* host.ip
@@ -894,7 +894,7 @@ export interface EcsCoreFields {
 	* Description: Host ip addresses.
 	* Example: <None>
 	*/
-	"host.ip": string[],
+	"host.ip"?: string[],
 
 	/**
 	* host.mac
@@ -905,7 +905,7 @@ export interface EcsCoreFields {
 	* Description: Host mac addresses.
 	* Example: <None>
 	*/
-	"host.mac": string[],
+	"host.mac"?: string[],
 
 	/**
 	* host.name
@@ -916,7 +916,7 @@ export interface EcsCoreFields {
 	* Description: Name of the host. It can contain what `hostname` returns on Unix systems, the fully qualified domain name, or a name specified by the user. The sender decides which value to use.
 	* Example: <None>
 	*/
-	"host.name": string,
+	"host.name"?: string,
 
 	/**
 	* host.type
@@ -927,7 +927,7 @@ export interface EcsCoreFields {
 	* Description: Type of host. For Cloud providers this can be the machine type like `t2.medium`. If vm, this could be the container, for example, or other information meaningful in your environment.
 	* Example: <None>
 	*/
-	"host.type": string,
+	"host.type"?: string,
 
 	/**
 	* host.user.id
@@ -938,7 +938,7 @@ export interface EcsCoreFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"host.user.id": string,
+	"host.user.id"?: string,
 
 	/**
 	* host.user.name
@@ -949,7 +949,7 @@ export interface EcsCoreFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"host.user.name": string,
+	"host.user.name"?: string,
 
 	/**
 	* labels
@@ -961,7 +961,7 @@ export interface EcsCoreFields {
 	Example: `docker` and `k8s` labels.
 	* Example: {"application": "foo-bar", "env": "production"}
 	*/
-	"labels": object,
+	"labels"?: object,
 
 	/**
 	* log.level
@@ -973,7 +973,7 @@ export interface EcsCoreFields {
 	Some examples are `warn`, `err`, `i`, `informational`.
 	* Example: error
 	*/
-	"log.level": string,
+	"log.level"?: string,
 
 	/**
 	* log.logger
@@ -984,7 +984,7 @@ export interface EcsCoreFields {
 	* Description: The name of the logger inside an application. This is usually the name of the class which initialized the logger, or can be a custom name.
 	* Example: org.elasticsearch.bootstrap.Bootstrap
 	*/
-	"log.logger": string,
+	"log.logger"?: string,
 
 	/**
 	* log.original
@@ -996,7 +996,7 @@ export interface EcsCoreFields {
 	This field is not indexed and doc_values are disabled so it can't be queried but the value can be retrieved from `_source`.
 	* Example: Sep 19 08:26:10 localhost My log
 	*/
-	"log.original": string,
+	"log.original"?: string,
 
 	/**
 	* message
@@ -1008,7 +1008,7 @@ export interface EcsCoreFields {
 	If multiple messages exist, they can be combined into one message.
 	* Example: Hello World
 	*/
-	"message": string,
+	"message"?: string,
 
 	/**
 	* network.bytes
@@ -1019,7 +1019,7 @@ export interface EcsCoreFields {
 	* Description: Total bytes transferred in both directions. If `source.bytes` and `destination.bytes` are known, `network.bytes` is their sum.
 	* Example: 368
 	*/
-	"network.bytes": number,
+	"network.bytes"?: number,
 
 	/**
 	* network.direction
@@ -1041,7 +1041,7 @@ export interface EcsCoreFields {
 	Note that "internal" is not crossing perimeter boundaries, and is meant to describe communication between two hosts within the perimeter. Note also that "external" is meant to describe traffic between two hosts that are external to the perimeter. This could for example be useful for ISPs or VPN service providers.
 	* Example: inbound
 	*/
-	"network.direction": string,
+	"network.direction"?: string,
 
 	/**
 	* network.forwarded_ip
@@ -1052,7 +1052,7 @@ export interface EcsCoreFields {
 	* Description: Host IP address when the source IP address is the proxy.
 	* Example: 192.1.1.2
 	*/
-	"network.forwarded_ip": string,
+	"network.forwarded_ip"?: string,
 
 	/**
 	* network.packets
@@ -1063,7 +1063,7 @@ export interface EcsCoreFields {
 	* Description: Total packets transferred in both directions. If `source.packets` and `destination.packets` are known, `network.packets` is their sum.
 	* Example: 24
 	*/
-	"network.packets": number,
+	"network.packets"?: number,
 
 	/**
 	* network.protocol
@@ -1074,7 +1074,7 @@ export interface EcsCoreFields {
 	* Description: L7 Network protocol name. ex. http, lumberjack, transport protocol. The field value must be normalized to lowercase for querying. See the documentation section "Implementing ECS".
 	* Example: http
 	*/
-	"network.protocol": string,
+	"network.protocol"?: string,
 
 	/**
 	* network.transport
@@ -1085,7 +1085,7 @@ export interface EcsCoreFields {
 	* Description: Same as network.iana_number, but instead using the Keyword name of the transport layer (udp, tcp, ipv6-icmp, etc.) The field value must be normalized to lowercase for querying. See the documentation section "Implementing ECS".
 	* Example: tcp
 	*/
-	"network.transport": string,
+	"network.transport"?: string,
 
 	/**
 	* network.type
@@ -1096,7 +1096,7 @@ export interface EcsCoreFields {
 	* Description: In the OSI Model this would be the Network Layer. ipv4, ipv6, ipsec, pim, etc The field value must be normalized to lowercase for querying. See the documentation section "Implementing ECS".
 	* Example: ipv4
 	*/
-	"network.type": string,
+	"network.type"?: string,
 
 	/**
 	* observer.geo.city_name
@@ -1107,7 +1107,7 @@ export interface EcsCoreFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"observer.geo.city_name": string,
+	"observer.geo.city_name"?: string,
 
 	/**
 	* observer.geo.continent_name
@@ -1118,7 +1118,7 @@ export interface EcsCoreFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"observer.geo.continent_name": string,
+	"observer.geo.continent_name"?: string,
 
 	/**
 	* observer.geo.country_iso_code
@@ -1129,7 +1129,7 @@ export interface EcsCoreFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"observer.geo.country_iso_code": string,
+	"observer.geo.country_iso_code"?: string,
 
 	/**
 	* observer.geo.country_name
@@ -1140,7 +1140,7 @@ export interface EcsCoreFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"observer.geo.country_name": string,
+	"observer.geo.country_name"?: string,
 
 	/**
 	* observer.geo.location
@@ -1151,7 +1151,7 @@ export interface EcsCoreFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"observer.geo.location": GeoPoint,
+	"observer.geo.location"?: GeoPoint,
 
 	/**
 	* observer.geo.region_iso_code
@@ -1162,7 +1162,7 @@ export interface EcsCoreFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"observer.geo.region_iso_code": string,
+	"observer.geo.region_iso_code"?: string,
 
 	/**
 	* observer.geo.region_name
@@ -1173,7 +1173,7 @@ export interface EcsCoreFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"observer.geo.region_name": string,
+	"observer.geo.region_name"?: string,
 
 	/**
 	* observer.hostname
@@ -1184,7 +1184,7 @@ export interface EcsCoreFields {
 	* Description: Hostname of the observer.
 	* Example: <None>
 	*/
-	"observer.hostname": string,
+	"observer.hostname"?: string,
 
 	/**
 	* observer.ip
@@ -1195,7 +1195,7 @@ export interface EcsCoreFields {
 	* Description: IP addresses of the observer.
 	* Example: <None>
 	*/
-	"observer.ip": string[],
+	"observer.ip"?: string[],
 
 	/**
 	* observer.mac
@@ -1206,7 +1206,7 @@ export interface EcsCoreFields {
 	* Description: MAC addresses of the observer
 	* Example: <None>
 	*/
-	"observer.mac": string[],
+	"observer.mac"?: string[],
 
 	/**
 	* observer.type
@@ -1217,7 +1217,7 @@ export interface EcsCoreFields {
 	* Description: The type of the observer the data is coming from. There is no predefined list of observer types. Some examples are `forwarder`, `firewall`, `ids`, `ips`, `proxy`, `poller`, `sensor`, `APM server`.
 	* Example: firewall
 	*/
-	"observer.type": string,
+	"observer.type"?: string,
 
 	/**
 	* observer.vendor
@@ -1228,7 +1228,7 @@ export interface EcsCoreFields {
 	* Description: Vendor name of the observer.
 	* Example: Symantec
 	*/
-	"observer.vendor": string,
+	"observer.vendor"?: string,
 
 	/**
 	* observer.version
@@ -1239,7 +1239,7 @@ export interface EcsCoreFields {
 	* Description: Observer version.
 	* Example: <None>
 	*/
-	"observer.version": string,
+	"observer.version"?: string,
 
 	/**
 	* process.code_signature.exists
@@ -1250,7 +1250,7 @@ export interface EcsCoreFields {
 	* Description: Boolean to capture if a signature is present.
 	* Example: true
 	*/
-	"process.code_signature.exists": boolean,
+	"process.code_signature.exists"?: boolean,
 
 	/**
 	* process.code_signature.subject_name
@@ -1261,7 +1261,7 @@ export interface EcsCoreFields {
 	* Description: Subject name of the code signer
 	* Example: Microsoft Corporation
 	*/
-	"process.code_signature.subject_name": string,
+	"process.code_signature.subject_name"?: string,
 
 	/**
 	* process.parent.code_signature.exists
@@ -1272,7 +1272,7 @@ export interface EcsCoreFields {
 	* Description: Boolean to capture if a signature is present.
 	* Example: true
 	*/
-	"process.parent.code_signature.exists": boolean,
+	"process.parent.code_signature.exists"?: boolean,
 
 	/**
 	* process.parent.code_signature.subject_name
@@ -1283,7 +1283,7 @@ export interface EcsCoreFields {
 	* Description: Subject name of the code signer
 	* Example: Microsoft Corporation
 	*/
-	"process.parent.code_signature.subject_name": string,
+	"process.parent.code_signature.subject_name"?: string,
 
 	/**
 	* process.parent.pid
@@ -1294,7 +1294,7 @@ export interface EcsCoreFields {
 	* Description: Process id.
 	* Example: 4242
 	*/
-	"process.parent.pid": number,
+	"process.parent.pid"?: number,
 
 	/**
 	* process.pid
@@ -1305,7 +1305,7 @@ export interface EcsCoreFields {
 	* Description: Process id.
 	* Example: 4242
 	*/
-	"process.pid": number,
+	"process.pid"?: number,
 
 	/**
 	* registry.data.strings
@@ -1316,7 +1316,7 @@ export interface EcsCoreFields {
 	* Description: Content when writing string types. Populated as an array when writing string data to the registry. For single string registry types (REG_SZ, REG_EXPAND_SZ), this should be an array with one string. For sequences of string with REG_MULTI_SZ, this array will be variable length. For numeric data, such as REG_DWORD and REG_QWORD, this should be populated with the decimal representation (e.g `"1"`).
 	* Example: ["C:\rta\red_ttp\bin\myapp.exe"]
 	*/
-	"registry.data.strings": string[],
+	"registry.data.strings"?: string[],
 
 	/**
 	* registry.data.type
@@ -1327,7 +1327,7 @@ export interface EcsCoreFields {
 	* Description: Standard registry type for encoding contents
 	* Example: REG_SZ
 	*/
-	"registry.data.type": string,
+	"registry.data.type"?: string,
 
 	/**
 	* registry.hive
@@ -1338,7 +1338,7 @@ export interface EcsCoreFields {
 	* Description: Abbreviated name for the hive.
 	* Example: HKLM
 	*/
-	"registry.hive": string,
+	"registry.hive"?: string,
 
 	/**
 	* registry.key
@@ -1349,7 +1349,7 @@ export interface EcsCoreFields {
 	* Description: Hive-relative path of keys.
 	* Example: SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\winword.exe
 	*/
-	"registry.key": string,
+	"registry.key"?: string,
 
 	/**
 	* registry.path
@@ -1360,7 +1360,7 @@ export interface EcsCoreFields {
 	* Description: Full path, including hive, key and value
 	* Example: HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\winword.exe\Debugger
 	*/
-	"registry.path": string,
+	"registry.path"?: string,
 
 	/**
 	* registry.value
@@ -1371,7 +1371,7 @@ export interface EcsCoreFields {
 	* Description: Name of the value written.
 	* Example: Debugger
 	*/
-	"registry.value": string,
+	"registry.value"?: string,
 
 	/**
 	* server.bytes
@@ -1382,7 +1382,7 @@ export interface EcsCoreFields {
 	* Description: Bytes sent from the server to the client.
 	* Example: 184
 	*/
-	"server.bytes": number,
+	"server.bytes"?: number,
 
 	/**
 	* server.domain
@@ -1393,7 +1393,7 @@ export interface EcsCoreFields {
 	* Description: Server domain.
 	* Example: <None>
 	*/
-	"server.domain": string,
+	"server.domain"?: string,
 
 	/**
 	* server.geo.city_name
@@ -1404,7 +1404,7 @@ export interface EcsCoreFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"server.geo.city_name": string,
+	"server.geo.city_name"?: string,
 
 	/**
 	* server.geo.continent_name
@@ -1415,7 +1415,7 @@ export interface EcsCoreFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"server.geo.continent_name": string,
+	"server.geo.continent_name"?: string,
 
 	/**
 	* server.geo.country_iso_code
@@ -1426,7 +1426,7 @@ export interface EcsCoreFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"server.geo.country_iso_code": string,
+	"server.geo.country_iso_code"?: string,
 
 	/**
 	* server.geo.country_name
@@ -1437,7 +1437,7 @@ export interface EcsCoreFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"server.geo.country_name": string,
+	"server.geo.country_name"?: string,
 
 	/**
 	* server.geo.location
@@ -1448,7 +1448,7 @@ export interface EcsCoreFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"server.geo.location": GeoPoint,
+	"server.geo.location"?: GeoPoint,
 
 	/**
 	* server.geo.region_iso_code
@@ -1459,7 +1459,7 @@ export interface EcsCoreFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"server.geo.region_iso_code": string,
+	"server.geo.region_iso_code"?: string,
 
 	/**
 	* server.geo.region_name
@@ -1470,7 +1470,7 @@ export interface EcsCoreFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"server.geo.region_name": string,
+	"server.geo.region_name"?: string,
 
 	/**
 	* server.ip
@@ -1481,7 +1481,7 @@ export interface EcsCoreFields {
 	* Description: IP address of the server (IPv4 or IPv6).
 	* Example: <None>
 	*/
-	"server.ip": string,
+	"server.ip"?: string,
 
 	/**
 	* server.mac
@@ -1492,7 +1492,7 @@ export interface EcsCoreFields {
 	* Description: MAC address of the server.
 	* Example: <None>
 	*/
-	"server.mac": string,
+	"server.mac"?: string,
 
 	/**
 	* server.packets
@@ -1503,7 +1503,7 @@ export interface EcsCoreFields {
 	* Description: Packets sent from the server to the client.
 	* Example: 12
 	*/
-	"server.packets": number,
+	"server.packets"?: number,
 
 	/**
 	* server.port
@@ -1514,7 +1514,7 @@ export interface EcsCoreFields {
 	* Description: Port of the server.
 	* Example: <None>
 	*/
-	"server.port": number,
+	"server.port"?: number,
 
 	/**
 	* server.user.id
@@ -1525,7 +1525,7 @@ export interface EcsCoreFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"server.user.id": string,
+	"server.user.id"?: string,
 
 	/**
 	* server.user.name
@@ -1536,7 +1536,7 @@ export interface EcsCoreFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"server.user.name": string,
+	"server.user.name"?: string,
 
 	/**
 	* service.id
@@ -1548,7 +1548,7 @@ export interface EcsCoreFields {
 	Note that if you need to see the events from one specific host of the service, you should filter on that `host.name` or `host.id` instead.
 	* Example: d37e5ebfe0ae6c4972dbe9f0174a1637bb8247f6
 	*/
-	"service.id": string,
+	"service.id"?: string,
 
 	/**
 	* service.name
@@ -1560,7 +1560,7 @@ export interface EcsCoreFields {
 	In the case of Elasticsearch the `service.name` could contain the cluster name. For Beats the `service.name` is by default a copy of the `service.type` field if no name is specified.
 	* Example: elasticsearch-metrics
 	*/
-	"service.name": string,
+	"service.name"?: string,
 
 	/**
 	* service.state
@@ -1571,7 +1571,7 @@ export interface EcsCoreFields {
 	* Description: Current state of the service.
 	* Example: <None>
 	*/
-	"service.state": string,
+	"service.state"?: string,
 
 	/**
 	* service.type
@@ -1583,7 +1583,7 @@ export interface EcsCoreFields {
 	Example: If logs or metrics are collected from Elasticsearch, `service.type` would be `elasticsearch`.
 	* Example: elasticsearch
 	*/
-	"service.type": string,
+	"service.type"?: string,
 
 	/**
 	* service.version
@@ -1594,7 +1594,7 @@ export interface EcsCoreFields {
 	* Description: Version of the service the data was collected from. This allows to look at a data set only for a specific version of a service.
 	* Example: 3.2.4
 	*/
-	"service.version": string,
+	"service.version"?: string,
 
 	/**
 	* source.bytes
@@ -1605,7 +1605,7 @@ export interface EcsCoreFields {
 	* Description: Bytes sent from the source to the destination.
 	* Example: 184
 	*/
-	"source.bytes": number,
+	"source.bytes"?: number,
 
 	/**
 	* source.domain
@@ -1616,7 +1616,7 @@ export interface EcsCoreFields {
 	* Description: Source domain.
 	* Example: <None>
 	*/
-	"source.domain": string,
+	"source.domain"?: string,
 
 	/**
 	* source.geo.city_name
@@ -1627,7 +1627,7 @@ export interface EcsCoreFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"source.geo.city_name": string,
+	"source.geo.city_name"?: string,
 
 	/**
 	* source.geo.continent_name
@@ -1638,7 +1638,7 @@ export interface EcsCoreFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"source.geo.continent_name": string,
+	"source.geo.continent_name"?: string,
 
 	/**
 	* source.geo.country_iso_code
@@ -1649,7 +1649,7 @@ export interface EcsCoreFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"source.geo.country_iso_code": string,
+	"source.geo.country_iso_code"?: string,
 
 	/**
 	* source.geo.country_name
@@ -1660,7 +1660,7 @@ export interface EcsCoreFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"source.geo.country_name": string,
+	"source.geo.country_name"?: string,
 
 	/**
 	* source.geo.location
@@ -1671,7 +1671,7 @@ export interface EcsCoreFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"source.geo.location": GeoPoint,
+	"source.geo.location"?: GeoPoint,
 
 	/**
 	* source.geo.region_iso_code
@@ -1682,7 +1682,7 @@ export interface EcsCoreFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"source.geo.region_iso_code": string,
+	"source.geo.region_iso_code"?: string,
 
 	/**
 	* source.geo.region_name
@@ -1693,7 +1693,7 @@ export interface EcsCoreFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"source.geo.region_name": string,
+	"source.geo.region_name"?: string,
 
 	/**
 	* source.ip
@@ -1704,7 +1704,7 @@ export interface EcsCoreFields {
 	* Description: IP address of the source (IPv4 or IPv6).
 	* Example: <None>
 	*/
-	"source.ip": string,
+	"source.ip"?: string,
 
 	/**
 	* source.mac
@@ -1715,7 +1715,7 @@ export interface EcsCoreFields {
 	* Description: MAC address of the source.
 	* Example: <None>
 	*/
-	"source.mac": string,
+	"source.mac"?: string,
 
 	/**
 	* source.packets
@@ -1726,7 +1726,7 @@ export interface EcsCoreFields {
 	* Description: Packets sent from the source to the destination.
 	* Example: 12
 	*/
-	"source.packets": number,
+	"source.packets"?: number,
 
 	/**
 	* source.port
@@ -1737,7 +1737,7 @@ export interface EcsCoreFields {
 	* Description: Port of the source.
 	* Example: <None>
 	*/
-	"source.port": number,
+	"source.port"?: number,
 
 	/**
 	* source.user.id
@@ -1748,7 +1748,7 @@ export interface EcsCoreFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"source.user.id": string,
+	"source.user.id"?: string,
 
 	/**
 	* source.user.name
@@ -1759,7 +1759,7 @@ export interface EcsCoreFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"source.user.name": string,
+	"source.user.name"?: string,
 
 	/**
 	* tags
@@ -1770,7 +1770,7 @@ export interface EcsCoreFields {
 	* Description: List of keywords used to tag each event.
 	* Example: ["production", "env2"]
 	*/
-	"tags": string[],
+	"tags"?: string[],
 
 	/**
 	* user.id
@@ -1781,7 +1781,7 @@ export interface EcsCoreFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"user.id": string,
+	"user.id"?: string,
 
 	/**
 	* user.name
@@ -1792,7 +1792,7 @@ export interface EcsCoreFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"user.name": string,
+	"user.name"?: string,
 
 
 }
@@ -1807,7 +1807,7 @@ export interface EcsExtendedFields {
 	* Description: Ephemeral identifier of this agent (if one exists). This id normally changes across restarts, but `agent.id` does not.
 	* Example: 8a4f500f
 	*/
-	"agent.ephemeral_id": string,
+	"agent.ephemeral_id"?: string,
 
 	/**
 	* as.number
@@ -1818,7 +1818,7 @@ export interface EcsExtendedFields {
 	* Description: Unique number allocated to the autonomous system. The autonomous system number (ASN) uniquely identifies each network on the Internet.
 	* Example: 15169
 	*/
-	"as.number": number,
+	"as.number"?: number,
 
 	/**
 	* as.organization.name
@@ -1829,7 +1829,7 @@ export interface EcsExtendedFields {
 	* Description: Organization name.
 	* Example: Google LLC
 	*/
-	"as.organization.name": string,
+	"as.organization.name"?: string,
 
 	/**
 	* client.address
@@ -1840,7 +1840,7 @@ export interface EcsExtendedFields {
 	* Description: Some event client addresses are defined ambiguously. The event will sometimes list an IP, a domain or a unix socket.  You should always store the raw address in the `.address` field. Then it should be duplicated to `.ip` or `.domain`, depending on which one it is.
 	* Example: <None>
 	*/
-	"client.address": string,
+	"client.address"?: string,
 
 	/**
 	* client.as.number
@@ -1851,7 +1851,7 @@ export interface EcsExtendedFields {
 	* Description: Unique number allocated to the autonomous system. The autonomous system number (ASN) uniquely identifies each network on the Internet.
 	* Example: 15169
 	*/
-	"client.as.number": number,
+	"client.as.number"?: number,
 
 	/**
 	* client.as.organization.name
@@ -1862,7 +1862,7 @@ export interface EcsExtendedFields {
 	* Description: Organization name.
 	* Example: Google LLC
 	*/
-	"client.as.organization.name": string,
+	"client.as.organization.name"?: string,
 
 	/**
 	* client.geo.name
@@ -1874,7 +1874,7 @@ export interface EcsExtendedFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"client.geo.name": string,
+	"client.geo.name"?: string,
 
 	/**
 	* client.nat.ip
@@ -1885,7 +1885,7 @@ export interface EcsExtendedFields {
 	* Description: Translated IP of source based NAT sessions (e.g. internal client to internet). Typically connections traversing load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"client.nat.ip": string,
+	"client.nat.ip"?: string,
 
 	/**
 	* client.nat.port
@@ -1896,7 +1896,7 @@ export interface EcsExtendedFields {
 	* Description: Translated port of source based NAT sessions (e.g. internal client to internet). Typically connections traversing load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"client.nat.port": number,
+	"client.nat.port"?: number,
 
 	/**
 	* client.registered_domain
@@ -1908,7 +1908,7 @@ export interface EcsExtendedFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"client.registered_domain": string,
+	"client.registered_domain"?: string,
 
 	/**
 	* client.subdomain
@@ -1919,7 +1919,7 @@ export interface EcsExtendedFields {
 	* Description: The subdomain portion of a fully qualified domain name includes all of the names except the host name under the registered_domain.  In a partially qualified domain, or if the the qualification level of the full name cannot be determined, subdomain contains all of the names below the registered domain. For example the subdomain portion of "www.east.mydomain.co.uk" is "east". If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: east
 	*/
-	"client.subdomain": string,
+	"client.subdomain"?: string,
 
 	/**
 	* client.top_level_domain
@@ -1930,7 +1930,7 @@ export interface EcsExtendedFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"client.top_level_domain": string,
+	"client.top_level_domain"?: string,
 
 	/**
 	* client.user.domain
@@ -1941,7 +1941,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"client.user.domain": string,
+	"client.user.domain"?: string,
 
 	/**
 	* client.user.email
@@ -1952,7 +1952,7 @@ export interface EcsExtendedFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"client.user.email": string,
+	"client.user.email"?: string,
 
 	/**
 	* client.user.full_name
@@ -1963,7 +1963,7 @@ export interface EcsExtendedFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"client.user.full_name": string,
+	"client.user.full_name"?: string,
 
 	/**
 	* client.user.group.domain
@@ -1974,7 +1974,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"client.user.group.domain": string,
+	"client.user.group.domain"?: string,
 
 	/**
 	* client.user.group.id
@@ -1985,7 +1985,7 @@ export interface EcsExtendedFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"client.user.group.id": string,
+	"client.user.group.id"?: string,
 
 	/**
 	* client.user.group.name
@@ -1996,7 +1996,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"client.user.group.name": string,
+	"client.user.group.name"?: string,
 
 	/**
 	* client.user.hash
@@ -2007,7 +2007,7 @@ export interface EcsExtendedFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"client.user.hash": string,
+	"client.user.hash"?: string,
 
 	/**
 	* client.user.roles
@@ -2018,7 +2018,7 @@ export interface EcsExtendedFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"client.user.roles": string,
+	"client.user.roles"?: string,
 
 	/**
 	* cloud.account.id
@@ -2029,7 +2029,7 @@ export interface EcsExtendedFields {
 	* Description: The cloud account or organization id used to identify different entities in a multi-tenant environment. Examples: AWS account id, Google Cloud ORG Id, or other unique identifier.
 	* Example: 666777888999
 	*/
-	"cloud.account.id": string,
+	"cloud.account.id"?: string,
 
 	/**
 	* cloud.account.name
@@ -2040,7 +2040,7 @@ export interface EcsExtendedFields {
 	* Description: The cloud account name or alias used to identify different entities in a multi-tenant environment. Examples: AWS account name, Google Cloud ORG display name.
 	* Example: elastic-dev
 	*/
-	"cloud.account.name": string,
+	"cloud.account.name"?: string,
 
 	/**
 	* cloud.availability_zone
@@ -2051,7 +2051,7 @@ export interface EcsExtendedFields {
 	* Description: Availability zone in which this host is running.
 	* Example: us-east-1c
 	*/
-	"cloud.availability_zone": string,
+	"cloud.availability_zone"?: string,
 
 	/**
 	* cloud.instance.id
@@ -2062,7 +2062,7 @@ export interface EcsExtendedFields {
 	* Description: Instance ID of the host machine.
 	* Example: i-1234567890abcdef0
 	*/
-	"cloud.instance.id": string,
+	"cloud.instance.id"?: string,
 
 	/**
 	* cloud.instance.name
@@ -2073,7 +2073,7 @@ export interface EcsExtendedFields {
 	* Description: Instance name of the host machine.
 	* Example: <None>
 	*/
-	"cloud.instance.name": string,
+	"cloud.instance.name"?: string,
 
 	/**
 	* cloud.machine.type
@@ -2084,7 +2084,7 @@ export interface EcsExtendedFields {
 	* Description: Machine type of the host machine.
 	* Example: t2.medium
 	*/
-	"cloud.machine.type": string,
+	"cloud.machine.type"?: string,
 
 	/**
 	* cloud.project.id
@@ -2095,7 +2095,7 @@ export interface EcsExtendedFields {
 	* Description: The cloud project identifier. Examples: Google Cloud Project id, Azure Project id.
 	* Example: my-project
 	*/
-	"cloud.project.id": string,
+	"cloud.project.id"?: string,
 
 	/**
 	* cloud.project.name
@@ -2106,7 +2106,7 @@ export interface EcsExtendedFields {
 	* Description: The cloud project name. Examples: Google Cloud Project name, Azure Project name.
 	* Example: my project
 	*/
-	"cloud.project.name": string,
+	"cloud.project.name"?: string,
 
 	/**
 	* cloud.provider
@@ -2117,7 +2117,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the cloud provider. Example values are aws, azure, gcp, or digitalocean.
 	* Example: aws
 	*/
-	"cloud.provider": string,
+	"cloud.provider"?: string,
 
 	/**
 	* cloud.region
@@ -2128,7 +2128,7 @@ export interface EcsExtendedFields {
 	* Description: Region in which this host is running.
 	* Example: us-east-1
 	*/
-	"cloud.region": string,
+	"cloud.region"?: string,
 
 	/**
 	* code_signature.status
@@ -2139,7 +2139,7 @@ export interface EcsExtendedFields {
 	* Description: Additional information about the certificate status. This is useful for logging cryptographic errors with the certificate validity or trust status. Leave unpopulated if the validity or trust of the certificate was unchecked.
 	* Example: ERROR_UNTRUSTED_ROOT
 	*/
-	"code_signature.status": string,
+	"code_signature.status"?: string,
 
 	/**
 	* code_signature.trusted
@@ -2150,7 +2150,7 @@ export interface EcsExtendedFields {
 	* Description: Stores the trust status of the certificate chain. Validating the trust of the certificate chain may be complicated, and this field should only be populated by tools that actively check the status.
 	* Example: true
 	*/
-	"code_signature.trusted": boolean,
+	"code_signature.trusted"?: boolean,
 
 	/**
 	* code_signature.valid
@@ -2161,7 +2161,7 @@ export interface EcsExtendedFields {
 	* Description: Boolean to capture if the digital signature is verified against the binary content. Leave unpopulated if a certificate was unchecked.
 	* Example: true
 	*/
-	"code_signature.valid": boolean,
+	"code_signature.valid"?: boolean,
 
 	/**
 	* container.image.name
@@ -2172,7 +2172,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the image the container was built on.
 	* Example: <None>
 	*/
-	"container.image.name": string,
+	"container.image.name"?: string,
 
 	/**
 	* container.image.tag
@@ -2183,7 +2183,7 @@ export interface EcsExtendedFields {
 	* Description: Container image tags.
 	* Example: <None>
 	*/
-	"container.image.tag": string[],
+	"container.image.tag"?: string[],
 
 	/**
 	* container.labels
@@ -2194,7 +2194,7 @@ export interface EcsExtendedFields {
 	* Description: Image labels.
 	* Example: <None>
 	*/
-	"container.labels": object,
+	"container.labels"?: object,
 
 	/**
 	* container.name
@@ -2205,7 +2205,7 @@ export interface EcsExtendedFields {
 	* Description: Container name.
 	* Example: <None>
 	*/
-	"container.name": string,
+	"container.name"?: string,
 
 	/**
 	* container.runtime
@@ -2216,7 +2216,7 @@ export interface EcsExtendedFields {
 	* Description: Runtime managing this container.
 	* Example: docker
 	*/
-	"container.runtime": string,
+	"container.runtime"?: string,
 
 	/**
 	* destination.address
@@ -2227,7 +2227,7 @@ export interface EcsExtendedFields {
 	* Description: Some event destination addresses are defined ambiguously. The event will sometimes list an IP, a domain or a unix socket.  You should always store the raw address in the `.address` field. Then it should be duplicated to `.ip` or `.domain`, depending on which one it is.
 	* Example: <None>
 	*/
-	"destination.address": string,
+	"destination.address"?: string,
 
 	/**
 	* destination.as.number
@@ -2238,7 +2238,7 @@ export interface EcsExtendedFields {
 	* Description: Unique number allocated to the autonomous system. The autonomous system number (ASN) uniquely identifies each network on the Internet.
 	* Example: 15169
 	*/
-	"destination.as.number": number,
+	"destination.as.number"?: number,
 
 	/**
 	* destination.as.organization.name
@@ -2249,7 +2249,7 @@ export interface EcsExtendedFields {
 	* Description: Organization name.
 	* Example: Google LLC
 	*/
-	"destination.as.organization.name": string,
+	"destination.as.organization.name"?: string,
 
 	/**
 	* destination.geo.name
@@ -2261,7 +2261,7 @@ export interface EcsExtendedFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"destination.geo.name": string,
+	"destination.geo.name"?: string,
 
 	/**
 	* destination.nat.ip
@@ -2272,7 +2272,7 @@ export interface EcsExtendedFields {
 	* Description: Translated ip of destination based NAT sessions (e.g. internet to private DMZ) Typically used with load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"destination.nat.ip": string,
+	"destination.nat.ip"?: string,
 
 	/**
 	* destination.nat.port
@@ -2283,7 +2283,7 @@ export interface EcsExtendedFields {
 	* Description: Port the source session is translated to by NAT Device. Typically used with load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"destination.nat.port": number,
+	"destination.nat.port"?: number,
 
 	/**
 	* destination.registered_domain
@@ -2295,7 +2295,7 @@ export interface EcsExtendedFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"destination.registered_domain": string,
+	"destination.registered_domain"?: string,
 
 	/**
 	* destination.subdomain
@@ -2306,7 +2306,7 @@ export interface EcsExtendedFields {
 	* Description: The subdomain portion of a fully qualified domain name includes all of the names except the host name under the registered_domain.  In a partially qualified domain, or if the the qualification level of the full name cannot be determined, subdomain contains all of the names below the registered domain. For example the subdomain portion of "www.east.mydomain.co.uk" is "east". If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: east
 	*/
-	"destination.subdomain": string,
+	"destination.subdomain"?: string,
 
 	/**
 	* destination.top_level_domain
@@ -2317,7 +2317,7 @@ export interface EcsExtendedFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"destination.top_level_domain": string,
+	"destination.top_level_domain"?: string,
 
 	/**
 	* destination.user.domain
@@ -2328,7 +2328,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"destination.user.domain": string,
+	"destination.user.domain"?: string,
 
 	/**
 	* destination.user.email
@@ -2339,7 +2339,7 @@ export interface EcsExtendedFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"destination.user.email": string,
+	"destination.user.email"?: string,
 
 	/**
 	* destination.user.full_name
@@ -2350,7 +2350,7 @@ export interface EcsExtendedFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"destination.user.full_name": string,
+	"destination.user.full_name"?: string,
 
 	/**
 	* destination.user.group.domain
@@ -2361,7 +2361,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"destination.user.group.domain": string,
+	"destination.user.group.domain"?: string,
 
 	/**
 	* destination.user.group.id
@@ -2372,7 +2372,7 @@ export interface EcsExtendedFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"destination.user.group.id": string,
+	"destination.user.group.id"?: string,
 
 	/**
 	* destination.user.group.name
@@ -2383,7 +2383,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"destination.user.group.name": string,
+	"destination.user.group.name"?: string,
 
 	/**
 	* destination.user.hash
@@ -2394,7 +2394,7 @@ export interface EcsExtendedFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"destination.user.hash": string,
+	"destination.user.hash"?: string,
 
 	/**
 	* destination.user.roles
@@ -2405,7 +2405,7 @@ export interface EcsExtendedFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"destination.user.roles": string,
+	"destination.user.roles"?: string,
 
 	/**
 	* dll.code_signature.status
@@ -2416,7 +2416,7 @@ export interface EcsExtendedFields {
 	* Description: Additional information about the certificate status. This is useful for logging cryptographic errors with the certificate validity or trust status. Leave unpopulated if the validity or trust of the certificate was unchecked.
 	* Example: ERROR_UNTRUSTED_ROOT
 	*/
-	"dll.code_signature.status": string,
+	"dll.code_signature.status"?: string,
 
 	/**
 	* dll.code_signature.trusted
@@ -2427,7 +2427,7 @@ export interface EcsExtendedFields {
 	* Description: Stores the trust status of the certificate chain. Validating the trust of the certificate chain may be complicated, and this field should only be populated by tools that actively check the status.
 	* Example: true
 	*/
-	"dll.code_signature.trusted": boolean,
+	"dll.code_signature.trusted"?: boolean,
 
 	/**
 	* dll.code_signature.valid
@@ -2438,7 +2438,7 @@ export interface EcsExtendedFields {
 	* Description: Boolean to capture if the digital signature is verified against the binary content. Leave unpopulated if a certificate was unchecked.
 	* Example: true
 	*/
-	"dll.code_signature.valid": boolean,
+	"dll.code_signature.valid"?: boolean,
 
 	/**
 	* dll.hash.md5
@@ -2449,7 +2449,7 @@ export interface EcsExtendedFields {
 	* Description: MD5 hash.
 	* Example: <None>
 	*/
-	"dll.hash.md5": string,
+	"dll.hash.md5"?: string,
 
 	/**
 	* dll.hash.sha1
@@ -2460,7 +2460,7 @@ export interface EcsExtendedFields {
 	* Description: SHA1 hash.
 	* Example: <None>
 	*/
-	"dll.hash.sha1": string,
+	"dll.hash.sha1"?: string,
 
 	/**
 	* dll.hash.sha256
@@ -2471,7 +2471,7 @@ export interface EcsExtendedFields {
 	* Description: SHA256 hash.
 	* Example: <None>
 	*/
-	"dll.hash.sha256": string,
+	"dll.hash.sha256"?: string,
 
 	/**
 	* dll.hash.sha512
@@ -2482,7 +2482,7 @@ export interface EcsExtendedFields {
 	* Description: SHA512 hash.
 	* Example: <None>
 	*/
-	"dll.hash.sha512": string,
+	"dll.hash.sha512"?: string,
 
 	/**
 	* dll.path
@@ -2493,7 +2493,7 @@ export interface EcsExtendedFields {
 	* Description: Full file path of the library.
 	* Example: C:\Windows\System32\kernel32.dll
 	*/
-	"dll.path": string,
+	"dll.path"?: string,
 
 	/**
 	* dll.pe.architecture
@@ -2504,7 +2504,7 @@ export interface EcsExtendedFields {
 	* Description: CPU architecture target for the file.
 	* Example: x64
 	*/
-	"dll.pe.architecture": string,
+	"dll.pe.architecture"?: string,
 
 	/**
 	* dll.pe.company
@@ -2515,7 +2515,7 @@ export interface EcsExtendedFields {
 	* Description: Internal company name of the file, provided at compile-time.
 	* Example: Microsoft Corporation
 	*/
-	"dll.pe.company": string,
+	"dll.pe.company"?: string,
 
 	/**
 	* dll.pe.description
@@ -2526,7 +2526,7 @@ export interface EcsExtendedFields {
 	* Description: Internal description of the file, provided at compile-time.
 	* Example: Paint
 	*/
-	"dll.pe.description": string,
+	"dll.pe.description"?: string,
 
 	/**
 	* dll.pe.file_version
@@ -2537,7 +2537,7 @@ export interface EcsExtendedFields {
 	* Description: Internal version of the file, provided at compile-time.
 	* Example: 6.3.9600.17415
 	*/
-	"dll.pe.file_version": string,
+	"dll.pe.file_version"?: string,
 
 	/**
 	* dll.pe.imphash
@@ -2548,7 +2548,7 @@ export interface EcsExtendedFields {
 	* Description: A hash of the imports in a PE file. An imphash -- or import hash -- can be used to fingerprint binaries even after recompilation or other code-level transformations have occurred, which would change more traditional hash values. Learn more at https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html.
 	* Example: 0c6803c4e922103c4dca5963aad36ddf
 	*/
-	"dll.pe.imphash": string,
+	"dll.pe.imphash"?: string,
 
 	/**
 	* dll.pe.original_file_name
@@ -2559,7 +2559,7 @@ export interface EcsExtendedFields {
 	* Description: Internal name of the file, provided at compile-time.
 	* Example: MSPAINT.EXE
 	*/
-	"dll.pe.original_file_name": string,
+	"dll.pe.original_file_name"?: string,
 
 	/**
 	* dll.pe.product
@@ -2570,7 +2570,7 @@ export interface EcsExtendedFields {
 	* Description: Internal product name of the file, provided at compile-time.
 	* Example: Microsoft® Windows® Operating System
 	*/
-	"dll.pe.product": string,
+	"dll.pe.product"?: string,
 
 	/**
 	* dns.answers
@@ -2582,7 +2582,7 @@ export interface EcsExtendedFields {
 	Not all DNS data sources give all details about DNS answers. At minimum, answer objects must contain the `data` key. If more information is available, map as much of it to ECS as possible, and add any additional fields to the answer objects as custom fields.
 	* Example: <None>
 	*/
-	"dns.answers": object[],
+	"dns.answers"?: object[],
 
 	/**
 	* dns.answers.class
@@ -2593,7 +2593,7 @@ export interface EcsExtendedFields {
 	* Description: The class of DNS data contained in this resource record.
 	* Example: IN
 	*/
-	"dns.answers.class": string,
+	"dns.answers.class"?: string,
 
 	/**
 	* dns.answers.data
@@ -2604,7 +2604,7 @@ export interface EcsExtendedFields {
 	* Description: The data describing the resource. The meaning of this data depends on the type and class of the resource record.
 	* Example: 10.10.10.10
 	*/
-	"dns.answers.data": string,
+	"dns.answers.data"?: string,
 
 	/**
 	* dns.answers.name
@@ -2615,7 +2615,7 @@ export interface EcsExtendedFields {
 	* Description: The domain name to which this resource record pertains. If a chain of CNAME is being resolved, each answer's `name` should be the one that corresponds with the answer's `data`. It should not simply be the original `question.name` repeated.
 	* Example: www.example.com
 	*/
-	"dns.answers.name": string,
+	"dns.answers.name"?: string,
 
 	/**
 	* dns.answers.ttl
@@ -2626,7 +2626,7 @@ export interface EcsExtendedFields {
 	* Description: The time interval in seconds that this resource record may be cached before it should be discarded. Zero values mean that the data should not be cached.
 	* Example: 180
 	*/
-	"dns.answers.ttl": number,
+	"dns.answers.ttl"?: number,
 
 	/**
 	* dns.answers.type
@@ -2637,7 +2637,7 @@ export interface EcsExtendedFields {
 	* Description: The type of data contained in this resource record.
 	* Example: CNAME
 	*/
-	"dns.answers.type": string,
+	"dns.answers.type"?: string,
 
 	/**
 	* dns.header_flags
@@ -2648,7 +2648,7 @@ export interface EcsExtendedFields {
 	* Description: Array of 2 letter DNS header flags. Expected values are: AA, TC, RD, RA, AD, CD, DO.
 	* Example: ["RD", "RA"]
 	*/
-	"dns.header_flags": string[],
+	"dns.header_flags"?: string[],
 
 	/**
 	* dns.id
@@ -2659,7 +2659,7 @@ export interface EcsExtendedFields {
 	* Description: The DNS packet identifier assigned by the program that generated the query. The identifier is copied to the response.
 	* Example: 62111
 	*/
-	"dns.id": string,
+	"dns.id"?: string,
 
 	/**
 	* dns.op_code
@@ -2670,7 +2670,7 @@ export interface EcsExtendedFields {
 	* Description: The DNS operation code that specifies the kind of query in the message. This value is set by the originator of a query and copied into the response.
 	* Example: QUERY
 	*/
-	"dns.op_code": string,
+	"dns.op_code"?: string,
 
 	/**
 	* dns.question.class
@@ -2681,7 +2681,7 @@ export interface EcsExtendedFields {
 	* Description: The class of records being queried.
 	* Example: IN
 	*/
-	"dns.question.class": string,
+	"dns.question.class"?: string,
 
 	/**
 	* dns.question.name
@@ -2692,7 +2692,7 @@ export interface EcsExtendedFields {
 	* Description: The name being queried. If the name field contains non-printable characters (below 32 or above 126), those characters should be represented as escaped base 10 integers (\DDD). Back slashes and quotes should be escaped. Tabs, carriage returns, and line feeds should be converted to \t, \r, and \n respectively.
 	* Example: www.example.com
 	*/
-	"dns.question.name": string,
+	"dns.question.name"?: string,
 
 	/**
 	* dns.question.registered_domain
@@ -2704,7 +2704,7 @@ export interface EcsExtendedFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"dns.question.registered_domain": string,
+	"dns.question.registered_domain"?: string,
 
 	/**
 	* dns.question.subdomain
@@ -2715,7 +2715,7 @@ export interface EcsExtendedFields {
 	* Description: The subdomain is all of the labels under the registered_domain. If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: www
 	*/
-	"dns.question.subdomain": string,
+	"dns.question.subdomain"?: string,
 
 	/**
 	* dns.question.top_level_domain
@@ -2726,7 +2726,7 @@ export interface EcsExtendedFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"dns.question.top_level_domain": string,
+	"dns.question.top_level_domain"?: string,
 
 	/**
 	* dns.question.type
@@ -2737,7 +2737,7 @@ export interface EcsExtendedFields {
 	* Description: The type of record being queried.
 	* Example: AAAA
 	*/
-	"dns.question.type": string,
+	"dns.question.type"?: string,
 
 	/**
 	* dns.resolved_ip
@@ -2748,7 +2748,7 @@ export interface EcsExtendedFields {
 	* Description: Array containing all IPs seen in `answers.data`. The `answers` array can be difficult to use, because of the variety of data formats it can contain. Extracting all IP addresses seen in there to `dns.resolved_ip` makes it possible to index them as IP addresses, and makes them easier to visualize and query for.
 	* Example: ["10.10.10.10", "10.10.10.11"]
 	*/
-	"dns.resolved_ip": string[],
+	"dns.resolved_ip"?: string[],
 
 	/**
 	* dns.response_code
@@ -2759,7 +2759,7 @@ export interface EcsExtendedFields {
 	* Description: The DNS response code.
 	* Example: NOERROR
 	*/
-	"dns.response_code": string,
+	"dns.response_code"?: string,
 
 	/**
 	* dns.type
@@ -2771,7 +2771,7 @@ export interface EcsExtendedFields {
 	If your source of DNS events gives you answers as well, you should create one event per query (optionally as soon as the query is seen). And a second event containing all query details as well as an array of answers.
 	* Example: answer
 	*/
-	"dns.type": string,
+	"dns.type"?: string,
 
 	/**
 	* error.stack_trace
@@ -2782,7 +2782,7 @@ export interface EcsExtendedFields {
 	* Description: The stack trace of this error in plain text.
 	* Example: <None>
 	*/
-	"error.stack_trace": string,
+	"error.stack_trace"?: string,
 
 	/**
 	* error.type
@@ -2793,7 +2793,7 @@ export interface EcsExtendedFields {
 	* Description: The type of the error, for example the class name of the exception.
 	* Example: java.lang.NullPointerException
 	*/
-	"error.type": string,
+	"error.type"?: string,
 
 	/**
 	* event.code
@@ -2804,7 +2804,7 @@ export interface EcsExtendedFields {
 	* Description: Identification code for this event, if one exists. Some event sources use event codes to identify messages unambiguously, regardless of message language or wording adjustments over time. An example of this is the Windows Event ID.
 	* Example: 4648
 	*/
-	"event.code": string,
+	"event.code"?: string,
 
 	/**
 	* event.end
@@ -2815,7 +2815,7 @@ export interface EcsExtendedFields {
 	* Description: event.end contains the date when the event ended or when the activity was last observed.
 	* Example: <None>
 	*/
-	"event.end": Date,
+	"event.end"?: Date,
 
 	/**
 	* event.hash
@@ -2826,7 +2826,7 @@ export interface EcsExtendedFields {
 	* Description: Hash (perhaps logstash fingerprint) of raw field to be able to demonstrate log integrity.
 	* Example: 123456789012345678901234567890ABCD
 	*/
-	"event.hash": string,
+	"event.hash"?: string,
 
 	/**
 	* event.provider
@@ -2837,7 +2837,7 @@ export interface EcsExtendedFields {
 	* Description: Source of the event. Event transports such as Syslog or the Windows Event Log typically mention the source of an event. It can be the name of the software that generated the event (e.g. Sysmon, httpd), or of a subsystem of the operating system (kernel, Microsoft-Windows-Security-Auditing).
 	* Example: kernel
 	*/
-	"event.provider": string,
+	"event.provider"?: string,
 
 	/**
 	* event.reason
@@ -2848,7 +2848,7 @@ export interface EcsExtendedFields {
 	* Description: Reason why this event happened, according to the source. This describes the why of a particular action or outcome captured in the event. Where `event.action` captures the action from the event, `event.reason` describes why that action was taken. For example, a web proxy with an `event.action` which denied the request may also populate `event.reason` with the reason why (e.g. `blocked site`).
 	* Example: Terminated an unexpected process
 	*/
-	"event.reason": string,
+	"event.reason"?: string,
 
 	/**
 	* event.reference
@@ -2859,7 +2859,7 @@ export interface EcsExtendedFields {
 	* Description: Reference URL linking to additional information about this event. This URL links to a static definition of the this event. Alert events, indicated by `event.kind:alert`, are a common use case for this field.
 	* Example: https://system.example.com/event/#0001234
 	*/
-	"event.reference": string,
+	"event.reference"?: string,
 
 	/**
 	* event.risk_score_norm
@@ -2870,7 +2870,7 @@ export interface EcsExtendedFields {
 	* Description: Normalized risk score or priority of the event, on a scale of 0 to 100. This is mainly useful if you use more than one system that assigns risk scores, and you want to see a normalized value across all systems.
 	* Example: <None>
 	*/
-	"event.risk_score_norm": number,
+	"event.risk_score_norm"?: number,
 
 	/**
 	* event.sequence
@@ -2881,7 +2881,7 @@ export interface EcsExtendedFields {
 	* Description: Sequence number of the event. The sequence number is a value published by some event sources, to make the exact ordering of events unambiguous, regardless of the timestamp precision.
 	* Example: <None>
 	*/
-	"event.sequence": number,
+	"event.sequence"?: number,
 
 	/**
 	* event.start
@@ -2892,7 +2892,7 @@ export interface EcsExtendedFields {
 	* Description: event.start contains the date when the event started or when the activity was first observed.
 	* Example: <None>
 	*/
-	"event.start": Date,
+	"event.start"?: Date,
 
 	/**
 	* event.timezone
@@ -2903,7 +2903,7 @@ export interface EcsExtendedFields {
 	* Description: This field should be populated when the event's timestamp does not include timezone information already (e.g. default Syslog timestamps). It's optional otherwise. Acceptable timezone formats are: a canonical ID (e.g. "Europe/Amsterdam"), abbreviated (e.g. "EST") or an HH:mm differential (e.g. "-05:00").
 	* Example: <None>
 	*/
-	"event.timezone": string,
+	"event.timezone"?: string,
 
 	/**
 	* event.url
@@ -2914,7 +2914,7 @@ export interface EcsExtendedFields {
 	* Description: URL linking to an external system to continue investigation of this event. This URL links to another system where in-depth investigation of the specific occurrence of this event can take place. Alert events, indicated by `event.kind:alert`, are a common use case for this field.
 	* Example: https://mysystem.example.com/alert/5271dedb-f5b0-4218-87f0-4ac4870a38fe
 	*/
-	"event.url": string,
+	"event.url"?: string,
 
 	/**
 	* file.accessed
@@ -2925,7 +2925,7 @@ export interface EcsExtendedFields {
 	* Description: Last time the file was accessed. Note that not all filesystems keep track of access time.
 	* Example: <None>
 	*/
-	"file.accessed": Date,
+	"file.accessed"?: Date,
 
 	/**
 	* file.attributes
@@ -2936,7 +2936,7 @@ export interface EcsExtendedFields {
 	* Description: Array of file attributes. Attributes names will vary by platform. Here's a non-exhaustive list of values that are expected in this field: archive, compressed, directory, encrypted, execute, hidden, read, readonly, system, write.
 	* Example: ["readonly", "system"]
 	*/
-	"file.attributes": string[],
+	"file.attributes"?: string[],
 
 	/**
 	* file.code_signature.status
@@ -2947,7 +2947,7 @@ export interface EcsExtendedFields {
 	* Description: Additional information about the certificate status. This is useful for logging cryptographic errors with the certificate validity or trust status. Leave unpopulated if the validity or trust of the certificate was unchecked.
 	* Example: ERROR_UNTRUSTED_ROOT
 	*/
-	"file.code_signature.status": string,
+	"file.code_signature.status"?: string,
 
 	/**
 	* file.code_signature.trusted
@@ -2958,7 +2958,7 @@ export interface EcsExtendedFields {
 	* Description: Stores the trust status of the certificate chain. Validating the trust of the certificate chain may be complicated, and this field should only be populated by tools that actively check the status.
 	* Example: true
 	*/
-	"file.code_signature.trusted": boolean,
+	"file.code_signature.trusted"?: boolean,
 
 	/**
 	* file.code_signature.valid
@@ -2969,7 +2969,7 @@ export interface EcsExtendedFields {
 	* Description: Boolean to capture if the digital signature is verified against the binary content. Leave unpopulated if a certificate was unchecked.
 	* Example: true
 	*/
-	"file.code_signature.valid": boolean,
+	"file.code_signature.valid"?: boolean,
 
 	/**
 	* file.created
@@ -2980,7 +2980,7 @@ export interface EcsExtendedFields {
 	* Description: File creation time. Note that not all filesystems store the creation time.
 	* Example: <None>
 	*/
-	"file.created": Date,
+	"file.created"?: Date,
 
 	/**
 	* file.ctime
@@ -2991,7 +2991,7 @@ export interface EcsExtendedFields {
 	* Description: Last time the file attributes or metadata changed. Note that changes to the file content will update `mtime`. This implies `ctime` will be adjusted at the same time, since `mtime` is an attribute of the file.
 	* Example: <None>
 	*/
-	"file.ctime": Date,
+	"file.ctime"?: Date,
 
 	/**
 	* file.device
@@ -3002,7 +3002,7 @@ export interface EcsExtendedFields {
 	* Description: Device that is the source of the file.
 	* Example: sda
 	*/
-	"file.device": string,
+	"file.device"?: string,
 
 	/**
 	* file.directory
@@ -3013,7 +3013,7 @@ export interface EcsExtendedFields {
 	* Description: Directory where the file is located. It should include the drive letter, when appropriate.
 	* Example: /home/alice
 	*/
-	"file.directory": string,
+	"file.directory"?: string,
 
 	/**
 	* file.drive_letter
@@ -3024,7 +3024,7 @@ export interface EcsExtendedFields {
 	* Description: Drive letter where the file is located. This field is only relevant on Windows. The value should be uppercase, and not include the colon.
 	* Example: C
 	*/
-	"file.drive_letter": string,
+	"file.drive_letter"?: string,
 
 	/**
 	* file.extension
@@ -3035,7 +3035,7 @@ export interface EcsExtendedFields {
 	* Description: File extension, excluding the leading dot. Note that when the file name has multiple extensions (example.tar.gz), only the last one should be captured ("gz", not "tar.gz").
 	* Example: png
 	*/
-	"file.extension": string,
+	"file.extension"?: string,
 
 	/**
 	* file.gid
@@ -3046,7 +3046,7 @@ export interface EcsExtendedFields {
 	* Description: Primary group ID (GID) of the file.
 	* Example: 1001
 	*/
-	"file.gid": string,
+	"file.gid"?: string,
 
 	/**
 	* file.group
@@ -3057,7 +3057,7 @@ export interface EcsExtendedFields {
 	* Description: Primary group name of the file.
 	* Example: alice
 	*/
-	"file.group": string,
+	"file.group"?: string,
 
 	/**
 	* file.hash.md5
@@ -3068,7 +3068,7 @@ export interface EcsExtendedFields {
 	* Description: MD5 hash.
 	* Example: <None>
 	*/
-	"file.hash.md5": string,
+	"file.hash.md5"?: string,
 
 	/**
 	* file.hash.sha1
@@ -3079,7 +3079,7 @@ export interface EcsExtendedFields {
 	* Description: SHA1 hash.
 	* Example: <None>
 	*/
-	"file.hash.sha1": string,
+	"file.hash.sha1"?: string,
 
 	/**
 	* file.hash.sha256
@@ -3090,7 +3090,7 @@ export interface EcsExtendedFields {
 	* Description: SHA256 hash.
 	* Example: <None>
 	*/
-	"file.hash.sha256": string,
+	"file.hash.sha256"?: string,
 
 	/**
 	* file.hash.sha512
@@ -3101,7 +3101,7 @@ export interface EcsExtendedFields {
 	* Description: SHA512 hash.
 	* Example: <None>
 	*/
-	"file.hash.sha512": string,
+	"file.hash.sha512"?: string,
 
 	/**
 	* file.inode
@@ -3112,7 +3112,7 @@ export interface EcsExtendedFields {
 	* Description: Inode representing the file in the filesystem.
 	* Example: 256383
 	*/
-	"file.inode": string,
+	"file.inode"?: string,
 
 	/**
 	* file.mime_type
@@ -3123,7 +3123,7 @@ export interface EcsExtendedFields {
 	* Description: MIME type should identify the format of the file or stream of bytes using https://www.iana.org/assignments/media-types/media-types.xhtml[IANA official types], where possible. When more than one type is applicable, the most specific type should be used.
 	* Example: <None>
 	*/
-	"file.mime_type": string,
+	"file.mime_type"?: string,
 
 	/**
 	* file.mode
@@ -3134,7 +3134,7 @@ export interface EcsExtendedFields {
 	* Description: Mode of the file in octal representation.
 	* Example: 0640
 	*/
-	"file.mode": string,
+	"file.mode"?: string,
 
 	/**
 	* file.mtime
@@ -3145,7 +3145,7 @@ export interface EcsExtendedFields {
 	* Description: Last time the file content was modified.
 	* Example: <None>
 	*/
-	"file.mtime": Date,
+	"file.mtime"?: Date,
 
 	/**
 	* file.name
@@ -3156,7 +3156,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the file including the extension, without the directory.
 	* Example: example.png
 	*/
-	"file.name": string,
+	"file.name"?: string,
 
 	/**
 	* file.owner
@@ -3167,7 +3167,7 @@ export interface EcsExtendedFields {
 	* Description: File owner's username.
 	* Example: alice
 	*/
-	"file.owner": string,
+	"file.owner"?: string,
 
 	/**
 	* file.path
@@ -3178,7 +3178,7 @@ export interface EcsExtendedFields {
 	* Description: Full path to the file, including the file name. It should include the drive letter, when appropriate.
 	* Example: /home/alice/example.png
 	*/
-	"file.path": string,
+	"file.path"?: string,
 
 	/**
 	* file.pe.architecture
@@ -3189,7 +3189,7 @@ export interface EcsExtendedFields {
 	* Description: CPU architecture target for the file.
 	* Example: x64
 	*/
-	"file.pe.architecture": string,
+	"file.pe.architecture"?: string,
 
 	/**
 	* file.pe.company
@@ -3200,7 +3200,7 @@ export interface EcsExtendedFields {
 	* Description: Internal company name of the file, provided at compile-time.
 	* Example: Microsoft Corporation
 	*/
-	"file.pe.company": string,
+	"file.pe.company"?: string,
 
 	/**
 	* file.pe.description
@@ -3211,7 +3211,7 @@ export interface EcsExtendedFields {
 	* Description: Internal description of the file, provided at compile-time.
 	* Example: Paint
 	*/
-	"file.pe.description": string,
+	"file.pe.description"?: string,
 
 	/**
 	* file.pe.file_version
@@ -3222,7 +3222,7 @@ export interface EcsExtendedFields {
 	* Description: Internal version of the file, provided at compile-time.
 	* Example: 6.3.9600.17415
 	*/
-	"file.pe.file_version": string,
+	"file.pe.file_version"?: string,
 
 	/**
 	* file.pe.imphash
@@ -3233,7 +3233,7 @@ export interface EcsExtendedFields {
 	* Description: A hash of the imports in a PE file. An imphash -- or import hash -- can be used to fingerprint binaries even after recompilation or other code-level transformations have occurred, which would change more traditional hash values. Learn more at https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html.
 	* Example: 0c6803c4e922103c4dca5963aad36ddf
 	*/
-	"file.pe.imphash": string,
+	"file.pe.imphash"?: string,
 
 	/**
 	* file.pe.original_file_name
@@ -3244,7 +3244,7 @@ export interface EcsExtendedFields {
 	* Description: Internal name of the file, provided at compile-time.
 	* Example: MSPAINT.EXE
 	*/
-	"file.pe.original_file_name": string,
+	"file.pe.original_file_name"?: string,
 
 	/**
 	* file.pe.product
@@ -3255,7 +3255,7 @@ export interface EcsExtendedFields {
 	* Description: Internal product name of the file, provided at compile-time.
 	* Example: Microsoft® Windows® Operating System
 	*/
-	"file.pe.product": string,
+	"file.pe.product"?: string,
 
 	/**
 	* file.size
@@ -3266,7 +3266,7 @@ export interface EcsExtendedFields {
 	* Description: File size in bytes. Only relevant when `file.type` is "file".
 	* Example: 16384
 	*/
-	"file.size": number,
+	"file.size"?: number,
 
 	/**
 	* file.target_path
@@ -3277,7 +3277,7 @@ export interface EcsExtendedFields {
 	* Description: Target path for symlinks.
 	* Example: <None>
 	*/
-	"file.target_path": string,
+	"file.target_path"?: string,
 
 	/**
 	* file.type
@@ -3288,7 +3288,7 @@ export interface EcsExtendedFields {
 	* Description: File type (file, dir, or symlink).
 	* Example: file
 	*/
-	"file.type": string,
+	"file.type"?: string,
 
 	/**
 	* file.uid
@@ -3299,7 +3299,7 @@ export interface EcsExtendedFields {
 	* Description: The user ID (UID) or security identifier (SID) of the file owner.
 	* Example: 1001
 	*/
-	"file.uid": string,
+	"file.uid"?: string,
 
 	/**
 	* file.x509.alternative_names
@@ -3310,7 +3310,7 @@ export interface EcsExtendedFields {
 	* Description: List of subject alternative names (SAN). Name types vary by certificate authority and certificate type but commonly contain IP addresses, DNS names (and wildcards), and email addresses.
 	* Example: *.elastic.co
 	*/
-	"file.x509.alternative_names": string,
+	"file.x509.alternative_names"?: string,
 
 	/**
 	* file.x509.issuer.common_name
@@ -3321,7 +3321,7 @@ export interface EcsExtendedFields {
 	* Description: List of common name (CN) of issuing certificate authority.
 	* Example: Example SHA2 High Assurance Server CA
 	*/
-	"file.x509.issuer.common_name": string,
+	"file.x509.issuer.common_name"?: string,
 
 	/**
 	* file.x509.issuer.country
@@ -3332,7 +3332,7 @@ export interface EcsExtendedFields {
 	* Description: List of country (C) codes
 	* Example: US
 	*/
-	"file.x509.issuer.country": string,
+	"file.x509.issuer.country"?: string,
 
 	/**
 	* file.x509.issuer.distinguished_name
@@ -3343,7 +3343,7 @@ export interface EcsExtendedFields {
 	* Description: Distinguished name (DN) of issuing certificate authority.
 	* Example: C=US, O=Example Inc, OU=www.example.com, CN=Example SHA2 High Assurance Server CA
 	*/
-	"file.x509.issuer.distinguished_name": string,
+	"file.x509.issuer.distinguished_name"?: string,
 
 	/**
 	* file.x509.issuer.locality
@@ -3354,7 +3354,7 @@ export interface EcsExtendedFields {
 	* Description: List of locality names (L)
 	* Example: Mountain View
 	*/
-	"file.x509.issuer.locality": string,
+	"file.x509.issuer.locality"?: string,
 
 	/**
 	* file.x509.issuer.organization
@@ -3365,7 +3365,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizations (O) of issuing certificate authority.
 	* Example: Example Inc
 	*/
-	"file.x509.issuer.organization": string,
+	"file.x509.issuer.organization"?: string,
 
 	/**
 	* file.x509.issuer.organizational_unit
@@ -3376,7 +3376,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizational units (OU) of issuing certificate authority.
 	* Example: www.example.com
 	*/
-	"file.x509.issuer.organizational_unit": string,
+	"file.x509.issuer.organizational_unit"?: string,
 
 	/**
 	* file.x509.issuer.state_or_province
@@ -3387,7 +3387,7 @@ export interface EcsExtendedFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"file.x509.issuer.state_or_province": string,
+	"file.x509.issuer.state_or_province"?: string,
 
 	/**
 	* file.x509.not_after
@@ -3398,7 +3398,7 @@ export interface EcsExtendedFields {
 	* Description: Time at which the certificate is no longer considered valid.
 	* Example: 2020-07-16 03:15:39+00:00
 	*/
-	"file.x509.not_after": Date,
+	"file.x509.not_after"?: Date,
 
 	/**
 	* file.x509.not_before
@@ -3409,7 +3409,7 @@ export interface EcsExtendedFields {
 	* Description: Time at which the certificate is first considered valid.
 	* Example: 2019-08-16 01:40:25+00:00
 	*/
-	"file.x509.not_before": Date,
+	"file.x509.not_before"?: Date,
 
 	/**
 	* file.x509.public_key_algorithm
@@ -3420,7 +3420,7 @@ export interface EcsExtendedFields {
 	* Description: Algorithm used to generate the public key.
 	* Example: RSA
 	*/
-	"file.x509.public_key_algorithm": string,
+	"file.x509.public_key_algorithm"?: string,
 
 	/**
 	* file.x509.public_key_curve
@@ -3431,7 +3431,7 @@ export interface EcsExtendedFields {
 	* Description: The curve used by the elliptic curve public key algorithm. This is algorithm specific.
 	* Example: nistp521
 	*/
-	"file.x509.public_key_curve": string,
+	"file.x509.public_key_curve"?: string,
 
 	/**
 	* file.x509.public_key_exponent
@@ -3442,7 +3442,7 @@ export interface EcsExtendedFields {
 	* Description: Exponent used to derive the public key. This is algorithm specific.
 	* Example: 65537
 	*/
-	"file.x509.public_key_exponent": number,
+	"file.x509.public_key_exponent"?: number,
 
 	/**
 	* file.x509.public_key_size
@@ -3453,7 +3453,7 @@ export interface EcsExtendedFields {
 	* Description: The size of the public key space in bits.
 	* Example: 2048
 	*/
-	"file.x509.public_key_size": number,
+	"file.x509.public_key_size"?: number,
 
 	/**
 	* file.x509.serial_number
@@ -3464,7 +3464,7 @@ export interface EcsExtendedFields {
 	* Description: Unique serial number issued by the certificate authority. For consistency, if this value is alphanumeric, it should be formatted without colons and uppercase characters.
 	* Example: 55FBB9C7DEBF09809D12CCAA
 	*/
-	"file.x509.serial_number": string,
+	"file.x509.serial_number"?: string,
 
 	/**
 	* file.x509.signature_algorithm
@@ -3475,7 +3475,7 @@ export interface EcsExtendedFields {
 	* Description: Identifier for certificate signature algorithm. We recommend using names found in Go Lang Crypto library. See https://github.com/golang/go/blob/go1.14/src/crypto/x509/x509.go#L337-L353.
 	* Example: SHA256-RSA
 	*/
-	"file.x509.signature_algorithm": string,
+	"file.x509.signature_algorithm"?: string,
 
 	/**
 	* file.x509.subject.common_name
@@ -3486,7 +3486,7 @@ export interface EcsExtendedFields {
 	* Description: List of common names (CN) of subject.
 	* Example: shared.global.example.net
 	*/
-	"file.x509.subject.common_name": string,
+	"file.x509.subject.common_name"?: string,
 
 	/**
 	* file.x509.subject.country
@@ -3497,7 +3497,7 @@ export interface EcsExtendedFields {
 	* Description: List of country (C) code
 	* Example: US
 	*/
-	"file.x509.subject.country": string,
+	"file.x509.subject.country"?: string,
 
 	/**
 	* file.x509.subject.distinguished_name
@@ -3508,7 +3508,7 @@ export interface EcsExtendedFields {
 	* Description: Distinguished name (DN) of the certificate subject entity.
 	* Example: C=US, ST=California, L=San Francisco, O=Example, Inc., CN=shared.global.example.net
 	*/
-	"file.x509.subject.distinguished_name": string,
+	"file.x509.subject.distinguished_name"?: string,
 
 	/**
 	* file.x509.subject.locality
@@ -3519,7 +3519,7 @@ export interface EcsExtendedFields {
 	* Description: List of locality names (L)
 	* Example: San Francisco
 	*/
-	"file.x509.subject.locality": string,
+	"file.x509.subject.locality"?: string,
 
 	/**
 	* file.x509.subject.organization
@@ -3530,7 +3530,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizations (O) of subject.
 	* Example: Example, Inc.
 	*/
-	"file.x509.subject.organization": string,
+	"file.x509.subject.organization"?: string,
 
 	/**
 	* file.x509.subject.organizational_unit
@@ -3541,7 +3541,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizational units (OU) of subject.
 	* Example: <None>
 	*/
-	"file.x509.subject.organizational_unit": string,
+	"file.x509.subject.organizational_unit"?: string,
 
 	/**
 	* file.x509.subject.state_or_province
@@ -3552,7 +3552,7 @@ export interface EcsExtendedFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"file.x509.subject.state_or_province": string,
+	"file.x509.subject.state_or_province"?: string,
 
 	/**
 	* file.x509.version_number
@@ -3563,7 +3563,7 @@ export interface EcsExtendedFields {
 	* Description: Version of x509 format.
 	* Example: 3
 	*/
-	"file.x509.version_number": string,
+	"file.x509.version_number"?: string,
 
 	/**
 	* geo.name
@@ -3575,7 +3575,7 @@ export interface EcsExtendedFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"geo.name": string,
+	"geo.name"?: string,
 
 	/**
 	* group.domain
@@ -3586,7 +3586,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"group.domain": string,
+	"group.domain"?: string,
 
 	/**
 	* group.id
@@ -3597,7 +3597,7 @@ export interface EcsExtendedFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"group.id": string,
+	"group.id"?: string,
 
 	/**
 	* group.name
@@ -3608,7 +3608,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"group.name": string,
+	"group.name"?: string,
 
 	/**
 	* hash.md5
@@ -3619,7 +3619,7 @@ export interface EcsExtendedFields {
 	* Description: MD5 hash.
 	* Example: <None>
 	*/
-	"hash.md5": string,
+	"hash.md5"?: string,
 
 	/**
 	* hash.sha1
@@ -3630,7 +3630,7 @@ export interface EcsExtendedFields {
 	* Description: SHA1 hash.
 	* Example: <None>
 	*/
-	"hash.sha1": string,
+	"hash.sha1"?: string,
 
 	/**
 	* hash.sha256
@@ -3641,7 +3641,7 @@ export interface EcsExtendedFields {
 	* Description: SHA256 hash.
 	* Example: <None>
 	*/
-	"hash.sha256": string,
+	"hash.sha256"?: string,
 
 	/**
 	* hash.sha512
@@ -3652,7 +3652,7 @@ export interface EcsExtendedFields {
 	* Description: SHA512 hash.
 	* Example: <None>
 	*/
-	"hash.sha512": string,
+	"hash.sha512"?: string,
 
 	/**
 	* host.domain
@@ -3663,7 +3663,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the domain of which the host is a member. For example, on Windows this could be the host's Active Directory domain or NetBIOS domain name. For Linux this could be the domain of the host's LDAP provider.
 	* Example: CONTOSO
 	*/
-	"host.domain": string,
+	"host.domain"?: string,
 
 	/**
 	* host.geo.name
@@ -3675,7 +3675,7 @@ export interface EcsExtendedFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"host.geo.name": string,
+	"host.geo.name"?: string,
 
 	/**
 	* host.os.family
@@ -3686,7 +3686,7 @@ export interface EcsExtendedFields {
 	* Description: OS family (such as redhat, debian, freebsd, windows).
 	* Example: debian
 	*/
-	"host.os.family": string,
+	"host.os.family"?: string,
 
 	/**
 	* host.os.full
@@ -3697,7 +3697,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system name, including the version or code name.
 	* Example: Mac OS Mojave
 	*/
-	"host.os.full": string,
+	"host.os.full"?: string,
 
 	/**
 	* host.os.kernel
@@ -3708,7 +3708,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system kernel version as a raw string.
 	* Example: 4.4.0-112-generic
 	*/
-	"host.os.kernel": string,
+	"host.os.kernel"?: string,
 
 	/**
 	* host.os.name
@@ -3719,7 +3719,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system name, without the version.
 	* Example: Mac OS X
 	*/
-	"host.os.name": string,
+	"host.os.name"?: string,
 
 	/**
 	* host.os.platform
@@ -3730,7 +3730,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system platform (such centos, ubuntu, windows).
 	* Example: darwin
 	*/
-	"host.os.platform": string,
+	"host.os.platform"?: string,
 
 	/**
 	* host.os.version
@@ -3741,7 +3741,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system version as a raw string.
 	* Example: 10.14.1
 	*/
-	"host.os.version": string,
+	"host.os.version"?: string,
 
 	/**
 	* host.uptime
@@ -3752,7 +3752,7 @@ export interface EcsExtendedFields {
 	* Description: Seconds the host has been up.
 	* Example: 1325
 	*/
-	"host.uptime": number,
+	"host.uptime"?: number,
 
 	/**
 	* host.user.domain
@@ -3763,7 +3763,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"host.user.domain": string,
+	"host.user.domain"?: string,
 
 	/**
 	* host.user.email
@@ -3774,7 +3774,7 @@ export interface EcsExtendedFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"host.user.email": string,
+	"host.user.email"?: string,
 
 	/**
 	* host.user.full_name
@@ -3785,7 +3785,7 @@ export interface EcsExtendedFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"host.user.full_name": string,
+	"host.user.full_name"?: string,
 
 	/**
 	* host.user.group.domain
@@ -3796,7 +3796,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"host.user.group.domain": string,
+	"host.user.group.domain"?: string,
 
 	/**
 	* host.user.group.id
@@ -3807,7 +3807,7 @@ export interface EcsExtendedFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"host.user.group.id": string,
+	"host.user.group.id"?: string,
 
 	/**
 	* host.user.group.name
@@ -3818,7 +3818,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"host.user.group.name": string,
+	"host.user.group.name"?: string,
 
 	/**
 	* host.user.hash
@@ -3829,7 +3829,7 @@ export interface EcsExtendedFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"host.user.hash": string,
+	"host.user.hash"?: string,
 
 	/**
 	* host.user.roles
@@ -3840,7 +3840,7 @@ export interface EcsExtendedFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"host.user.roles": string,
+	"host.user.roles"?: string,
 
 	/**
 	* http.request.body.bytes
@@ -3851,7 +3851,7 @@ export interface EcsExtendedFields {
 	* Description: Size in bytes of the request body.
 	* Example: 887
 	*/
-	"http.request.body.bytes": number,
+	"http.request.body.bytes"?: number,
 
 	/**
 	* http.request.body.content
@@ -3862,7 +3862,7 @@ export interface EcsExtendedFields {
 	* Description: The full HTTP request body.
 	* Example: Hello world
 	*/
-	"http.request.body.content": string,
+	"http.request.body.content"?: string,
 
 	/**
 	* http.request.bytes
@@ -3873,7 +3873,7 @@ export interface EcsExtendedFields {
 	* Description: Total size in bytes of the request (body and headers).
 	* Example: 1437
 	*/
-	"http.request.bytes": number,
+	"http.request.bytes"?: number,
 
 	/**
 	* http.request.method
@@ -3886,7 +3886,7 @@ export interface EcsExtendedFields {
 	As of ECS 1.6.0, the guidance is deprecated because the original case of the method may be useful in anomaly detection.  Original case will be mandated in ECS 2.0.0
 	* Example: GET, POST, PUT, PoST
 	*/
-	"http.request.method": string,
+	"http.request.method"?: string,
 
 	/**
 	* http.request.mime_type
@@ -3897,7 +3897,7 @@ export interface EcsExtendedFields {
 	* Description: Mime type of the body of the request. This value must only be populated based on the content of the request body, not on the `Content-Type` header. Comparing the mime type of a request with the request's Content-Type header can be helpful in detecting threats or misconfigured clients.
 	* Example: image/gif
 	*/
-	"http.request.mime_type": string,
+	"http.request.mime_type"?: string,
 
 	/**
 	* http.request.referrer
@@ -3908,7 +3908,7 @@ export interface EcsExtendedFields {
 	* Description: Referrer for this HTTP request.
 	* Example: https://blog.example.com/
 	*/
-	"http.request.referrer": string,
+	"http.request.referrer"?: string,
 
 	/**
 	* http.response.body.bytes
@@ -3919,7 +3919,7 @@ export interface EcsExtendedFields {
 	* Description: Size in bytes of the response body.
 	* Example: 887
 	*/
-	"http.response.body.bytes": number,
+	"http.response.body.bytes"?: number,
 
 	/**
 	* http.response.body.content
@@ -3930,7 +3930,7 @@ export interface EcsExtendedFields {
 	* Description: The full HTTP response body.
 	* Example: Hello world
 	*/
-	"http.response.body.content": string,
+	"http.response.body.content"?: string,
 
 	/**
 	* http.response.bytes
@@ -3941,7 +3941,7 @@ export interface EcsExtendedFields {
 	* Description: Total size in bytes of the response (body and headers).
 	* Example: 1437
 	*/
-	"http.response.bytes": number,
+	"http.response.bytes"?: number,
 
 	/**
 	* http.response.mime_type
@@ -3952,7 +3952,7 @@ export interface EcsExtendedFields {
 	* Description: Mime type of the body of the response. This value must only be populated based on the content of the response body, not on the `Content-Type` header. Comparing the mime type of a response with the response's Content-Type header can be helpful in detecting misconfigured servers.
 	* Example: image/gif
 	*/
-	"http.response.mime_type": string,
+	"http.response.mime_type"?: string,
 
 	/**
 	* http.response.status_code
@@ -3963,7 +3963,7 @@ export interface EcsExtendedFields {
 	* Description: HTTP response status code.
 	* Example: 404
 	*/
-	"http.response.status_code": number,
+	"http.response.status_code"?: number,
 
 	/**
 	* http.version
@@ -3974,7 +3974,7 @@ export interface EcsExtendedFields {
 	* Description: HTTP version.
 	* Example: 1.1
 	*/
-	"http.version": string,
+	"http.version"?: string,
 
 	/**
 	* interface.alias
@@ -3985,7 +3985,7 @@ export interface EcsExtendedFields {
 	* Description: Interface alias as reported by the system, typically used in firewall implementations for e.g. inside, outside, or dmz logical interface naming.
 	* Example: outside
 	*/
-	"interface.alias": string,
+	"interface.alias"?: string,
 
 	/**
 	* interface.id
@@ -3996,7 +3996,7 @@ export interface EcsExtendedFields {
 	* Description: Interface ID as reported by an observer (typically SNMP interface ID).
 	* Example: 10
 	*/
-	"interface.id": string,
+	"interface.id"?: string,
 
 	/**
 	* interface.name
@@ -4007,7 +4007,7 @@ export interface EcsExtendedFields {
 	* Description: Interface name as reported by the system.
 	* Example: eth0
 	*/
-	"interface.name": string,
+	"interface.name"?: string,
 
 	/**
 	* log.file.path
@@ -4018,7 +4018,7 @@ export interface EcsExtendedFields {
 	* Description: Full path to the log file this event came from, including the file name. It should include the drive letter, when appropriate. If the event wasn't read from a log file, do not populate this field.
 	* Example: /var/log/fun-times.log
 	*/
-	"log.file.path": string,
+	"log.file.path"?: string,
 
 	/**
 	* log.origin.file.line
@@ -4029,7 +4029,7 @@ export interface EcsExtendedFields {
 	* Description: The line number of the file containing the source code which originated the log event.
 	* Example: 42
 	*/
-	"log.origin.file.line": number,
+	"log.origin.file.line"?: number,
 
 	/**
 	* log.origin.file.name
@@ -4040,7 +4040,7 @@ export interface EcsExtendedFields {
 	* Description: The name of the file containing the source code which originated the log event. Note that this field is not meant to capture the log file. The correct field to capture the log file is `log.file.path`.
 	* Example: Bootstrap.java
 	*/
-	"log.origin.file.name": string,
+	"log.origin.file.name"?: string,
 
 	/**
 	* log.origin.function
@@ -4051,7 +4051,7 @@ export interface EcsExtendedFields {
 	* Description: The name of the function or method which originated the log event.
 	* Example: init
 	*/
-	"log.origin.function": string,
+	"log.origin.function"?: string,
 
 	/**
 	* log.syslog
@@ -4062,7 +4062,7 @@ export interface EcsExtendedFields {
 	* Description: The Syslog metadata of the event, if the event was transmitted via Syslog. Please see RFCs 5424 or 3164.
 	* Example: <None>
 	*/
-	"log.syslog": object,
+	"log.syslog"?: object,
 
 	/**
 	* log.syslog.facility.code
@@ -4073,7 +4073,7 @@ export interface EcsExtendedFields {
 	* Description: The Syslog numeric facility of the log event, if available. According to RFCs 5424 and 3164, this value should be an integer between 0 and 23.
 	* Example: 23
 	*/
-	"log.syslog.facility.code": number,
+	"log.syslog.facility.code"?: number,
 
 	/**
 	* log.syslog.facility.name
@@ -4084,7 +4084,7 @@ export interface EcsExtendedFields {
 	* Description: The Syslog text-based facility of the log event, if available.
 	* Example: local7
 	*/
-	"log.syslog.facility.name": string,
+	"log.syslog.facility.name"?: string,
 
 	/**
 	* log.syslog.priority
@@ -4095,7 +4095,7 @@ export interface EcsExtendedFields {
 	* Description: Syslog numeric priority of the event, if available. According to RFCs 5424 and 3164, the priority is 8 * facility + severity. This number is therefore expected to contain a value between 0 and 191.
 	* Example: 135
 	*/
-	"log.syslog.priority": number,
+	"log.syslog.priority"?: number,
 
 	/**
 	* log.syslog.severity.code
@@ -4106,7 +4106,7 @@ export interface EcsExtendedFields {
 	* Description: The Syslog numeric severity of the log event, if available. If the event source publishing via Syslog provides a different numeric severity value (e.g. firewall, IDS), your source's numeric severity should go to `event.severity`. If the event source does not specify a distinct severity, you can optionally copy the Syslog severity to `event.severity`.
 	* Example: 3
 	*/
-	"log.syslog.severity.code": number,
+	"log.syslog.severity.code"?: number,
 
 	/**
 	* log.syslog.severity.name
@@ -4117,7 +4117,7 @@ export interface EcsExtendedFields {
 	* Description: The Syslog numeric severity of the log event, if available. If the event source publishing via Syslog provides a different severity value (e.g. firewall, IDS), your source's text severity should go to `log.level`. If the event source does not specify a distinct severity, you can optionally copy the Syslog severity to `log.level`.
 	* Example: Error
 	*/
-	"log.syslog.severity.name": string,
+	"log.syslog.severity.name"?: string,
 
 	/**
 	* network.application
@@ -4128,7 +4128,7 @@ export interface EcsExtendedFields {
 	* Description: A name given to an application level protocol. This can be arbitrarily assigned for things like microservices, but also apply to things like skype, icq, facebook, twitter. This would be used in situations where the vendor or service can be decoded such as from the source/dest IP owners, ports, or wire format. The field value must be normalized to lowercase for querying. See the documentation section "Implementing ECS".
 	* Example: aim
 	*/
-	"network.application": string,
+	"network.application"?: string,
 
 	/**
 	* network.community_id
@@ -4139,7 +4139,7 @@ export interface EcsExtendedFields {
 	* Description: A hash of source and destination IPs and ports, as well as the protocol used in a communication. This is a tool-agnostic standard to identify flows. Learn more at https://github.com/corelight/community-id-spec.
 	* Example: 1:hO+sN4H+MG5MY/8hIrXPqc4ZQz0=
 	*/
-	"network.community_id": string,
+	"network.community_id"?: string,
 
 	/**
 	* network.iana_number
@@ -4150,7 +4150,7 @@ export interface EcsExtendedFields {
 	* Description: IANA Protocol Number (https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml). Standardized list of protocols. This aligns well with NetFlow and sFlow related logs which use the IANA Protocol Number.
 	* Example: 6
 	*/
-	"network.iana_number": string,
+	"network.iana_number"?: string,
 
 	/**
 	* network.inner
@@ -4161,7 +4161,7 @@ export interface EcsExtendedFields {
 	* Description: Network.inner fields are added in addition to network.vlan fields to describe the innermost VLAN when q-in-q VLAN tagging is present. Allowed fields include vlan.id and vlan.name. Inner vlan fields are typically used when sending traffic with multiple 802.1q encapsulations to a network sensor (e.g. Zeek, Wireshark.)
 	* Example: <None>
 	*/
-	"network.inner": object,
+	"network.inner"?: object,
 
 	/**
 	* network.inner.vlan.id
@@ -4172,7 +4172,7 @@ export interface EcsExtendedFields {
 	* Description: VLAN ID as reported by the observer.
 	* Example: 10
 	*/
-	"network.inner.vlan.id": string,
+	"network.inner.vlan.id"?: string,
 
 	/**
 	* network.inner.vlan.name
@@ -4183,7 +4183,7 @@ export interface EcsExtendedFields {
 	* Description: Optional VLAN name as reported by the observer.
 	* Example: outside
 	*/
-	"network.inner.vlan.name": string,
+	"network.inner.vlan.name"?: string,
 
 	/**
 	* network.name
@@ -4194,7 +4194,7 @@ export interface EcsExtendedFields {
 	* Description: Name given by operators to sections of their network.
 	* Example: Guest Wifi
 	*/
-	"network.name": string,
+	"network.name"?: string,
 
 	/**
 	* network.vlan.id
@@ -4205,7 +4205,7 @@ export interface EcsExtendedFields {
 	* Description: VLAN ID as reported by the observer.
 	* Example: 10
 	*/
-	"network.vlan.id": string,
+	"network.vlan.id"?: string,
 
 	/**
 	* network.vlan.name
@@ -4216,7 +4216,7 @@ export interface EcsExtendedFields {
 	* Description: Optional VLAN name as reported by the observer.
 	* Example: outside
 	*/
-	"network.vlan.name": string,
+	"network.vlan.name"?: string,
 
 	/**
 	* observer.egress
@@ -4227,7 +4227,7 @@ export interface EcsExtendedFields {
 	* Description: Observer.egress holds information like interface number and name, vlan, and zone information to  classify egress traffic.  Single armed monitoring such as a network sensor on a span port should  only use observer.ingress to categorize traffic.
 	* Example: <None>
 	*/
-	"observer.egress": object,
+	"observer.egress"?: object,
 
 	/**
 	* observer.egress.interface.alias
@@ -4238,7 +4238,7 @@ export interface EcsExtendedFields {
 	* Description: Interface alias as reported by the system, typically used in firewall implementations for e.g. inside, outside, or dmz logical interface naming.
 	* Example: outside
 	*/
-	"observer.egress.interface.alias": string,
+	"observer.egress.interface.alias"?: string,
 
 	/**
 	* observer.egress.interface.id
@@ -4249,7 +4249,7 @@ export interface EcsExtendedFields {
 	* Description: Interface ID as reported by an observer (typically SNMP interface ID).
 	* Example: 10
 	*/
-	"observer.egress.interface.id": string,
+	"observer.egress.interface.id"?: string,
 
 	/**
 	* observer.egress.interface.name
@@ -4260,7 +4260,7 @@ export interface EcsExtendedFields {
 	* Description: Interface name as reported by the system.
 	* Example: eth0
 	*/
-	"observer.egress.interface.name": string,
+	"observer.egress.interface.name"?: string,
 
 	/**
 	* observer.egress.vlan.id
@@ -4271,7 +4271,7 @@ export interface EcsExtendedFields {
 	* Description: VLAN ID as reported by the observer.
 	* Example: 10
 	*/
-	"observer.egress.vlan.id": string,
+	"observer.egress.vlan.id"?: string,
 
 	/**
 	* observer.egress.vlan.name
@@ -4282,7 +4282,7 @@ export interface EcsExtendedFields {
 	* Description: Optional VLAN name as reported by the observer.
 	* Example: outside
 	*/
-	"observer.egress.vlan.name": string,
+	"observer.egress.vlan.name"?: string,
 
 	/**
 	* observer.egress.zone
@@ -4293,7 +4293,7 @@ export interface EcsExtendedFields {
 	* Description: Network zone of outbound traffic as reported by the observer to categorize the destination area of egress  traffic, e.g. Internal, External, DMZ, HR, Legal, etc.
 	* Example: Public_Internet
 	*/
-	"observer.egress.zone": string,
+	"observer.egress.zone"?: string,
 
 	/**
 	* observer.geo.name
@@ -4305,7 +4305,7 @@ export interface EcsExtendedFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"observer.geo.name": string,
+	"observer.geo.name"?: string,
 
 	/**
 	* observer.ingress
@@ -4316,7 +4316,7 @@ export interface EcsExtendedFields {
 	* Description: Observer.ingress holds information like interface number and name, vlan, and zone information to  classify ingress traffic.  Single armed monitoring such as a network sensor on a span port should  only use observer.ingress to categorize traffic.
 	* Example: <None>
 	*/
-	"observer.ingress": object,
+	"observer.ingress"?: object,
 
 	/**
 	* observer.ingress.interface.alias
@@ -4327,7 +4327,7 @@ export interface EcsExtendedFields {
 	* Description: Interface alias as reported by the system, typically used in firewall implementations for e.g. inside, outside, or dmz logical interface naming.
 	* Example: outside
 	*/
-	"observer.ingress.interface.alias": string,
+	"observer.ingress.interface.alias"?: string,
 
 	/**
 	* observer.ingress.interface.id
@@ -4338,7 +4338,7 @@ export interface EcsExtendedFields {
 	* Description: Interface ID as reported by an observer (typically SNMP interface ID).
 	* Example: 10
 	*/
-	"observer.ingress.interface.id": string,
+	"observer.ingress.interface.id"?: string,
 
 	/**
 	* observer.ingress.interface.name
@@ -4349,7 +4349,7 @@ export interface EcsExtendedFields {
 	* Description: Interface name as reported by the system.
 	* Example: eth0
 	*/
-	"observer.ingress.interface.name": string,
+	"observer.ingress.interface.name"?: string,
 
 	/**
 	* observer.ingress.vlan.id
@@ -4360,7 +4360,7 @@ export interface EcsExtendedFields {
 	* Description: VLAN ID as reported by the observer.
 	* Example: 10
 	*/
-	"observer.ingress.vlan.id": string,
+	"observer.ingress.vlan.id"?: string,
 
 	/**
 	* observer.ingress.vlan.name
@@ -4371,7 +4371,7 @@ export interface EcsExtendedFields {
 	* Description: Optional VLAN name as reported by the observer.
 	* Example: outside
 	*/
-	"observer.ingress.vlan.name": string,
+	"observer.ingress.vlan.name"?: string,
 
 	/**
 	* observer.ingress.zone
@@ -4382,7 +4382,7 @@ export interface EcsExtendedFields {
 	* Description: Network zone of incoming traffic as reported by the observer to categorize the source area of ingress  traffic. e.g. internal, External, DMZ, HR, Legal, etc.
 	* Example: DMZ
 	*/
-	"observer.ingress.zone": string,
+	"observer.ingress.zone"?: string,
 
 	/**
 	* observer.name
@@ -4394,7 +4394,7 @@ export interface EcsExtendedFields {
 	If no custom name is needed, the field can be left empty.
 	* Example: 1_proxySG
 	*/
-	"observer.name": string,
+	"observer.name"?: string,
 
 	/**
 	* observer.os.family
@@ -4405,7 +4405,7 @@ export interface EcsExtendedFields {
 	* Description: OS family (such as redhat, debian, freebsd, windows).
 	* Example: debian
 	*/
-	"observer.os.family": string,
+	"observer.os.family"?: string,
 
 	/**
 	* observer.os.full
@@ -4416,7 +4416,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system name, including the version or code name.
 	* Example: Mac OS Mojave
 	*/
-	"observer.os.full": string,
+	"observer.os.full"?: string,
 
 	/**
 	* observer.os.kernel
@@ -4427,7 +4427,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system kernel version as a raw string.
 	* Example: 4.4.0-112-generic
 	*/
-	"observer.os.kernel": string,
+	"observer.os.kernel"?: string,
 
 	/**
 	* observer.os.name
@@ -4438,7 +4438,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system name, without the version.
 	* Example: Mac OS X
 	*/
-	"observer.os.name": string,
+	"observer.os.name"?: string,
 
 	/**
 	* observer.os.platform
@@ -4449,7 +4449,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system platform (such centos, ubuntu, windows).
 	* Example: darwin
 	*/
-	"observer.os.platform": string,
+	"observer.os.platform"?: string,
 
 	/**
 	* observer.os.version
@@ -4460,7 +4460,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system version as a raw string.
 	* Example: 10.14.1
 	*/
-	"observer.os.version": string,
+	"observer.os.version"?: string,
 
 	/**
 	* observer.product
@@ -4471,7 +4471,7 @@ export interface EcsExtendedFields {
 	* Description: The product name of the observer.
 	* Example: s200
 	*/
-	"observer.product": string,
+	"observer.product"?: string,
 
 	/**
 	* observer.serial_number
@@ -4482,7 +4482,7 @@ export interface EcsExtendedFields {
 	* Description: Observer serial number.
 	* Example: <None>
 	*/
-	"observer.serial_number": string,
+	"observer.serial_number"?: string,
 
 	/**
 	* organization.id
@@ -4493,7 +4493,7 @@ export interface EcsExtendedFields {
 	* Description: Unique identifier for the organization.
 	* Example: <None>
 	*/
-	"organization.id": string,
+	"organization.id"?: string,
 
 	/**
 	* organization.name
@@ -4504,7 +4504,7 @@ export interface EcsExtendedFields {
 	* Description: Organization name.
 	* Example: <None>
 	*/
-	"organization.name": string,
+	"organization.name"?: string,
 
 	/**
 	* os.family
@@ -4515,7 +4515,7 @@ export interface EcsExtendedFields {
 	* Description: OS family (such as redhat, debian, freebsd, windows).
 	* Example: debian
 	*/
-	"os.family": string,
+	"os.family"?: string,
 
 	/**
 	* os.full
@@ -4526,7 +4526,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system name, including the version or code name.
 	* Example: Mac OS Mojave
 	*/
-	"os.full": string,
+	"os.full"?: string,
 
 	/**
 	* os.kernel
@@ -4537,7 +4537,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system kernel version as a raw string.
 	* Example: 4.4.0-112-generic
 	*/
-	"os.kernel": string,
+	"os.kernel"?: string,
 
 	/**
 	* os.name
@@ -4548,7 +4548,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system name, without the version.
 	* Example: Mac OS X
 	*/
-	"os.name": string,
+	"os.name"?: string,
 
 	/**
 	* os.platform
@@ -4559,7 +4559,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system platform (such centos, ubuntu, windows).
 	* Example: darwin
 	*/
-	"os.platform": string,
+	"os.platform"?: string,
 
 	/**
 	* os.version
@@ -4570,7 +4570,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system version as a raw string.
 	* Example: 10.14.1
 	*/
-	"os.version": string,
+	"os.version"?: string,
 
 	/**
 	* package.architecture
@@ -4581,7 +4581,7 @@ export interface EcsExtendedFields {
 	* Description: Package architecture.
 	* Example: x86_64
 	*/
-	"package.architecture": string,
+	"package.architecture"?: string,
 
 	/**
 	* package.build_version
@@ -4592,7 +4592,7 @@ export interface EcsExtendedFields {
 	* Description: Additional information about the build version of the installed package. For example use the commit SHA of a non-released package.
 	* Example: 36f4f7e89dd61b0988b12ee000b98966867710cd
 	*/
-	"package.build_version": string,
+	"package.build_version"?: string,
 
 	/**
 	* package.checksum
@@ -4603,7 +4603,7 @@ export interface EcsExtendedFields {
 	* Description: Checksum of the installed package for verification.
 	* Example: 68b329da9893e34099c7d8ad5cb9c940
 	*/
-	"package.checksum": string,
+	"package.checksum"?: string,
 
 	/**
 	* package.description
@@ -4614,7 +4614,7 @@ export interface EcsExtendedFields {
 	* Description: Description of the package.
 	* Example: Open source programming language to build simple/reliable/efficient software.
 	*/
-	"package.description": string,
+	"package.description"?: string,
 
 	/**
 	* package.install_scope
@@ -4625,7 +4625,7 @@ export interface EcsExtendedFields {
 	* Description: Indicating how the package was installed, e.g. user-local, global.
 	* Example: global
 	*/
-	"package.install_scope": string,
+	"package.install_scope"?: string,
 
 	/**
 	* package.installed
@@ -4636,7 +4636,7 @@ export interface EcsExtendedFields {
 	* Description: Time when package was installed.
 	* Example: <None>
 	*/
-	"package.installed": Date,
+	"package.installed"?: Date,
 
 	/**
 	* package.license
@@ -4647,7 +4647,7 @@ export interface EcsExtendedFields {
 	* Description: License under which the package was released. Use a short name, e.g. the license identifier from SPDX License List where possible (https://spdx.org/licenses/).
 	* Example: Apache License 2.0
 	*/
-	"package.license": string,
+	"package.license"?: string,
 
 	/**
 	* package.name
@@ -4658,7 +4658,7 @@ export interface EcsExtendedFields {
 	* Description: Package name
 	* Example: go
 	*/
-	"package.name": string,
+	"package.name"?: string,
 
 	/**
 	* package.path
@@ -4669,7 +4669,7 @@ export interface EcsExtendedFields {
 	* Description: Path where the package is installed.
 	* Example: /usr/local/Cellar/go/1.12.9/
 	*/
-	"package.path": string,
+	"package.path"?: string,
 
 	/**
 	* package.reference
@@ -4680,7 +4680,7 @@ export interface EcsExtendedFields {
 	* Description: Home page or reference URL of the software in this package, if available.
 	* Example: https://golang.org
 	*/
-	"package.reference": string,
+	"package.reference"?: string,
 
 	/**
 	* package.size
@@ -4691,7 +4691,7 @@ export interface EcsExtendedFields {
 	* Description: Package size in bytes.
 	* Example: 62231
 	*/
-	"package.size": number,
+	"package.size"?: number,
 
 	/**
 	* package.type
@@ -4702,7 +4702,7 @@ export interface EcsExtendedFields {
 	* Description: Type of package. This should contain the package file type, rather than the package manager name. Examples: rpm, dpkg, brew, npm, gem, nupkg, jar.
 	* Example: rpm
 	*/
-	"package.type": string,
+	"package.type"?: string,
 
 	/**
 	* package.version
@@ -4713,7 +4713,7 @@ export interface EcsExtendedFields {
 	* Description: Package version
 	* Example: 1.12.9
 	*/
-	"package.version": string,
+	"package.version"?: string,
 
 	/**
 	* pe.architecture
@@ -4724,7 +4724,7 @@ export interface EcsExtendedFields {
 	* Description: CPU architecture target for the file.
 	* Example: x64
 	*/
-	"pe.architecture": string,
+	"pe.architecture"?: string,
 
 	/**
 	* pe.company
@@ -4735,7 +4735,7 @@ export interface EcsExtendedFields {
 	* Description: Internal company name of the file, provided at compile-time.
 	* Example: Microsoft Corporation
 	*/
-	"pe.company": string,
+	"pe.company"?: string,
 
 	/**
 	* pe.description
@@ -4746,7 +4746,7 @@ export interface EcsExtendedFields {
 	* Description: Internal description of the file, provided at compile-time.
 	* Example: Paint
 	*/
-	"pe.description": string,
+	"pe.description"?: string,
 
 	/**
 	* pe.file_version
@@ -4757,7 +4757,7 @@ export interface EcsExtendedFields {
 	* Description: Internal version of the file, provided at compile-time.
 	* Example: 6.3.9600.17415
 	*/
-	"pe.file_version": string,
+	"pe.file_version"?: string,
 
 	/**
 	* pe.imphash
@@ -4768,7 +4768,7 @@ export interface EcsExtendedFields {
 	* Description: A hash of the imports in a PE file. An imphash -- or import hash -- can be used to fingerprint binaries even after recompilation or other code-level transformations have occurred, which would change more traditional hash values. Learn more at https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html.
 	* Example: 0c6803c4e922103c4dca5963aad36ddf
 	*/
-	"pe.imphash": string,
+	"pe.imphash"?: string,
 
 	/**
 	* pe.original_file_name
@@ -4779,7 +4779,7 @@ export interface EcsExtendedFields {
 	* Description: Internal name of the file, provided at compile-time.
 	* Example: MSPAINT.EXE
 	*/
-	"pe.original_file_name": string,
+	"pe.original_file_name"?: string,
 
 	/**
 	* pe.product
@@ -4790,7 +4790,7 @@ export interface EcsExtendedFields {
 	* Description: Internal product name of the file, provided at compile-time.
 	* Example: Microsoft® Windows® Operating System
 	*/
-	"pe.product": string,
+	"pe.product"?: string,
 
 	/**
 	* process.args
@@ -4801,7 +4801,7 @@ export interface EcsExtendedFields {
 	* Description: Array of process arguments, starting with the absolute path to the executable. May be filtered to protect sensitive information.
 	* Example: ["/usr/bin/ssh", "-l", "user", "10.0.0.16"]
 	*/
-	"process.args": string[],
+	"process.args"?: string[],
 
 	/**
 	* process.args_count
@@ -4812,7 +4812,7 @@ export interface EcsExtendedFields {
 	* Description: Length of the process.args array. This field can be useful for querying or performing bucket analysis on how many arguments were provided to start a process. More arguments may be an indication of suspicious activity.
 	* Example: 4
 	*/
-	"process.args_count": number,
+	"process.args_count"?: number,
 
 	/**
 	* process.code_signature.status
@@ -4823,7 +4823,7 @@ export interface EcsExtendedFields {
 	* Description: Additional information about the certificate status. This is useful for logging cryptographic errors with the certificate validity or trust status. Leave unpopulated if the validity or trust of the certificate was unchecked.
 	* Example: ERROR_UNTRUSTED_ROOT
 	*/
-	"process.code_signature.status": string,
+	"process.code_signature.status"?: string,
 
 	/**
 	* process.code_signature.trusted
@@ -4834,7 +4834,7 @@ export interface EcsExtendedFields {
 	* Description: Stores the trust status of the certificate chain. Validating the trust of the certificate chain may be complicated, and this field should only be populated by tools that actively check the status.
 	* Example: true
 	*/
-	"process.code_signature.trusted": boolean,
+	"process.code_signature.trusted"?: boolean,
 
 	/**
 	* process.code_signature.valid
@@ -4845,7 +4845,7 @@ export interface EcsExtendedFields {
 	* Description: Boolean to capture if the digital signature is verified against the binary content. Leave unpopulated if a certificate was unchecked.
 	* Example: true
 	*/
-	"process.code_signature.valid": boolean,
+	"process.code_signature.valid"?: boolean,
 
 	/**
 	* process.command_line
@@ -4856,7 +4856,7 @@ export interface EcsExtendedFields {
 	* Description: Full command line that started the process, including the absolute path to the executable, and all arguments. Some arguments may be filtered to protect sensitive information.
 	* Example: /usr/bin/ssh -l user 10.0.0.16
 	*/
-	"process.command_line": string,
+	"process.command_line"?: string,
 
 	/**
 	* process.entity_id
@@ -4868,7 +4868,7 @@ export interface EcsExtendedFields {
 	Constructing a globally unique identifier is a common practice to mitigate PID reuse as well as to identify a specific process over time, across multiple monitored hosts.
 	* Example: c2c455d9f99375d
 	*/
-	"process.entity_id": string,
+	"process.entity_id"?: string,
 
 	/**
 	* process.executable
@@ -4879,7 +4879,7 @@ export interface EcsExtendedFields {
 	* Description: Absolute path to the process executable.
 	* Example: /usr/bin/ssh
 	*/
-	"process.executable": string,
+	"process.executable"?: string,
 
 	/**
 	* process.exit_code
@@ -4890,7 +4890,7 @@ export interface EcsExtendedFields {
 	* Description: The exit code of the process, if this is a termination event. The field should be absent if there is no exit code for the event (e.g. process start).
 	* Example: 137
 	*/
-	"process.exit_code": number,
+	"process.exit_code"?: number,
 
 	/**
 	* process.hash.md5
@@ -4901,7 +4901,7 @@ export interface EcsExtendedFields {
 	* Description: MD5 hash.
 	* Example: <None>
 	*/
-	"process.hash.md5": string,
+	"process.hash.md5"?: string,
 
 	/**
 	* process.hash.sha1
@@ -4912,7 +4912,7 @@ export interface EcsExtendedFields {
 	* Description: SHA1 hash.
 	* Example: <None>
 	*/
-	"process.hash.sha1": string,
+	"process.hash.sha1"?: string,
 
 	/**
 	* process.hash.sha256
@@ -4923,7 +4923,7 @@ export interface EcsExtendedFields {
 	* Description: SHA256 hash.
 	* Example: <None>
 	*/
-	"process.hash.sha256": string,
+	"process.hash.sha256"?: string,
 
 	/**
 	* process.hash.sha512
@@ -4934,7 +4934,7 @@ export interface EcsExtendedFields {
 	* Description: SHA512 hash.
 	* Example: <None>
 	*/
-	"process.hash.sha512": string,
+	"process.hash.sha512"?: string,
 
 	/**
 	* process.name
@@ -4945,7 +4945,7 @@ export interface EcsExtendedFields {
 	* Description: Process name. Sometimes called program name or similar.
 	* Example: ssh
 	*/
-	"process.name": string,
+	"process.name"?: string,
 
 	/**
 	* process.parent.args
@@ -4956,7 +4956,7 @@ export interface EcsExtendedFields {
 	* Description: Array of process arguments, starting with the absolute path to the executable. May be filtered to protect sensitive information.
 	* Example: ["/usr/bin/ssh", "-l", "user", "10.0.0.16"]
 	*/
-	"process.parent.args": string,
+	"process.parent.args"?: string,
 
 	/**
 	* process.parent.args_count
@@ -4967,7 +4967,7 @@ export interface EcsExtendedFields {
 	* Description: Length of the process.args array. This field can be useful for querying or performing bucket analysis on how many arguments were provided to start a process. More arguments may be an indication of suspicious activity.
 	* Example: 4
 	*/
-	"process.parent.args_count": number,
+	"process.parent.args_count"?: number,
 
 	/**
 	* process.parent.code_signature.status
@@ -4978,7 +4978,7 @@ export interface EcsExtendedFields {
 	* Description: Additional information about the certificate status. This is useful for logging cryptographic errors with the certificate validity or trust status. Leave unpopulated if the validity or trust of the certificate was unchecked.
 	* Example: ERROR_UNTRUSTED_ROOT
 	*/
-	"process.parent.code_signature.status": string,
+	"process.parent.code_signature.status"?: string,
 
 	/**
 	* process.parent.code_signature.trusted
@@ -4989,7 +4989,7 @@ export interface EcsExtendedFields {
 	* Description: Stores the trust status of the certificate chain. Validating the trust of the certificate chain may be complicated, and this field should only be populated by tools that actively check the status.
 	* Example: true
 	*/
-	"process.parent.code_signature.trusted": boolean,
+	"process.parent.code_signature.trusted"?: boolean,
 
 	/**
 	* process.parent.code_signature.valid
@@ -5000,7 +5000,7 @@ export interface EcsExtendedFields {
 	* Description: Boolean to capture if the digital signature is verified against the binary content. Leave unpopulated if a certificate was unchecked.
 	* Example: true
 	*/
-	"process.parent.code_signature.valid": boolean,
+	"process.parent.code_signature.valid"?: boolean,
 
 	/**
 	* process.parent.command_line
@@ -5011,7 +5011,7 @@ export interface EcsExtendedFields {
 	* Description: Full command line that started the process, including the absolute path to the executable, and all arguments. Some arguments may be filtered to protect sensitive information.
 	* Example: /usr/bin/ssh -l user 10.0.0.16
 	*/
-	"process.parent.command_line": string,
+	"process.parent.command_line"?: string,
 
 	/**
 	* process.parent.entity_id
@@ -5023,7 +5023,7 @@ export interface EcsExtendedFields {
 	Constructing a globally unique identifier is a common practice to mitigate PID reuse as well as to identify a specific process over time, across multiple monitored hosts.
 	* Example: c2c455d9f99375d
 	*/
-	"process.parent.entity_id": string,
+	"process.parent.entity_id"?: string,
 
 	/**
 	* process.parent.executable
@@ -5034,7 +5034,7 @@ export interface EcsExtendedFields {
 	* Description: Absolute path to the process executable.
 	* Example: /usr/bin/ssh
 	*/
-	"process.parent.executable": string,
+	"process.parent.executable"?: string,
 
 	/**
 	* process.parent.exit_code
@@ -5045,7 +5045,7 @@ export interface EcsExtendedFields {
 	* Description: The exit code of the process, if this is a termination event. The field should be absent if there is no exit code for the event (e.g. process start).
 	* Example: 137
 	*/
-	"process.parent.exit_code": number,
+	"process.parent.exit_code"?: number,
 
 	/**
 	* process.parent.hash.md5
@@ -5056,7 +5056,7 @@ export interface EcsExtendedFields {
 	* Description: MD5 hash.
 	* Example: <None>
 	*/
-	"process.parent.hash.md5": string,
+	"process.parent.hash.md5"?: string,
 
 	/**
 	* process.parent.hash.sha1
@@ -5067,7 +5067,7 @@ export interface EcsExtendedFields {
 	* Description: SHA1 hash.
 	* Example: <None>
 	*/
-	"process.parent.hash.sha1": string,
+	"process.parent.hash.sha1"?: string,
 
 	/**
 	* process.parent.hash.sha256
@@ -5078,7 +5078,7 @@ export interface EcsExtendedFields {
 	* Description: SHA256 hash.
 	* Example: <None>
 	*/
-	"process.parent.hash.sha256": string,
+	"process.parent.hash.sha256"?: string,
 
 	/**
 	* process.parent.hash.sha512
@@ -5089,7 +5089,7 @@ export interface EcsExtendedFields {
 	* Description: SHA512 hash.
 	* Example: <None>
 	*/
-	"process.parent.hash.sha512": string,
+	"process.parent.hash.sha512"?: string,
 
 	/**
 	* process.parent.name
@@ -5100,7 +5100,7 @@ export interface EcsExtendedFields {
 	* Description: Process name. Sometimes called program name or similar.
 	* Example: ssh
 	*/
-	"process.parent.name": string,
+	"process.parent.name"?: string,
 
 	/**
 	* process.parent.pe.architecture
@@ -5111,7 +5111,7 @@ export interface EcsExtendedFields {
 	* Description: CPU architecture target for the file.
 	* Example: x64
 	*/
-	"process.parent.pe.architecture": string,
+	"process.parent.pe.architecture"?: string,
 
 	/**
 	* process.parent.pe.company
@@ -5122,7 +5122,7 @@ export interface EcsExtendedFields {
 	* Description: Internal company name of the file, provided at compile-time.
 	* Example: Microsoft Corporation
 	*/
-	"process.parent.pe.company": string,
+	"process.parent.pe.company"?: string,
 
 	/**
 	* process.parent.pe.description
@@ -5133,7 +5133,7 @@ export interface EcsExtendedFields {
 	* Description: Internal description of the file, provided at compile-time.
 	* Example: Paint
 	*/
-	"process.parent.pe.description": string,
+	"process.parent.pe.description"?: string,
 
 	/**
 	* process.parent.pe.file_version
@@ -5144,7 +5144,7 @@ export interface EcsExtendedFields {
 	* Description: Internal version of the file, provided at compile-time.
 	* Example: 6.3.9600.17415
 	*/
-	"process.parent.pe.file_version": string,
+	"process.parent.pe.file_version"?: string,
 
 	/**
 	* process.parent.pe.imphash
@@ -5155,7 +5155,7 @@ export interface EcsExtendedFields {
 	* Description: A hash of the imports in a PE file. An imphash -- or import hash -- can be used to fingerprint binaries even after recompilation or other code-level transformations have occurred, which would change more traditional hash values. Learn more at https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html.
 	* Example: 0c6803c4e922103c4dca5963aad36ddf
 	*/
-	"process.parent.pe.imphash": string,
+	"process.parent.pe.imphash"?: string,
 
 	/**
 	* process.parent.pe.original_file_name
@@ -5166,7 +5166,7 @@ export interface EcsExtendedFields {
 	* Description: Internal name of the file, provided at compile-time.
 	* Example: MSPAINT.EXE
 	*/
-	"process.parent.pe.original_file_name": string,
+	"process.parent.pe.original_file_name"?: string,
 
 	/**
 	* process.parent.pe.product
@@ -5177,7 +5177,7 @@ export interface EcsExtendedFields {
 	* Description: Internal product name of the file, provided at compile-time.
 	* Example: Microsoft® Windows® Operating System
 	*/
-	"process.parent.pe.product": string,
+	"process.parent.pe.product"?: string,
 
 	/**
 	* process.parent.pgid
@@ -5188,7 +5188,7 @@ export interface EcsExtendedFields {
 	* Description: Identifier of the group of processes the process belongs to.
 	* Example: <None>
 	*/
-	"process.parent.pgid": number,
+	"process.parent.pgid"?: number,
 
 	/**
 	* process.parent.ppid
@@ -5199,7 +5199,7 @@ export interface EcsExtendedFields {
 	* Description: Parent process' pid.
 	* Example: 4241
 	*/
-	"process.parent.ppid": number,
+	"process.parent.ppid"?: number,
 
 	/**
 	* process.parent.start
@@ -5210,7 +5210,7 @@ export interface EcsExtendedFields {
 	* Description: The time the process started.
 	* Example: 2016-05-23T08:05:34.853Z
 	*/
-	"process.parent.start": Date,
+	"process.parent.start"?: Date,
 
 	/**
 	* process.parent.thread.id
@@ -5221,7 +5221,7 @@ export interface EcsExtendedFields {
 	* Description: Thread ID.
 	* Example: 4242
 	*/
-	"process.parent.thread.id": number,
+	"process.parent.thread.id"?: number,
 
 	/**
 	* process.parent.thread.name
@@ -5232,7 +5232,7 @@ export interface EcsExtendedFields {
 	* Description: Thread name.
 	* Example: thread-0
 	*/
-	"process.parent.thread.name": string,
+	"process.parent.thread.name"?: string,
 
 	/**
 	* process.parent.title
@@ -5243,7 +5243,7 @@ export interface EcsExtendedFields {
 	* Description: Process title. The proctitle, some times the same as process name. Can also be different: for example a browser setting its title to the web page currently opened.
 	* Example: <None>
 	*/
-	"process.parent.title": string,
+	"process.parent.title"?: string,
 
 	/**
 	* process.parent.uptime
@@ -5254,7 +5254,7 @@ export interface EcsExtendedFields {
 	* Description: Seconds the process has been up.
 	* Example: 1325
 	*/
-	"process.parent.uptime": number,
+	"process.parent.uptime"?: number,
 
 	/**
 	* process.parent.working_directory
@@ -5265,7 +5265,7 @@ export interface EcsExtendedFields {
 	* Description: The working directory of the process.
 	* Example: /home/alice
 	*/
-	"process.parent.working_directory": string,
+	"process.parent.working_directory"?: string,
 
 	/**
 	* process.pe.architecture
@@ -5276,7 +5276,7 @@ export interface EcsExtendedFields {
 	* Description: CPU architecture target for the file.
 	* Example: x64
 	*/
-	"process.pe.architecture": string,
+	"process.pe.architecture"?: string,
 
 	/**
 	* process.pe.company
@@ -5287,7 +5287,7 @@ export interface EcsExtendedFields {
 	* Description: Internal company name of the file, provided at compile-time.
 	* Example: Microsoft Corporation
 	*/
-	"process.pe.company": string,
+	"process.pe.company"?: string,
 
 	/**
 	* process.pe.description
@@ -5298,7 +5298,7 @@ export interface EcsExtendedFields {
 	* Description: Internal description of the file, provided at compile-time.
 	* Example: Paint
 	*/
-	"process.pe.description": string,
+	"process.pe.description"?: string,
 
 	/**
 	* process.pe.file_version
@@ -5309,7 +5309,7 @@ export interface EcsExtendedFields {
 	* Description: Internal version of the file, provided at compile-time.
 	* Example: 6.3.9600.17415
 	*/
-	"process.pe.file_version": string,
+	"process.pe.file_version"?: string,
 
 	/**
 	* process.pe.imphash
@@ -5320,7 +5320,7 @@ export interface EcsExtendedFields {
 	* Description: A hash of the imports in a PE file. An imphash -- or import hash -- can be used to fingerprint binaries even after recompilation or other code-level transformations have occurred, which would change more traditional hash values. Learn more at https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html.
 	* Example: 0c6803c4e922103c4dca5963aad36ddf
 	*/
-	"process.pe.imphash": string,
+	"process.pe.imphash"?: string,
 
 	/**
 	* process.pe.original_file_name
@@ -5331,7 +5331,7 @@ export interface EcsExtendedFields {
 	* Description: Internal name of the file, provided at compile-time.
 	* Example: MSPAINT.EXE
 	*/
-	"process.pe.original_file_name": string,
+	"process.pe.original_file_name"?: string,
 
 	/**
 	* process.pe.product
@@ -5342,7 +5342,7 @@ export interface EcsExtendedFields {
 	* Description: Internal product name of the file, provided at compile-time.
 	* Example: Microsoft® Windows® Operating System
 	*/
-	"process.pe.product": string,
+	"process.pe.product"?: string,
 
 	/**
 	* process.pgid
@@ -5353,7 +5353,7 @@ export interface EcsExtendedFields {
 	* Description: Identifier of the group of processes the process belongs to.
 	* Example: <None>
 	*/
-	"process.pgid": number,
+	"process.pgid"?: number,
 
 	/**
 	* process.ppid
@@ -5364,7 +5364,7 @@ export interface EcsExtendedFields {
 	* Description: Parent process' pid.
 	* Example: 4241
 	*/
-	"process.ppid": number,
+	"process.ppid"?: number,
 
 	/**
 	* process.start
@@ -5375,7 +5375,7 @@ export interface EcsExtendedFields {
 	* Description: The time the process started.
 	* Example: 2016-05-23T08:05:34.853Z
 	*/
-	"process.start": Date,
+	"process.start"?: Date,
 
 	/**
 	* process.thread.id
@@ -5386,7 +5386,7 @@ export interface EcsExtendedFields {
 	* Description: Thread ID.
 	* Example: 4242
 	*/
-	"process.thread.id": number,
+	"process.thread.id"?: number,
 
 	/**
 	* process.thread.name
@@ -5397,7 +5397,7 @@ export interface EcsExtendedFields {
 	* Description: Thread name.
 	* Example: thread-0
 	*/
-	"process.thread.name": string,
+	"process.thread.name"?: string,
 
 	/**
 	* process.title
@@ -5408,7 +5408,7 @@ export interface EcsExtendedFields {
 	* Description: Process title. The proctitle, some times the same as process name. Can also be different: for example a browser setting its title to the web page currently opened.
 	* Example: <None>
 	*/
-	"process.title": string,
+	"process.title"?: string,
 
 	/**
 	* process.uptime
@@ -5419,7 +5419,7 @@ export interface EcsExtendedFields {
 	* Description: Seconds the process has been up.
 	* Example: 1325
 	*/
-	"process.uptime": number,
+	"process.uptime"?: number,
 
 	/**
 	* process.working_directory
@@ -5430,7 +5430,7 @@ export interface EcsExtendedFields {
 	* Description: The working directory of the process.
 	* Example: /home/alice
 	*/
-	"process.working_directory": string,
+	"process.working_directory"?: string,
 
 	/**
 	* registry.data.bytes
@@ -5441,7 +5441,7 @@ export interface EcsExtendedFields {
 	* Description: Original bytes written with base64 encoding. For Windows registry operations, such as SetValueEx and RegQueryValueEx, this corresponds to the data pointed by `lp_data`. This is optional but provides better recoverability and should be populated for REG_BINARY encoded values.
 	* Example: ZQBuAC0AVQBTAAAAZQBuAAAAAAA=
 	*/
-	"registry.data.bytes": string,
+	"registry.data.bytes"?: string,
 
 	/**
 	* related.hash
@@ -5452,7 +5452,7 @@ export interface EcsExtendedFields {
 	* Description: All the hashes seen on your event. Populating this field, then using it to search for hashes can help in situations where you're unsure what the hash algorithm is (and therefore which key name to search).
 	* Example: <None>
 	*/
-	"related.hash": string[],
+	"related.hash"?: string[],
 
 	/**
 	* related.hosts
@@ -5463,7 +5463,7 @@ export interface EcsExtendedFields {
 	* Description: All hostnames or other host identifiers seen on your event. Example identifiers include FQDNs, domain names, workstation names, or aliases.
 	* Example: <None>
 	*/
-	"related.hosts": string[],
+	"related.hosts"?: string[],
 
 	/**
 	* related.ip
@@ -5474,7 +5474,7 @@ export interface EcsExtendedFields {
 	* Description: All of the IPs seen on your event.
 	* Example: <None>
 	*/
-	"related.ip": string[],
+	"related.ip"?: string[],
 
 	/**
 	* related.user
@@ -5485,7 +5485,7 @@ export interface EcsExtendedFields {
 	* Description: All the user names seen on your event.
 	* Example: <None>
 	*/
-	"related.user": string[],
+	"related.user"?: string[],
 
 	/**
 	* rule.author
@@ -5496,7 +5496,7 @@ export interface EcsExtendedFields {
 	* Description: Name, organization, or pseudonym of the author or authors who created the rule used to generate this event.
 	* Example: ["Star-Lord"]
 	*/
-	"rule.author": string[],
+	"rule.author"?: string[],
 
 	/**
 	* rule.category
@@ -5507,7 +5507,7 @@ export interface EcsExtendedFields {
 	* Description: A categorization value keyword used by the entity using the rule for detection of this event.
 	* Example: Attempted Information Leak
 	*/
-	"rule.category": string,
+	"rule.category"?: string,
 
 	/**
 	* rule.description
@@ -5518,7 +5518,7 @@ export interface EcsExtendedFields {
 	* Description: The description of the rule generating the event.
 	* Example: Block requests to public DNS over HTTPS / TLS protocols
 	*/
-	"rule.description": string,
+	"rule.description"?: string,
 
 	/**
 	* rule.id
@@ -5529,7 +5529,7 @@ export interface EcsExtendedFields {
 	* Description: A rule ID that is unique within the scope of an agent, observer, or other entity using the rule for detection of this event.
 	* Example: 101
 	*/
-	"rule.id": string,
+	"rule.id"?: string,
 
 	/**
 	* rule.license
@@ -5540,7 +5540,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the license under which the rule used to generate this event is made available.
 	* Example: Apache 2.0
 	*/
-	"rule.license": string,
+	"rule.license"?: string,
 
 	/**
 	* rule.name
@@ -5551,7 +5551,7 @@ export interface EcsExtendedFields {
 	* Description: The name of the rule or signature generating the event.
 	* Example: BLOCK_DNS_over_TLS
 	*/
-	"rule.name": string,
+	"rule.name"?: string,
 
 	/**
 	* rule.reference
@@ -5562,7 +5562,7 @@ export interface EcsExtendedFields {
 	* Description: Reference URL to additional information about the rule used to generate this event. The URL can point to the vendor's documentation about the rule. If that's not available, it can also be a link to a more general page describing this type of alert.
 	* Example: https://en.wikipedia.org/wiki/DNS_over_TLS
 	*/
-	"rule.reference": string,
+	"rule.reference"?: string,
 
 	/**
 	* rule.ruleset
@@ -5573,7 +5573,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the ruleset, policy, group, or parent category in which the rule used to generate this event is a member.
 	* Example: Standard_Protocol_Filters
 	*/
-	"rule.ruleset": string,
+	"rule.ruleset"?: string,
 
 	/**
 	* rule.uuid
@@ -5584,7 +5584,7 @@ export interface EcsExtendedFields {
 	* Description: A rule ID that is unique within the scope of a set or group of agents, observers, or other entities using the rule for detection of this event.
 	* Example: 1100110011
 	*/
-	"rule.uuid": string,
+	"rule.uuid"?: string,
 
 	/**
 	* rule.version
@@ -5595,7 +5595,7 @@ export interface EcsExtendedFields {
 	* Description: The version / revision of the rule being used for analysis.
 	* Example: 1.1
 	*/
-	"rule.version": string,
+	"rule.version"?: string,
 
 	/**
 	* server.address
@@ -5606,7 +5606,7 @@ export interface EcsExtendedFields {
 	* Description: Some event server addresses are defined ambiguously. The event will sometimes list an IP, a domain or a unix socket.  You should always store the raw address in the `.address` field. Then it should be duplicated to `.ip` or `.domain`, depending on which one it is.
 	* Example: <None>
 	*/
-	"server.address": string,
+	"server.address"?: string,
 
 	/**
 	* server.as.number
@@ -5617,7 +5617,7 @@ export interface EcsExtendedFields {
 	* Description: Unique number allocated to the autonomous system. The autonomous system number (ASN) uniquely identifies each network on the Internet.
 	* Example: 15169
 	*/
-	"server.as.number": number,
+	"server.as.number"?: number,
 
 	/**
 	* server.as.organization.name
@@ -5628,7 +5628,7 @@ export interface EcsExtendedFields {
 	* Description: Organization name.
 	* Example: Google LLC
 	*/
-	"server.as.organization.name": string,
+	"server.as.organization.name"?: string,
 
 	/**
 	* server.geo.name
@@ -5640,7 +5640,7 @@ export interface EcsExtendedFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"server.geo.name": string,
+	"server.geo.name"?: string,
 
 	/**
 	* server.nat.ip
@@ -5651,7 +5651,7 @@ export interface EcsExtendedFields {
 	* Description: Translated ip of destination based NAT sessions (e.g. internet to private DMZ) Typically used with load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"server.nat.ip": string,
+	"server.nat.ip"?: string,
 
 	/**
 	* server.nat.port
@@ -5662,7 +5662,7 @@ export interface EcsExtendedFields {
 	* Description: Translated port of destination based NAT sessions (e.g. internet to private DMZ) Typically used with load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"server.nat.port": number,
+	"server.nat.port"?: number,
 
 	/**
 	* server.registered_domain
@@ -5674,7 +5674,7 @@ export interface EcsExtendedFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"server.registered_domain": string,
+	"server.registered_domain"?: string,
 
 	/**
 	* server.subdomain
@@ -5685,7 +5685,7 @@ export interface EcsExtendedFields {
 	* Description: The subdomain portion of a fully qualified domain name includes all of the names except the host name under the registered_domain.  In a partially qualified domain, or if the the qualification level of the full name cannot be determined, subdomain contains all of the names below the registered domain. For example the subdomain portion of "www.east.mydomain.co.uk" is "east". If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: east
 	*/
-	"server.subdomain": string,
+	"server.subdomain"?: string,
 
 	/**
 	* server.top_level_domain
@@ -5696,7 +5696,7 @@ export interface EcsExtendedFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"server.top_level_domain": string,
+	"server.top_level_domain"?: string,
 
 	/**
 	* server.user.domain
@@ -5707,7 +5707,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"server.user.domain": string,
+	"server.user.domain"?: string,
 
 	/**
 	* server.user.email
@@ -5718,7 +5718,7 @@ export interface EcsExtendedFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"server.user.email": string,
+	"server.user.email"?: string,
 
 	/**
 	* server.user.full_name
@@ -5729,7 +5729,7 @@ export interface EcsExtendedFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"server.user.full_name": string,
+	"server.user.full_name"?: string,
 
 	/**
 	* server.user.group.domain
@@ -5740,7 +5740,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"server.user.group.domain": string,
+	"server.user.group.domain"?: string,
 
 	/**
 	* server.user.group.id
@@ -5751,7 +5751,7 @@ export interface EcsExtendedFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"server.user.group.id": string,
+	"server.user.group.id"?: string,
 
 	/**
 	* server.user.group.name
@@ -5762,7 +5762,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"server.user.group.name": string,
+	"server.user.group.name"?: string,
 
 	/**
 	* server.user.hash
@@ -5773,7 +5773,7 @@ export interface EcsExtendedFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"server.user.hash": string,
+	"server.user.hash"?: string,
 
 	/**
 	* server.user.roles
@@ -5784,7 +5784,7 @@ export interface EcsExtendedFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"server.user.roles": string,
+	"server.user.roles"?: string,
 
 	/**
 	* service.ephemeral_id
@@ -5795,7 +5795,7 @@ export interface EcsExtendedFields {
 	* Description: Ephemeral identifier of this service (if one exists). This id normally changes across restarts, but `service.id` does not.
 	* Example: 8a4f500f
 	*/
-	"service.ephemeral_id": string,
+	"service.ephemeral_id"?: string,
 
 	/**
 	* service.node.name
@@ -5807,7 +5807,7 @@ export interface EcsExtendedFields {
 	In the case of Elasticsearch, the `service.node.name` could contain the unique node name within the Elasticsearch cluster. In cases where the service doesn't have the concept of a node name, the host name or container name can be used to distinguish running instances that make up this service. If those do not provide uniqueness (e.g. multiple instances of the service running on the same host) - the node name can be manually set.
 	* Example: instance-0000000016
 	*/
-	"service.node.name": string,
+	"service.node.name"?: string,
 
 	/**
 	* source.address
@@ -5818,7 +5818,7 @@ export interface EcsExtendedFields {
 	* Description: Some event source addresses are defined ambiguously. The event will sometimes list an IP, a domain or a unix socket.  You should always store the raw address in the `.address` field. Then it should be duplicated to `.ip` or `.domain`, depending on which one it is.
 	* Example: <None>
 	*/
-	"source.address": string,
+	"source.address"?: string,
 
 	/**
 	* source.as.number
@@ -5829,7 +5829,7 @@ export interface EcsExtendedFields {
 	* Description: Unique number allocated to the autonomous system. The autonomous system number (ASN) uniquely identifies each network on the Internet.
 	* Example: 15169
 	*/
-	"source.as.number": number,
+	"source.as.number"?: number,
 
 	/**
 	* source.as.organization.name
@@ -5840,7 +5840,7 @@ export interface EcsExtendedFields {
 	* Description: Organization name.
 	* Example: Google LLC
 	*/
-	"source.as.organization.name": string,
+	"source.as.organization.name"?: string,
 
 	/**
 	* source.geo.name
@@ -5852,7 +5852,7 @@ export interface EcsExtendedFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"source.geo.name": string,
+	"source.geo.name"?: string,
 
 	/**
 	* source.nat.ip
@@ -5863,7 +5863,7 @@ export interface EcsExtendedFields {
 	* Description: Translated ip of source based NAT sessions (e.g. internal client to internet) Typically connections traversing load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"source.nat.ip": string,
+	"source.nat.ip"?: string,
 
 	/**
 	* source.nat.port
@@ -5874,7 +5874,7 @@ export interface EcsExtendedFields {
 	* Description: Translated port of source based NAT sessions. (e.g. internal client to internet) Typically used with load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"source.nat.port": number,
+	"source.nat.port"?: number,
 
 	/**
 	* source.registered_domain
@@ -5886,7 +5886,7 @@ export interface EcsExtendedFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"source.registered_domain": string,
+	"source.registered_domain"?: string,
 
 	/**
 	* source.subdomain
@@ -5897,7 +5897,7 @@ export interface EcsExtendedFields {
 	* Description: The subdomain portion of a fully qualified domain name includes all of the names except the host name under the registered_domain.  In a partially qualified domain, or if the the qualification level of the full name cannot be determined, subdomain contains all of the names below the registered domain. For example the subdomain portion of "www.east.mydomain.co.uk" is "east". If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: east
 	*/
-	"source.subdomain": string,
+	"source.subdomain"?: string,
 
 	/**
 	* source.top_level_domain
@@ -5908,7 +5908,7 @@ export interface EcsExtendedFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"source.top_level_domain": string,
+	"source.top_level_domain"?: string,
 
 	/**
 	* source.user.domain
@@ -5919,7 +5919,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"source.user.domain": string,
+	"source.user.domain"?: string,
 
 	/**
 	* source.user.email
@@ -5930,7 +5930,7 @@ export interface EcsExtendedFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"source.user.email": string,
+	"source.user.email"?: string,
 
 	/**
 	* source.user.full_name
@@ -5941,7 +5941,7 @@ export interface EcsExtendedFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"source.user.full_name": string,
+	"source.user.full_name"?: string,
 
 	/**
 	* source.user.group.domain
@@ -5952,7 +5952,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"source.user.group.domain": string,
+	"source.user.group.domain"?: string,
 
 	/**
 	* source.user.group.id
@@ -5963,7 +5963,7 @@ export interface EcsExtendedFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"source.user.group.id": string,
+	"source.user.group.id"?: string,
 
 	/**
 	* source.user.group.name
@@ -5974,7 +5974,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"source.user.group.name": string,
+	"source.user.group.name"?: string,
 
 	/**
 	* source.user.hash
@@ -5985,7 +5985,7 @@ export interface EcsExtendedFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"source.user.hash": string,
+	"source.user.hash"?: string,
 
 	/**
 	* source.user.roles
@@ -5996,7 +5996,7 @@ export interface EcsExtendedFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"source.user.roles": string,
+	"source.user.roles"?: string,
 
 	/**
 	* span.id
@@ -6007,7 +6007,7 @@ export interface EcsExtendedFields {
 	* Description: Unique identifier of the span within the scope of its trace. A span represents an operation within a transaction, such as a request to another service, or a database query.
 	* Example: 3ff9a8981b7ccd5a
 	*/
-	"span.id": string,
+	"span.id"?: string,
 
 	/**
 	* threat.framework
@@ -6018,7 +6018,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the threat framework used to further categorize and classify the tactic and technique of the reported threat. Framework classification can be provided by detecting systems, evaluated at ingest time, or retrospectively tagged to events.
 	* Example: MITRE ATT&CK
 	*/
-	"threat.framework": string,
+	"threat.framework"?: string,
 
 	/**
 	* threat.tactic.id
@@ -6029,7 +6029,7 @@ export interface EcsExtendedFields {
 	* Description: The id of tactic used by this threat. You can use a MITRE ATT&CK® tactic, for example. (ex. https://attack.mitre.org/tactics/TA0002/ )
 	* Example: TA0002
 	*/
-	"threat.tactic.id": string[],
+	"threat.tactic.id"?: string[],
 
 	/**
 	* threat.tactic.name
@@ -6040,7 +6040,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the type of tactic used by this threat. You can use a MITRE ATT&CK® tactic, for example. (ex. https://attack.mitre.org/tactics/TA0002/)
 	* Example: Execution
 	*/
-	"threat.tactic.name": string[],
+	"threat.tactic.name"?: string[],
 
 	/**
 	* threat.tactic.reference
@@ -6051,7 +6051,7 @@ export interface EcsExtendedFields {
 	* Description: The reference url of tactic used by this threat. You can use a MITRE ATT&CK® tactic, for example. (ex. https://attack.mitre.org/tactics/TA0002/ )
 	* Example: https://attack.mitre.org/tactics/TA0002/
 	*/
-	"threat.tactic.reference": string[],
+	"threat.tactic.reference"?: string[],
 
 	/**
 	* threat.technique.id
@@ -6062,7 +6062,7 @@ export interface EcsExtendedFields {
 	* Description: The id of technique used by this threat. You can use a MITRE ATT&CK® technique, for example. (ex. https://attack.mitre.org/techniques/T1059/)
 	* Example: T1059
 	*/
-	"threat.technique.id": string[],
+	"threat.technique.id"?: string[],
 
 	/**
 	* threat.technique.name
@@ -6073,7 +6073,7 @@ export interface EcsExtendedFields {
 	* Description: The name of technique used by this threat. You can use a MITRE ATT&CK® technique, for example. (ex. https://attack.mitre.org/techniques/T1059/)
 	* Example: Command and Scripting Interpreter
 	*/
-	"threat.technique.name": string[],
+	"threat.technique.name"?: string[],
 
 	/**
 	* threat.technique.reference
@@ -6084,7 +6084,7 @@ export interface EcsExtendedFields {
 	* Description: The reference url of technique used by this threat. You can use a MITRE ATT&CK® technique, for example. (ex. https://attack.mitre.org/techniques/T1059/)
 	* Example: https://attack.mitre.org/techniques/T1059/
 	*/
-	"threat.technique.reference": string[],
+	"threat.technique.reference"?: string[],
 
 	/**
 	* threat.technique.subtechnique.id
@@ -6095,7 +6095,7 @@ export interface EcsExtendedFields {
 	* Description: The full id of subtechnique used by this threat. You can use a MITRE ATT&CK® subtechnique, for example. (ex. https://attack.mitre.org/techniques/T1059/001/)
 	* Example: T1059.001
 	*/
-	"threat.technique.subtechnique.id": string[],
+	"threat.technique.subtechnique.id"?: string[],
 
 	/**
 	* threat.technique.subtechnique.name
@@ -6106,7 +6106,7 @@ export interface EcsExtendedFields {
 	* Description: The name of subtechnique used by this threat. You can use a MITRE ATT&CK® subtechnique, for example. (ex. https://attack.mitre.org/techniques/T1059/001/)
 	* Example: PowerShell
 	*/
-	"threat.technique.subtechnique.name": string[],
+	"threat.technique.subtechnique.name"?: string[],
 
 	/**
 	* threat.technique.subtechnique.reference
@@ -6117,7 +6117,7 @@ export interface EcsExtendedFields {
 	* Description: The reference url of subtechnique used by this threat. You can use a MITRE ATT&CK® subtechnique, for example. (ex. https://attack.mitre.org/techniques/T1059/001/)
 	* Example: https://attack.mitre.org/techniques/T1059/001/
 	*/
-	"threat.technique.subtechnique.reference": string[],
+	"threat.technique.subtechnique.reference"?: string[],
 
 	/**
 	* tls.cipher
@@ -6128,7 +6128,7 @@ export interface EcsExtendedFields {
 	* Description: String indicating the cipher used during the current connection.
 	* Example: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
 	*/
-	"tls.cipher": string,
+	"tls.cipher"?: string,
 
 	/**
 	* tls.client.certificate
@@ -6139,7 +6139,7 @@ export interface EcsExtendedFields {
 	* Description: PEM-encoded stand-alone certificate offered by the client. This is usually mutually-exclusive of `client.certificate_chain` since this value also exists in that list.
 	* Example: MII...
 	*/
-	"tls.client.certificate": string,
+	"tls.client.certificate"?: string,
 
 	/**
 	* tls.client.certificate_chain
@@ -6150,7 +6150,7 @@ export interface EcsExtendedFields {
 	* Description: Array of PEM-encoded certificates that make up the certificate chain offered by the client. This is usually mutually-exclusive of `client.certificate` since that value should be the first certificate in the chain.
 	* Example: ["MII...", "MII..."]
 	*/
-	"tls.client.certificate_chain": string[],
+	"tls.client.certificate_chain"?: string[],
 
 	/**
 	* tls.client.hash.md5
@@ -6161,7 +6161,7 @@ export interface EcsExtendedFields {
 	* Description: Certificate fingerprint using the MD5 digest of DER-encoded version of certificate offered by the client. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 0F76C7F2C55BFD7D8E8B8F4BFBF0C9EC
 	*/
-	"tls.client.hash.md5": string,
+	"tls.client.hash.md5"?: string,
 
 	/**
 	* tls.client.hash.sha1
@@ -6172,7 +6172,7 @@ export interface EcsExtendedFields {
 	* Description: Certificate fingerprint using the SHA1 digest of DER-encoded version of certificate offered by the client. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 9E393D93138888D288266C2D915214D1D1CCEB2A
 	*/
-	"tls.client.hash.sha1": string,
+	"tls.client.hash.sha1"?: string,
 
 	/**
 	* tls.client.hash.sha256
@@ -6183,7 +6183,7 @@ export interface EcsExtendedFields {
 	* Description: Certificate fingerprint using the SHA256 digest of DER-encoded version of certificate offered by the client. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 0687F666A054EF17A08E2F2162EAB4CBC0D265E1D7875BE74BF3C712CA92DAF0
 	*/
-	"tls.client.hash.sha256": string,
+	"tls.client.hash.sha256"?: string,
 
 	/**
 	* tls.client.issuer
@@ -6194,7 +6194,7 @@ export interface EcsExtendedFields {
 	* Description: Distinguished name of subject of the issuer of the x.509 certificate presented by the client.
 	* Example: CN=Example Root CA, OU=Infrastructure Team, DC=example, DC=com
 	*/
-	"tls.client.issuer": string,
+	"tls.client.issuer"?: string,
 
 	/**
 	* tls.client.ja3
@@ -6205,7 +6205,7 @@ export interface EcsExtendedFields {
 	* Description: A hash that identifies clients based on how they perform an SSL/TLS handshake.
 	* Example: d4e5b18d6b55c71272893221c96ba240
 	*/
-	"tls.client.ja3": string,
+	"tls.client.ja3"?: string,
 
 	/**
 	* tls.client.not_after
@@ -6216,7 +6216,7 @@ export interface EcsExtendedFields {
 	* Description: Date/Time indicating when client certificate is no longer considered valid.
 	* Example: 2021-01-01T00:00:00.000Z
 	*/
-	"tls.client.not_after": Date,
+	"tls.client.not_after"?: Date,
 
 	/**
 	* tls.client.not_before
@@ -6227,7 +6227,7 @@ export interface EcsExtendedFields {
 	* Description: Date/Time indicating when client certificate is first considered valid.
 	* Example: 1970-01-01T00:00:00.000Z
 	*/
-	"tls.client.not_before": Date,
+	"tls.client.not_before"?: Date,
 
 	/**
 	* tls.client.server_name
@@ -6238,7 +6238,7 @@ export interface EcsExtendedFields {
 	* Description: Also called an SNI, this tells the server which hostname to which the client is attempting to connect to. When this value is available, it should get copied to `destination.domain`.
 	* Example: www.elastic.co
 	*/
-	"tls.client.server_name": string,
+	"tls.client.server_name"?: string,
 
 	/**
 	* tls.client.subject
@@ -6249,7 +6249,7 @@ export interface EcsExtendedFields {
 	* Description: Distinguished name of subject of the x.509 certificate presented by the client.
 	* Example: CN=myclient, OU=Documentation Team, DC=example, DC=com
 	*/
-	"tls.client.subject": string,
+	"tls.client.subject"?: string,
 
 	/**
 	* tls.client.supported_ciphers
@@ -6260,7 +6260,7 @@ export interface EcsExtendedFields {
 	* Description: Array of ciphers offered by the client during the client hello.
 	* Example: ["TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384", "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384", "..."]
 	*/
-	"tls.client.supported_ciphers": string[],
+	"tls.client.supported_ciphers"?: string[],
 
 	/**
 	* tls.client.x509.alternative_names
@@ -6271,7 +6271,7 @@ export interface EcsExtendedFields {
 	* Description: List of subject alternative names (SAN). Name types vary by certificate authority and certificate type but commonly contain IP addresses, DNS names (and wildcards), and email addresses.
 	* Example: *.elastic.co
 	*/
-	"tls.client.x509.alternative_names": string,
+	"tls.client.x509.alternative_names"?: string,
 
 	/**
 	* tls.client.x509.issuer.common_name
@@ -6282,7 +6282,7 @@ export interface EcsExtendedFields {
 	* Description: List of common name (CN) of issuing certificate authority.
 	* Example: Example SHA2 High Assurance Server CA
 	*/
-	"tls.client.x509.issuer.common_name": string,
+	"tls.client.x509.issuer.common_name"?: string,
 
 	/**
 	* tls.client.x509.issuer.country
@@ -6293,7 +6293,7 @@ export interface EcsExtendedFields {
 	* Description: List of country (C) codes
 	* Example: US
 	*/
-	"tls.client.x509.issuer.country": string,
+	"tls.client.x509.issuer.country"?: string,
 
 	/**
 	* tls.client.x509.issuer.distinguished_name
@@ -6304,7 +6304,7 @@ export interface EcsExtendedFields {
 	* Description: Distinguished name (DN) of issuing certificate authority.
 	* Example: C=US, O=Example Inc, OU=www.example.com, CN=Example SHA2 High Assurance Server CA
 	*/
-	"tls.client.x509.issuer.distinguished_name": string,
+	"tls.client.x509.issuer.distinguished_name"?: string,
 
 	/**
 	* tls.client.x509.issuer.locality
@@ -6315,7 +6315,7 @@ export interface EcsExtendedFields {
 	* Description: List of locality names (L)
 	* Example: Mountain View
 	*/
-	"tls.client.x509.issuer.locality": string,
+	"tls.client.x509.issuer.locality"?: string,
 
 	/**
 	* tls.client.x509.issuer.organization
@@ -6326,7 +6326,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizations (O) of issuing certificate authority.
 	* Example: Example Inc
 	*/
-	"tls.client.x509.issuer.organization": string,
+	"tls.client.x509.issuer.organization"?: string,
 
 	/**
 	* tls.client.x509.issuer.organizational_unit
@@ -6337,7 +6337,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizational units (OU) of issuing certificate authority.
 	* Example: www.example.com
 	*/
-	"tls.client.x509.issuer.organizational_unit": string,
+	"tls.client.x509.issuer.organizational_unit"?: string,
 
 	/**
 	* tls.client.x509.issuer.state_or_province
@@ -6348,7 +6348,7 @@ export interface EcsExtendedFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"tls.client.x509.issuer.state_or_province": string,
+	"tls.client.x509.issuer.state_or_province"?: string,
 
 	/**
 	* tls.client.x509.not_after
@@ -6359,7 +6359,7 @@ export interface EcsExtendedFields {
 	* Description: Time at which the certificate is no longer considered valid.
 	* Example: 2020-07-16 03:15:39+00:00
 	*/
-	"tls.client.x509.not_after": Date,
+	"tls.client.x509.not_after"?: Date,
 
 	/**
 	* tls.client.x509.not_before
@@ -6370,7 +6370,7 @@ export interface EcsExtendedFields {
 	* Description: Time at which the certificate is first considered valid.
 	* Example: 2019-08-16 01:40:25+00:00
 	*/
-	"tls.client.x509.not_before": Date,
+	"tls.client.x509.not_before"?: Date,
 
 	/**
 	* tls.client.x509.public_key_algorithm
@@ -6381,7 +6381,7 @@ export interface EcsExtendedFields {
 	* Description: Algorithm used to generate the public key.
 	* Example: RSA
 	*/
-	"tls.client.x509.public_key_algorithm": string,
+	"tls.client.x509.public_key_algorithm"?: string,
 
 	/**
 	* tls.client.x509.public_key_curve
@@ -6392,7 +6392,7 @@ export interface EcsExtendedFields {
 	* Description: The curve used by the elliptic curve public key algorithm. This is algorithm specific.
 	* Example: nistp521
 	*/
-	"tls.client.x509.public_key_curve": string,
+	"tls.client.x509.public_key_curve"?: string,
 
 	/**
 	* tls.client.x509.public_key_exponent
@@ -6403,7 +6403,7 @@ export interface EcsExtendedFields {
 	* Description: Exponent used to derive the public key. This is algorithm specific.
 	* Example: 65537
 	*/
-	"tls.client.x509.public_key_exponent": number,
+	"tls.client.x509.public_key_exponent"?: number,
 
 	/**
 	* tls.client.x509.public_key_size
@@ -6414,7 +6414,7 @@ export interface EcsExtendedFields {
 	* Description: The size of the public key space in bits.
 	* Example: 2048
 	*/
-	"tls.client.x509.public_key_size": number,
+	"tls.client.x509.public_key_size"?: number,
 
 	/**
 	* tls.client.x509.serial_number
@@ -6425,7 +6425,7 @@ export interface EcsExtendedFields {
 	* Description: Unique serial number issued by the certificate authority. For consistency, if this value is alphanumeric, it should be formatted without colons and uppercase characters.
 	* Example: 55FBB9C7DEBF09809D12CCAA
 	*/
-	"tls.client.x509.serial_number": string,
+	"tls.client.x509.serial_number"?: string,
 
 	/**
 	* tls.client.x509.signature_algorithm
@@ -6436,7 +6436,7 @@ export interface EcsExtendedFields {
 	* Description: Identifier for certificate signature algorithm. We recommend using names found in Go Lang Crypto library. See https://github.com/golang/go/blob/go1.14/src/crypto/x509/x509.go#L337-L353.
 	* Example: SHA256-RSA
 	*/
-	"tls.client.x509.signature_algorithm": string,
+	"tls.client.x509.signature_algorithm"?: string,
 
 	/**
 	* tls.client.x509.subject.common_name
@@ -6447,7 +6447,7 @@ export interface EcsExtendedFields {
 	* Description: List of common names (CN) of subject.
 	* Example: shared.global.example.net
 	*/
-	"tls.client.x509.subject.common_name": string,
+	"tls.client.x509.subject.common_name"?: string,
 
 	/**
 	* tls.client.x509.subject.country
@@ -6458,7 +6458,7 @@ export interface EcsExtendedFields {
 	* Description: List of country (C) code
 	* Example: US
 	*/
-	"tls.client.x509.subject.country": string,
+	"tls.client.x509.subject.country"?: string,
 
 	/**
 	* tls.client.x509.subject.distinguished_name
@@ -6469,7 +6469,7 @@ export interface EcsExtendedFields {
 	* Description: Distinguished name (DN) of the certificate subject entity.
 	* Example: C=US, ST=California, L=San Francisco, O=Example, Inc., CN=shared.global.example.net
 	*/
-	"tls.client.x509.subject.distinguished_name": string,
+	"tls.client.x509.subject.distinguished_name"?: string,
 
 	/**
 	* tls.client.x509.subject.locality
@@ -6480,7 +6480,7 @@ export interface EcsExtendedFields {
 	* Description: List of locality names (L)
 	* Example: San Francisco
 	*/
-	"tls.client.x509.subject.locality": string,
+	"tls.client.x509.subject.locality"?: string,
 
 	/**
 	* tls.client.x509.subject.organization
@@ -6491,7 +6491,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizations (O) of subject.
 	* Example: Example, Inc.
 	*/
-	"tls.client.x509.subject.organization": string,
+	"tls.client.x509.subject.organization"?: string,
 
 	/**
 	* tls.client.x509.subject.organizational_unit
@@ -6502,7 +6502,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizational units (OU) of subject.
 	* Example: <None>
 	*/
-	"tls.client.x509.subject.organizational_unit": string,
+	"tls.client.x509.subject.organizational_unit"?: string,
 
 	/**
 	* tls.client.x509.subject.state_or_province
@@ -6513,7 +6513,7 @@ export interface EcsExtendedFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"tls.client.x509.subject.state_or_province": string,
+	"tls.client.x509.subject.state_or_province"?: string,
 
 	/**
 	* tls.client.x509.version_number
@@ -6524,7 +6524,7 @@ export interface EcsExtendedFields {
 	* Description: Version of x509 format.
 	* Example: 3
 	*/
-	"tls.client.x509.version_number": string,
+	"tls.client.x509.version_number"?: string,
 
 	/**
 	* tls.curve
@@ -6535,7 +6535,7 @@ export interface EcsExtendedFields {
 	* Description: String indicating the curve used for the given cipher, when applicable.
 	* Example: secp256r1
 	*/
-	"tls.curve": string,
+	"tls.curve"?: string,
 
 	/**
 	* tls.established
@@ -6546,7 +6546,7 @@ export interface EcsExtendedFields {
 	* Description: Boolean flag indicating if the TLS negotiation was successful and transitioned to an encrypted tunnel.
 	* Example: <None>
 	*/
-	"tls.established": boolean,
+	"tls.established"?: boolean,
 
 	/**
 	* tls.next_protocol
@@ -6557,7 +6557,7 @@ export interface EcsExtendedFields {
 	* Description: String indicating the protocol being tunneled. Per the values in the IANA registry (https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xhtml#alpn-protocol-ids), this string should be lower case.
 	* Example: http/1.1
 	*/
-	"tls.next_protocol": string,
+	"tls.next_protocol"?: string,
 
 	/**
 	* tls.resumed
@@ -6568,7 +6568,7 @@ export interface EcsExtendedFields {
 	* Description: Boolean flag indicating if this TLS connection was resumed from an existing TLS negotiation.
 	* Example: <None>
 	*/
-	"tls.resumed": boolean,
+	"tls.resumed"?: boolean,
 
 	/**
 	* tls.server.certificate
@@ -6579,7 +6579,7 @@ export interface EcsExtendedFields {
 	* Description: PEM-encoded stand-alone certificate offered by the server. This is usually mutually-exclusive of `server.certificate_chain` since this value also exists in that list.
 	* Example: MII...
 	*/
-	"tls.server.certificate": string,
+	"tls.server.certificate"?: string,
 
 	/**
 	* tls.server.certificate_chain
@@ -6590,7 +6590,7 @@ export interface EcsExtendedFields {
 	* Description: Array of PEM-encoded certificates that make up the certificate chain offered by the server. This is usually mutually-exclusive of `server.certificate` since that value should be the first certificate in the chain.
 	* Example: ["MII...", "MII..."]
 	*/
-	"tls.server.certificate_chain": string[],
+	"tls.server.certificate_chain"?: string[],
 
 	/**
 	* tls.server.hash.md5
@@ -6601,7 +6601,7 @@ export interface EcsExtendedFields {
 	* Description: Certificate fingerprint using the MD5 digest of DER-encoded version of certificate offered by the server. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 0F76C7F2C55BFD7D8E8B8F4BFBF0C9EC
 	*/
-	"tls.server.hash.md5": string,
+	"tls.server.hash.md5"?: string,
 
 	/**
 	* tls.server.hash.sha1
@@ -6612,7 +6612,7 @@ export interface EcsExtendedFields {
 	* Description: Certificate fingerprint using the SHA1 digest of DER-encoded version of certificate offered by the server. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 9E393D93138888D288266C2D915214D1D1CCEB2A
 	*/
-	"tls.server.hash.sha1": string,
+	"tls.server.hash.sha1"?: string,
 
 	/**
 	* tls.server.hash.sha256
@@ -6623,7 +6623,7 @@ export interface EcsExtendedFields {
 	* Description: Certificate fingerprint using the SHA256 digest of DER-encoded version of certificate offered by the server. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 0687F666A054EF17A08E2F2162EAB4CBC0D265E1D7875BE74BF3C712CA92DAF0
 	*/
-	"tls.server.hash.sha256": string,
+	"tls.server.hash.sha256"?: string,
 
 	/**
 	* tls.server.issuer
@@ -6634,7 +6634,7 @@ export interface EcsExtendedFields {
 	* Description: Subject of the issuer of the x.509 certificate presented by the server.
 	* Example: CN=Example Root CA, OU=Infrastructure Team, DC=example, DC=com
 	*/
-	"tls.server.issuer": string,
+	"tls.server.issuer"?: string,
 
 	/**
 	* tls.server.ja3s
@@ -6645,7 +6645,7 @@ export interface EcsExtendedFields {
 	* Description: A hash that identifies servers based on how they perform an SSL/TLS handshake.
 	* Example: 394441ab65754e2207b1e1b457b3641d
 	*/
-	"tls.server.ja3s": string,
+	"tls.server.ja3s"?: string,
 
 	/**
 	* tls.server.not_after
@@ -6656,7 +6656,7 @@ export interface EcsExtendedFields {
 	* Description: Timestamp indicating when server certificate is no longer considered valid.
 	* Example: 2021-01-01T00:00:00.000Z
 	*/
-	"tls.server.not_after": Date,
+	"tls.server.not_after"?: Date,
 
 	/**
 	* tls.server.not_before
@@ -6667,7 +6667,7 @@ export interface EcsExtendedFields {
 	* Description: Timestamp indicating when server certificate is first considered valid.
 	* Example: 1970-01-01T00:00:00.000Z
 	*/
-	"tls.server.not_before": Date,
+	"tls.server.not_before"?: Date,
 
 	/**
 	* tls.server.subject
@@ -6678,7 +6678,7 @@ export interface EcsExtendedFields {
 	* Description: Subject of the x.509 certificate presented by the server.
 	* Example: CN=www.example.com, OU=Infrastructure Team, DC=example, DC=com
 	*/
-	"tls.server.subject": string,
+	"tls.server.subject"?: string,
 
 	/**
 	* tls.server.x509.alternative_names
@@ -6689,7 +6689,7 @@ export interface EcsExtendedFields {
 	* Description: List of subject alternative names (SAN). Name types vary by certificate authority and certificate type but commonly contain IP addresses, DNS names (and wildcards), and email addresses.
 	* Example: *.elastic.co
 	*/
-	"tls.server.x509.alternative_names": string,
+	"tls.server.x509.alternative_names"?: string,
 
 	/**
 	* tls.server.x509.issuer.common_name
@@ -6700,7 +6700,7 @@ export interface EcsExtendedFields {
 	* Description: List of common name (CN) of issuing certificate authority.
 	* Example: Example SHA2 High Assurance Server CA
 	*/
-	"tls.server.x509.issuer.common_name": string,
+	"tls.server.x509.issuer.common_name"?: string,
 
 	/**
 	* tls.server.x509.issuer.country
@@ -6711,7 +6711,7 @@ export interface EcsExtendedFields {
 	* Description: List of country (C) codes
 	* Example: US
 	*/
-	"tls.server.x509.issuer.country": string,
+	"tls.server.x509.issuer.country"?: string,
 
 	/**
 	* tls.server.x509.issuer.distinguished_name
@@ -6722,7 +6722,7 @@ export interface EcsExtendedFields {
 	* Description: Distinguished name (DN) of issuing certificate authority.
 	* Example: C=US, O=Example Inc, OU=www.example.com, CN=Example SHA2 High Assurance Server CA
 	*/
-	"tls.server.x509.issuer.distinguished_name": string,
+	"tls.server.x509.issuer.distinguished_name"?: string,
 
 	/**
 	* tls.server.x509.issuer.locality
@@ -6733,7 +6733,7 @@ export interface EcsExtendedFields {
 	* Description: List of locality names (L)
 	* Example: Mountain View
 	*/
-	"tls.server.x509.issuer.locality": string,
+	"tls.server.x509.issuer.locality"?: string,
 
 	/**
 	* tls.server.x509.issuer.organization
@@ -6744,7 +6744,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizations (O) of issuing certificate authority.
 	* Example: Example Inc
 	*/
-	"tls.server.x509.issuer.organization": string,
+	"tls.server.x509.issuer.organization"?: string,
 
 	/**
 	* tls.server.x509.issuer.organizational_unit
@@ -6755,7 +6755,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizational units (OU) of issuing certificate authority.
 	* Example: www.example.com
 	*/
-	"tls.server.x509.issuer.organizational_unit": string,
+	"tls.server.x509.issuer.organizational_unit"?: string,
 
 	/**
 	* tls.server.x509.issuer.state_or_province
@@ -6766,7 +6766,7 @@ export interface EcsExtendedFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"tls.server.x509.issuer.state_or_province": string,
+	"tls.server.x509.issuer.state_or_province"?: string,
 
 	/**
 	* tls.server.x509.not_after
@@ -6777,7 +6777,7 @@ export interface EcsExtendedFields {
 	* Description: Time at which the certificate is no longer considered valid.
 	* Example: 2020-07-16 03:15:39+00:00
 	*/
-	"tls.server.x509.not_after": Date,
+	"tls.server.x509.not_after"?: Date,
 
 	/**
 	* tls.server.x509.not_before
@@ -6788,7 +6788,7 @@ export interface EcsExtendedFields {
 	* Description: Time at which the certificate is first considered valid.
 	* Example: 2019-08-16 01:40:25+00:00
 	*/
-	"tls.server.x509.not_before": Date,
+	"tls.server.x509.not_before"?: Date,
 
 	/**
 	* tls.server.x509.public_key_algorithm
@@ -6799,7 +6799,7 @@ export interface EcsExtendedFields {
 	* Description: Algorithm used to generate the public key.
 	* Example: RSA
 	*/
-	"tls.server.x509.public_key_algorithm": string,
+	"tls.server.x509.public_key_algorithm"?: string,
 
 	/**
 	* tls.server.x509.public_key_curve
@@ -6810,7 +6810,7 @@ export interface EcsExtendedFields {
 	* Description: The curve used by the elliptic curve public key algorithm. This is algorithm specific.
 	* Example: nistp521
 	*/
-	"tls.server.x509.public_key_curve": string,
+	"tls.server.x509.public_key_curve"?: string,
 
 	/**
 	* tls.server.x509.public_key_exponent
@@ -6821,7 +6821,7 @@ export interface EcsExtendedFields {
 	* Description: Exponent used to derive the public key. This is algorithm specific.
 	* Example: 65537
 	*/
-	"tls.server.x509.public_key_exponent": number,
+	"tls.server.x509.public_key_exponent"?: number,
 
 	/**
 	* tls.server.x509.public_key_size
@@ -6832,7 +6832,7 @@ export interface EcsExtendedFields {
 	* Description: The size of the public key space in bits.
 	* Example: 2048
 	*/
-	"tls.server.x509.public_key_size": number,
+	"tls.server.x509.public_key_size"?: number,
 
 	/**
 	* tls.server.x509.serial_number
@@ -6843,7 +6843,7 @@ export interface EcsExtendedFields {
 	* Description: Unique serial number issued by the certificate authority. For consistency, if this value is alphanumeric, it should be formatted without colons and uppercase characters.
 	* Example: 55FBB9C7DEBF09809D12CCAA
 	*/
-	"tls.server.x509.serial_number": string,
+	"tls.server.x509.serial_number"?: string,
 
 	/**
 	* tls.server.x509.signature_algorithm
@@ -6854,7 +6854,7 @@ export interface EcsExtendedFields {
 	* Description: Identifier for certificate signature algorithm. We recommend using names found in Go Lang Crypto library. See https://github.com/golang/go/blob/go1.14/src/crypto/x509/x509.go#L337-L353.
 	* Example: SHA256-RSA
 	*/
-	"tls.server.x509.signature_algorithm": string,
+	"tls.server.x509.signature_algorithm"?: string,
 
 	/**
 	* tls.server.x509.subject.common_name
@@ -6865,7 +6865,7 @@ export interface EcsExtendedFields {
 	* Description: List of common names (CN) of subject.
 	* Example: shared.global.example.net
 	*/
-	"tls.server.x509.subject.common_name": string,
+	"tls.server.x509.subject.common_name"?: string,
 
 	/**
 	* tls.server.x509.subject.country
@@ -6876,7 +6876,7 @@ export interface EcsExtendedFields {
 	* Description: List of country (C) code
 	* Example: US
 	*/
-	"tls.server.x509.subject.country": string,
+	"tls.server.x509.subject.country"?: string,
 
 	/**
 	* tls.server.x509.subject.distinguished_name
@@ -6887,7 +6887,7 @@ export interface EcsExtendedFields {
 	* Description: Distinguished name (DN) of the certificate subject entity.
 	* Example: C=US, ST=California, L=San Francisco, O=Example, Inc., CN=shared.global.example.net
 	*/
-	"tls.server.x509.subject.distinguished_name": string,
+	"tls.server.x509.subject.distinguished_name"?: string,
 
 	/**
 	* tls.server.x509.subject.locality
@@ -6898,7 +6898,7 @@ export interface EcsExtendedFields {
 	* Description: List of locality names (L)
 	* Example: San Francisco
 	*/
-	"tls.server.x509.subject.locality": string,
+	"tls.server.x509.subject.locality"?: string,
 
 	/**
 	* tls.server.x509.subject.organization
@@ -6909,7 +6909,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizations (O) of subject.
 	* Example: Example, Inc.
 	*/
-	"tls.server.x509.subject.organization": string,
+	"tls.server.x509.subject.organization"?: string,
 
 	/**
 	* tls.server.x509.subject.organizational_unit
@@ -6920,7 +6920,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizational units (OU) of subject.
 	* Example: <None>
 	*/
-	"tls.server.x509.subject.organizational_unit": string,
+	"tls.server.x509.subject.organizational_unit"?: string,
 
 	/**
 	* tls.server.x509.subject.state_or_province
@@ -6931,7 +6931,7 @@ export interface EcsExtendedFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"tls.server.x509.subject.state_or_province": string,
+	"tls.server.x509.subject.state_or_province"?: string,
 
 	/**
 	* tls.server.x509.version_number
@@ -6942,7 +6942,7 @@ export interface EcsExtendedFields {
 	* Description: Version of x509 format.
 	* Example: 3
 	*/
-	"tls.server.x509.version_number": string,
+	"tls.server.x509.version_number"?: string,
 
 	/**
 	* tls.version
@@ -6953,7 +6953,7 @@ export interface EcsExtendedFields {
 	* Description: Numeric part of the version parsed from the original string.
 	* Example: 1.2
 	*/
-	"tls.version": string,
+	"tls.version"?: string,
 
 	/**
 	* tls.version_protocol
@@ -6964,7 +6964,7 @@ export interface EcsExtendedFields {
 	* Description: Normalized lowercase protocol name parsed from original string.
 	* Example: tls
 	*/
-	"tls.version_protocol": string,
+	"tls.version_protocol"?: string,
 
 	/**
 	* trace.id
@@ -6975,7 +6975,7 @@ export interface EcsExtendedFields {
 	* Description: Unique identifier of the trace. A trace groups multiple events like transactions that belong together. For example, a user request handled by multiple inter-connected services.
 	* Example: 4bf92f3577b34da6a3ce929d0e0e4736
 	*/
-	"trace.id": string,
+	"trace.id"?: string,
 
 	/**
 	* transaction.id
@@ -6986,7 +6986,7 @@ export interface EcsExtendedFields {
 	* Description: Unique identifier of the transaction within the scope of its trace. A transaction is the highest level of work measured within a service, such as a request to a server.
 	* Example: 00f067aa0ba902b7
 	*/
-	"transaction.id": string,
+	"transaction.id"?: string,
 
 	/**
 	* url.domain
@@ -6997,7 +6997,7 @@ export interface EcsExtendedFields {
 	* Description: Domain of the url, such as "www.elastic.co". In some cases a URL may refer to an IP and/or port directly, without a domain name. In this case, the IP address would go to the `domain` field.
 	* Example: www.elastic.co
 	*/
-	"url.domain": string,
+	"url.domain"?: string,
 
 	/**
 	* url.extension
@@ -7010,7 +7010,7 @@ export interface EcsExtendedFields {
 	Note that when the file name has multiple extensions (example.tar.gz), only the last one should be captured ("gz", not "tar.gz").
 	* Example: png
 	*/
-	"url.extension": string,
+	"url.extension"?: string,
 
 	/**
 	* url.fragment
@@ -7021,7 +7021,7 @@ export interface EcsExtendedFields {
 	* Description: Portion of the url after the `#`, such as "top". The `#` is not part of the fragment.
 	* Example: <None>
 	*/
-	"url.fragment": string,
+	"url.fragment"?: string,
 
 	/**
 	* url.full
@@ -7032,7 +7032,7 @@ export interface EcsExtendedFields {
 	* Description: If full URLs are important to your use case, they should be stored in `url.full`, whether this field is reconstructed or present in the event source.
 	* Example: https://www.elastic.co:443/search?q=elasticsearch#top
 	*/
-	"url.full": string,
+	"url.full"?: string,
 
 	/**
 	* url.original
@@ -7044,7 +7044,7 @@ export interface EcsExtendedFields {
 	This field is meant to represent the URL as it was observed, complete or not.
 	* Example: https://www.elastic.co:443/search?q=elasticsearch#top or /search?q=elasticsearch
 	*/
-	"url.original": string,
+	"url.original"?: string,
 
 	/**
 	* url.password
@@ -7055,7 +7055,7 @@ export interface EcsExtendedFields {
 	* Description: Password of the request.
 	* Example: <None>
 	*/
-	"url.password": string,
+	"url.password"?: string,
 
 	/**
 	* url.path
@@ -7066,7 +7066,7 @@ export interface EcsExtendedFields {
 	* Description: Path of the request, such as "/search".
 	* Example: <None>
 	*/
-	"url.path": string,
+	"url.path"?: string,
 
 	/**
 	* url.port
@@ -7077,7 +7077,7 @@ export interface EcsExtendedFields {
 	* Description: Port of the request, such as 443.
 	* Example: 443
 	*/
-	"url.port": number,
+	"url.port"?: number,
 
 	/**
 	* url.query
@@ -7088,7 +7088,7 @@ export interface EcsExtendedFields {
 	* Description: The query field describes the query string of the request, such as "q=elasticsearch". The `?` is excluded from the query string. If a URL contains no `?`, there is no query field. If there is a `?` but no query, the query field exists with an empty string. The `exists` query can be used to differentiate between the two cases.
 	* Example: <None>
 	*/
-	"url.query": string,
+	"url.query"?: string,
 
 	/**
 	* url.registered_domain
@@ -7100,7 +7100,7 @@ export interface EcsExtendedFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"url.registered_domain": string,
+	"url.registered_domain"?: string,
 
 	/**
 	* url.scheme
@@ -7111,7 +7111,7 @@ export interface EcsExtendedFields {
 	* Description: Scheme of the request, such as "https". Note: The `:` is not part of the scheme.
 	* Example: https
 	*/
-	"url.scheme": string,
+	"url.scheme"?: string,
 
 	/**
 	* url.subdomain
@@ -7122,7 +7122,7 @@ export interface EcsExtendedFields {
 	* Description: The subdomain portion of a fully qualified domain name includes all of the names except the host name under the registered_domain.  In a partially qualified domain, or if the the qualification level of the full name cannot be determined, subdomain contains all of the names below the registered domain. For example the subdomain portion of "www.east.mydomain.co.uk" is "east". If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: east
 	*/
-	"url.subdomain": string,
+	"url.subdomain"?: string,
 
 	/**
 	* url.top_level_domain
@@ -7133,7 +7133,7 @@ export interface EcsExtendedFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"url.top_level_domain": string,
+	"url.top_level_domain"?: string,
 
 	/**
 	* url.username
@@ -7144,7 +7144,7 @@ export interface EcsExtendedFields {
 	* Description: Username of the request.
 	* Example: <None>
 	*/
-	"url.username": string,
+	"url.username"?: string,
 
 	/**
 	* user.domain
@@ -7155,7 +7155,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"user.domain": string,
+	"user.domain"?: string,
 
 	/**
 	* user.email
@@ -7166,7 +7166,7 @@ export interface EcsExtendedFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"user.email": string,
+	"user.email"?: string,
 
 	/**
 	* user.full_name
@@ -7177,7 +7177,7 @@ export interface EcsExtendedFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"user.full_name": string,
+	"user.full_name"?: string,
 
 	/**
 	* user.group.domain
@@ -7188,7 +7188,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"user.group.domain": string,
+	"user.group.domain"?: string,
 
 	/**
 	* user.group.id
@@ -7199,7 +7199,7 @@ export interface EcsExtendedFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"user.group.id": string,
+	"user.group.id"?: string,
 
 	/**
 	* user.group.name
@@ -7210,7 +7210,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"user.group.name": string,
+	"user.group.name"?: string,
 
 	/**
 	* user.hash
@@ -7221,7 +7221,7 @@ export interface EcsExtendedFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"user.hash": string,
+	"user.hash"?: string,
 
 	/**
 	* user.roles
@@ -7232,7 +7232,7 @@ export interface EcsExtendedFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"user.roles": string[],
+	"user.roles"?: string[],
 
 	/**
 	* user_agent.device.name
@@ -7243,7 +7243,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the device.
 	* Example: iPhone
 	*/
-	"user_agent.device.name": string,
+	"user_agent.device.name"?: string,
 
 	/**
 	* user_agent.name
@@ -7254,7 +7254,7 @@ export interface EcsExtendedFields {
 	* Description: Name of the user agent.
 	* Example: Safari
 	*/
-	"user_agent.name": string,
+	"user_agent.name"?: string,
 
 	/**
 	* user_agent.original
@@ -7265,7 +7265,7 @@ export interface EcsExtendedFields {
 	* Description: Unparsed user_agent string.
 	* Example: Mozilla/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1
 	*/
-	"user_agent.original": string,
+	"user_agent.original"?: string,
 
 	/**
 	* user_agent.os.family
@@ -7276,7 +7276,7 @@ export interface EcsExtendedFields {
 	* Description: OS family (such as redhat, debian, freebsd, windows).
 	* Example: debian
 	*/
-	"user_agent.os.family": string,
+	"user_agent.os.family"?: string,
 
 	/**
 	* user_agent.os.full
@@ -7287,7 +7287,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system name, including the version or code name.
 	* Example: Mac OS Mojave
 	*/
-	"user_agent.os.full": string,
+	"user_agent.os.full"?: string,
 
 	/**
 	* user_agent.os.kernel
@@ -7298,7 +7298,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system kernel version as a raw string.
 	* Example: 4.4.0-112-generic
 	*/
-	"user_agent.os.kernel": string,
+	"user_agent.os.kernel"?: string,
 
 	/**
 	* user_agent.os.name
@@ -7309,7 +7309,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system name, without the version.
 	* Example: Mac OS X
 	*/
-	"user_agent.os.name": string,
+	"user_agent.os.name"?: string,
 
 	/**
 	* user_agent.os.platform
@@ -7320,7 +7320,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system platform (such centos, ubuntu, windows).
 	* Example: darwin
 	*/
-	"user_agent.os.platform": string,
+	"user_agent.os.platform"?: string,
 
 	/**
 	* user_agent.os.version
@@ -7331,7 +7331,7 @@ export interface EcsExtendedFields {
 	* Description: Operating system version as a raw string.
 	* Example: 10.14.1
 	*/
-	"user_agent.os.version": string,
+	"user_agent.os.version"?: string,
 
 	/**
 	* user_agent.version
@@ -7342,7 +7342,7 @@ export interface EcsExtendedFields {
 	* Description: Version of the user agent.
 	* Example: 12
 	*/
-	"user_agent.version": string,
+	"user_agent.version"?: string,
 
 	/**
 	* vlan.id
@@ -7353,7 +7353,7 @@ export interface EcsExtendedFields {
 	* Description: VLAN ID as reported by the observer.
 	* Example: 10
 	*/
-	"vlan.id": string,
+	"vlan.id"?: string,
 
 	/**
 	* vlan.name
@@ -7364,7 +7364,7 @@ export interface EcsExtendedFields {
 	* Description: Optional VLAN name as reported by the observer.
 	* Example: outside
 	*/
-	"vlan.name": string,
+	"vlan.name"?: string,
 
 	/**
 	* vulnerability.category
@@ -7375,7 +7375,7 @@ export interface EcsExtendedFields {
 	* Description: The type of system or architecture that the vulnerability affects. These may be platform-specific (for example, Debian or SUSE) or general (for example, Database or Firewall). For example (https://qualysguard.qualys.com/qwebhelp/fo_portal/knowledgebase/vulnerability_categories.htm[Qualys vulnerability categories]) This field must be an array.
 	* Example: ["Firewall"]
 	*/
-	"vulnerability.category": string[],
+	"vulnerability.category"?: string[],
 
 	/**
 	* vulnerability.classification
@@ -7386,7 +7386,7 @@ export interface EcsExtendedFields {
 	* Description: The classification of the vulnerability scoring system. For example (https://www.first.org/cvss/)
 	* Example: CVSS
 	*/
-	"vulnerability.classification": string,
+	"vulnerability.classification"?: string,
 
 	/**
 	* vulnerability.description
@@ -7397,7 +7397,7 @@ export interface EcsExtendedFields {
 	* Description: The description of the vulnerability that provides additional context of the vulnerability. For example (https://cve.mitre.org/about/faqs.html#cve_entry_descriptions_created[Common Vulnerabilities and Exposure CVE description])
 	* Example: In macOS before 2.12.6, there is a vulnerability in the RPC...
 	*/
-	"vulnerability.description": string,
+	"vulnerability.description"?: string,
 
 	/**
 	* vulnerability.enumeration
@@ -7408,7 +7408,7 @@ export interface EcsExtendedFields {
 	* Description: The type of identifier used for this vulnerability. For example (https://cve.mitre.org/about/)
 	* Example: CVE
 	*/
-	"vulnerability.enumeration": string,
+	"vulnerability.enumeration"?: string,
 
 	/**
 	* vulnerability.id
@@ -7419,7 +7419,7 @@ export interface EcsExtendedFields {
 	* Description: The identification (ID) is the number portion of a vulnerability entry. It includes a unique identification number for the vulnerability. For example (https://cve.mitre.org/about/faqs.html#what_is_cve_id)[Common Vulnerabilities and Exposure CVE ID]
 	* Example: CVE-2019-00001
 	*/
-	"vulnerability.id": string,
+	"vulnerability.id"?: string,
 
 	/**
 	* vulnerability.reference
@@ -7430,7 +7430,7 @@ export interface EcsExtendedFields {
 	* Description: A resource that provides additional information, context, and mitigations for the identified vulnerability.
 	* Example: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111
 	*/
-	"vulnerability.reference": string,
+	"vulnerability.reference"?: string,
 
 	/**
 	* vulnerability.report_id
@@ -7441,7 +7441,7 @@ export interface EcsExtendedFields {
 	* Description: The report or scan identification number.
 	* Example: 20191018.0001
 	*/
-	"vulnerability.report_id": string,
+	"vulnerability.report_id"?: string,
 
 	/**
 	* vulnerability.scanner.vendor
@@ -7452,7 +7452,7 @@ export interface EcsExtendedFields {
 	* Description: The name of the vulnerability scanner vendor.
 	* Example: Tenable
 	*/
-	"vulnerability.scanner.vendor": string,
+	"vulnerability.scanner.vendor"?: string,
 
 	/**
 	* vulnerability.score.base
@@ -7463,7 +7463,7 @@ export interface EcsExtendedFields {
 	* Description: Scores can range from 0.0 to 10.0, with 10.0 being the most severe. Base scores cover an assessment for exploitability metrics (attack vector, complexity, privileges, and user interaction), impact metrics (confidentiality, integrity, and availability), and scope. For example (https://www.first.org/cvss/specification-document)
 	* Example: 5.5
 	*/
-	"vulnerability.score.base": number,
+	"vulnerability.score.base"?: number,
 
 	/**
 	* vulnerability.score.environmental
@@ -7474,7 +7474,7 @@ export interface EcsExtendedFields {
 	* Description: Scores can range from 0.0 to 10.0, with 10.0 being the most severe. Environmental scores cover an assessment for any modified Base metrics, confidentiality, integrity, and availability requirements. For example (https://www.first.org/cvss/specification-document)
 	* Example: 5.5
 	*/
-	"vulnerability.score.environmental": number,
+	"vulnerability.score.environmental"?: number,
 
 	/**
 	* vulnerability.score.temporal
@@ -7485,7 +7485,7 @@ export interface EcsExtendedFields {
 	* Description: Scores can range from 0.0 to 10.0, with 10.0 being the most severe. Temporal scores cover an assessment for code maturity, remediation level, and confidence. For example (https://www.first.org/cvss/specification-document)
 	* Example: <None>
 	*/
-	"vulnerability.score.temporal": number,
+	"vulnerability.score.temporal"?: number,
 
 	/**
 	* vulnerability.score.version
@@ -7496,7 +7496,7 @@ export interface EcsExtendedFields {
 	* Description: The National Vulnerability Database (NVD) provides qualitative severity rankings of "Low", "Medium", and "High" for CVSS v2.0 base score ranges in addition to the severity ratings for CVSS v3.0 as they are defined in the CVSS v3.0 specification. CVSS is owned and managed by FIRST.Org, Inc. (FIRST), a US-based non-profit organization, whose mission is to help computer security incident response teams across the world. For example (https://nvd.nist.gov/vuln-metrics/cvss)
 	* Example: 2
 	*/
-	"vulnerability.score.version": string,
+	"vulnerability.score.version"?: string,
 
 	/**
 	* vulnerability.severity
@@ -7507,7 +7507,7 @@ export interface EcsExtendedFields {
 	* Description: The severity of the vulnerability can help with metrics and internal prioritization regarding remediation. For example (https://nvd.nist.gov/vuln-metrics/cvss)
 	* Example: Critical
 	*/
-	"vulnerability.severity": string,
+	"vulnerability.severity"?: string,
 
 	/**
 	* x509.alternative_names
@@ -7518,7 +7518,7 @@ export interface EcsExtendedFields {
 	* Description: List of subject alternative names (SAN). Name types vary by certificate authority and certificate type but commonly contain IP addresses, DNS names (and wildcards), and email addresses.
 	* Example: *.elastic.co
 	*/
-	"x509.alternative_names": string[],
+	"x509.alternative_names"?: string[],
 
 	/**
 	* x509.issuer.common_name
@@ -7529,7 +7529,7 @@ export interface EcsExtendedFields {
 	* Description: List of common name (CN) of issuing certificate authority.
 	* Example: Example SHA2 High Assurance Server CA
 	*/
-	"x509.issuer.common_name": string[],
+	"x509.issuer.common_name"?: string[],
 
 	/**
 	* x509.issuer.country
@@ -7540,7 +7540,7 @@ export interface EcsExtendedFields {
 	* Description: List of country (C) codes
 	* Example: US
 	*/
-	"x509.issuer.country": string[],
+	"x509.issuer.country"?: string[],
 
 	/**
 	* x509.issuer.distinguished_name
@@ -7551,7 +7551,7 @@ export interface EcsExtendedFields {
 	* Description: Distinguished name (DN) of issuing certificate authority.
 	* Example: C=US, O=Example Inc, OU=www.example.com, CN=Example SHA2 High Assurance Server CA
 	*/
-	"x509.issuer.distinguished_name": string,
+	"x509.issuer.distinguished_name"?: string,
 
 	/**
 	* x509.issuer.locality
@@ -7562,7 +7562,7 @@ export interface EcsExtendedFields {
 	* Description: List of locality names (L)
 	* Example: Mountain View
 	*/
-	"x509.issuer.locality": string[],
+	"x509.issuer.locality"?: string[],
 
 	/**
 	* x509.issuer.organization
@@ -7573,7 +7573,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizations (O) of issuing certificate authority.
 	* Example: Example Inc
 	*/
-	"x509.issuer.organization": string[],
+	"x509.issuer.organization"?: string[],
 
 	/**
 	* x509.issuer.organizational_unit
@@ -7584,7 +7584,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizational units (OU) of issuing certificate authority.
 	* Example: www.example.com
 	*/
-	"x509.issuer.organizational_unit": string[],
+	"x509.issuer.organizational_unit"?: string[],
 
 	/**
 	* x509.issuer.state_or_province
@@ -7595,7 +7595,7 @@ export interface EcsExtendedFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"x509.issuer.state_or_province": string[],
+	"x509.issuer.state_or_province"?: string[],
 
 	/**
 	* x509.not_after
@@ -7606,7 +7606,7 @@ export interface EcsExtendedFields {
 	* Description: Time at which the certificate is no longer considered valid.
 	* Example: 2020-07-16 03:15:39+00:00
 	*/
-	"x509.not_after": Date,
+	"x509.not_after"?: Date,
 
 	/**
 	* x509.not_before
@@ -7617,7 +7617,7 @@ export interface EcsExtendedFields {
 	* Description: Time at which the certificate is first considered valid.
 	* Example: 2019-08-16 01:40:25+00:00
 	*/
-	"x509.not_before": Date,
+	"x509.not_before"?: Date,
 
 	/**
 	* x509.public_key_algorithm
@@ -7628,7 +7628,7 @@ export interface EcsExtendedFields {
 	* Description: Algorithm used to generate the public key.
 	* Example: RSA
 	*/
-	"x509.public_key_algorithm": string,
+	"x509.public_key_algorithm"?: string,
 
 	/**
 	* x509.public_key_curve
@@ -7639,7 +7639,7 @@ export interface EcsExtendedFields {
 	* Description: The curve used by the elliptic curve public key algorithm. This is algorithm specific.
 	* Example: nistp521
 	*/
-	"x509.public_key_curve": string,
+	"x509.public_key_curve"?: string,
 
 	/**
 	* x509.public_key_exponent
@@ -7650,7 +7650,7 @@ export interface EcsExtendedFields {
 	* Description: Exponent used to derive the public key. This is algorithm specific.
 	* Example: 65537
 	*/
-	"x509.public_key_exponent": number,
+	"x509.public_key_exponent"?: number,
 
 	/**
 	* x509.public_key_size
@@ -7661,7 +7661,7 @@ export interface EcsExtendedFields {
 	* Description: The size of the public key space in bits.
 	* Example: 2048
 	*/
-	"x509.public_key_size": number,
+	"x509.public_key_size"?: number,
 
 	/**
 	* x509.serial_number
@@ -7672,7 +7672,7 @@ export interface EcsExtendedFields {
 	* Description: Unique serial number issued by the certificate authority. For consistency, if this value is alphanumeric, it should be formatted without colons and uppercase characters.
 	* Example: 55FBB9C7DEBF09809D12CCAA
 	*/
-	"x509.serial_number": string,
+	"x509.serial_number"?: string,
 
 	/**
 	* x509.signature_algorithm
@@ -7683,7 +7683,7 @@ export interface EcsExtendedFields {
 	* Description: Identifier for certificate signature algorithm. We recommend using names found in Go Lang Crypto library. See https://github.com/golang/go/blob/go1.14/src/crypto/x509/x509.go#L337-L353.
 	* Example: SHA256-RSA
 	*/
-	"x509.signature_algorithm": string,
+	"x509.signature_algorithm"?: string,
 
 	/**
 	* x509.subject.common_name
@@ -7694,7 +7694,7 @@ export interface EcsExtendedFields {
 	* Description: List of common names (CN) of subject.
 	* Example: shared.global.example.net
 	*/
-	"x509.subject.common_name": string[],
+	"x509.subject.common_name"?: string[],
 
 	/**
 	* x509.subject.country
@@ -7705,7 +7705,7 @@ export interface EcsExtendedFields {
 	* Description: List of country (C) code
 	* Example: US
 	*/
-	"x509.subject.country": string[],
+	"x509.subject.country"?: string[],
 
 	/**
 	* x509.subject.distinguished_name
@@ -7716,7 +7716,7 @@ export interface EcsExtendedFields {
 	* Description: Distinguished name (DN) of the certificate subject entity.
 	* Example: C=US, ST=California, L=San Francisco, O=Example, Inc., CN=shared.global.example.net
 	*/
-	"x509.subject.distinguished_name": string,
+	"x509.subject.distinguished_name"?: string,
 
 	/**
 	* x509.subject.locality
@@ -7727,7 +7727,7 @@ export interface EcsExtendedFields {
 	* Description: List of locality names (L)
 	* Example: San Francisco
 	*/
-	"x509.subject.locality": string[],
+	"x509.subject.locality"?: string[],
 
 	/**
 	* x509.subject.organization
@@ -7738,7 +7738,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizations (O) of subject.
 	* Example: Example, Inc.
 	*/
-	"x509.subject.organization": string[],
+	"x509.subject.organization"?: string[],
 
 	/**
 	* x509.subject.organizational_unit
@@ -7749,7 +7749,7 @@ export interface EcsExtendedFields {
 	* Description: List of organizational units (OU) of subject.
 	* Example: <None>
 	*/
-	"x509.subject.organizational_unit": string[],
+	"x509.subject.organizational_unit"?: string[],
 
 	/**
 	* x509.subject.state_or_province
@@ -7760,7 +7760,7 @@ export interface EcsExtendedFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"x509.subject.state_or_province": string[],
+	"x509.subject.state_or_province"?: string[],
 
 	/**
 	* x509.version_number
@@ -7771,7 +7771,7 @@ export interface EcsExtendedFields {
 	* Description: Version of x509 format.
 	* Example: 3
 	*/
-	"x509.version_number": string,
+	"x509.version_number"?: string,
 
 
 }
@@ -7788,7 +7788,7 @@ export interface EcsFields {
 	Required field for all events.
 	* Example: 2016-05-23T08:05:34.853Z
 	*/
-	"@timestamp": Date,
+	"@timestamp"?: Date,
 
 	/**
 	* agent.build.original
@@ -7799,7 +7799,7 @@ export interface EcsFields {
 	* Description: Extended build information for the agent. This field is intended to contain any build information that a data source may provide, no specific formatting is required.
 	* Example: metricbeat version 7.6.0 (amd64), libbeat 7.6.0 [6a23e8f8f30f5001ba344e4e54d8d9cb82cb107c built 2020-02-05 23:10:10 +0000 UTC]
 	*/
-	"agent.build.original": string,
+	"agent.build.original"?: string,
 
 	/**
 	* agent.ephemeral_id
@@ -7810,7 +7810,7 @@ export interface EcsFields {
 	* Description: Ephemeral identifier of this agent (if one exists). This id normally changes across restarts, but `agent.id` does not.
 	* Example: 8a4f500f
 	*/
-	"agent.ephemeral_id": string,
+	"agent.ephemeral_id"?: string,
 
 	/**
 	* agent.id
@@ -7821,7 +7821,7 @@ export interface EcsFields {
 	* Description: Unique identifier of this agent (if one exists). Example: For Beats this would be beat.id.
 	* Example: 8a4f500d
 	*/
-	"agent.id": string,
+	"agent.id"?: string,
 
 	/**
 	* agent.name
@@ -7833,7 +7833,7 @@ export interface EcsFields {
 	If no name is given, the name is often left empty.
 	* Example: foo
 	*/
-	"agent.name": string,
+	"agent.name"?: string,
 
 	/**
 	* agent.type
@@ -7844,7 +7844,7 @@ export interface EcsFields {
 	* Description: Type of the agent. The agent type always stays the same and should be given by the agent used. In case of Filebeat the agent would always be Filebeat also if two Filebeat instances are run on the same machine.
 	* Example: filebeat
 	*/
-	"agent.type": string,
+	"agent.type"?: string,
 
 	/**
 	* agent.version
@@ -7855,7 +7855,7 @@ export interface EcsFields {
 	* Description: Version of the agent.
 	* Example: 6.0.0-rc2
 	*/
-	"agent.version": string,
+	"agent.version"?: string,
 
 	/**
 	* as.number
@@ -7866,7 +7866,7 @@ export interface EcsFields {
 	* Description: Unique number allocated to the autonomous system. The autonomous system number (ASN) uniquely identifies each network on the Internet.
 	* Example: 15169
 	*/
-	"as.number": number,
+	"as.number"?: number,
 
 	/**
 	* as.organization.name
@@ -7877,7 +7877,7 @@ export interface EcsFields {
 	* Description: Organization name.
 	* Example: Google LLC
 	*/
-	"as.organization.name": string,
+	"as.organization.name"?: string,
 
 	/**
 	* client.address
@@ -7888,7 +7888,7 @@ export interface EcsFields {
 	* Description: Some event client addresses are defined ambiguously. The event will sometimes list an IP, a domain or a unix socket.  You should always store the raw address in the `.address` field. Then it should be duplicated to `.ip` or `.domain`, depending on which one it is.
 	* Example: <None>
 	*/
-	"client.address": string,
+	"client.address"?: string,
 
 	/**
 	* client.as.number
@@ -7899,7 +7899,7 @@ export interface EcsFields {
 	* Description: Unique number allocated to the autonomous system. The autonomous system number (ASN) uniquely identifies each network on the Internet.
 	* Example: 15169
 	*/
-	"client.as.number": number,
+	"client.as.number"?: number,
 
 	/**
 	* client.as.organization.name
@@ -7910,7 +7910,7 @@ export interface EcsFields {
 	* Description: Organization name.
 	* Example: Google LLC
 	*/
-	"client.as.organization.name": string,
+	"client.as.organization.name"?: string,
 
 	/**
 	* client.bytes
@@ -7921,7 +7921,7 @@ export interface EcsFields {
 	* Description: Bytes sent from the client to the server.
 	* Example: 184
 	*/
-	"client.bytes": number,
+	"client.bytes"?: number,
 
 	/**
 	* client.domain
@@ -7932,7 +7932,7 @@ export interface EcsFields {
 	* Description: Client domain.
 	* Example: <None>
 	*/
-	"client.domain": string,
+	"client.domain"?: string,
 
 	/**
 	* client.geo.city_name
@@ -7943,7 +7943,7 @@ export interface EcsFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"client.geo.city_name": string,
+	"client.geo.city_name"?: string,
 
 	/**
 	* client.geo.continent_name
@@ -7954,7 +7954,7 @@ export interface EcsFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"client.geo.continent_name": string,
+	"client.geo.continent_name"?: string,
 
 	/**
 	* client.geo.country_iso_code
@@ -7965,7 +7965,7 @@ export interface EcsFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"client.geo.country_iso_code": string,
+	"client.geo.country_iso_code"?: string,
 
 	/**
 	* client.geo.country_name
@@ -7976,7 +7976,7 @@ export interface EcsFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"client.geo.country_name": string,
+	"client.geo.country_name"?: string,
 
 	/**
 	* client.geo.location
@@ -7987,7 +7987,7 @@ export interface EcsFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"client.geo.location": GeoPoint,
+	"client.geo.location"?: GeoPoint,
 
 	/**
 	* client.geo.name
@@ -7999,7 +7999,7 @@ export interface EcsFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"client.geo.name": string,
+	"client.geo.name"?: string,
 
 	/**
 	* client.geo.region_iso_code
@@ -8010,7 +8010,7 @@ export interface EcsFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"client.geo.region_iso_code": string,
+	"client.geo.region_iso_code"?: string,
 
 	/**
 	* client.geo.region_name
@@ -8021,7 +8021,7 @@ export interface EcsFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"client.geo.region_name": string,
+	"client.geo.region_name"?: string,
 
 	/**
 	* client.ip
@@ -8032,7 +8032,7 @@ export interface EcsFields {
 	* Description: IP address of the client (IPv4 or IPv6).
 	* Example: <None>
 	*/
-	"client.ip": string,
+	"client.ip"?: string,
 
 	/**
 	* client.mac
@@ -8043,7 +8043,7 @@ export interface EcsFields {
 	* Description: MAC address of the client.
 	* Example: <None>
 	*/
-	"client.mac": string,
+	"client.mac"?: string,
 
 	/**
 	* client.nat.ip
@@ -8054,7 +8054,7 @@ export interface EcsFields {
 	* Description: Translated IP of source based NAT sessions (e.g. internal client to internet). Typically connections traversing load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"client.nat.ip": string,
+	"client.nat.ip"?: string,
 
 	/**
 	* client.nat.port
@@ -8065,7 +8065,7 @@ export interface EcsFields {
 	* Description: Translated port of source based NAT sessions (e.g. internal client to internet). Typically connections traversing load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"client.nat.port": number,
+	"client.nat.port"?: number,
 
 	/**
 	* client.packets
@@ -8076,7 +8076,7 @@ export interface EcsFields {
 	* Description: Packets sent from the client to the server.
 	* Example: 12
 	*/
-	"client.packets": number,
+	"client.packets"?: number,
 
 	/**
 	* client.port
@@ -8087,7 +8087,7 @@ export interface EcsFields {
 	* Description: Port of the client.
 	* Example: <None>
 	*/
-	"client.port": number,
+	"client.port"?: number,
 
 	/**
 	* client.registered_domain
@@ -8099,7 +8099,7 @@ export interface EcsFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"client.registered_domain": string,
+	"client.registered_domain"?: string,
 
 	/**
 	* client.subdomain
@@ -8110,7 +8110,7 @@ export interface EcsFields {
 	* Description: The subdomain portion of a fully qualified domain name includes all of the names except the host name under the registered_domain.  In a partially qualified domain, or if the the qualification level of the full name cannot be determined, subdomain contains all of the names below the registered domain. For example the subdomain portion of "www.east.mydomain.co.uk" is "east". If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: east
 	*/
-	"client.subdomain": string,
+	"client.subdomain"?: string,
 
 	/**
 	* client.top_level_domain
@@ -8121,7 +8121,7 @@ export interface EcsFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"client.top_level_domain": string,
+	"client.top_level_domain"?: string,
 
 	/**
 	* client.user.domain
@@ -8132,7 +8132,7 @@ export interface EcsFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"client.user.domain": string,
+	"client.user.domain"?: string,
 
 	/**
 	* client.user.email
@@ -8143,7 +8143,7 @@ export interface EcsFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"client.user.email": string,
+	"client.user.email"?: string,
 
 	/**
 	* client.user.full_name
@@ -8154,7 +8154,7 @@ export interface EcsFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"client.user.full_name": string,
+	"client.user.full_name"?: string,
 
 	/**
 	* client.user.group.domain
@@ -8165,7 +8165,7 @@ export interface EcsFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"client.user.group.domain": string,
+	"client.user.group.domain"?: string,
 
 	/**
 	* client.user.group.id
@@ -8176,7 +8176,7 @@ export interface EcsFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"client.user.group.id": string,
+	"client.user.group.id"?: string,
 
 	/**
 	* client.user.group.name
@@ -8187,7 +8187,7 @@ export interface EcsFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"client.user.group.name": string,
+	"client.user.group.name"?: string,
 
 	/**
 	* client.user.hash
@@ -8198,7 +8198,7 @@ export interface EcsFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"client.user.hash": string,
+	"client.user.hash"?: string,
 
 	/**
 	* client.user.id
@@ -8209,7 +8209,7 @@ export interface EcsFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"client.user.id": string,
+	"client.user.id"?: string,
 
 	/**
 	* client.user.name
@@ -8220,7 +8220,7 @@ export interface EcsFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"client.user.name": string,
+	"client.user.name"?: string,
 
 	/**
 	* client.user.roles
@@ -8231,7 +8231,7 @@ export interface EcsFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"client.user.roles": string,
+	"client.user.roles"?: string,
 
 	/**
 	* cloud.account.id
@@ -8242,7 +8242,7 @@ export interface EcsFields {
 	* Description: The cloud account or organization id used to identify different entities in a multi-tenant environment. Examples: AWS account id, Google Cloud ORG Id, or other unique identifier.
 	* Example: 666777888999
 	*/
-	"cloud.account.id": string,
+	"cloud.account.id"?: string,
 
 	/**
 	* cloud.account.name
@@ -8253,7 +8253,7 @@ export interface EcsFields {
 	* Description: The cloud account name or alias used to identify different entities in a multi-tenant environment. Examples: AWS account name, Google Cloud ORG display name.
 	* Example: elastic-dev
 	*/
-	"cloud.account.name": string,
+	"cloud.account.name"?: string,
 
 	/**
 	* cloud.availability_zone
@@ -8264,7 +8264,7 @@ export interface EcsFields {
 	* Description: Availability zone in which this host is running.
 	* Example: us-east-1c
 	*/
-	"cloud.availability_zone": string,
+	"cloud.availability_zone"?: string,
 
 	/**
 	* cloud.instance.id
@@ -8275,7 +8275,7 @@ export interface EcsFields {
 	* Description: Instance ID of the host machine.
 	* Example: i-1234567890abcdef0
 	*/
-	"cloud.instance.id": string,
+	"cloud.instance.id"?: string,
 
 	/**
 	* cloud.instance.name
@@ -8286,7 +8286,7 @@ export interface EcsFields {
 	* Description: Instance name of the host machine.
 	* Example: <None>
 	*/
-	"cloud.instance.name": string,
+	"cloud.instance.name"?: string,
 
 	/**
 	* cloud.machine.type
@@ -8297,7 +8297,7 @@ export interface EcsFields {
 	* Description: Machine type of the host machine.
 	* Example: t2.medium
 	*/
-	"cloud.machine.type": string,
+	"cloud.machine.type"?: string,
 
 	/**
 	* cloud.project.id
@@ -8308,7 +8308,7 @@ export interface EcsFields {
 	* Description: The cloud project identifier. Examples: Google Cloud Project id, Azure Project id.
 	* Example: my-project
 	*/
-	"cloud.project.id": string,
+	"cloud.project.id"?: string,
 
 	/**
 	* cloud.project.name
@@ -8319,7 +8319,7 @@ export interface EcsFields {
 	* Description: The cloud project name. Examples: Google Cloud Project name, Azure Project name.
 	* Example: my project
 	*/
-	"cloud.project.name": string,
+	"cloud.project.name"?: string,
 
 	/**
 	* cloud.provider
@@ -8330,7 +8330,7 @@ export interface EcsFields {
 	* Description: Name of the cloud provider. Example values are aws, azure, gcp, or digitalocean.
 	* Example: aws
 	*/
-	"cloud.provider": string,
+	"cloud.provider"?: string,
 
 	/**
 	* cloud.region
@@ -8341,7 +8341,7 @@ export interface EcsFields {
 	* Description: Region in which this host is running.
 	* Example: us-east-1
 	*/
-	"cloud.region": string,
+	"cloud.region"?: string,
 
 	/**
 	* code_signature.exists
@@ -8352,7 +8352,7 @@ export interface EcsFields {
 	* Description: Boolean to capture if a signature is present.
 	* Example: true
 	*/
-	"code_signature.exists": boolean,
+	"code_signature.exists"?: boolean,
 
 	/**
 	* code_signature.status
@@ -8363,7 +8363,7 @@ export interface EcsFields {
 	* Description: Additional information about the certificate status. This is useful for logging cryptographic errors with the certificate validity or trust status. Leave unpopulated if the validity or trust of the certificate was unchecked.
 	* Example: ERROR_UNTRUSTED_ROOT
 	*/
-	"code_signature.status": string,
+	"code_signature.status"?: string,
 
 	/**
 	* code_signature.subject_name
@@ -8374,7 +8374,7 @@ export interface EcsFields {
 	* Description: Subject name of the code signer
 	* Example: Microsoft Corporation
 	*/
-	"code_signature.subject_name": string,
+	"code_signature.subject_name"?: string,
 
 	/**
 	* code_signature.trusted
@@ -8385,7 +8385,7 @@ export interface EcsFields {
 	* Description: Stores the trust status of the certificate chain. Validating the trust of the certificate chain may be complicated, and this field should only be populated by tools that actively check the status.
 	* Example: true
 	*/
-	"code_signature.trusted": boolean,
+	"code_signature.trusted"?: boolean,
 
 	/**
 	* code_signature.valid
@@ -8396,7 +8396,7 @@ export interface EcsFields {
 	* Description: Boolean to capture if the digital signature is verified against the binary content. Leave unpopulated if a certificate was unchecked.
 	* Example: true
 	*/
-	"code_signature.valid": boolean,
+	"code_signature.valid"?: boolean,
 
 	/**
 	* container.id
@@ -8407,7 +8407,7 @@ export interface EcsFields {
 	* Description: Unique container id.
 	* Example: <None>
 	*/
-	"container.id": string,
+	"container.id"?: string,
 
 	/**
 	* container.image.name
@@ -8418,7 +8418,7 @@ export interface EcsFields {
 	* Description: Name of the image the container was built on.
 	* Example: <None>
 	*/
-	"container.image.name": string,
+	"container.image.name"?: string,
 
 	/**
 	* container.image.tag
@@ -8429,7 +8429,7 @@ export interface EcsFields {
 	* Description: Container image tags.
 	* Example: <None>
 	*/
-	"container.image.tag": string[],
+	"container.image.tag"?: string[],
 
 	/**
 	* container.labels
@@ -8440,7 +8440,7 @@ export interface EcsFields {
 	* Description: Image labels.
 	* Example: <None>
 	*/
-	"container.labels": object,
+	"container.labels"?: object,
 
 	/**
 	* container.name
@@ -8451,7 +8451,7 @@ export interface EcsFields {
 	* Description: Container name.
 	* Example: <None>
 	*/
-	"container.name": string,
+	"container.name"?: string,
 
 	/**
 	* container.runtime
@@ -8462,7 +8462,7 @@ export interface EcsFields {
 	* Description: Runtime managing this container.
 	* Example: docker
 	*/
-	"container.runtime": string,
+	"container.runtime"?: string,
 
 	/**
 	* destination.address
@@ -8473,7 +8473,7 @@ export interface EcsFields {
 	* Description: Some event destination addresses are defined ambiguously. The event will sometimes list an IP, a domain or a unix socket.  You should always store the raw address in the `.address` field. Then it should be duplicated to `.ip` or `.domain`, depending on which one it is.
 	* Example: <None>
 	*/
-	"destination.address": string,
+	"destination.address"?: string,
 
 	/**
 	* destination.as.number
@@ -8484,7 +8484,7 @@ export interface EcsFields {
 	* Description: Unique number allocated to the autonomous system. The autonomous system number (ASN) uniquely identifies each network on the Internet.
 	* Example: 15169
 	*/
-	"destination.as.number": number,
+	"destination.as.number"?: number,
 
 	/**
 	* destination.as.organization.name
@@ -8495,7 +8495,7 @@ export interface EcsFields {
 	* Description: Organization name.
 	* Example: Google LLC
 	*/
-	"destination.as.organization.name": string,
+	"destination.as.organization.name"?: string,
 
 	/**
 	* destination.bytes
@@ -8506,7 +8506,7 @@ export interface EcsFields {
 	* Description: Bytes sent from the destination to the source.
 	* Example: 184
 	*/
-	"destination.bytes": number,
+	"destination.bytes"?: number,
 
 	/**
 	* destination.domain
@@ -8517,7 +8517,7 @@ export interface EcsFields {
 	* Description: Destination domain.
 	* Example: <None>
 	*/
-	"destination.domain": string,
+	"destination.domain"?: string,
 
 	/**
 	* destination.geo.city_name
@@ -8528,7 +8528,7 @@ export interface EcsFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"destination.geo.city_name": string,
+	"destination.geo.city_name"?: string,
 
 	/**
 	* destination.geo.continent_name
@@ -8539,7 +8539,7 @@ export interface EcsFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"destination.geo.continent_name": string,
+	"destination.geo.continent_name"?: string,
 
 	/**
 	* destination.geo.country_iso_code
@@ -8550,7 +8550,7 @@ export interface EcsFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"destination.geo.country_iso_code": string,
+	"destination.geo.country_iso_code"?: string,
 
 	/**
 	* destination.geo.country_name
@@ -8561,7 +8561,7 @@ export interface EcsFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"destination.geo.country_name": string,
+	"destination.geo.country_name"?: string,
 
 	/**
 	* destination.geo.location
@@ -8572,7 +8572,7 @@ export interface EcsFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"destination.geo.location": GeoPoint,
+	"destination.geo.location"?: GeoPoint,
 
 	/**
 	* destination.geo.name
@@ -8584,7 +8584,7 @@ export interface EcsFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"destination.geo.name": string,
+	"destination.geo.name"?: string,
 
 	/**
 	* destination.geo.region_iso_code
@@ -8595,7 +8595,7 @@ export interface EcsFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"destination.geo.region_iso_code": string,
+	"destination.geo.region_iso_code"?: string,
 
 	/**
 	* destination.geo.region_name
@@ -8606,7 +8606,7 @@ export interface EcsFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"destination.geo.region_name": string,
+	"destination.geo.region_name"?: string,
 
 	/**
 	* destination.ip
@@ -8617,7 +8617,7 @@ export interface EcsFields {
 	* Description: IP address of the destination (IPv4 or IPv6).
 	* Example: <None>
 	*/
-	"destination.ip": string,
+	"destination.ip"?: string,
 
 	/**
 	* destination.mac
@@ -8628,7 +8628,7 @@ export interface EcsFields {
 	* Description: MAC address of the destination.
 	* Example: <None>
 	*/
-	"destination.mac": string,
+	"destination.mac"?: string,
 
 	/**
 	* destination.nat.ip
@@ -8639,7 +8639,7 @@ export interface EcsFields {
 	* Description: Translated ip of destination based NAT sessions (e.g. internet to private DMZ) Typically used with load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"destination.nat.ip": string,
+	"destination.nat.ip"?: string,
 
 	/**
 	* destination.nat.port
@@ -8650,7 +8650,7 @@ export interface EcsFields {
 	* Description: Port the source session is translated to by NAT Device. Typically used with load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"destination.nat.port": number,
+	"destination.nat.port"?: number,
 
 	/**
 	* destination.packets
@@ -8661,7 +8661,7 @@ export interface EcsFields {
 	* Description: Packets sent from the destination to the source.
 	* Example: 12
 	*/
-	"destination.packets": number,
+	"destination.packets"?: number,
 
 	/**
 	* destination.port
@@ -8672,7 +8672,7 @@ export interface EcsFields {
 	* Description: Port of the destination.
 	* Example: <None>
 	*/
-	"destination.port": number,
+	"destination.port"?: number,
 
 	/**
 	* destination.registered_domain
@@ -8684,7 +8684,7 @@ export interface EcsFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"destination.registered_domain": string,
+	"destination.registered_domain"?: string,
 
 	/**
 	* destination.subdomain
@@ -8695,7 +8695,7 @@ export interface EcsFields {
 	* Description: The subdomain portion of a fully qualified domain name includes all of the names except the host name under the registered_domain.  In a partially qualified domain, or if the the qualification level of the full name cannot be determined, subdomain contains all of the names below the registered domain. For example the subdomain portion of "www.east.mydomain.co.uk" is "east". If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: east
 	*/
-	"destination.subdomain": string,
+	"destination.subdomain"?: string,
 
 	/**
 	* destination.top_level_domain
@@ -8706,7 +8706,7 @@ export interface EcsFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"destination.top_level_domain": string,
+	"destination.top_level_domain"?: string,
 
 	/**
 	* destination.user.domain
@@ -8717,7 +8717,7 @@ export interface EcsFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"destination.user.domain": string,
+	"destination.user.domain"?: string,
 
 	/**
 	* destination.user.email
@@ -8728,7 +8728,7 @@ export interface EcsFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"destination.user.email": string,
+	"destination.user.email"?: string,
 
 	/**
 	* destination.user.full_name
@@ -8739,7 +8739,7 @@ export interface EcsFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"destination.user.full_name": string,
+	"destination.user.full_name"?: string,
 
 	/**
 	* destination.user.group.domain
@@ -8750,7 +8750,7 @@ export interface EcsFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"destination.user.group.domain": string,
+	"destination.user.group.domain"?: string,
 
 	/**
 	* destination.user.group.id
@@ -8761,7 +8761,7 @@ export interface EcsFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"destination.user.group.id": string,
+	"destination.user.group.id"?: string,
 
 	/**
 	* destination.user.group.name
@@ -8772,7 +8772,7 @@ export interface EcsFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"destination.user.group.name": string,
+	"destination.user.group.name"?: string,
 
 	/**
 	* destination.user.hash
@@ -8783,7 +8783,7 @@ export interface EcsFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"destination.user.hash": string,
+	"destination.user.hash"?: string,
 
 	/**
 	* destination.user.id
@@ -8794,7 +8794,7 @@ export interface EcsFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"destination.user.id": string,
+	"destination.user.id"?: string,
 
 	/**
 	* destination.user.name
@@ -8805,7 +8805,7 @@ export interface EcsFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"destination.user.name": string,
+	"destination.user.name"?: string,
 
 	/**
 	* destination.user.roles
@@ -8816,7 +8816,7 @@ export interface EcsFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"destination.user.roles": string,
+	"destination.user.roles"?: string,
 
 	/**
 	* dll.code_signature.exists
@@ -8827,7 +8827,7 @@ export interface EcsFields {
 	* Description: Boolean to capture if a signature is present.
 	* Example: true
 	*/
-	"dll.code_signature.exists": boolean,
+	"dll.code_signature.exists"?: boolean,
 
 	/**
 	* dll.code_signature.status
@@ -8838,7 +8838,7 @@ export interface EcsFields {
 	* Description: Additional information about the certificate status. This is useful for logging cryptographic errors with the certificate validity or trust status. Leave unpopulated if the validity or trust of the certificate was unchecked.
 	* Example: ERROR_UNTRUSTED_ROOT
 	*/
-	"dll.code_signature.status": string,
+	"dll.code_signature.status"?: string,
 
 	/**
 	* dll.code_signature.subject_name
@@ -8849,7 +8849,7 @@ export interface EcsFields {
 	* Description: Subject name of the code signer
 	* Example: Microsoft Corporation
 	*/
-	"dll.code_signature.subject_name": string,
+	"dll.code_signature.subject_name"?: string,
 
 	/**
 	* dll.code_signature.trusted
@@ -8860,7 +8860,7 @@ export interface EcsFields {
 	* Description: Stores the trust status of the certificate chain. Validating the trust of the certificate chain may be complicated, and this field should only be populated by tools that actively check the status.
 	* Example: true
 	*/
-	"dll.code_signature.trusted": boolean,
+	"dll.code_signature.trusted"?: boolean,
 
 	/**
 	* dll.code_signature.valid
@@ -8871,7 +8871,7 @@ export interface EcsFields {
 	* Description: Boolean to capture if the digital signature is verified against the binary content. Leave unpopulated if a certificate was unchecked.
 	* Example: true
 	*/
-	"dll.code_signature.valid": boolean,
+	"dll.code_signature.valid"?: boolean,
 
 	/**
 	* dll.hash.md5
@@ -8882,7 +8882,7 @@ export interface EcsFields {
 	* Description: MD5 hash.
 	* Example: <None>
 	*/
-	"dll.hash.md5": string,
+	"dll.hash.md5"?: string,
 
 	/**
 	* dll.hash.sha1
@@ -8893,7 +8893,7 @@ export interface EcsFields {
 	* Description: SHA1 hash.
 	* Example: <None>
 	*/
-	"dll.hash.sha1": string,
+	"dll.hash.sha1"?: string,
 
 	/**
 	* dll.hash.sha256
@@ -8904,7 +8904,7 @@ export interface EcsFields {
 	* Description: SHA256 hash.
 	* Example: <None>
 	*/
-	"dll.hash.sha256": string,
+	"dll.hash.sha256"?: string,
 
 	/**
 	* dll.hash.sha512
@@ -8915,7 +8915,7 @@ export interface EcsFields {
 	* Description: SHA512 hash.
 	* Example: <None>
 	*/
-	"dll.hash.sha512": string,
+	"dll.hash.sha512"?: string,
 
 	/**
 	* dll.name
@@ -8926,7 +8926,7 @@ export interface EcsFields {
 	* Description: Name of the library. This generally maps to the name of the file on disk.
 	* Example: kernel32.dll
 	*/
-	"dll.name": string,
+	"dll.name"?: string,
 
 	/**
 	* dll.path
@@ -8937,7 +8937,7 @@ export interface EcsFields {
 	* Description: Full file path of the library.
 	* Example: C:\Windows\System32\kernel32.dll
 	*/
-	"dll.path": string,
+	"dll.path"?: string,
 
 	/**
 	* dll.pe.architecture
@@ -8948,7 +8948,7 @@ export interface EcsFields {
 	* Description: CPU architecture target for the file.
 	* Example: x64
 	*/
-	"dll.pe.architecture": string,
+	"dll.pe.architecture"?: string,
 
 	/**
 	* dll.pe.company
@@ -8959,7 +8959,7 @@ export interface EcsFields {
 	* Description: Internal company name of the file, provided at compile-time.
 	* Example: Microsoft Corporation
 	*/
-	"dll.pe.company": string,
+	"dll.pe.company"?: string,
 
 	/**
 	* dll.pe.description
@@ -8970,7 +8970,7 @@ export interface EcsFields {
 	* Description: Internal description of the file, provided at compile-time.
 	* Example: Paint
 	*/
-	"dll.pe.description": string,
+	"dll.pe.description"?: string,
 
 	/**
 	* dll.pe.file_version
@@ -8981,7 +8981,7 @@ export interface EcsFields {
 	* Description: Internal version of the file, provided at compile-time.
 	* Example: 6.3.9600.17415
 	*/
-	"dll.pe.file_version": string,
+	"dll.pe.file_version"?: string,
 
 	/**
 	* dll.pe.imphash
@@ -8992,7 +8992,7 @@ export interface EcsFields {
 	* Description: A hash of the imports in a PE file. An imphash -- or import hash -- can be used to fingerprint binaries even after recompilation or other code-level transformations have occurred, which would change more traditional hash values. Learn more at https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html.
 	* Example: 0c6803c4e922103c4dca5963aad36ddf
 	*/
-	"dll.pe.imphash": string,
+	"dll.pe.imphash"?: string,
 
 	/**
 	* dll.pe.original_file_name
@@ -9003,7 +9003,7 @@ export interface EcsFields {
 	* Description: Internal name of the file, provided at compile-time.
 	* Example: MSPAINT.EXE
 	*/
-	"dll.pe.original_file_name": string,
+	"dll.pe.original_file_name"?: string,
 
 	/**
 	* dll.pe.product
@@ -9014,7 +9014,7 @@ export interface EcsFields {
 	* Description: Internal product name of the file, provided at compile-time.
 	* Example: Microsoft® Windows® Operating System
 	*/
-	"dll.pe.product": string,
+	"dll.pe.product"?: string,
 
 	/**
 	* dns.answers
@@ -9026,7 +9026,7 @@ export interface EcsFields {
 	Not all DNS data sources give all details about DNS answers. At minimum, answer objects must contain the `data` key. If more information is available, map as much of it to ECS as possible, and add any additional fields to the answer objects as custom fields.
 	* Example: <None>
 	*/
-	"dns.answers": object[],
+	"dns.answers"?: object[],
 
 	/**
 	* dns.answers.class
@@ -9037,7 +9037,7 @@ export interface EcsFields {
 	* Description: The class of DNS data contained in this resource record.
 	* Example: IN
 	*/
-	"dns.answers.class": string,
+	"dns.answers.class"?: string,
 
 	/**
 	* dns.answers.data
@@ -9048,7 +9048,7 @@ export interface EcsFields {
 	* Description: The data describing the resource. The meaning of this data depends on the type and class of the resource record.
 	* Example: 10.10.10.10
 	*/
-	"dns.answers.data": string,
+	"dns.answers.data"?: string,
 
 	/**
 	* dns.answers.name
@@ -9059,7 +9059,7 @@ export interface EcsFields {
 	* Description: The domain name to which this resource record pertains. If a chain of CNAME is being resolved, each answer's `name` should be the one that corresponds with the answer's `data`. It should not simply be the original `question.name` repeated.
 	* Example: www.example.com
 	*/
-	"dns.answers.name": string,
+	"dns.answers.name"?: string,
 
 	/**
 	* dns.answers.ttl
@@ -9070,7 +9070,7 @@ export interface EcsFields {
 	* Description: The time interval in seconds that this resource record may be cached before it should be discarded. Zero values mean that the data should not be cached.
 	* Example: 180
 	*/
-	"dns.answers.ttl": number,
+	"dns.answers.ttl"?: number,
 
 	/**
 	* dns.answers.type
@@ -9081,7 +9081,7 @@ export interface EcsFields {
 	* Description: The type of data contained in this resource record.
 	* Example: CNAME
 	*/
-	"dns.answers.type": string,
+	"dns.answers.type"?: string,
 
 	/**
 	* dns.header_flags
@@ -9092,7 +9092,7 @@ export interface EcsFields {
 	* Description: Array of 2 letter DNS header flags. Expected values are: AA, TC, RD, RA, AD, CD, DO.
 	* Example: ["RD", "RA"]
 	*/
-	"dns.header_flags": string[],
+	"dns.header_flags"?: string[],
 
 	/**
 	* dns.id
@@ -9103,7 +9103,7 @@ export interface EcsFields {
 	* Description: The DNS packet identifier assigned by the program that generated the query. The identifier is copied to the response.
 	* Example: 62111
 	*/
-	"dns.id": string,
+	"dns.id"?: string,
 
 	/**
 	* dns.op_code
@@ -9114,7 +9114,7 @@ export interface EcsFields {
 	* Description: The DNS operation code that specifies the kind of query in the message. This value is set by the originator of a query and copied into the response.
 	* Example: QUERY
 	*/
-	"dns.op_code": string,
+	"dns.op_code"?: string,
 
 	/**
 	* dns.question.class
@@ -9125,7 +9125,7 @@ export interface EcsFields {
 	* Description: The class of records being queried.
 	* Example: IN
 	*/
-	"dns.question.class": string,
+	"dns.question.class"?: string,
 
 	/**
 	* dns.question.name
@@ -9136,7 +9136,7 @@ export interface EcsFields {
 	* Description: The name being queried. If the name field contains non-printable characters (below 32 or above 126), those characters should be represented as escaped base 10 integers (\DDD). Back slashes and quotes should be escaped. Tabs, carriage returns, and line feeds should be converted to \t, \r, and \n respectively.
 	* Example: www.example.com
 	*/
-	"dns.question.name": string,
+	"dns.question.name"?: string,
 
 	/**
 	* dns.question.registered_domain
@@ -9148,7 +9148,7 @@ export interface EcsFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"dns.question.registered_domain": string,
+	"dns.question.registered_domain"?: string,
 
 	/**
 	* dns.question.subdomain
@@ -9159,7 +9159,7 @@ export interface EcsFields {
 	* Description: The subdomain is all of the labels under the registered_domain. If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: www
 	*/
-	"dns.question.subdomain": string,
+	"dns.question.subdomain"?: string,
 
 	/**
 	* dns.question.top_level_domain
@@ -9170,7 +9170,7 @@ export interface EcsFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"dns.question.top_level_domain": string,
+	"dns.question.top_level_domain"?: string,
 
 	/**
 	* dns.question.type
@@ -9181,7 +9181,7 @@ export interface EcsFields {
 	* Description: The type of record being queried.
 	* Example: AAAA
 	*/
-	"dns.question.type": string,
+	"dns.question.type"?: string,
 
 	/**
 	* dns.resolved_ip
@@ -9192,7 +9192,7 @@ export interface EcsFields {
 	* Description: Array containing all IPs seen in `answers.data`. The `answers` array can be difficult to use, because of the variety of data formats it can contain. Extracting all IP addresses seen in there to `dns.resolved_ip` makes it possible to index them as IP addresses, and makes them easier to visualize and query for.
 	* Example: ["10.10.10.10", "10.10.10.11"]
 	*/
-	"dns.resolved_ip": string[],
+	"dns.resolved_ip"?: string[],
 
 	/**
 	* dns.response_code
@@ -9203,7 +9203,7 @@ export interface EcsFields {
 	* Description: The DNS response code.
 	* Example: NOERROR
 	*/
-	"dns.response_code": string,
+	"dns.response_code"?: string,
 
 	/**
 	* dns.type
@@ -9215,7 +9215,7 @@ export interface EcsFields {
 	If your source of DNS events gives you answers as well, you should create one event per query (optionally as soon as the query is seen). And a second event containing all query details as well as an array of answers.
 	* Example: answer
 	*/
-	"dns.type": string,
+	"dns.type"?: string,
 
 	/**
 	* ecs.version
@@ -9226,7 +9226,7 @@ export interface EcsFields {
 	* Description: ECS version this event conforms to. `ecs.version` is a required field and must exist in all events. When querying across multiple indices -- which may conform to slightly different ECS versions -- this field lets integrations adjust to the schema version of the events.
 	* Example: 1.0.0
 	*/
-	"ecs.version": string,
+	"ecs.version"?: string,
 
 	/**
 	* error.code
@@ -9237,7 +9237,7 @@ export interface EcsFields {
 	* Description: Error code describing the error.
 	* Example: <None>
 	*/
-	"error.code": string,
+	"error.code"?: string,
 
 	/**
 	* error.id
@@ -9248,7 +9248,7 @@ export interface EcsFields {
 	* Description: Unique identifier for the error.
 	* Example: <None>
 	*/
-	"error.id": string,
+	"error.id"?: string,
 
 	/**
 	* error.message
@@ -9259,7 +9259,7 @@ export interface EcsFields {
 	* Description: Error message.
 	* Example: <None>
 	*/
-	"error.message": string,
+	"error.message"?: string,
 
 	/**
 	* error.stack_trace
@@ -9270,7 +9270,7 @@ export interface EcsFields {
 	* Description: The stack trace of this error in plain text.
 	* Example: <None>
 	*/
-	"error.stack_trace": string,
+	"error.stack_trace"?: string,
 
 	/**
 	* error.type
@@ -9281,7 +9281,7 @@ export interface EcsFields {
 	* Description: The type of the error, for example the class name of the exception.
 	* Example: java.lang.NullPointerException
 	*/
-	"error.type": string,
+	"error.type"?: string,
 
 	/**
 	* event.action
@@ -9292,7 +9292,7 @@ export interface EcsFields {
 	* Description: The action captured by the event. This describes the information in the event. It is more specific than `event.category`. Examples are `group-add`, `process-started`, `file-created`. The value is normally defined by the implementer.
 	* Example: user-password-change
 	*/
-	"event.action": string,
+	"event.action"?: string,
 
 	/**
 	* event.category
@@ -9304,7 +9304,7 @@ export interface EcsFields {
 	This field is an array. This will allow proper categorization of some events that fall in multiple categories.
 	* Example: authentication
 	*/
-	"event.category": ('authentication' | 'configuration' | 'database' | 'driver' | 'file' | 'host' | 'iam' | 'intrusion_detection' | 'malware' | 'network' | 'package' | 'process' | 'web')[],
+	"event.category"?: ('authentication' | 'configuration' | 'database' | 'driver' | 'file' | 'host' | 'iam' | 'intrusion_detection' | 'malware' | 'network' | 'package' | 'process' | 'web')[],
 
 	/**
 	* event.code
@@ -9315,7 +9315,7 @@ export interface EcsFields {
 	* Description: Identification code for this event, if one exists. Some event sources use event codes to identify messages unambiguously, regardless of message language or wording adjustments over time. An example of this is the Windows Event ID.
 	* Example: 4648
 	*/
-	"event.code": string,
+	"event.code"?: string,
 
 	/**
 	* event.created
@@ -9328,7 +9328,7 @@ export interface EcsFields {
 	In case the two timestamps are identical, @timestamp should be used.
 	* Example: 2016-05-23T08:05:34.857Z
 	*/
-	"event.created": Date,
+	"event.created"?: Date,
 
 	/**
 	* event.dataset
@@ -9340,7 +9340,7 @@ export interface EcsFields {
 	It's recommended but not required to start the dataset name with the module name, followed by a dot, then the dataset name.
 	* Example: apache.access
 	*/
-	"event.dataset": string,
+	"event.dataset"?: string,
 
 	/**
 	* event.duration
@@ -9351,7 +9351,7 @@ export interface EcsFields {
 	* Description: Duration of the event in nanoseconds. If event.start and event.end are known this value should be the difference between the end and start time.
 	* Example: <None>
 	*/
-	"event.duration": number,
+	"event.duration"?: number,
 
 	/**
 	* event.end
@@ -9362,7 +9362,7 @@ export interface EcsFields {
 	* Description: event.end contains the date when the event ended or when the activity was last observed.
 	* Example: <None>
 	*/
-	"event.end": Date,
+	"event.end"?: Date,
 
 	/**
 	* event.hash
@@ -9373,7 +9373,7 @@ export interface EcsFields {
 	* Description: Hash (perhaps logstash fingerprint) of raw field to be able to demonstrate log integrity.
 	* Example: 123456789012345678901234567890ABCD
 	*/
-	"event.hash": string,
+	"event.hash"?: string,
 
 	/**
 	* event.id
@@ -9384,7 +9384,7 @@ export interface EcsFields {
 	* Description: Unique ID to describe the event.
 	* Example: 8a4f500d
 	*/
-	"event.id": string,
+	"event.id"?: string,
 
 	/**
 	* event.ingested
@@ -9396,7 +9396,7 @@ export interface EcsFields {
 	In normal conditions, assuming no tampering, the timestamps should chronologically look like this: `@timestamp` < `event.created` < `event.ingested`.
 	* Example: 2016-05-23T08:05:35.101Z
 	*/
-	"event.ingested": Date,
+	"event.ingested"?: Date,
 
 	/**
 	* event.kind
@@ -9408,7 +9408,7 @@ export interface EcsFields {
 	The value of this field can be used to inform how these kinds of events should be handled. They may warrant different retention, different access control, it may also help understand whether the data coming in at a regular interval or not.
 	* Example: alert
 	*/
-	"event.kind": ('alert' | 'event' | 'metric' | 'state' | 'pipeline_error' | 'signal'),
+	"event.kind"?: ('alert' | 'event' | 'metric' | 'state' | 'pipeline_error' | 'signal'),
 
 	/**
 	* event.module
@@ -9419,7 +9419,7 @@ export interface EcsFields {
 	* Description: Name of the module this data is coming from. If your monitoring agent supports the concept of modules or plugins to process events of a given source (e.g. Apache logs), `event.module` should contain the name of this module.
 	* Example: apache
 	*/
-	"event.module": string,
+	"event.module"?: string,
 
 	/**
 	* event.original
@@ -9430,7 +9430,7 @@ export interface EcsFields {
 	* Description: Raw text message of entire event. Used to demonstrate log integrity. This field is not indexed and doc_values are disabled. It cannot be searched, but it can be retrieved from `_source`.
 	* Example: Sep 19 08:26:10 host CEF:0&#124;Security&#124; threatmanager&#124;1.0&#124;100&#124; worm successfully stopped&#124;10&#124;src=10.0.0.1 dst=2.1.2.2spt=1232
 	*/
-	"event.original": string,
+	"event.original"?: string,
 
 	/**
 	* event.outcome
@@ -9444,7 +9444,7 @@ export interface EcsFields {
 	Further note that not all events will have an associated outcome. For example, this field is generally not populated for metric events, events with `event.type:info`, or any events for which an outcome does not make logical sense.
 	* Example: success
 	*/
-	"event.outcome": ('failure' | 'success' | 'unknown'),
+	"event.outcome"?: ('failure' | 'success' | 'unknown'),
 
 	/**
 	* event.provider
@@ -9455,7 +9455,7 @@ export interface EcsFields {
 	* Description: Source of the event. Event transports such as Syslog or the Windows Event Log typically mention the source of an event. It can be the name of the software that generated the event (e.g. Sysmon, httpd), or of a subsystem of the operating system (kernel, Microsoft-Windows-Security-Auditing).
 	* Example: kernel
 	*/
-	"event.provider": string,
+	"event.provider"?: string,
 
 	/**
 	* event.reason
@@ -9466,7 +9466,7 @@ export interface EcsFields {
 	* Description: Reason why this event happened, according to the source. This describes the why of a particular action or outcome captured in the event. Where `event.action` captures the action from the event, `event.reason` describes why that action was taken. For example, a web proxy with an `event.action` which denied the request may also populate `event.reason` with the reason why (e.g. `blocked site`).
 	* Example: Terminated an unexpected process
 	*/
-	"event.reason": string,
+	"event.reason"?: string,
 
 	/**
 	* event.reference
@@ -9477,7 +9477,7 @@ export interface EcsFields {
 	* Description: Reference URL linking to additional information about this event. This URL links to a static definition of the this event. Alert events, indicated by `event.kind:alert`, are a common use case for this field.
 	* Example: https://system.example.com/event/#0001234
 	*/
-	"event.reference": string,
+	"event.reference"?: string,
 
 	/**
 	* event.risk_score
@@ -9488,7 +9488,7 @@ export interface EcsFields {
 	* Description: Risk score or priority of the event (e.g. security solutions). Use your system's original value here.
 	* Example: <None>
 	*/
-	"event.risk_score": number,
+	"event.risk_score"?: number,
 
 	/**
 	* event.risk_score_norm
@@ -9499,7 +9499,7 @@ export interface EcsFields {
 	* Description: Normalized risk score or priority of the event, on a scale of 0 to 100. This is mainly useful if you use more than one system that assigns risk scores, and you want to see a normalized value across all systems.
 	* Example: <None>
 	*/
-	"event.risk_score_norm": number,
+	"event.risk_score_norm"?: number,
 
 	/**
 	* event.sequence
@@ -9510,7 +9510,7 @@ export interface EcsFields {
 	* Description: Sequence number of the event. The sequence number is a value published by some event sources, to make the exact ordering of events unambiguous, regardless of the timestamp precision.
 	* Example: <None>
 	*/
-	"event.sequence": number,
+	"event.sequence"?: number,
 
 	/**
 	* event.severity
@@ -9522,7 +9522,7 @@ export interface EcsFields {
 	The Syslog severity belongs in `log.syslog.severity.code`. `event.severity` is meant to represent the severity according to the event source (e.g. firewall, IDS). If the event source does not publish its own severity, you may optionally copy the `log.syslog.severity.code` to `event.severity`.
 	* Example: 7
 	*/
-	"event.severity": number,
+	"event.severity"?: number,
 
 	/**
 	* event.start
@@ -9533,7 +9533,7 @@ export interface EcsFields {
 	* Description: event.start contains the date when the event started or when the activity was first observed.
 	* Example: <None>
 	*/
-	"event.start": Date,
+	"event.start"?: Date,
 
 	/**
 	* event.timezone
@@ -9544,7 +9544,7 @@ export interface EcsFields {
 	* Description: This field should be populated when the event's timestamp does not include timezone information already (e.g. default Syslog timestamps). It's optional otherwise. Acceptable timezone formats are: a canonical ID (e.g. "Europe/Amsterdam"), abbreviated (e.g. "EST") or an HH:mm differential (e.g. "-05:00").
 	* Example: <None>
 	*/
-	"event.timezone": string,
+	"event.timezone"?: string,
 
 	/**
 	* event.type
@@ -9556,7 +9556,7 @@ export interface EcsFields {
 	This field is an array. This will allow proper categorization of some events that fall in multiple event types.
 	* Example: <None>
 	*/
-	"event.type": ('access' | 'admin' | 'allowed' | 'change' | 'connection' | 'creation' | 'deletion' | 'denied' | 'end' | 'error' | 'group' | 'info' | 'installation' | 'protocol' | 'start' | 'user')[],
+	"event.type"?: ('access' | 'admin' | 'allowed' | 'change' | 'connection' | 'creation' | 'deletion' | 'denied' | 'end' | 'error' | 'group' | 'info' | 'installation' | 'protocol' | 'start' | 'user')[],
 
 	/**
 	* event.url
@@ -9567,7 +9567,7 @@ export interface EcsFields {
 	* Description: URL linking to an external system to continue investigation of this event. This URL links to another system where in-depth investigation of the specific occurrence of this event can take place. Alert events, indicated by `event.kind:alert`, are a common use case for this field.
 	* Example: https://mysystem.example.com/alert/5271dedb-f5b0-4218-87f0-4ac4870a38fe
 	*/
-	"event.url": string,
+	"event.url"?: string,
 
 	/**
 	* file.accessed
@@ -9578,7 +9578,7 @@ export interface EcsFields {
 	* Description: Last time the file was accessed. Note that not all filesystems keep track of access time.
 	* Example: <None>
 	*/
-	"file.accessed": Date,
+	"file.accessed"?: Date,
 
 	/**
 	* file.attributes
@@ -9589,7 +9589,7 @@ export interface EcsFields {
 	* Description: Array of file attributes. Attributes names will vary by platform. Here's a non-exhaustive list of values that are expected in this field: archive, compressed, directory, encrypted, execute, hidden, read, readonly, system, write.
 	* Example: ["readonly", "system"]
 	*/
-	"file.attributes": string[],
+	"file.attributes"?: string[],
 
 	/**
 	* file.code_signature.exists
@@ -9600,7 +9600,7 @@ export interface EcsFields {
 	* Description: Boolean to capture if a signature is present.
 	* Example: true
 	*/
-	"file.code_signature.exists": boolean,
+	"file.code_signature.exists"?: boolean,
 
 	/**
 	* file.code_signature.status
@@ -9611,7 +9611,7 @@ export interface EcsFields {
 	* Description: Additional information about the certificate status. This is useful for logging cryptographic errors with the certificate validity or trust status. Leave unpopulated if the validity or trust of the certificate was unchecked.
 	* Example: ERROR_UNTRUSTED_ROOT
 	*/
-	"file.code_signature.status": string,
+	"file.code_signature.status"?: string,
 
 	/**
 	* file.code_signature.subject_name
@@ -9622,7 +9622,7 @@ export interface EcsFields {
 	* Description: Subject name of the code signer
 	* Example: Microsoft Corporation
 	*/
-	"file.code_signature.subject_name": string,
+	"file.code_signature.subject_name"?: string,
 
 	/**
 	* file.code_signature.trusted
@@ -9633,7 +9633,7 @@ export interface EcsFields {
 	* Description: Stores the trust status of the certificate chain. Validating the trust of the certificate chain may be complicated, and this field should only be populated by tools that actively check the status.
 	* Example: true
 	*/
-	"file.code_signature.trusted": boolean,
+	"file.code_signature.trusted"?: boolean,
 
 	/**
 	* file.code_signature.valid
@@ -9644,7 +9644,7 @@ export interface EcsFields {
 	* Description: Boolean to capture if the digital signature is verified against the binary content. Leave unpopulated if a certificate was unchecked.
 	* Example: true
 	*/
-	"file.code_signature.valid": boolean,
+	"file.code_signature.valid"?: boolean,
 
 	/**
 	* file.created
@@ -9655,7 +9655,7 @@ export interface EcsFields {
 	* Description: File creation time. Note that not all filesystems store the creation time.
 	* Example: <None>
 	*/
-	"file.created": Date,
+	"file.created"?: Date,
 
 	/**
 	* file.ctime
@@ -9666,7 +9666,7 @@ export interface EcsFields {
 	* Description: Last time the file attributes or metadata changed. Note that changes to the file content will update `mtime`. This implies `ctime` will be adjusted at the same time, since `mtime` is an attribute of the file.
 	* Example: <None>
 	*/
-	"file.ctime": Date,
+	"file.ctime"?: Date,
 
 	/**
 	* file.device
@@ -9677,7 +9677,7 @@ export interface EcsFields {
 	* Description: Device that is the source of the file.
 	* Example: sda
 	*/
-	"file.device": string,
+	"file.device"?: string,
 
 	/**
 	* file.directory
@@ -9688,7 +9688,7 @@ export interface EcsFields {
 	* Description: Directory where the file is located. It should include the drive letter, when appropriate.
 	* Example: /home/alice
 	*/
-	"file.directory": string,
+	"file.directory"?: string,
 
 	/**
 	* file.drive_letter
@@ -9699,7 +9699,7 @@ export interface EcsFields {
 	* Description: Drive letter where the file is located. This field is only relevant on Windows. The value should be uppercase, and not include the colon.
 	* Example: C
 	*/
-	"file.drive_letter": string,
+	"file.drive_letter"?: string,
 
 	/**
 	* file.extension
@@ -9710,7 +9710,7 @@ export interface EcsFields {
 	* Description: File extension, excluding the leading dot. Note that when the file name has multiple extensions (example.tar.gz), only the last one should be captured ("gz", not "tar.gz").
 	* Example: png
 	*/
-	"file.extension": string,
+	"file.extension"?: string,
 
 	/**
 	* file.gid
@@ -9721,7 +9721,7 @@ export interface EcsFields {
 	* Description: Primary group ID (GID) of the file.
 	* Example: 1001
 	*/
-	"file.gid": string,
+	"file.gid"?: string,
 
 	/**
 	* file.group
@@ -9732,7 +9732,7 @@ export interface EcsFields {
 	* Description: Primary group name of the file.
 	* Example: alice
 	*/
-	"file.group": string,
+	"file.group"?: string,
 
 	/**
 	* file.hash.md5
@@ -9743,7 +9743,7 @@ export interface EcsFields {
 	* Description: MD5 hash.
 	* Example: <None>
 	*/
-	"file.hash.md5": string,
+	"file.hash.md5"?: string,
 
 	/**
 	* file.hash.sha1
@@ -9754,7 +9754,7 @@ export interface EcsFields {
 	* Description: SHA1 hash.
 	* Example: <None>
 	*/
-	"file.hash.sha1": string,
+	"file.hash.sha1"?: string,
 
 	/**
 	* file.hash.sha256
@@ -9765,7 +9765,7 @@ export interface EcsFields {
 	* Description: SHA256 hash.
 	* Example: <None>
 	*/
-	"file.hash.sha256": string,
+	"file.hash.sha256"?: string,
 
 	/**
 	* file.hash.sha512
@@ -9776,7 +9776,7 @@ export interface EcsFields {
 	* Description: SHA512 hash.
 	* Example: <None>
 	*/
-	"file.hash.sha512": string,
+	"file.hash.sha512"?: string,
 
 	/**
 	* file.inode
@@ -9787,7 +9787,7 @@ export interface EcsFields {
 	* Description: Inode representing the file in the filesystem.
 	* Example: 256383
 	*/
-	"file.inode": string,
+	"file.inode"?: string,
 
 	/**
 	* file.mime_type
@@ -9798,7 +9798,7 @@ export interface EcsFields {
 	* Description: MIME type should identify the format of the file or stream of bytes using https://www.iana.org/assignments/media-types/media-types.xhtml[IANA official types], where possible. When more than one type is applicable, the most specific type should be used.
 	* Example: <None>
 	*/
-	"file.mime_type": string,
+	"file.mime_type"?: string,
 
 	/**
 	* file.mode
@@ -9809,7 +9809,7 @@ export interface EcsFields {
 	* Description: Mode of the file in octal representation.
 	* Example: 0640
 	*/
-	"file.mode": string,
+	"file.mode"?: string,
 
 	/**
 	* file.mtime
@@ -9820,7 +9820,7 @@ export interface EcsFields {
 	* Description: Last time the file content was modified.
 	* Example: <None>
 	*/
-	"file.mtime": Date,
+	"file.mtime"?: Date,
 
 	/**
 	* file.name
@@ -9831,7 +9831,7 @@ export interface EcsFields {
 	* Description: Name of the file including the extension, without the directory.
 	* Example: example.png
 	*/
-	"file.name": string,
+	"file.name"?: string,
 
 	/**
 	* file.owner
@@ -9842,7 +9842,7 @@ export interface EcsFields {
 	* Description: File owner's username.
 	* Example: alice
 	*/
-	"file.owner": string,
+	"file.owner"?: string,
 
 	/**
 	* file.path
@@ -9853,7 +9853,7 @@ export interface EcsFields {
 	* Description: Full path to the file, including the file name. It should include the drive letter, when appropriate.
 	* Example: /home/alice/example.png
 	*/
-	"file.path": string,
+	"file.path"?: string,
 
 	/**
 	* file.pe.architecture
@@ -9864,7 +9864,7 @@ export interface EcsFields {
 	* Description: CPU architecture target for the file.
 	* Example: x64
 	*/
-	"file.pe.architecture": string,
+	"file.pe.architecture"?: string,
 
 	/**
 	* file.pe.company
@@ -9875,7 +9875,7 @@ export interface EcsFields {
 	* Description: Internal company name of the file, provided at compile-time.
 	* Example: Microsoft Corporation
 	*/
-	"file.pe.company": string,
+	"file.pe.company"?: string,
 
 	/**
 	* file.pe.description
@@ -9886,7 +9886,7 @@ export interface EcsFields {
 	* Description: Internal description of the file, provided at compile-time.
 	* Example: Paint
 	*/
-	"file.pe.description": string,
+	"file.pe.description"?: string,
 
 	/**
 	* file.pe.file_version
@@ -9897,7 +9897,7 @@ export interface EcsFields {
 	* Description: Internal version of the file, provided at compile-time.
 	* Example: 6.3.9600.17415
 	*/
-	"file.pe.file_version": string,
+	"file.pe.file_version"?: string,
 
 	/**
 	* file.pe.imphash
@@ -9908,7 +9908,7 @@ export interface EcsFields {
 	* Description: A hash of the imports in a PE file. An imphash -- or import hash -- can be used to fingerprint binaries even after recompilation or other code-level transformations have occurred, which would change more traditional hash values. Learn more at https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html.
 	* Example: 0c6803c4e922103c4dca5963aad36ddf
 	*/
-	"file.pe.imphash": string,
+	"file.pe.imphash"?: string,
 
 	/**
 	* file.pe.original_file_name
@@ -9919,7 +9919,7 @@ export interface EcsFields {
 	* Description: Internal name of the file, provided at compile-time.
 	* Example: MSPAINT.EXE
 	*/
-	"file.pe.original_file_name": string,
+	"file.pe.original_file_name"?: string,
 
 	/**
 	* file.pe.product
@@ -9930,7 +9930,7 @@ export interface EcsFields {
 	* Description: Internal product name of the file, provided at compile-time.
 	* Example: Microsoft® Windows® Operating System
 	*/
-	"file.pe.product": string,
+	"file.pe.product"?: string,
 
 	/**
 	* file.size
@@ -9941,7 +9941,7 @@ export interface EcsFields {
 	* Description: File size in bytes. Only relevant when `file.type` is "file".
 	* Example: 16384
 	*/
-	"file.size": number,
+	"file.size"?: number,
 
 	/**
 	* file.target_path
@@ -9952,7 +9952,7 @@ export interface EcsFields {
 	* Description: Target path for symlinks.
 	* Example: <None>
 	*/
-	"file.target_path": string,
+	"file.target_path"?: string,
 
 	/**
 	* file.type
@@ -9963,7 +9963,7 @@ export interface EcsFields {
 	* Description: File type (file, dir, or symlink).
 	* Example: file
 	*/
-	"file.type": string,
+	"file.type"?: string,
 
 	/**
 	* file.uid
@@ -9974,7 +9974,7 @@ export interface EcsFields {
 	* Description: The user ID (UID) or security identifier (SID) of the file owner.
 	* Example: 1001
 	*/
-	"file.uid": string,
+	"file.uid"?: string,
 
 	/**
 	* file.x509.alternative_names
@@ -9985,7 +9985,7 @@ export interface EcsFields {
 	* Description: List of subject alternative names (SAN). Name types vary by certificate authority and certificate type but commonly contain IP addresses, DNS names (and wildcards), and email addresses.
 	* Example: *.elastic.co
 	*/
-	"file.x509.alternative_names": string,
+	"file.x509.alternative_names"?: string,
 
 	/**
 	* file.x509.issuer.common_name
@@ -9996,7 +9996,7 @@ export interface EcsFields {
 	* Description: List of common name (CN) of issuing certificate authority.
 	* Example: Example SHA2 High Assurance Server CA
 	*/
-	"file.x509.issuer.common_name": string,
+	"file.x509.issuer.common_name"?: string,
 
 	/**
 	* file.x509.issuer.country
@@ -10007,7 +10007,7 @@ export interface EcsFields {
 	* Description: List of country (C) codes
 	* Example: US
 	*/
-	"file.x509.issuer.country": string,
+	"file.x509.issuer.country"?: string,
 
 	/**
 	* file.x509.issuer.distinguished_name
@@ -10018,7 +10018,7 @@ export interface EcsFields {
 	* Description: Distinguished name (DN) of issuing certificate authority.
 	* Example: C=US, O=Example Inc, OU=www.example.com, CN=Example SHA2 High Assurance Server CA
 	*/
-	"file.x509.issuer.distinguished_name": string,
+	"file.x509.issuer.distinguished_name"?: string,
 
 	/**
 	* file.x509.issuer.locality
@@ -10029,7 +10029,7 @@ export interface EcsFields {
 	* Description: List of locality names (L)
 	* Example: Mountain View
 	*/
-	"file.x509.issuer.locality": string,
+	"file.x509.issuer.locality"?: string,
 
 	/**
 	* file.x509.issuer.organization
@@ -10040,7 +10040,7 @@ export interface EcsFields {
 	* Description: List of organizations (O) of issuing certificate authority.
 	* Example: Example Inc
 	*/
-	"file.x509.issuer.organization": string,
+	"file.x509.issuer.organization"?: string,
 
 	/**
 	* file.x509.issuer.organizational_unit
@@ -10051,7 +10051,7 @@ export interface EcsFields {
 	* Description: List of organizational units (OU) of issuing certificate authority.
 	* Example: www.example.com
 	*/
-	"file.x509.issuer.organizational_unit": string,
+	"file.x509.issuer.organizational_unit"?: string,
 
 	/**
 	* file.x509.issuer.state_or_province
@@ -10062,7 +10062,7 @@ export interface EcsFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"file.x509.issuer.state_or_province": string,
+	"file.x509.issuer.state_or_province"?: string,
 
 	/**
 	* file.x509.not_after
@@ -10073,7 +10073,7 @@ export interface EcsFields {
 	* Description: Time at which the certificate is no longer considered valid.
 	* Example: 2020-07-16 03:15:39+00:00
 	*/
-	"file.x509.not_after": Date,
+	"file.x509.not_after"?: Date,
 
 	/**
 	* file.x509.not_before
@@ -10084,7 +10084,7 @@ export interface EcsFields {
 	* Description: Time at which the certificate is first considered valid.
 	* Example: 2019-08-16 01:40:25+00:00
 	*/
-	"file.x509.not_before": Date,
+	"file.x509.not_before"?: Date,
 
 	/**
 	* file.x509.public_key_algorithm
@@ -10095,7 +10095,7 @@ export interface EcsFields {
 	* Description: Algorithm used to generate the public key.
 	* Example: RSA
 	*/
-	"file.x509.public_key_algorithm": string,
+	"file.x509.public_key_algorithm"?: string,
 
 	/**
 	* file.x509.public_key_curve
@@ -10106,7 +10106,7 @@ export interface EcsFields {
 	* Description: The curve used by the elliptic curve public key algorithm. This is algorithm specific.
 	* Example: nistp521
 	*/
-	"file.x509.public_key_curve": string,
+	"file.x509.public_key_curve"?: string,
 
 	/**
 	* file.x509.public_key_exponent
@@ -10117,7 +10117,7 @@ export interface EcsFields {
 	* Description: Exponent used to derive the public key. This is algorithm specific.
 	* Example: 65537
 	*/
-	"file.x509.public_key_exponent": number,
+	"file.x509.public_key_exponent"?: number,
 
 	/**
 	* file.x509.public_key_size
@@ -10128,7 +10128,7 @@ export interface EcsFields {
 	* Description: The size of the public key space in bits.
 	* Example: 2048
 	*/
-	"file.x509.public_key_size": number,
+	"file.x509.public_key_size"?: number,
 
 	/**
 	* file.x509.serial_number
@@ -10139,7 +10139,7 @@ export interface EcsFields {
 	* Description: Unique serial number issued by the certificate authority. For consistency, if this value is alphanumeric, it should be formatted without colons and uppercase characters.
 	* Example: 55FBB9C7DEBF09809D12CCAA
 	*/
-	"file.x509.serial_number": string,
+	"file.x509.serial_number"?: string,
 
 	/**
 	* file.x509.signature_algorithm
@@ -10150,7 +10150,7 @@ export interface EcsFields {
 	* Description: Identifier for certificate signature algorithm. We recommend using names found in Go Lang Crypto library. See https://github.com/golang/go/blob/go1.14/src/crypto/x509/x509.go#L337-L353.
 	* Example: SHA256-RSA
 	*/
-	"file.x509.signature_algorithm": string,
+	"file.x509.signature_algorithm"?: string,
 
 	/**
 	* file.x509.subject.common_name
@@ -10161,7 +10161,7 @@ export interface EcsFields {
 	* Description: List of common names (CN) of subject.
 	* Example: shared.global.example.net
 	*/
-	"file.x509.subject.common_name": string,
+	"file.x509.subject.common_name"?: string,
 
 	/**
 	* file.x509.subject.country
@@ -10172,7 +10172,7 @@ export interface EcsFields {
 	* Description: List of country (C) code
 	* Example: US
 	*/
-	"file.x509.subject.country": string,
+	"file.x509.subject.country"?: string,
 
 	/**
 	* file.x509.subject.distinguished_name
@@ -10183,7 +10183,7 @@ export interface EcsFields {
 	* Description: Distinguished name (DN) of the certificate subject entity.
 	* Example: C=US, ST=California, L=San Francisco, O=Example, Inc., CN=shared.global.example.net
 	*/
-	"file.x509.subject.distinguished_name": string,
+	"file.x509.subject.distinguished_name"?: string,
 
 	/**
 	* file.x509.subject.locality
@@ -10194,7 +10194,7 @@ export interface EcsFields {
 	* Description: List of locality names (L)
 	* Example: San Francisco
 	*/
-	"file.x509.subject.locality": string,
+	"file.x509.subject.locality"?: string,
 
 	/**
 	* file.x509.subject.organization
@@ -10205,7 +10205,7 @@ export interface EcsFields {
 	* Description: List of organizations (O) of subject.
 	* Example: Example, Inc.
 	*/
-	"file.x509.subject.organization": string,
+	"file.x509.subject.organization"?: string,
 
 	/**
 	* file.x509.subject.organizational_unit
@@ -10216,7 +10216,7 @@ export interface EcsFields {
 	* Description: List of organizational units (OU) of subject.
 	* Example: <None>
 	*/
-	"file.x509.subject.organizational_unit": string,
+	"file.x509.subject.organizational_unit"?: string,
 
 	/**
 	* file.x509.subject.state_or_province
@@ -10227,7 +10227,7 @@ export interface EcsFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"file.x509.subject.state_or_province": string,
+	"file.x509.subject.state_or_province"?: string,
 
 	/**
 	* file.x509.version_number
@@ -10238,7 +10238,7 @@ export interface EcsFields {
 	* Description: Version of x509 format.
 	* Example: 3
 	*/
-	"file.x509.version_number": string,
+	"file.x509.version_number"?: string,
 
 	/**
 	* geo.city_name
@@ -10249,7 +10249,7 @@ export interface EcsFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"geo.city_name": string,
+	"geo.city_name"?: string,
 
 	/**
 	* geo.continent_name
@@ -10260,7 +10260,7 @@ export interface EcsFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"geo.continent_name": string,
+	"geo.continent_name"?: string,
 
 	/**
 	* geo.country_iso_code
@@ -10271,7 +10271,7 @@ export interface EcsFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"geo.country_iso_code": string,
+	"geo.country_iso_code"?: string,
 
 	/**
 	* geo.country_name
@@ -10282,7 +10282,7 @@ export interface EcsFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"geo.country_name": string,
+	"geo.country_name"?: string,
 
 	/**
 	* geo.location
@@ -10293,7 +10293,7 @@ export interface EcsFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"geo.location": GeoPoint,
+	"geo.location"?: GeoPoint,
 
 	/**
 	* geo.name
@@ -10305,7 +10305,7 @@ export interface EcsFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"geo.name": string,
+	"geo.name"?: string,
 
 	/**
 	* geo.region_iso_code
@@ -10316,7 +10316,7 @@ export interface EcsFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"geo.region_iso_code": string,
+	"geo.region_iso_code"?: string,
 
 	/**
 	* geo.region_name
@@ -10327,7 +10327,7 @@ export interface EcsFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"geo.region_name": string,
+	"geo.region_name"?: string,
 
 	/**
 	* group.domain
@@ -10338,7 +10338,7 @@ export interface EcsFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"group.domain": string,
+	"group.domain"?: string,
 
 	/**
 	* group.id
@@ -10349,7 +10349,7 @@ export interface EcsFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"group.id": string,
+	"group.id"?: string,
 
 	/**
 	* group.name
@@ -10360,7 +10360,7 @@ export interface EcsFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"group.name": string,
+	"group.name"?: string,
 
 	/**
 	* hash.md5
@@ -10371,7 +10371,7 @@ export interface EcsFields {
 	* Description: MD5 hash.
 	* Example: <None>
 	*/
-	"hash.md5": string,
+	"hash.md5"?: string,
 
 	/**
 	* hash.sha1
@@ -10382,7 +10382,7 @@ export interface EcsFields {
 	* Description: SHA1 hash.
 	* Example: <None>
 	*/
-	"hash.sha1": string,
+	"hash.sha1"?: string,
 
 	/**
 	* hash.sha256
@@ -10393,7 +10393,7 @@ export interface EcsFields {
 	* Description: SHA256 hash.
 	* Example: <None>
 	*/
-	"hash.sha256": string,
+	"hash.sha256"?: string,
 
 	/**
 	* hash.sha512
@@ -10404,7 +10404,7 @@ export interface EcsFields {
 	* Description: SHA512 hash.
 	* Example: <None>
 	*/
-	"hash.sha512": string,
+	"hash.sha512"?: string,
 
 	/**
 	* host.architecture
@@ -10415,7 +10415,7 @@ export interface EcsFields {
 	* Description: Operating system architecture.
 	* Example: x86_64
 	*/
-	"host.architecture": string,
+	"host.architecture"?: string,
 
 	/**
 	* host.domain
@@ -10426,7 +10426,7 @@ export interface EcsFields {
 	* Description: Name of the domain of which the host is a member. For example, on Windows this could be the host's Active Directory domain or NetBIOS domain name. For Linux this could be the domain of the host's LDAP provider.
 	* Example: CONTOSO
 	*/
-	"host.domain": string,
+	"host.domain"?: string,
 
 	/**
 	* host.geo.city_name
@@ -10437,7 +10437,7 @@ export interface EcsFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"host.geo.city_name": string,
+	"host.geo.city_name"?: string,
 
 	/**
 	* host.geo.continent_name
@@ -10448,7 +10448,7 @@ export interface EcsFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"host.geo.continent_name": string,
+	"host.geo.continent_name"?: string,
 
 	/**
 	* host.geo.country_iso_code
@@ -10459,7 +10459,7 @@ export interface EcsFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"host.geo.country_iso_code": string,
+	"host.geo.country_iso_code"?: string,
 
 	/**
 	* host.geo.country_name
@@ -10470,7 +10470,7 @@ export interface EcsFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"host.geo.country_name": string,
+	"host.geo.country_name"?: string,
 
 	/**
 	* host.geo.location
@@ -10481,7 +10481,7 @@ export interface EcsFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"host.geo.location": GeoPoint,
+	"host.geo.location"?: GeoPoint,
 
 	/**
 	* host.geo.name
@@ -10493,7 +10493,7 @@ export interface EcsFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"host.geo.name": string,
+	"host.geo.name"?: string,
 
 	/**
 	* host.geo.region_iso_code
@@ -10504,7 +10504,7 @@ export interface EcsFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"host.geo.region_iso_code": string,
+	"host.geo.region_iso_code"?: string,
 
 	/**
 	* host.geo.region_name
@@ -10515,7 +10515,7 @@ export interface EcsFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"host.geo.region_name": string,
+	"host.geo.region_name"?: string,
 
 	/**
 	* host.hostname
@@ -10526,7 +10526,7 @@ export interface EcsFields {
 	* Description: Hostname of the host. It normally contains what the `hostname` command returns on the host machine.
 	* Example: <None>
 	*/
-	"host.hostname": string,
+	"host.hostname"?: string,
 
 	/**
 	* host.id
@@ -10538,7 +10538,7 @@ export interface EcsFields {
 	Example: The current usage of `beat.name`.
 	* Example: <None>
 	*/
-	"host.id": string,
+	"host.id"?: string,
 
 	/**
 	* host.ip
@@ -10549,7 +10549,7 @@ export interface EcsFields {
 	* Description: Host ip addresses.
 	* Example: <None>
 	*/
-	"host.ip": string[],
+	"host.ip"?: string[],
 
 	/**
 	* host.mac
@@ -10560,7 +10560,7 @@ export interface EcsFields {
 	* Description: Host mac addresses.
 	* Example: <None>
 	*/
-	"host.mac": string[],
+	"host.mac"?: string[],
 
 	/**
 	* host.name
@@ -10571,7 +10571,7 @@ export interface EcsFields {
 	* Description: Name of the host. It can contain what `hostname` returns on Unix systems, the fully qualified domain name, or a name specified by the user. The sender decides which value to use.
 	* Example: <None>
 	*/
-	"host.name": string,
+	"host.name"?: string,
 
 	/**
 	* host.os.family
@@ -10582,7 +10582,7 @@ export interface EcsFields {
 	* Description: OS family (such as redhat, debian, freebsd, windows).
 	* Example: debian
 	*/
-	"host.os.family": string,
+	"host.os.family"?: string,
 
 	/**
 	* host.os.full
@@ -10593,7 +10593,7 @@ export interface EcsFields {
 	* Description: Operating system name, including the version or code name.
 	* Example: Mac OS Mojave
 	*/
-	"host.os.full": string,
+	"host.os.full"?: string,
 
 	/**
 	* host.os.kernel
@@ -10604,7 +10604,7 @@ export interface EcsFields {
 	* Description: Operating system kernel version as a raw string.
 	* Example: 4.4.0-112-generic
 	*/
-	"host.os.kernel": string,
+	"host.os.kernel"?: string,
 
 	/**
 	* host.os.name
@@ -10615,7 +10615,7 @@ export interface EcsFields {
 	* Description: Operating system name, without the version.
 	* Example: Mac OS X
 	*/
-	"host.os.name": string,
+	"host.os.name"?: string,
 
 	/**
 	* host.os.platform
@@ -10626,7 +10626,7 @@ export interface EcsFields {
 	* Description: Operating system platform (such centos, ubuntu, windows).
 	* Example: darwin
 	*/
-	"host.os.platform": string,
+	"host.os.platform"?: string,
 
 	/**
 	* host.os.version
@@ -10637,7 +10637,7 @@ export interface EcsFields {
 	* Description: Operating system version as a raw string.
 	* Example: 10.14.1
 	*/
-	"host.os.version": string,
+	"host.os.version"?: string,
 
 	/**
 	* host.type
@@ -10648,7 +10648,7 @@ export interface EcsFields {
 	* Description: Type of host. For Cloud providers this can be the machine type like `t2.medium`. If vm, this could be the container, for example, or other information meaningful in your environment.
 	* Example: <None>
 	*/
-	"host.type": string,
+	"host.type"?: string,
 
 	/**
 	* host.uptime
@@ -10659,7 +10659,7 @@ export interface EcsFields {
 	* Description: Seconds the host has been up.
 	* Example: 1325
 	*/
-	"host.uptime": number,
+	"host.uptime"?: number,
 
 	/**
 	* host.user.domain
@@ -10670,7 +10670,7 @@ export interface EcsFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"host.user.domain": string,
+	"host.user.domain"?: string,
 
 	/**
 	* host.user.email
@@ -10681,7 +10681,7 @@ export interface EcsFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"host.user.email": string,
+	"host.user.email"?: string,
 
 	/**
 	* host.user.full_name
@@ -10692,7 +10692,7 @@ export interface EcsFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"host.user.full_name": string,
+	"host.user.full_name"?: string,
 
 	/**
 	* host.user.group.domain
@@ -10703,7 +10703,7 @@ export interface EcsFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"host.user.group.domain": string,
+	"host.user.group.domain"?: string,
 
 	/**
 	* host.user.group.id
@@ -10714,7 +10714,7 @@ export interface EcsFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"host.user.group.id": string,
+	"host.user.group.id"?: string,
 
 	/**
 	* host.user.group.name
@@ -10725,7 +10725,7 @@ export interface EcsFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"host.user.group.name": string,
+	"host.user.group.name"?: string,
 
 	/**
 	* host.user.hash
@@ -10736,7 +10736,7 @@ export interface EcsFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"host.user.hash": string,
+	"host.user.hash"?: string,
 
 	/**
 	* host.user.id
@@ -10747,7 +10747,7 @@ export interface EcsFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"host.user.id": string,
+	"host.user.id"?: string,
 
 	/**
 	* host.user.name
@@ -10758,7 +10758,7 @@ export interface EcsFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"host.user.name": string,
+	"host.user.name"?: string,
 
 	/**
 	* host.user.roles
@@ -10769,7 +10769,7 @@ export interface EcsFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"host.user.roles": string,
+	"host.user.roles"?: string,
 
 	/**
 	* http.request.body.bytes
@@ -10780,7 +10780,7 @@ export interface EcsFields {
 	* Description: Size in bytes of the request body.
 	* Example: 887
 	*/
-	"http.request.body.bytes": number,
+	"http.request.body.bytes"?: number,
 
 	/**
 	* http.request.body.content
@@ -10791,7 +10791,7 @@ export interface EcsFields {
 	* Description: The full HTTP request body.
 	* Example: Hello world
 	*/
-	"http.request.body.content": string,
+	"http.request.body.content"?: string,
 
 	/**
 	* http.request.bytes
@@ -10802,7 +10802,7 @@ export interface EcsFields {
 	* Description: Total size in bytes of the request (body and headers).
 	* Example: 1437
 	*/
-	"http.request.bytes": number,
+	"http.request.bytes"?: number,
 
 	/**
 	* http.request.method
@@ -10815,7 +10815,7 @@ export interface EcsFields {
 	As of ECS 1.6.0, the guidance is deprecated because the original case of the method may be useful in anomaly detection.  Original case will be mandated in ECS 2.0.0
 	* Example: GET, POST, PUT, PoST
 	*/
-	"http.request.method": string,
+	"http.request.method"?: string,
 
 	/**
 	* http.request.mime_type
@@ -10826,7 +10826,7 @@ export interface EcsFields {
 	* Description: Mime type of the body of the request. This value must only be populated based on the content of the request body, not on the `Content-Type` header. Comparing the mime type of a request with the request's Content-Type header can be helpful in detecting threats or misconfigured clients.
 	* Example: image/gif
 	*/
-	"http.request.mime_type": string,
+	"http.request.mime_type"?: string,
 
 	/**
 	* http.request.referrer
@@ -10837,7 +10837,7 @@ export interface EcsFields {
 	* Description: Referrer for this HTTP request.
 	* Example: https://blog.example.com/
 	*/
-	"http.request.referrer": string,
+	"http.request.referrer"?: string,
 
 	/**
 	* http.response.body.bytes
@@ -10848,7 +10848,7 @@ export interface EcsFields {
 	* Description: Size in bytes of the response body.
 	* Example: 887
 	*/
-	"http.response.body.bytes": number,
+	"http.response.body.bytes"?: number,
 
 	/**
 	* http.response.body.content
@@ -10859,7 +10859,7 @@ export interface EcsFields {
 	* Description: The full HTTP response body.
 	* Example: Hello world
 	*/
-	"http.response.body.content": string,
+	"http.response.body.content"?: string,
 
 	/**
 	* http.response.bytes
@@ -10870,7 +10870,7 @@ export interface EcsFields {
 	* Description: Total size in bytes of the response (body and headers).
 	* Example: 1437
 	*/
-	"http.response.bytes": number,
+	"http.response.bytes"?: number,
 
 	/**
 	* http.response.mime_type
@@ -10881,7 +10881,7 @@ export interface EcsFields {
 	* Description: Mime type of the body of the response. This value must only be populated based on the content of the response body, not on the `Content-Type` header. Comparing the mime type of a response with the response's Content-Type header can be helpful in detecting misconfigured servers.
 	* Example: image/gif
 	*/
-	"http.response.mime_type": string,
+	"http.response.mime_type"?: string,
 
 	/**
 	* http.response.status_code
@@ -10892,7 +10892,7 @@ export interface EcsFields {
 	* Description: HTTP response status code.
 	* Example: 404
 	*/
-	"http.response.status_code": number,
+	"http.response.status_code"?: number,
 
 	/**
 	* http.version
@@ -10903,7 +10903,7 @@ export interface EcsFields {
 	* Description: HTTP version.
 	* Example: 1.1
 	*/
-	"http.version": string,
+	"http.version"?: string,
 
 	/**
 	* interface.alias
@@ -10914,7 +10914,7 @@ export interface EcsFields {
 	* Description: Interface alias as reported by the system, typically used in firewall implementations for e.g. inside, outside, or dmz logical interface naming.
 	* Example: outside
 	*/
-	"interface.alias": string,
+	"interface.alias"?: string,
 
 	/**
 	* interface.id
@@ -10925,7 +10925,7 @@ export interface EcsFields {
 	* Description: Interface ID as reported by an observer (typically SNMP interface ID).
 	* Example: 10
 	*/
-	"interface.id": string,
+	"interface.id"?: string,
 
 	/**
 	* interface.name
@@ -10936,7 +10936,7 @@ export interface EcsFields {
 	* Description: Interface name as reported by the system.
 	* Example: eth0
 	*/
-	"interface.name": string,
+	"interface.name"?: string,
 
 	/**
 	* labels
@@ -10948,7 +10948,7 @@ export interface EcsFields {
 	Example: `docker` and `k8s` labels.
 	* Example: {"application": "foo-bar", "env": "production"}
 	*/
-	"labels": object,
+	"labels"?: object,
 
 	/**
 	* log.file.path
@@ -10959,7 +10959,7 @@ export interface EcsFields {
 	* Description: Full path to the log file this event came from, including the file name. It should include the drive letter, when appropriate. If the event wasn't read from a log file, do not populate this field.
 	* Example: /var/log/fun-times.log
 	*/
-	"log.file.path": string,
+	"log.file.path"?: string,
 
 	/**
 	* log.level
@@ -10971,7 +10971,7 @@ export interface EcsFields {
 	Some examples are `warn`, `err`, `i`, `informational`.
 	* Example: error
 	*/
-	"log.level": string,
+	"log.level"?: string,
 
 	/**
 	* log.logger
@@ -10982,7 +10982,7 @@ export interface EcsFields {
 	* Description: The name of the logger inside an application. This is usually the name of the class which initialized the logger, or can be a custom name.
 	* Example: org.elasticsearch.bootstrap.Bootstrap
 	*/
-	"log.logger": string,
+	"log.logger"?: string,
 
 	/**
 	* log.origin.file.line
@@ -10993,7 +10993,7 @@ export interface EcsFields {
 	* Description: The line number of the file containing the source code which originated the log event.
 	* Example: 42
 	*/
-	"log.origin.file.line": number,
+	"log.origin.file.line"?: number,
 
 	/**
 	* log.origin.file.name
@@ -11004,7 +11004,7 @@ export interface EcsFields {
 	* Description: The name of the file containing the source code which originated the log event. Note that this field is not meant to capture the log file. The correct field to capture the log file is `log.file.path`.
 	* Example: Bootstrap.java
 	*/
-	"log.origin.file.name": string,
+	"log.origin.file.name"?: string,
 
 	/**
 	* log.origin.function
@@ -11015,7 +11015,7 @@ export interface EcsFields {
 	* Description: The name of the function or method which originated the log event.
 	* Example: init
 	*/
-	"log.origin.function": string,
+	"log.origin.function"?: string,
 
 	/**
 	* log.original
@@ -11027,7 +11027,7 @@ export interface EcsFields {
 	This field is not indexed and doc_values are disabled so it can't be queried but the value can be retrieved from `_source`.
 	* Example: Sep 19 08:26:10 localhost My log
 	*/
-	"log.original": string,
+	"log.original"?: string,
 
 	/**
 	* log.syslog
@@ -11038,7 +11038,7 @@ export interface EcsFields {
 	* Description: The Syslog metadata of the event, if the event was transmitted via Syslog. Please see RFCs 5424 or 3164.
 	* Example: <None>
 	*/
-	"log.syslog": object,
+	"log.syslog"?: object,
 
 	/**
 	* log.syslog.facility.code
@@ -11049,7 +11049,7 @@ export interface EcsFields {
 	* Description: The Syslog numeric facility of the log event, if available. According to RFCs 5424 and 3164, this value should be an integer between 0 and 23.
 	* Example: 23
 	*/
-	"log.syslog.facility.code": number,
+	"log.syslog.facility.code"?: number,
 
 	/**
 	* log.syslog.facility.name
@@ -11060,7 +11060,7 @@ export interface EcsFields {
 	* Description: The Syslog text-based facility of the log event, if available.
 	* Example: local7
 	*/
-	"log.syslog.facility.name": string,
+	"log.syslog.facility.name"?: string,
 
 	/**
 	* log.syslog.priority
@@ -11071,7 +11071,7 @@ export interface EcsFields {
 	* Description: Syslog numeric priority of the event, if available. According to RFCs 5424 and 3164, the priority is 8 * facility + severity. This number is therefore expected to contain a value between 0 and 191.
 	* Example: 135
 	*/
-	"log.syslog.priority": number,
+	"log.syslog.priority"?: number,
 
 	/**
 	* log.syslog.severity.code
@@ -11082,7 +11082,7 @@ export interface EcsFields {
 	* Description: The Syslog numeric severity of the log event, if available. If the event source publishing via Syslog provides a different numeric severity value (e.g. firewall, IDS), your source's numeric severity should go to `event.severity`. If the event source does not specify a distinct severity, you can optionally copy the Syslog severity to `event.severity`.
 	* Example: 3
 	*/
-	"log.syslog.severity.code": number,
+	"log.syslog.severity.code"?: number,
 
 	/**
 	* log.syslog.severity.name
@@ -11093,7 +11093,7 @@ export interface EcsFields {
 	* Description: The Syslog numeric severity of the log event, if available. If the event source publishing via Syslog provides a different severity value (e.g. firewall, IDS), your source's text severity should go to `log.level`. If the event source does not specify a distinct severity, you can optionally copy the Syslog severity to `log.level`.
 	* Example: Error
 	*/
-	"log.syslog.severity.name": string,
+	"log.syslog.severity.name"?: string,
 
 	/**
 	* message
@@ -11105,7 +11105,7 @@ export interface EcsFields {
 	If multiple messages exist, they can be combined into one message.
 	* Example: Hello World
 	*/
-	"message": string,
+	"message"?: string,
 
 	/**
 	* network.application
@@ -11116,7 +11116,7 @@ export interface EcsFields {
 	* Description: A name given to an application level protocol. This can be arbitrarily assigned for things like microservices, but also apply to things like skype, icq, facebook, twitter. This would be used in situations where the vendor or service can be decoded such as from the source/dest IP owners, ports, or wire format. The field value must be normalized to lowercase for querying. See the documentation section "Implementing ECS".
 	* Example: aim
 	*/
-	"network.application": string,
+	"network.application"?: string,
 
 	/**
 	* network.bytes
@@ -11127,7 +11127,7 @@ export interface EcsFields {
 	* Description: Total bytes transferred in both directions. If `source.bytes` and `destination.bytes` are known, `network.bytes` is their sum.
 	* Example: 368
 	*/
-	"network.bytes": number,
+	"network.bytes"?: number,
 
 	/**
 	* network.community_id
@@ -11138,7 +11138,7 @@ export interface EcsFields {
 	* Description: A hash of source and destination IPs and ports, as well as the protocol used in a communication. This is a tool-agnostic standard to identify flows. Learn more at https://github.com/corelight/community-id-spec.
 	* Example: 1:hO+sN4H+MG5MY/8hIrXPqc4ZQz0=
 	*/
-	"network.community_id": string,
+	"network.community_id"?: string,
 
 	/**
 	* network.direction
@@ -11160,7 +11160,7 @@ export interface EcsFields {
 	Note that "internal" is not crossing perimeter boundaries, and is meant to describe communication between two hosts within the perimeter. Note also that "external" is meant to describe traffic between two hosts that are external to the perimeter. This could for example be useful for ISPs or VPN service providers.
 	* Example: inbound
 	*/
-	"network.direction": string,
+	"network.direction"?: string,
 
 	/**
 	* network.forwarded_ip
@@ -11171,7 +11171,7 @@ export interface EcsFields {
 	* Description: Host IP address when the source IP address is the proxy.
 	* Example: 192.1.1.2
 	*/
-	"network.forwarded_ip": string,
+	"network.forwarded_ip"?: string,
 
 	/**
 	* network.iana_number
@@ -11182,7 +11182,7 @@ export interface EcsFields {
 	* Description: IANA Protocol Number (https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml). Standardized list of protocols. This aligns well with NetFlow and sFlow related logs which use the IANA Protocol Number.
 	* Example: 6
 	*/
-	"network.iana_number": string,
+	"network.iana_number"?: string,
 
 	/**
 	* network.inner
@@ -11193,7 +11193,7 @@ export interface EcsFields {
 	* Description: Network.inner fields are added in addition to network.vlan fields to describe the innermost VLAN when q-in-q VLAN tagging is present. Allowed fields include vlan.id and vlan.name. Inner vlan fields are typically used when sending traffic with multiple 802.1q encapsulations to a network sensor (e.g. Zeek, Wireshark.)
 	* Example: <None>
 	*/
-	"network.inner": object,
+	"network.inner"?: object,
 
 	/**
 	* network.inner.vlan.id
@@ -11204,7 +11204,7 @@ export interface EcsFields {
 	* Description: VLAN ID as reported by the observer.
 	* Example: 10
 	*/
-	"network.inner.vlan.id": string,
+	"network.inner.vlan.id"?: string,
 
 	/**
 	* network.inner.vlan.name
@@ -11215,7 +11215,7 @@ export interface EcsFields {
 	* Description: Optional VLAN name as reported by the observer.
 	* Example: outside
 	*/
-	"network.inner.vlan.name": string,
+	"network.inner.vlan.name"?: string,
 
 	/**
 	* network.name
@@ -11226,7 +11226,7 @@ export interface EcsFields {
 	* Description: Name given by operators to sections of their network.
 	* Example: Guest Wifi
 	*/
-	"network.name": string,
+	"network.name"?: string,
 
 	/**
 	* network.packets
@@ -11237,7 +11237,7 @@ export interface EcsFields {
 	* Description: Total packets transferred in both directions. If `source.packets` and `destination.packets` are known, `network.packets` is their sum.
 	* Example: 24
 	*/
-	"network.packets": number,
+	"network.packets"?: number,
 
 	/**
 	* network.protocol
@@ -11248,7 +11248,7 @@ export interface EcsFields {
 	* Description: L7 Network protocol name. ex. http, lumberjack, transport protocol. The field value must be normalized to lowercase for querying. See the documentation section "Implementing ECS".
 	* Example: http
 	*/
-	"network.protocol": string,
+	"network.protocol"?: string,
 
 	/**
 	* network.transport
@@ -11259,7 +11259,7 @@ export interface EcsFields {
 	* Description: Same as network.iana_number, but instead using the Keyword name of the transport layer (udp, tcp, ipv6-icmp, etc.) The field value must be normalized to lowercase for querying. See the documentation section "Implementing ECS".
 	* Example: tcp
 	*/
-	"network.transport": string,
+	"network.transport"?: string,
 
 	/**
 	* network.type
@@ -11270,7 +11270,7 @@ export interface EcsFields {
 	* Description: In the OSI Model this would be the Network Layer. ipv4, ipv6, ipsec, pim, etc The field value must be normalized to lowercase for querying. See the documentation section "Implementing ECS".
 	* Example: ipv4
 	*/
-	"network.type": string,
+	"network.type"?: string,
 
 	/**
 	* network.vlan.id
@@ -11281,7 +11281,7 @@ export interface EcsFields {
 	* Description: VLAN ID as reported by the observer.
 	* Example: 10
 	*/
-	"network.vlan.id": string,
+	"network.vlan.id"?: string,
 
 	/**
 	* network.vlan.name
@@ -11292,7 +11292,7 @@ export interface EcsFields {
 	* Description: Optional VLAN name as reported by the observer.
 	* Example: outside
 	*/
-	"network.vlan.name": string,
+	"network.vlan.name"?: string,
 
 	/**
 	* observer.egress
@@ -11303,7 +11303,7 @@ export interface EcsFields {
 	* Description: Observer.egress holds information like interface number and name, vlan, and zone information to  classify egress traffic.  Single armed monitoring such as a network sensor on a span port should  only use observer.ingress to categorize traffic.
 	* Example: <None>
 	*/
-	"observer.egress": object,
+	"observer.egress"?: object,
 
 	/**
 	* observer.egress.interface.alias
@@ -11314,7 +11314,7 @@ export interface EcsFields {
 	* Description: Interface alias as reported by the system, typically used in firewall implementations for e.g. inside, outside, or dmz logical interface naming.
 	* Example: outside
 	*/
-	"observer.egress.interface.alias": string,
+	"observer.egress.interface.alias"?: string,
 
 	/**
 	* observer.egress.interface.id
@@ -11325,7 +11325,7 @@ export interface EcsFields {
 	* Description: Interface ID as reported by an observer (typically SNMP interface ID).
 	* Example: 10
 	*/
-	"observer.egress.interface.id": string,
+	"observer.egress.interface.id"?: string,
 
 	/**
 	* observer.egress.interface.name
@@ -11336,7 +11336,7 @@ export interface EcsFields {
 	* Description: Interface name as reported by the system.
 	* Example: eth0
 	*/
-	"observer.egress.interface.name": string,
+	"observer.egress.interface.name"?: string,
 
 	/**
 	* observer.egress.vlan.id
@@ -11347,7 +11347,7 @@ export interface EcsFields {
 	* Description: VLAN ID as reported by the observer.
 	* Example: 10
 	*/
-	"observer.egress.vlan.id": string,
+	"observer.egress.vlan.id"?: string,
 
 	/**
 	* observer.egress.vlan.name
@@ -11358,7 +11358,7 @@ export interface EcsFields {
 	* Description: Optional VLAN name as reported by the observer.
 	* Example: outside
 	*/
-	"observer.egress.vlan.name": string,
+	"observer.egress.vlan.name"?: string,
 
 	/**
 	* observer.egress.zone
@@ -11369,7 +11369,7 @@ export interface EcsFields {
 	* Description: Network zone of outbound traffic as reported by the observer to categorize the destination area of egress  traffic, e.g. Internal, External, DMZ, HR, Legal, etc.
 	* Example: Public_Internet
 	*/
-	"observer.egress.zone": string,
+	"observer.egress.zone"?: string,
 
 	/**
 	* observer.geo.city_name
@@ -11380,7 +11380,7 @@ export interface EcsFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"observer.geo.city_name": string,
+	"observer.geo.city_name"?: string,
 
 	/**
 	* observer.geo.continent_name
@@ -11391,7 +11391,7 @@ export interface EcsFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"observer.geo.continent_name": string,
+	"observer.geo.continent_name"?: string,
 
 	/**
 	* observer.geo.country_iso_code
@@ -11402,7 +11402,7 @@ export interface EcsFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"observer.geo.country_iso_code": string,
+	"observer.geo.country_iso_code"?: string,
 
 	/**
 	* observer.geo.country_name
@@ -11413,7 +11413,7 @@ export interface EcsFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"observer.geo.country_name": string,
+	"observer.geo.country_name"?: string,
 
 	/**
 	* observer.geo.location
@@ -11424,7 +11424,7 @@ export interface EcsFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"observer.geo.location": GeoPoint,
+	"observer.geo.location"?: GeoPoint,
 
 	/**
 	* observer.geo.name
@@ -11436,7 +11436,7 @@ export interface EcsFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"observer.geo.name": string,
+	"observer.geo.name"?: string,
 
 	/**
 	* observer.geo.region_iso_code
@@ -11447,7 +11447,7 @@ export interface EcsFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"observer.geo.region_iso_code": string,
+	"observer.geo.region_iso_code"?: string,
 
 	/**
 	* observer.geo.region_name
@@ -11458,7 +11458,7 @@ export interface EcsFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"observer.geo.region_name": string,
+	"observer.geo.region_name"?: string,
 
 	/**
 	* observer.hostname
@@ -11469,7 +11469,7 @@ export interface EcsFields {
 	* Description: Hostname of the observer.
 	* Example: <None>
 	*/
-	"observer.hostname": string,
+	"observer.hostname"?: string,
 
 	/**
 	* observer.ingress
@@ -11480,7 +11480,7 @@ export interface EcsFields {
 	* Description: Observer.ingress holds information like interface number and name, vlan, and zone information to  classify ingress traffic.  Single armed monitoring such as a network sensor on a span port should  only use observer.ingress to categorize traffic.
 	* Example: <None>
 	*/
-	"observer.ingress": object,
+	"observer.ingress"?: object,
 
 	/**
 	* observer.ingress.interface.alias
@@ -11491,7 +11491,7 @@ export interface EcsFields {
 	* Description: Interface alias as reported by the system, typically used in firewall implementations for e.g. inside, outside, or dmz logical interface naming.
 	* Example: outside
 	*/
-	"observer.ingress.interface.alias": string,
+	"observer.ingress.interface.alias"?: string,
 
 	/**
 	* observer.ingress.interface.id
@@ -11502,7 +11502,7 @@ export interface EcsFields {
 	* Description: Interface ID as reported by an observer (typically SNMP interface ID).
 	* Example: 10
 	*/
-	"observer.ingress.interface.id": string,
+	"observer.ingress.interface.id"?: string,
 
 	/**
 	* observer.ingress.interface.name
@@ -11513,7 +11513,7 @@ export interface EcsFields {
 	* Description: Interface name as reported by the system.
 	* Example: eth0
 	*/
-	"observer.ingress.interface.name": string,
+	"observer.ingress.interface.name"?: string,
 
 	/**
 	* observer.ingress.vlan.id
@@ -11524,7 +11524,7 @@ export interface EcsFields {
 	* Description: VLAN ID as reported by the observer.
 	* Example: 10
 	*/
-	"observer.ingress.vlan.id": string,
+	"observer.ingress.vlan.id"?: string,
 
 	/**
 	* observer.ingress.vlan.name
@@ -11535,7 +11535,7 @@ export interface EcsFields {
 	* Description: Optional VLAN name as reported by the observer.
 	* Example: outside
 	*/
-	"observer.ingress.vlan.name": string,
+	"observer.ingress.vlan.name"?: string,
 
 	/**
 	* observer.ingress.zone
@@ -11546,7 +11546,7 @@ export interface EcsFields {
 	* Description: Network zone of incoming traffic as reported by the observer to categorize the source area of ingress  traffic. e.g. internal, External, DMZ, HR, Legal, etc.
 	* Example: DMZ
 	*/
-	"observer.ingress.zone": string,
+	"observer.ingress.zone"?: string,
 
 	/**
 	* observer.ip
@@ -11557,7 +11557,7 @@ export interface EcsFields {
 	* Description: IP addresses of the observer.
 	* Example: <None>
 	*/
-	"observer.ip": string[],
+	"observer.ip"?: string[],
 
 	/**
 	* observer.mac
@@ -11568,7 +11568,7 @@ export interface EcsFields {
 	* Description: MAC addresses of the observer
 	* Example: <None>
 	*/
-	"observer.mac": string[],
+	"observer.mac"?: string[],
 
 	/**
 	* observer.name
@@ -11580,7 +11580,7 @@ export interface EcsFields {
 	If no custom name is needed, the field can be left empty.
 	* Example: 1_proxySG
 	*/
-	"observer.name": string,
+	"observer.name"?: string,
 
 	/**
 	* observer.os.family
@@ -11591,7 +11591,7 @@ export interface EcsFields {
 	* Description: OS family (such as redhat, debian, freebsd, windows).
 	* Example: debian
 	*/
-	"observer.os.family": string,
+	"observer.os.family"?: string,
 
 	/**
 	* observer.os.full
@@ -11602,7 +11602,7 @@ export interface EcsFields {
 	* Description: Operating system name, including the version or code name.
 	* Example: Mac OS Mojave
 	*/
-	"observer.os.full": string,
+	"observer.os.full"?: string,
 
 	/**
 	* observer.os.kernel
@@ -11613,7 +11613,7 @@ export interface EcsFields {
 	* Description: Operating system kernel version as a raw string.
 	* Example: 4.4.0-112-generic
 	*/
-	"observer.os.kernel": string,
+	"observer.os.kernel"?: string,
 
 	/**
 	* observer.os.name
@@ -11624,7 +11624,7 @@ export interface EcsFields {
 	* Description: Operating system name, without the version.
 	* Example: Mac OS X
 	*/
-	"observer.os.name": string,
+	"observer.os.name"?: string,
 
 	/**
 	* observer.os.platform
@@ -11635,7 +11635,7 @@ export interface EcsFields {
 	* Description: Operating system platform (such centos, ubuntu, windows).
 	* Example: darwin
 	*/
-	"observer.os.platform": string,
+	"observer.os.platform"?: string,
 
 	/**
 	* observer.os.version
@@ -11646,7 +11646,7 @@ export interface EcsFields {
 	* Description: Operating system version as a raw string.
 	* Example: 10.14.1
 	*/
-	"observer.os.version": string,
+	"observer.os.version"?: string,
 
 	/**
 	* observer.product
@@ -11657,7 +11657,7 @@ export interface EcsFields {
 	* Description: The product name of the observer.
 	* Example: s200
 	*/
-	"observer.product": string,
+	"observer.product"?: string,
 
 	/**
 	* observer.serial_number
@@ -11668,7 +11668,7 @@ export interface EcsFields {
 	* Description: Observer serial number.
 	* Example: <None>
 	*/
-	"observer.serial_number": string,
+	"observer.serial_number"?: string,
 
 	/**
 	* observer.type
@@ -11679,7 +11679,7 @@ export interface EcsFields {
 	* Description: The type of the observer the data is coming from. There is no predefined list of observer types. Some examples are `forwarder`, `firewall`, `ids`, `ips`, `proxy`, `poller`, `sensor`, `APM server`.
 	* Example: firewall
 	*/
-	"observer.type": string,
+	"observer.type"?: string,
 
 	/**
 	* observer.vendor
@@ -11690,7 +11690,7 @@ export interface EcsFields {
 	* Description: Vendor name of the observer.
 	* Example: Symantec
 	*/
-	"observer.vendor": string,
+	"observer.vendor"?: string,
 
 	/**
 	* observer.version
@@ -11701,7 +11701,7 @@ export interface EcsFields {
 	* Description: Observer version.
 	* Example: <None>
 	*/
-	"observer.version": string,
+	"observer.version"?: string,
 
 	/**
 	* organization.id
@@ -11712,7 +11712,7 @@ export interface EcsFields {
 	* Description: Unique identifier for the organization.
 	* Example: <None>
 	*/
-	"organization.id": string,
+	"organization.id"?: string,
 
 	/**
 	* organization.name
@@ -11723,7 +11723,7 @@ export interface EcsFields {
 	* Description: Organization name.
 	* Example: <None>
 	*/
-	"organization.name": string,
+	"organization.name"?: string,
 
 	/**
 	* os.family
@@ -11734,7 +11734,7 @@ export interface EcsFields {
 	* Description: OS family (such as redhat, debian, freebsd, windows).
 	* Example: debian
 	*/
-	"os.family": string,
+	"os.family"?: string,
 
 	/**
 	* os.full
@@ -11745,7 +11745,7 @@ export interface EcsFields {
 	* Description: Operating system name, including the version or code name.
 	* Example: Mac OS Mojave
 	*/
-	"os.full": string,
+	"os.full"?: string,
 
 	/**
 	* os.kernel
@@ -11756,7 +11756,7 @@ export interface EcsFields {
 	* Description: Operating system kernel version as a raw string.
 	* Example: 4.4.0-112-generic
 	*/
-	"os.kernel": string,
+	"os.kernel"?: string,
 
 	/**
 	* os.name
@@ -11767,7 +11767,7 @@ export interface EcsFields {
 	* Description: Operating system name, without the version.
 	* Example: Mac OS X
 	*/
-	"os.name": string,
+	"os.name"?: string,
 
 	/**
 	* os.platform
@@ -11778,7 +11778,7 @@ export interface EcsFields {
 	* Description: Operating system platform (such centos, ubuntu, windows).
 	* Example: darwin
 	*/
-	"os.platform": string,
+	"os.platform"?: string,
 
 	/**
 	* os.version
@@ -11789,7 +11789,7 @@ export interface EcsFields {
 	* Description: Operating system version as a raw string.
 	* Example: 10.14.1
 	*/
-	"os.version": string,
+	"os.version"?: string,
 
 	/**
 	* package.architecture
@@ -11800,7 +11800,7 @@ export interface EcsFields {
 	* Description: Package architecture.
 	* Example: x86_64
 	*/
-	"package.architecture": string,
+	"package.architecture"?: string,
 
 	/**
 	* package.build_version
@@ -11811,7 +11811,7 @@ export interface EcsFields {
 	* Description: Additional information about the build version of the installed package. For example use the commit SHA of a non-released package.
 	* Example: 36f4f7e89dd61b0988b12ee000b98966867710cd
 	*/
-	"package.build_version": string,
+	"package.build_version"?: string,
 
 	/**
 	* package.checksum
@@ -11822,7 +11822,7 @@ export interface EcsFields {
 	* Description: Checksum of the installed package for verification.
 	* Example: 68b329da9893e34099c7d8ad5cb9c940
 	*/
-	"package.checksum": string,
+	"package.checksum"?: string,
 
 	/**
 	* package.description
@@ -11833,7 +11833,7 @@ export interface EcsFields {
 	* Description: Description of the package.
 	* Example: Open source programming language to build simple/reliable/efficient software.
 	*/
-	"package.description": string,
+	"package.description"?: string,
 
 	/**
 	* package.install_scope
@@ -11844,7 +11844,7 @@ export interface EcsFields {
 	* Description: Indicating how the package was installed, e.g. user-local, global.
 	* Example: global
 	*/
-	"package.install_scope": string,
+	"package.install_scope"?: string,
 
 	/**
 	* package.installed
@@ -11855,7 +11855,7 @@ export interface EcsFields {
 	* Description: Time when package was installed.
 	* Example: <None>
 	*/
-	"package.installed": Date,
+	"package.installed"?: Date,
 
 	/**
 	* package.license
@@ -11866,7 +11866,7 @@ export interface EcsFields {
 	* Description: License under which the package was released. Use a short name, e.g. the license identifier from SPDX License List where possible (https://spdx.org/licenses/).
 	* Example: Apache License 2.0
 	*/
-	"package.license": string,
+	"package.license"?: string,
 
 	/**
 	* package.name
@@ -11877,7 +11877,7 @@ export interface EcsFields {
 	* Description: Package name
 	* Example: go
 	*/
-	"package.name": string,
+	"package.name"?: string,
 
 	/**
 	* package.path
@@ -11888,7 +11888,7 @@ export interface EcsFields {
 	* Description: Path where the package is installed.
 	* Example: /usr/local/Cellar/go/1.12.9/
 	*/
-	"package.path": string,
+	"package.path"?: string,
 
 	/**
 	* package.reference
@@ -11899,7 +11899,7 @@ export interface EcsFields {
 	* Description: Home page or reference URL of the software in this package, if available.
 	* Example: https://golang.org
 	*/
-	"package.reference": string,
+	"package.reference"?: string,
 
 	/**
 	* package.size
@@ -11910,7 +11910,7 @@ export interface EcsFields {
 	* Description: Package size in bytes.
 	* Example: 62231
 	*/
-	"package.size": number,
+	"package.size"?: number,
 
 	/**
 	* package.type
@@ -11921,7 +11921,7 @@ export interface EcsFields {
 	* Description: Type of package. This should contain the package file type, rather than the package manager name. Examples: rpm, dpkg, brew, npm, gem, nupkg, jar.
 	* Example: rpm
 	*/
-	"package.type": string,
+	"package.type"?: string,
 
 	/**
 	* package.version
@@ -11932,7 +11932,7 @@ export interface EcsFields {
 	* Description: Package version
 	* Example: 1.12.9
 	*/
-	"package.version": string,
+	"package.version"?: string,
 
 	/**
 	* pe.architecture
@@ -11943,7 +11943,7 @@ export interface EcsFields {
 	* Description: CPU architecture target for the file.
 	* Example: x64
 	*/
-	"pe.architecture": string,
+	"pe.architecture"?: string,
 
 	/**
 	* pe.company
@@ -11954,7 +11954,7 @@ export interface EcsFields {
 	* Description: Internal company name of the file, provided at compile-time.
 	* Example: Microsoft Corporation
 	*/
-	"pe.company": string,
+	"pe.company"?: string,
 
 	/**
 	* pe.description
@@ -11965,7 +11965,7 @@ export interface EcsFields {
 	* Description: Internal description of the file, provided at compile-time.
 	* Example: Paint
 	*/
-	"pe.description": string,
+	"pe.description"?: string,
 
 	/**
 	* pe.file_version
@@ -11976,7 +11976,7 @@ export interface EcsFields {
 	* Description: Internal version of the file, provided at compile-time.
 	* Example: 6.3.9600.17415
 	*/
-	"pe.file_version": string,
+	"pe.file_version"?: string,
 
 	/**
 	* pe.imphash
@@ -11987,7 +11987,7 @@ export interface EcsFields {
 	* Description: A hash of the imports in a PE file. An imphash -- or import hash -- can be used to fingerprint binaries even after recompilation or other code-level transformations have occurred, which would change more traditional hash values. Learn more at https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html.
 	* Example: 0c6803c4e922103c4dca5963aad36ddf
 	*/
-	"pe.imphash": string,
+	"pe.imphash"?: string,
 
 	/**
 	* pe.original_file_name
@@ -11998,7 +11998,7 @@ export interface EcsFields {
 	* Description: Internal name of the file, provided at compile-time.
 	* Example: MSPAINT.EXE
 	*/
-	"pe.original_file_name": string,
+	"pe.original_file_name"?: string,
 
 	/**
 	* pe.product
@@ -12009,7 +12009,7 @@ export interface EcsFields {
 	* Description: Internal product name of the file, provided at compile-time.
 	* Example: Microsoft® Windows® Operating System
 	*/
-	"pe.product": string,
+	"pe.product"?: string,
 
 	/**
 	* process.args
@@ -12020,7 +12020,7 @@ export interface EcsFields {
 	* Description: Array of process arguments, starting with the absolute path to the executable. May be filtered to protect sensitive information.
 	* Example: ["/usr/bin/ssh", "-l", "user", "10.0.0.16"]
 	*/
-	"process.args": string[],
+	"process.args"?: string[],
 
 	/**
 	* process.args_count
@@ -12031,7 +12031,7 @@ export interface EcsFields {
 	* Description: Length of the process.args array. This field can be useful for querying or performing bucket analysis on how many arguments were provided to start a process. More arguments may be an indication of suspicious activity.
 	* Example: 4
 	*/
-	"process.args_count": number,
+	"process.args_count"?: number,
 
 	/**
 	* process.code_signature.exists
@@ -12042,7 +12042,7 @@ export interface EcsFields {
 	* Description: Boolean to capture if a signature is present.
 	* Example: true
 	*/
-	"process.code_signature.exists": boolean,
+	"process.code_signature.exists"?: boolean,
 
 	/**
 	* process.code_signature.status
@@ -12053,7 +12053,7 @@ export interface EcsFields {
 	* Description: Additional information about the certificate status. This is useful for logging cryptographic errors with the certificate validity or trust status. Leave unpopulated if the validity or trust of the certificate was unchecked.
 	* Example: ERROR_UNTRUSTED_ROOT
 	*/
-	"process.code_signature.status": string,
+	"process.code_signature.status"?: string,
 
 	/**
 	* process.code_signature.subject_name
@@ -12064,7 +12064,7 @@ export interface EcsFields {
 	* Description: Subject name of the code signer
 	* Example: Microsoft Corporation
 	*/
-	"process.code_signature.subject_name": string,
+	"process.code_signature.subject_name"?: string,
 
 	/**
 	* process.code_signature.trusted
@@ -12075,7 +12075,7 @@ export interface EcsFields {
 	* Description: Stores the trust status of the certificate chain. Validating the trust of the certificate chain may be complicated, and this field should only be populated by tools that actively check the status.
 	* Example: true
 	*/
-	"process.code_signature.trusted": boolean,
+	"process.code_signature.trusted"?: boolean,
 
 	/**
 	* process.code_signature.valid
@@ -12086,7 +12086,7 @@ export interface EcsFields {
 	* Description: Boolean to capture if the digital signature is verified against the binary content. Leave unpopulated if a certificate was unchecked.
 	* Example: true
 	*/
-	"process.code_signature.valid": boolean,
+	"process.code_signature.valid"?: boolean,
 
 	/**
 	* process.command_line
@@ -12097,7 +12097,7 @@ export interface EcsFields {
 	* Description: Full command line that started the process, including the absolute path to the executable, and all arguments. Some arguments may be filtered to protect sensitive information.
 	* Example: /usr/bin/ssh -l user 10.0.0.16
 	*/
-	"process.command_line": string,
+	"process.command_line"?: string,
 
 	/**
 	* process.entity_id
@@ -12109,7 +12109,7 @@ export interface EcsFields {
 	Constructing a globally unique identifier is a common practice to mitigate PID reuse as well as to identify a specific process over time, across multiple monitored hosts.
 	* Example: c2c455d9f99375d
 	*/
-	"process.entity_id": string,
+	"process.entity_id"?: string,
 
 	/**
 	* process.executable
@@ -12120,7 +12120,7 @@ export interface EcsFields {
 	* Description: Absolute path to the process executable.
 	* Example: /usr/bin/ssh
 	*/
-	"process.executable": string,
+	"process.executable"?: string,
 
 	/**
 	* process.exit_code
@@ -12131,7 +12131,7 @@ export interface EcsFields {
 	* Description: The exit code of the process, if this is a termination event. The field should be absent if there is no exit code for the event (e.g. process start).
 	* Example: 137
 	*/
-	"process.exit_code": number,
+	"process.exit_code"?: number,
 
 	/**
 	* process.hash.md5
@@ -12142,7 +12142,7 @@ export interface EcsFields {
 	* Description: MD5 hash.
 	* Example: <None>
 	*/
-	"process.hash.md5": string,
+	"process.hash.md5"?: string,
 
 	/**
 	* process.hash.sha1
@@ -12153,7 +12153,7 @@ export interface EcsFields {
 	* Description: SHA1 hash.
 	* Example: <None>
 	*/
-	"process.hash.sha1": string,
+	"process.hash.sha1"?: string,
 
 	/**
 	* process.hash.sha256
@@ -12164,7 +12164,7 @@ export interface EcsFields {
 	* Description: SHA256 hash.
 	* Example: <None>
 	*/
-	"process.hash.sha256": string,
+	"process.hash.sha256"?: string,
 
 	/**
 	* process.hash.sha512
@@ -12175,7 +12175,7 @@ export interface EcsFields {
 	* Description: SHA512 hash.
 	* Example: <None>
 	*/
-	"process.hash.sha512": string,
+	"process.hash.sha512"?: string,
 
 	/**
 	* process.name
@@ -12186,7 +12186,7 @@ export interface EcsFields {
 	* Description: Process name. Sometimes called program name or similar.
 	* Example: ssh
 	*/
-	"process.name": string,
+	"process.name"?: string,
 
 	/**
 	* process.parent.args
@@ -12197,7 +12197,7 @@ export interface EcsFields {
 	* Description: Array of process arguments, starting with the absolute path to the executable. May be filtered to protect sensitive information.
 	* Example: ["/usr/bin/ssh", "-l", "user", "10.0.0.16"]
 	*/
-	"process.parent.args": string,
+	"process.parent.args"?: string,
 
 	/**
 	* process.parent.args_count
@@ -12208,7 +12208,7 @@ export interface EcsFields {
 	* Description: Length of the process.args array. This field can be useful for querying or performing bucket analysis on how many arguments were provided to start a process. More arguments may be an indication of suspicious activity.
 	* Example: 4
 	*/
-	"process.parent.args_count": number,
+	"process.parent.args_count"?: number,
 
 	/**
 	* process.parent.code_signature.exists
@@ -12219,7 +12219,7 @@ export interface EcsFields {
 	* Description: Boolean to capture if a signature is present.
 	* Example: true
 	*/
-	"process.parent.code_signature.exists": boolean,
+	"process.parent.code_signature.exists"?: boolean,
 
 	/**
 	* process.parent.code_signature.status
@@ -12230,7 +12230,7 @@ export interface EcsFields {
 	* Description: Additional information about the certificate status. This is useful for logging cryptographic errors with the certificate validity or trust status. Leave unpopulated if the validity or trust of the certificate was unchecked.
 	* Example: ERROR_UNTRUSTED_ROOT
 	*/
-	"process.parent.code_signature.status": string,
+	"process.parent.code_signature.status"?: string,
 
 	/**
 	* process.parent.code_signature.subject_name
@@ -12241,7 +12241,7 @@ export interface EcsFields {
 	* Description: Subject name of the code signer
 	* Example: Microsoft Corporation
 	*/
-	"process.parent.code_signature.subject_name": string,
+	"process.parent.code_signature.subject_name"?: string,
 
 	/**
 	* process.parent.code_signature.trusted
@@ -12252,7 +12252,7 @@ export interface EcsFields {
 	* Description: Stores the trust status of the certificate chain. Validating the trust of the certificate chain may be complicated, and this field should only be populated by tools that actively check the status.
 	* Example: true
 	*/
-	"process.parent.code_signature.trusted": boolean,
+	"process.parent.code_signature.trusted"?: boolean,
 
 	/**
 	* process.parent.code_signature.valid
@@ -12263,7 +12263,7 @@ export interface EcsFields {
 	* Description: Boolean to capture if the digital signature is verified against the binary content. Leave unpopulated if a certificate was unchecked.
 	* Example: true
 	*/
-	"process.parent.code_signature.valid": boolean,
+	"process.parent.code_signature.valid"?: boolean,
 
 	/**
 	* process.parent.command_line
@@ -12274,7 +12274,7 @@ export interface EcsFields {
 	* Description: Full command line that started the process, including the absolute path to the executable, and all arguments. Some arguments may be filtered to protect sensitive information.
 	* Example: /usr/bin/ssh -l user 10.0.0.16
 	*/
-	"process.parent.command_line": string,
+	"process.parent.command_line"?: string,
 
 	/**
 	* process.parent.entity_id
@@ -12286,7 +12286,7 @@ export interface EcsFields {
 	Constructing a globally unique identifier is a common practice to mitigate PID reuse as well as to identify a specific process over time, across multiple monitored hosts.
 	* Example: c2c455d9f99375d
 	*/
-	"process.parent.entity_id": string,
+	"process.parent.entity_id"?: string,
 
 	/**
 	* process.parent.executable
@@ -12297,7 +12297,7 @@ export interface EcsFields {
 	* Description: Absolute path to the process executable.
 	* Example: /usr/bin/ssh
 	*/
-	"process.parent.executable": string,
+	"process.parent.executable"?: string,
 
 	/**
 	* process.parent.exit_code
@@ -12308,7 +12308,7 @@ export interface EcsFields {
 	* Description: The exit code of the process, if this is a termination event. The field should be absent if there is no exit code for the event (e.g. process start).
 	* Example: 137
 	*/
-	"process.parent.exit_code": number,
+	"process.parent.exit_code"?: number,
 
 	/**
 	* process.parent.hash.md5
@@ -12319,7 +12319,7 @@ export interface EcsFields {
 	* Description: MD5 hash.
 	* Example: <None>
 	*/
-	"process.parent.hash.md5": string,
+	"process.parent.hash.md5"?: string,
 
 	/**
 	* process.parent.hash.sha1
@@ -12330,7 +12330,7 @@ export interface EcsFields {
 	* Description: SHA1 hash.
 	* Example: <None>
 	*/
-	"process.parent.hash.sha1": string,
+	"process.parent.hash.sha1"?: string,
 
 	/**
 	* process.parent.hash.sha256
@@ -12341,7 +12341,7 @@ export interface EcsFields {
 	* Description: SHA256 hash.
 	* Example: <None>
 	*/
-	"process.parent.hash.sha256": string,
+	"process.parent.hash.sha256"?: string,
 
 	/**
 	* process.parent.hash.sha512
@@ -12352,7 +12352,7 @@ export interface EcsFields {
 	* Description: SHA512 hash.
 	* Example: <None>
 	*/
-	"process.parent.hash.sha512": string,
+	"process.parent.hash.sha512"?: string,
 
 	/**
 	* process.parent.name
@@ -12363,7 +12363,7 @@ export interface EcsFields {
 	* Description: Process name. Sometimes called program name or similar.
 	* Example: ssh
 	*/
-	"process.parent.name": string,
+	"process.parent.name"?: string,
 
 	/**
 	* process.parent.pe.architecture
@@ -12374,7 +12374,7 @@ export interface EcsFields {
 	* Description: CPU architecture target for the file.
 	* Example: x64
 	*/
-	"process.parent.pe.architecture": string,
+	"process.parent.pe.architecture"?: string,
 
 	/**
 	* process.parent.pe.company
@@ -12385,7 +12385,7 @@ export interface EcsFields {
 	* Description: Internal company name of the file, provided at compile-time.
 	* Example: Microsoft Corporation
 	*/
-	"process.parent.pe.company": string,
+	"process.parent.pe.company"?: string,
 
 	/**
 	* process.parent.pe.description
@@ -12396,7 +12396,7 @@ export interface EcsFields {
 	* Description: Internal description of the file, provided at compile-time.
 	* Example: Paint
 	*/
-	"process.parent.pe.description": string,
+	"process.parent.pe.description"?: string,
 
 	/**
 	* process.parent.pe.file_version
@@ -12407,7 +12407,7 @@ export interface EcsFields {
 	* Description: Internal version of the file, provided at compile-time.
 	* Example: 6.3.9600.17415
 	*/
-	"process.parent.pe.file_version": string,
+	"process.parent.pe.file_version"?: string,
 
 	/**
 	* process.parent.pe.imphash
@@ -12418,7 +12418,7 @@ export interface EcsFields {
 	* Description: A hash of the imports in a PE file. An imphash -- or import hash -- can be used to fingerprint binaries even after recompilation or other code-level transformations have occurred, which would change more traditional hash values. Learn more at https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html.
 	* Example: 0c6803c4e922103c4dca5963aad36ddf
 	*/
-	"process.parent.pe.imphash": string,
+	"process.parent.pe.imphash"?: string,
 
 	/**
 	* process.parent.pe.original_file_name
@@ -12429,7 +12429,7 @@ export interface EcsFields {
 	* Description: Internal name of the file, provided at compile-time.
 	* Example: MSPAINT.EXE
 	*/
-	"process.parent.pe.original_file_name": string,
+	"process.parent.pe.original_file_name"?: string,
 
 	/**
 	* process.parent.pe.product
@@ -12440,7 +12440,7 @@ export interface EcsFields {
 	* Description: Internal product name of the file, provided at compile-time.
 	* Example: Microsoft® Windows® Operating System
 	*/
-	"process.parent.pe.product": string,
+	"process.parent.pe.product"?: string,
 
 	/**
 	* process.parent.pgid
@@ -12451,7 +12451,7 @@ export interface EcsFields {
 	* Description: Identifier of the group of processes the process belongs to.
 	* Example: <None>
 	*/
-	"process.parent.pgid": number,
+	"process.parent.pgid"?: number,
 
 	/**
 	* process.parent.pid
@@ -12462,7 +12462,7 @@ export interface EcsFields {
 	* Description: Process id.
 	* Example: 4242
 	*/
-	"process.parent.pid": number,
+	"process.parent.pid"?: number,
 
 	/**
 	* process.parent.ppid
@@ -12473,7 +12473,7 @@ export interface EcsFields {
 	* Description: Parent process' pid.
 	* Example: 4241
 	*/
-	"process.parent.ppid": number,
+	"process.parent.ppid"?: number,
 
 	/**
 	* process.parent.start
@@ -12484,7 +12484,7 @@ export interface EcsFields {
 	* Description: The time the process started.
 	* Example: 2016-05-23T08:05:34.853Z
 	*/
-	"process.parent.start": Date,
+	"process.parent.start"?: Date,
 
 	/**
 	* process.parent.thread.id
@@ -12495,7 +12495,7 @@ export interface EcsFields {
 	* Description: Thread ID.
 	* Example: 4242
 	*/
-	"process.parent.thread.id": number,
+	"process.parent.thread.id"?: number,
 
 	/**
 	* process.parent.thread.name
@@ -12506,7 +12506,7 @@ export interface EcsFields {
 	* Description: Thread name.
 	* Example: thread-0
 	*/
-	"process.parent.thread.name": string,
+	"process.parent.thread.name"?: string,
 
 	/**
 	* process.parent.title
@@ -12517,7 +12517,7 @@ export interface EcsFields {
 	* Description: Process title. The proctitle, some times the same as process name. Can also be different: for example a browser setting its title to the web page currently opened.
 	* Example: <None>
 	*/
-	"process.parent.title": string,
+	"process.parent.title"?: string,
 
 	/**
 	* process.parent.uptime
@@ -12528,7 +12528,7 @@ export interface EcsFields {
 	* Description: Seconds the process has been up.
 	* Example: 1325
 	*/
-	"process.parent.uptime": number,
+	"process.parent.uptime"?: number,
 
 	/**
 	* process.parent.working_directory
@@ -12539,7 +12539,7 @@ export interface EcsFields {
 	* Description: The working directory of the process.
 	* Example: /home/alice
 	*/
-	"process.parent.working_directory": string,
+	"process.parent.working_directory"?: string,
 
 	/**
 	* process.pe.architecture
@@ -12550,7 +12550,7 @@ export interface EcsFields {
 	* Description: CPU architecture target for the file.
 	* Example: x64
 	*/
-	"process.pe.architecture": string,
+	"process.pe.architecture"?: string,
 
 	/**
 	* process.pe.company
@@ -12561,7 +12561,7 @@ export interface EcsFields {
 	* Description: Internal company name of the file, provided at compile-time.
 	* Example: Microsoft Corporation
 	*/
-	"process.pe.company": string,
+	"process.pe.company"?: string,
 
 	/**
 	* process.pe.description
@@ -12572,7 +12572,7 @@ export interface EcsFields {
 	* Description: Internal description of the file, provided at compile-time.
 	* Example: Paint
 	*/
-	"process.pe.description": string,
+	"process.pe.description"?: string,
 
 	/**
 	* process.pe.file_version
@@ -12583,7 +12583,7 @@ export interface EcsFields {
 	* Description: Internal version of the file, provided at compile-time.
 	* Example: 6.3.9600.17415
 	*/
-	"process.pe.file_version": string,
+	"process.pe.file_version"?: string,
 
 	/**
 	* process.pe.imphash
@@ -12594,7 +12594,7 @@ export interface EcsFields {
 	* Description: A hash of the imports in a PE file. An imphash -- or import hash -- can be used to fingerprint binaries even after recompilation or other code-level transformations have occurred, which would change more traditional hash values. Learn more at https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html.
 	* Example: 0c6803c4e922103c4dca5963aad36ddf
 	*/
-	"process.pe.imphash": string,
+	"process.pe.imphash"?: string,
 
 	/**
 	* process.pe.original_file_name
@@ -12605,7 +12605,7 @@ export interface EcsFields {
 	* Description: Internal name of the file, provided at compile-time.
 	* Example: MSPAINT.EXE
 	*/
-	"process.pe.original_file_name": string,
+	"process.pe.original_file_name"?: string,
 
 	/**
 	* process.pe.product
@@ -12616,7 +12616,7 @@ export interface EcsFields {
 	* Description: Internal product name of the file, provided at compile-time.
 	* Example: Microsoft® Windows® Operating System
 	*/
-	"process.pe.product": string,
+	"process.pe.product"?: string,
 
 	/**
 	* process.pgid
@@ -12627,7 +12627,7 @@ export interface EcsFields {
 	* Description: Identifier of the group of processes the process belongs to.
 	* Example: <None>
 	*/
-	"process.pgid": number,
+	"process.pgid"?: number,
 
 	/**
 	* process.pid
@@ -12638,7 +12638,7 @@ export interface EcsFields {
 	* Description: Process id.
 	* Example: 4242
 	*/
-	"process.pid": number,
+	"process.pid"?: number,
 
 	/**
 	* process.ppid
@@ -12649,7 +12649,7 @@ export interface EcsFields {
 	* Description: Parent process' pid.
 	* Example: 4241
 	*/
-	"process.ppid": number,
+	"process.ppid"?: number,
 
 	/**
 	* process.start
@@ -12660,7 +12660,7 @@ export interface EcsFields {
 	* Description: The time the process started.
 	* Example: 2016-05-23T08:05:34.853Z
 	*/
-	"process.start": Date,
+	"process.start"?: Date,
 
 	/**
 	* process.thread.id
@@ -12671,7 +12671,7 @@ export interface EcsFields {
 	* Description: Thread ID.
 	* Example: 4242
 	*/
-	"process.thread.id": number,
+	"process.thread.id"?: number,
 
 	/**
 	* process.thread.name
@@ -12682,7 +12682,7 @@ export interface EcsFields {
 	* Description: Thread name.
 	* Example: thread-0
 	*/
-	"process.thread.name": string,
+	"process.thread.name"?: string,
 
 	/**
 	* process.title
@@ -12693,7 +12693,7 @@ export interface EcsFields {
 	* Description: Process title. The proctitle, some times the same as process name. Can also be different: for example a browser setting its title to the web page currently opened.
 	* Example: <None>
 	*/
-	"process.title": string,
+	"process.title"?: string,
 
 	/**
 	* process.uptime
@@ -12704,7 +12704,7 @@ export interface EcsFields {
 	* Description: Seconds the process has been up.
 	* Example: 1325
 	*/
-	"process.uptime": number,
+	"process.uptime"?: number,
 
 	/**
 	* process.working_directory
@@ -12715,7 +12715,7 @@ export interface EcsFields {
 	* Description: The working directory of the process.
 	* Example: /home/alice
 	*/
-	"process.working_directory": string,
+	"process.working_directory"?: string,
 
 	/**
 	* registry.data.bytes
@@ -12726,7 +12726,7 @@ export interface EcsFields {
 	* Description: Original bytes written with base64 encoding. For Windows registry operations, such as SetValueEx and RegQueryValueEx, this corresponds to the data pointed by `lp_data`. This is optional but provides better recoverability and should be populated for REG_BINARY encoded values.
 	* Example: ZQBuAC0AVQBTAAAAZQBuAAAAAAA=
 	*/
-	"registry.data.bytes": string,
+	"registry.data.bytes"?: string,
 
 	/**
 	* registry.data.strings
@@ -12737,7 +12737,7 @@ export interface EcsFields {
 	* Description: Content when writing string types. Populated as an array when writing string data to the registry. For single string registry types (REG_SZ, REG_EXPAND_SZ), this should be an array with one string. For sequences of string with REG_MULTI_SZ, this array will be variable length. For numeric data, such as REG_DWORD and REG_QWORD, this should be populated with the decimal representation (e.g `"1"`).
 	* Example: ["C:\rta\red_ttp\bin\myapp.exe"]
 	*/
-	"registry.data.strings": string[],
+	"registry.data.strings"?: string[],
 
 	/**
 	* registry.data.type
@@ -12748,7 +12748,7 @@ export interface EcsFields {
 	* Description: Standard registry type for encoding contents
 	* Example: REG_SZ
 	*/
-	"registry.data.type": string,
+	"registry.data.type"?: string,
 
 	/**
 	* registry.hive
@@ -12759,7 +12759,7 @@ export interface EcsFields {
 	* Description: Abbreviated name for the hive.
 	* Example: HKLM
 	*/
-	"registry.hive": string,
+	"registry.hive"?: string,
 
 	/**
 	* registry.key
@@ -12770,7 +12770,7 @@ export interface EcsFields {
 	* Description: Hive-relative path of keys.
 	* Example: SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\winword.exe
 	*/
-	"registry.key": string,
+	"registry.key"?: string,
 
 	/**
 	* registry.path
@@ -12781,7 +12781,7 @@ export interface EcsFields {
 	* Description: Full path, including hive, key and value
 	* Example: HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\winword.exe\Debugger
 	*/
-	"registry.path": string,
+	"registry.path"?: string,
 
 	/**
 	* registry.value
@@ -12792,7 +12792,7 @@ export interface EcsFields {
 	* Description: Name of the value written.
 	* Example: Debugger
 	*/
-	"registry.value": string,
+	"registry.value"?: string,
 
 	/**
 	* related.hash
@@ -12803,7 +12803,7 @@ export interface EcsFields {
 	* Description: All the hashes seen on your event. Populating this field, then using it to search for hashes can help in situations where you're unsure what the hash algorithm is (and therefore which key name to search).
 	* Example: <None>
 	*/
-	"related.hash": string[],
+	"related.hash"?: string[],
 
 	/**
 	* related.hosts
@@ -12814,7 +12814,7 @@ export interface EcsFields {
 	* Description: All hostnames or other host identifiers seen on your event. Example identifiers include FQDNs, domain names, workstation names, or aliases.
 	* Example: <None>
 	*/
-	"related.hosts": string[],
+	"related.hosts"?: string[],
 
 	/**
 	* related.ip
@@ -12825,7 +12825,7 @@ export interface EcsFields {
 	* Description: All of the IPs seen on your event.
 	* Example: <None>
 	*/
-	"related.ip": string[],
+	"related.ip"?: string[],
 
 	/**
 	* related.user
@@ -12836,7 +12836,7 @@ export interface EcsFields {
 	* Description: All the user names seen on your event.
 	* Example: <None>
 	*/
-	"related.user": string[],
+	"related.user"?: string[],
 
 	/**
 	* rule.author
@@ -12847,7 +12847,7 @@ export interface EcsFields {
 	* Description: Name, organization, or pseudonym of the author or authors who created the rule used to generate this event.
 	* Example: ["Star-Lord"]
 	*/
-	"rule.author": string[],
+	"rule.author"?: string[],
 
 	/**
 	* rule.category
@@ -12858,7 +12858,7 @@ export interface EcsFields {
 	* Description: A categorization value keyword used by the entity using the rule for detection of this event.
 	* Example: Attempted Information Leak
 	*/
-	"rule.category": string,
+	"rule.category"?: string,
 
 	/**
 	* rule.description
@@ -12869,7 +12869,7 @@ export interface EcsFields {
 	* Description: The description of the rule generating the event.
 	* Example: Block requests to public DNS over HTTPS / TLS protocols
 	*/
-	"rule.description": string,
+	"rule.description"?: string,
 
 	/**
 	* rule.id
@@ -12880,7 +12880,7 @@ export interface EcsFields {
 	* Description: A rule ID that is unique within the scope of an agent, observer, or other entity using the rule for detection of this event.
 	* Example: 101
 	*/
-	"rule.id": string,
+	"rule.id"?: string,
 
 	/**
 	* rule.license
@@ -12891,7 +12891,7 @@ export interface EcsFields {
 	* Description: Name of the license under which the rule used to generate this event is made available.
 	* Example: Apache 2.0
 	*/
-	"rule.license": string,
+	"rule.license"?: string,
 
 	/**
 	* rule.name
@@ -12902,7 +12902,7 @@ export interface EcsFields {
 	* Description: The name of the rule or signature generating the event.
 	* Example: BLOCK_DNS_over_TLS
 	*/
-	"rule.name": string,
+	"rule.name"?: string,
 
 	/**
 	* rule.reference
@@ -12913,7 +12913,7 @@ export interface EcsFields {
 	* Description: Reference URL to additional information about the rule used to generate this event. The URL can point to the vendor's documentation about the rule. If that's not available, it can also be a link to a more general page describing this type of alert.
 	* Example: https://en.wikipedia.org/wiki/DNS_over_TLS
 	*/
-	"rule.reference": string,
+	"rule.reference"?: string,
 
 	/**
 	* rule.ruleset
@@ -12924,7 +12924,7 @@ export interface EcsFields {
 	* Description: Name of the ruleset, policy, group, or parent category in which the rule used to generate this event is a member.
 	* Example: Standard_Protocol_Filters
 	*/
-	"rule.ruleset": string,
+	"rule.ruleset"?: string,
 
 	/**
 	* rule.uuid
@@ -12935,7 +12935,7 @@ export interface EcsFields {
 	* Description: A rule ID that is unique within the scope of a set or group of agents, observers, or other entities using the rule for detection of this event.
 	* Example: 1100110011
 	*/
-	"rule.uuid": string,
+	"rule.uuid"?: string,
 
 	/**
 	* rule.version
@@ -12946,7 +12946,7 @@ export interface EcsFields {
 	* Description: The version / revision of the rule being used for analysis.
 	* Example: 1.1
 	*/
-	"rule.version": string,
+	"rule.version"?: string,
 
 	/**
 	* server.address
@@ -12957,7 +12957,7 @@ export interface EcsFields {
 	* Description: Some event server addresses are defined ambiguously. The event will sometimes list an IP, a domain or a unix socket.  You should always store the raw address in the `.address` field. Then it should be duplicated to `.ip` or `.domain`, depending on which one it is.
 	* Example: <None>
 	*/
-	"server.address": string,
+	"server.address"?: string,
 
 	/**
 	* server.as.number
@@ -12968,7 +12968,7 @@ export interface EcsFields {
 	* Description: Unique number allocated to the autonomous system. The autonomous system number (ASN) uniquely identifies each network on the Internet.
 	* Example: 15169
 	*/
-	"server.as.number": number,
+	"server.as.number"?: number,
 
 	/**
 	* server.as.organization.name
@@ -12979,7 +12979,7 @@ export interface EcsFields {
 	* Description: Organization name.
 	* Example: Google LLC
 	*/
-	"server.as.organization.name": string,
+	"server.as.organization.name"?: string,
 
 	/**
 	* server.bytes
@@ -12990,7 +12990,7 @@ export interface EcsFields {
 	* Description: Bytes sent from the server to the client.
 	* Example: 184
 	*/
-	"server.bytes": number,
+	"server.bytes"?: number,
 
 	/**
 	* server.domain
@@ -13001,7 +13001,7 @@ export interface EcsFields {
 	* Description: Server domain.
 	* Example: <None>
 	*/
-	"server.domain": string,
+	"server.domain"?: string,
 
 	/**
 	* server.geo.city_name
@@ -13012,7 +13012,7 @@ export interface EcsFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"server.geo.city_name": string,
+	"server.geo.city_name"?: string,
 
 	/**
 	* server.geo.continent_name
@@ -13023,7 +13023,7 @@ export interface EcsFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"server.geo.continent_name": string,
+	"server.geo.continent_name"?: string,
 
 	/**
 	* server.geo.country_iso_code
@@ -13034,7 +13034,7 @@ export interface EcsFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"server.geo.country_iso_code": string,
+	"server.geo.country_iso_code"?: string,
 
 	/**
 	* server.geo.country_name
@@ -13045,7 +13045,7 @@ export interface EcsFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"server.geo.country_name": string,
+	"server.geo.country_name"?: string,
 
 	/**
 	* server.geo.location
@@ -13056,7 +13056,7 @@ export interface EcsFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"server.geo.location": GeoPoint,
+	"server.geo.location"?: GeoPoint,
 
 	/**
 	* server.geo.name
@@ -13068,7 +13068,7 @@ export interface EcsFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"server.geo.name": string,
+	"server.geo.name"?: string,
 
 	/**
 	* server.geo.region_iso_code
@@ -13079,7 +13079,7 @@ export interface EcsFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"server.geo.region_iso_code": string,
+	"server.geo.region_iso_code"?: string,
 
 	/**
 	* server.geo.region_name
@@ -13090,7 +13090,7 @@ export interface EcsFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"server.geo.region_name": string,
+	"server.geo.region_name"?: string,
 
 	/**
 	* server.ip
@@ -13101,7 +13101,7 @@ export interface EcsFields {
 	* Description: IP address of the server (IPv4 or IPv6).
 	* Example: <None>
 	*/
-	"server.ip": string,
+	"server.ip"?: string,
 
 	/**
 	* server.mac
@@ -13112,7 +13112,7 @@ export interface EcsFields {
 	* Description: MAC address of the server.
 	* Example: <None>
 	*/
-	"server.mac": string,
+	"server.mac"?: string,
 
 	/**
 	* server.nat.ip
@@ -13123,7 +13123,7 @@ export interface EcsFields {
 	* Description: Translated ip of destination based NAT sessions (e.g. internet to private DMZ) Typically used with load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"server.nat.ip": string,
+	"server.nat.ip"?: string,
 
 	/**
 	* server.nat.port
@@ -13134,7 +13134,7 @@ export interface EcsFields {
 	* Description: Translated port of destination based NAT sessions (e.g. internet to private DMZ) Typically used with load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"server.nat.port": number,
+	"server.nat.port"?: number,
 
 	/**
 	* server.packets
@@ -13145,7 +13145,7 @@ export interface EcsFields {
 	* Description: Packets sent from the server to the client.
 	* Example: 12
 	*/
-	"server.packets": number,
+	"server.packets"?: number,
 
 	/**
 	* server.port
@@ -13156,7 +13156,7 @@ export interface EcsFields {
 	* Description: Port of the server.
 	* Example: <None>
 	*/
-	"server.port": number,
+	"server.port"?: number,
 
 	/**
 	* server.registered_domain
@@ -13168,7 +13168,7 @@ export interface EcsFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"server.registered_domain": string,
+	"server.registered_domain"?: string,
 
 	/**
 	* server.subdomain
@@ -13179,7 +13179,7 @@ export interface EcsFields {
 	* Description: The subdomain portion of a fully qualified domain name includes all of the names except the host name under the registered_domain.  In a partially qualified domain, or if the the qualification level of the full name cannot be determined, subdomain contains all of the names below the registered domain. For example the subdomain portion of "www.east.mydomain.co.uk" is "east". If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: east
 	*/
-	"server.subdomain": string,
+	"server.subdomain"?: string,
 
 	/**
 	* server.top_level_domain
@@ -13190,7 +13190,7 @@ export interface EcsFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"server.top_level_domain": string,
+	"server.top_level_domain"?: string,
 
 	/**
 	* server.user.domain
@@ -13201,7 +13201,7 @@ export interface EcsFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"server.user.domain": string,
+	"server.user.domain"?: string,
 
 	/**
 	* server.user.email
@@ -13212,7 +13212,7 @@ export interface EcsFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"server.user.email": string,
+	"server.user.email"?: string,
 
 	/**
 	* server.user.full_name
@@ -13223,7 +13223,7 @@ export interface EcsFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"server.user.full_name": string,
+	"server.user.full_name"?: string,
 
 	/**
 	* server.user.group.domain
@@ -13234,7 +13234,7 @@ export interface EcsFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"server.user.group.domain": string,
+	"server.user.group.domain"?: string,
 
 	/**
 	* server.user.group.id
@@ -13245,7 +13245,7 @@ export interface EcsFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"server.user.group.id": string,
+	"server.user.group.id"?: string,
 
 	/**
 	* server.user.group.name
@@ -13256,7 +13256,7 @@ export interface EcsFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"server.user.group.name": string,
+	"server.user.group.name"?: string,
 
 	/**
 	* server.user.hash
@@ -13267,7 +13267,7 @@ export interface EcsFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"server.user.hash": string,
+	"server.user.hash"?: string,
 
 	/**
 	* server.user.id
@@ -13278,7 +13278,7 @@ export interface EcsFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"server.user.id": string,
+	"server.user.id"?: string,
 
 	/**
 	* server.user.name
@@ -13289,7 +13289,7 @@ export interface EcsFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"server.user.name": string,
+	"server.user.name"?: string,
 
 	/**
 	* server.user.roles
@@ -13300,7 +13300,7 @@ export interface EcsFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"server.user.roles": string,
+	"server.user.roles"?: string,
 
 	/**
 	* service.ephemeral_id
@@ -13311,7 +13311,7 @@ export interface EcsFields {
 	* Description: Ephemeral identifier of this service (if one exists). This id normally changes across restarts, but `service.id` does not.
 	* Example: 8a4f500f
 	*/
-	"service.ephemeral_id": string,
+	"service.ephemeral_id"?: string,
 
 	/**
 	* service.id
@@ -13323,7 +13323,7 @@ export interface EcsFields {
 	Note that if you need to see the events from one specific host of the service, you should filter on that `host.name` or `host.id` instead.
 	* Example: d37e5ebfe0ae6c4972dbe9f0174a1637bb8247f6
 	*/
-	"service.id": string,
+	"service.id"?: string,
 
 	/**
 	* service.name
@@ -13335,7 +13335,7 @@ export interface EcsFields {
 	In the case of Elasticsearch the `service.name` could contain the cluster name. For Beats the `service.name` is by default a copy of the `service.type` field if no name is specified.
 	* Example: elasticsearch-metrics
 	*/
-	"service.name": string,
+	"service.name"?: string,
 
 	/**
 	* service.node.name
@@ -13347,7 +13347,7 @@ export interface EcsFields {
 	In the case of Elasticsearch, the `service.node.name` could contain the unique node name within the Elasticsearch cluster. In cases where the service doesn't have the concept of a node name, the host name or container name can be used to distinguish running instances that make up this service. If those do not provide uniqueness (e.g. multiple instances of the service running on the same host) - the node name can be manually set.
 	* Example: instance-0000000016
 	*/
-	"service.node.name": string,
+	"service.node.name"?: string,
 
 	/**
 	* service.state
@@ -13358,7 +13358,7 @@ export interface EcsFields {
 	* Description: Current state of the service.
 	* Example: <None>
 	*/
-	"service.state": string,
+	"service.state"?: string,
 
 	/**
 	* service.type
@@ -13370,7 +13370,7 @@ export interface EcsFields {
 	Example: If logs or metrics are collected from Elasticsearch, `service.type` would be `elasticsearch`.
 	* Example: elasticsearch
 	*/
-	"service.type": string,
+	"service.type"?: string,
 
 	/**
 	* service.version
@@ -13381,7 +13381,7 @@ export interface EcsFields {
 	* Description: Version of the service the data was collected from. This allows to look at a data set only for a specific version of a service.
 	* Example: 3.2.4
 	*/
-	"service.version": string,
+	"service.version"?: string,
 
 	/**
 	* source.address
@@ -13392,7 +13392,7 @@ export interface EcsFields {
 	* Description: Some event source addresses are defined ambiguously. The event will sometimes list an IP, a domain or a unix socket.  You should always store the raw address in the `.address` field. Then it should be duplicated to `.ip` or `.domain`, depending on which one it is.
 	* Example: <None>
 	*/
-	"source.address": string,
+	"source.address"?: string,
 
 	/**
 	* source.as.number
@@ -13403,7 +13403,7 @@ export interface EcsFields {
 	* Description: Unique number allocated to the autonomous system. The autonomous system number (ASN) uniquely identifies each network on the Internet.
 	* Example: 15169
 	*/
-	"source.as.number": number,
+	"source.as.number"?: number,
 
 	/**
 	* source.as.organization.name
@@ -13414,7 +13414,7 @@ export interface EcsFields {
 	* Description: Organization name.
 	* Example: Google LLC
 	*/
-	"source.as.organization.name": string,
+	"source.as.organization.name"?: string,
 
 	/**
 	* source.bytes
@@ -13425,7 +13425,7 @@ export interface EcsFields {
 	* Description: Bytes sent from the source to the destination.
 	* Example: 184
 	*/
-	"source.bytes": number,
+	"source.bytes"?: number,
 
 	/**
 	* source.domain
@@ -13436,7 +13436,7 @@ export interface EcsFields {
 	* Description: Source domain.
 	* Example: <None>
 	*/
-	"source.domain": string,
+	"source.domain"?: string,
 
 	/**
 	* source.geo.city_name
@@ -13447,7 +13447,7 @@ export interface EcsFields {
 	* Description: City name.
 	* Example: Montreal
 	*/
-	"source.geo.city_name": string,
+	"source.geo.city_name"?: string,
 
 	/**
 	* source.geo.continent_name
@@ -13458,7 +13458,7 @@ export interface EcsFields {
 	* Description: Name of the continent.
 	* Example: North America
 	*/
-	"source.geo.continent_name": string,
+	"source.geo.continent_name"?: string,
 
 	/**
 	* source.geo.country_iso_code
@@ -13469,7 +13469,7 @@ export interface EcsFields {
 	* Description: Country ISO code.
 	* Example: CA
 	*/
-	"source.geo.country_iso_code": string,
+	"source.geo.country_iso_code"?: string,
 
 	/**
 	* source.geo.country_name
@@ -13480,7 +13480,7 @@ export interface EcsFields {
 	* Description: Country name.
 	* Example: Canada
 	*/
-	"source.geo.country_name": string,
+	"source.geo.country_name"?: string,
 
 	/**
 	* source.geo.location
@@ -13491,7 +13491,7 @@ export interface EcsFields {
 	* Description: Longitude and latitude.
 	* Example: { "lon": -73.614830, "lat": 45.505918 }
 	*/
-	"source.geo.location": GeoPoint,
+	"source.geo.location"?: GeoPoint,
 
 	/**
 	* source.geo.name
@@ -13503,7 +13503,7 @@ export interface EcsFields {
 	Not typically used in automated geolocation.
 	* Example: boston-dc
 	*/
-	"source.geo.name": string,
+	"source.geo.name"?: string,
 
 	/**
 	* source.geo.region_iso_code
@@ -13514,7 +13514,7 @@ export interface EcsFields {
 	* Description: Region ISO code.
 	* Example: CA-QC
 	*/
-	"source.geo.region_iso_code": string,
+	"source.geo.region_iso_code"?: string,
 
 	/**
 	* source.geo.region_name
@@ -13525,7 +13525,7 @@ export interface EcsFields {
 	* Description: Region name.
 	* Example: Quebec
 	*/
-	"source.geo.region_name": string,
+	"source.geo.region_name"?: string,
 
 	/**
 	* source.ip
@@ -13536,7 +13536,7 @@ export interface EcsFields {
 	* Description: IP address of the source (IPv4 or IPv6).
 	* Example: <None>
 	*/
-	"source.ip": string,
+	"source.ip"?: string,
 
 	/**
 	* source.mac
@@ -13547,7 +13547,7 @@ export interface EcsFields {
 	* Description: MAC address of the source.
 	* Example: <None>
 	*/
-	"source.mac": string,
+	"source.mac"?: string,
 
 	/**
 	* source.nat.ip
@@ -13558,7 +13558,7 @@ export interface EcsFields {
 	* Description: Translated ip of source based NAT sessions (e.g. internal client to internet) Typically connections traversing load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"source.nat.ip": string,
+	"source.nat.ip"?: string,
 
 	/**
 	* source.nat.port
@@ -13569,7 +13569,7 @@ export interface EcsFields {
 	* Description: Translated port of source based NAT sessions. (e.g. internal client to internet) Typically used with load balancers, firewalls, or routers.
 	* Example: <None>
 	*/
-	"source.nat.port": number,
+	"source.nat.port"?: number,
 
 	/**
 	* source.packets
@@ -13580,7 +13580,7 @@ export interface EcsFields {
 	* Description: Packets sent from the source to the destination.
 	* Example: 12
 	*/
-	"source.packets": number,
+	"source.packets"?: number,
 
 	/**
 	* source.port
@@ -13591,7 +13591,7 @@ export interface EcsFields {
 	* Description: Port of the source.
 	* Example: <None>
 	*/
-	"source.port": number,
+	"source.port"?: number,
 
 	/**
 	* source.registered_domain
@@ -13603,7 +13603,7 @@ export interface EcsFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"source.registered_domain": string,
+	"source.registered_domain"?: string,
 
 	/**
 	* source.subdomain
@@ -13614,7 +13614,7 @@ export interface EcsFields {
 	* Description: The subdomain portion of a fully qualified domain name includes all of the names except the host name under the registered_domain.  In a partially qualified domain, or if the the qualification level of the full name cannot be determined, subdomain contains all of the names below the registered domain. For example the subdomain portion of "www.east.mydomain.co.uk" is "east". If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: east
 	*/
-	"source.subdomain": string,
+	"source.subdomain"?: string,
 
 	/**
 	* source.top_level_domain
@@ -13625,7 +13625,7 @@ export interface EcsFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"source.top_level_domain": string,
+	"source.top_level_domain"?: string,
 
 	/**
 	* source.user.domain
@@ -13636,7 +13636,7 @@ export interface EcsFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"source.user.domain": string,
+	"source.user.domain"?: string,
 
 	/**
 	* source.user.email
@@ -13647,7 +13647,7 @@ export interface EcsFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"source.user.email": string,
+	"source.user.email"?: string,
 
 	/**
 	* source.user.full_name
@@ -13658,7 +13658,7 @@ export interface EcsFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"source.user.full_name": string,
+	"source.user.full_name"?: string,
 
 	/**
 	* source.user.group.domain
@@ -13669,7 +13669,7 @@ export interface EcsFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"source.user.group.domain": string,
+	"source.user.group.domain"?: string,
 
 	/**
 	* source.user.group.id
@@ -13680,7 +13680,7 @@ export interface EcsFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"source.user.group.id": string,
+	"source.user.group.id"?: string,
 
 	/**
 	* source.user.group.name
@@ -13691,7 +13691,7 @@ export interface EcsFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"source.user.group.name": string,
+	"source.user.group.name"?: string,
 
 	/**
 	* source.user.hash
@@ -13702,7 +13702,7 @@ export interface EcsFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"source.user.hash": string,
+	"source.user.hash"?: string,
 
 	/**
 	* source.user.id
@@ -13713,7 +13713,7 @@ export interface EcsFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"source.user.id": string,
+	"source.user.id"?: string,
 
 	/**
 	* source.user.name
@@ -13724,7 +13724,7 @@ export interface EcsFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"source.user.name": string,
+	"source.user.name"?: string,
 
 	/**
 	* source.user.roles
@@ -13735,7 +13735,7 @@ export interface EcsFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"source.user.roles": string,
+	"source.user.roles"?: string,
 
 	/**
 	* span.id
@@ -13746,7 +13746,7 @@ export interface EcsFields {
 	* Description: Unique identifier of the span within the scope of its trace. A span represents an operation within a transaction, such as a request to another service, or a database query.
 	* Example: 3ff9a8981b7ccd5a
 	*/
-	"span.id": string,
+	"span.id"?: string,
 
 	/**
 	* tags
@@ -13757,7 +13757,7 @@ export interface EcsFields {
 	* Description: List of keywords used to tag each event.
 	* Example: ["production", "env2"]
 	*/
-	"tags": string[],
+	"tags"?: string[],
 
 	/**
 	* threat.framework
@@ -13768,7 +13768,7 @@ export interface EcsFields {
 	* Description: Name of the threat framework used to further categorize and classify the tactic and technique of the reported threat. Framework classification can be provided by detecting systems, evaluated at ingest time, or retrospectively tagged to events.
 	* Example: MITRE ATT&CK
 	*/
-	"threat.framework": string,
+	"threat.framework"?: string,
 
 	/**
 	* threat.tactic.id
@@ -13779,7 +13779,7 @@ export interface EcsFields {
 	* Description: The id of tactic used by this threat. You can use a MITRE ATT&CK® tactic, for example. (ex. https://attack.mitre.org/tactics/TA0002/ )
 	* Example: TA0002
 	*/
-	"threat.tactic.id": string[],
+	"threat.tactic.id"?: string[],
 
 	/**
 	* threat.tactic.name
@@ -13790,7 +13790,7 @@ export interface EcsFields {
 	* Description: Name of the type of tactic used by this threat. You can use a MITRE ATT&CK® tactic, for example. (ex. https://attack.mitre.org/tactics/TA0002/)
 	* Example: Execution
 	*/
-	"threat.tactic.name": string[],
+	"threat.tactic.name"?: string[],
 
 	/**
 	* threat.tactic.reference
@@ -13801,7 +13801,7 @@ export interface EcsFields {
 	* Description: The reference url of tactic used by this threat. You can use a MITRE ATT&CK® tactic, for example. (ex. https://attack.mitre.org/tactics/TA0002/ )
 	* Example: https://attack.mitre.org/tactics/TA0002/
 	*/
-	"threat.tactic.reference": string[],
+	"threat.tactic.reference"?: string[],
 
 	/**
 	* threat.technique.id
@@ -13812,7 +13812,7 @@ export interface EcsFields {
 	* Description: The id of technique used by this threat. You can use a MITRE ATT&CK® technique, for example. (ex. https://attack.mitre.org/techniques/T1059/)
 	* Example: T1059
 	*/
-	"threat.technique.id": string[],
+	"threat.technique.id"?: string[],
 
 	/**
 	* threat.technique.name
@@ -13823,7 +13823,7 @@ export interface EcsFields {
 	* Description: The name of technique used by this threat. You can use a MITRE ATT&CK® technique, for example. (ex. https://attack.mitre.org/techniques/T1059/)
 	* Example: Command and Scripting Interpreter
 	*/
-	"threat.technique.name": string[],
+	"threat.technique.name"?: string[],
 
 	/**
 	* threat.technique.reference
@@ -13834,7 +13834,7 @@ export interface EcsFields {
 	* Description: The reference url of technique used by this threat. You can use a MITRE ATT&CK® technique, for example. (ex. https://attack.mitre.org/techniques/T1059/)
 	* Example: https://attack.mitre.org/techniques/T1059/
 	*/
-	"threat.technique.reference": string[],
+	"threat.technique.reference"?: string[],
 
 	/**
 	* threat.technique.subtechnique.id
@@ -13845,7 +13845,7 @@ export interface EcsFields {
 	* Description: The full id of subtechnique used by this threat. You can use a MITRE ATT&CK® subtechnique, for example. (ex. https://attack.mitre.org/techniques/T1059/001/)
 	* Example: T1059.001
 	*/
-	"threat.technique.subtechnique.id": string[],
+	"threat.technique.subtechnique.id"?: string[],
 
 	/**
 	* threat.technique.subtechnique.name
@@ -13856,7 +13856,7 @@ export interface EcsFields {
 	* Description: The name of subtechnique used by this threat. You can use a MITRE ATT&CK® subtechnique, for example. (ex. https://attack.mitre.org/techniques/T1059/001/)
 	* Example: PowerShell
 	*/
-	"threat.technique.subtechnique.name": string[],
+	"threat.technique.subtechnique.name"?: string[],
 
 	/**
 	* threat.technique.subtechnique.reference
@@ -13867,7 +13867,7 @@ export interface EcsFields {
 	* Description: The reference url of subtechnique used by this threat. You can use a MITRE ATT&CK® subtechnique, for example. (ex. https://attack.mitre.org/techniques/T1059/001/)
 	* Example: https://attack.mitre.org/techniques/T1059/001/
 	*/
-	"threat.technique.subtechnique.reference": string[],
+	"threat.technique.subtechnique.reference"?: string[],
 
 	/**
 	* tls.cipher
@@ -13878,7 +13878,7 @@ export interface EcsFields {
 	* Description: String indicating the cipher used during the current connection.
 	* Example: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
 	*/
-	"tls.cipher": string,
+	"tls.cipher"?: string,
 
 	/**
 	* tls.client.certificate
@@ -13889,7 +13889,7 @@ export interface EcsFields {
 	* Description: PEM-encoded stand-alone certificate offered by the client. This is usually mutually-exclusive of `client.certificate_chain` since this value also exists in that list.
 	* Example: MII...
 	*/
-	"tls.client.certificate": string,
+	"tls.client.certificate"?: string,
 
 	/**
 	* tls.client.certificate_chain
@@ -13900,7 +13900,7 @@ export interface EcsFields {
 	* Description: Array of PEM-encoded certificates that make up the certificate chain offered by the client. This is usually mutually-exclusive of `client.certificate` since that value should be the first certificate in the chain.
 	* Example: ["MII...", "MII..."]
 	*/
-	"tls.client.certificate_chain": string[],
+	"tls.client.certificate_chain"?: string[],
 
 	/**
 	* tls.client.hash.md5
@@ -13911,7 +13911,7 @@ export interface EcsFields {
 	* Description: Certificate fingerprint using the MD5 digest of DER-encoded version of certificate offered by the client. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 0F76C7F2C55BFD7D8E8B8F4BFBF0C9EC
 	*/
-	"tls.client.hash.md5": string,
+	"tls.client.hash.md5"?: string,
 
 	/**
 	* tls.client.hash.sha1
@@ -13922,7 +13922,7 @@ export interface EcsFields {
 	* Description: Certificate fingerprint using the SHA1 digest of DER-encoded version of certificate offered by the client. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 9E393D93138888D288266C2D915214D1D1CCEB2A
 	*/
-	"tls.client.hash.sha1": string,
+	"tls.client.hash.sha1"?: string,
 
 	/**
 	* tls.client.hash.sha256
@@ -13933,7 +13933,7 @@ export interface EcsFields {
 	* Description: Certificate fingerprint using the SHA256 digest of DER-encoded version of certificate offered by the client. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 0687F666A054EF17A08E2F2162EAB4CBC0D265E1D7875BE74BF3C712CA92DAF0
 	*/
-	"tls.client.hash.sha256": string,
+	"tls.client.hash.sha256"?: string,
 
 	/**
 	* tls.client.issuer
@@ -13944,7 +13944,7 @@ export interface EcsFields {
 	* Description: Distinguished name of subject of the issuer of the x.509 certificate presented by the client.
 	* Example: CN=Example Root CA, OU=Infrastructure Team, DC=example, DC=com
 	*/
-	"tls.client.issuer": string,
+	"tls.client.issuer"?: string,
 
 	/**
 	* tls.client.ja3
@@ -13955,7 +13955,7 @@ export interface EcsFields {
 	* Description: A hash that identifies clients based on how they perform an SSL/TLS handshake.
 	* Example: d4e5b18d6b55c71272893221c96ba240
 	*/
-	"tls.client.ja3": string,
+	"tls.client.ja3"?: string,
 
 	/**
 	* tls.client.not_after
@@ -13966,7 +13966,7 @@ export interface EcsFields {
 	* Description: Date/Time indicating when client certificate is no longer considered valid.
 	* Example: 2021-01-01T00:00:00.000Z
 	*/
-	"tls.client.not_after": Date,
+	"tls.client.not_after"?: Date,
 
 	/**
 	* tls.client.not_before
@@ -13977,7 +13977,7 @@ export interface EcsFields {
 	* Description: Date/Time indicating when client certificate is first considered valid.
 	* Example: 1970-01-01T00:00:00.000Z
 	*/
-	"tls.client.not_before": Date,
+	"tls.client.not_before"?: Date,
 
 	/**
 	* tls.client.server_name
@@ -13988,7 +13988,7 @@ export interface EcsFields {
 	* Description: Also called an SNI, this tells the server which hostname to which the client is attempting to connect to. When this value is available, it should get copied to `destination.domain`.
 	* Example: www.elastic.co
 	*/
-	"tls.client.server_name": string,
+	"tls.client.server_name"?: string,
 
 	/**
 	* tls.client.subject
@@ -13999,7 +13999,7 @@ export interface EcsFields {
 	* Description: Distinguished name of subject of the x.509 certificate presented by the client.
 	* Example: CN=myclient, OU=Documentation Team, DC=example, DC=com
 	*/
-	"tls.client.subject": string,
+	"tls.client.subject"?: string,
 
 	/**
 	* tls.client.supported_ciphers
@@ -14010,7 +14010,7 @@ export interface EcsFields {
 	* Description: Array of ciphers offered by the client during the client hello.
 	* Example: ["TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384", "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384", "..."]
 	*/
-	"tls.client.supported_ciphers": string[],
+	"tls.client.supported_ciphers"?: string[],
 
 	/**
 	* tls.client.x509.alternative_names
@@ -14021,7 +14021,7 @@ export interface EcsFields {
 	* Description: List of subject alternative names (SAN). Name types vary by certificate authority and certificate type but commonly contain IP addresses, DNS names (and wildcards), and email addresses.
 	* Example: *.elastic.co
 	*/
-	"tls.client.x509.alternative_names": string,
+	"tls.client.x509.alternative_names"?: string,
 
 	/**
 	* tls.client.x509.issuer.common_name
@@ -14032,7 +14032,7 @@ export interface EcsFields {
 	* Description: List of common name (CN) of issuing certificate authority.
 	* Example: Example SHA2 High Assurance Server CA
 	*/
-	"tls.client.x509.issuer.common_name": string,
+	"tls.client.x509.issuer.common_name"?: string,
 
 	/**
 	* tls.client.x509.issuer.country
@@ -14043,7 +14043,7 @@ export interface EcsFields {
 	* Description: List of country (C) codes
 	* Example: US
 	*/
-	"tls.client.x509.issuer.country": string,
+	"tls.client.x509.issuer.country"?: string,
 
 	/**
 	* tls.client.x509.issuer.distinguished_name
@@ -14054,7 +14054,7 @@ export interface EcsFields {
 	* Description: Distinguished name (DN) of issuing certificate authority.
 	* Example: C=US, O=Example Inc, OU=www.example.com, CN=Example SHA2 High Assurance Server CA
 	*/
-	"tls.client.x509.issuer.distinguished_name": string,
+	"tls.client.x509.issuer.distinguished_name"?: string,
 
 	/**
 	* tls.client.x509.issuer.locality
@@ -14065,7 +14065,7 @@ export interface EcsFields {
 	* Description: List of locality names (L)
 	* Example: Mountain View
 	*/
-	"tls.client.x509.issuer.locality": string,
+	"tls.client.x509.issuer.locality"?: string,
 
 	/**
 	* tls.client.x509.issuer.organization
@@ -14076,7 +14076,7 @@ export interface EcsFields {
 	* Description: List of organizations (O) of issuing certificate authority.
 	* Example: Example Inc
 	*/
-	"tls.client.x509.issuer.organization": string,
+	"tls.client.x509.issuer.organization"?: string,
 
 	/**
 	* tls.client.x509.issuer.organizational_unit
@@ -14087,7 +14087,7 @@ export interface EcsFields {
 	* Description: List of organizational units (OU) of issuing certificate authority.
 	* Example: www.example.com
 	*/
-	"tls.client.x509.issuer.organizational_unit": string,
+	"tls.client.x509.issuer.organizational_unit"?: string,
 
 	/**
 	* tls.client.x509.issuer.state_or_province
@@ -14098,7 +14098,7 @@ export interface EcsFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"tls.client.x509.issuer.state_or_province": string,
+	"tls.client.x509.issuer.state_or_province"?: string,
 
 	/**
 	* tls.client.x509.not_after
@@ -14109,7 +14109,7 @@ export interface EcsFields {
 	* Description: Time at which the certificate is no longer considered valid.
 	* Example: 2020-07-16 03:15:39+00:00
 	*/
-	"tls.client.x509.not_after": Date,
+	"tls.client.x509.not_after"?: Date,
 
 	/**
 	* tls.client.x509.not_before
@@ -14120,7 +14120,7 @@ export interface EcsFields {
 	* Description: Time at which the certificate is first considered valid.
 	* Example: 2019-08-16 01:40:25+00:00
 	*/
-	"tls.client.x509.not_before": Date,
+	"tls.client.x509.not_before"?: Date,
 
 	/**
 	* tls.client.x509.public_key_algorithm
@@ -14131,7 +14131,7 @@ export interface EcsFields {
 	* Description: Algorithm used to generate the public key.
 	* Example: RSA
 	*/
-	"tls.client.x509.public_key_algorithm": string,
+	"tls.client.x509.public_key_algorithm"?: string,
 
 	/**
 	* tls.client.x509.public_key_curve
@@ -14142,7 +14142,7 @@ export interface EcsFields {
 	* Description: The curve used by the elliptic curve public key algorithm. This is algorithm specific.
 	* Example: nistp521
 	*/
-	"tls.client.x509.public_key_curve": string,
+	"tls.client.x509.public_key_curve"?: string,
 
 	/**
 	* tls.client.x509.public_key_exponent
@@ -14153,7 +14153,7 @@ export interface EcsFields {
 	* Description: Exponent used to derive the public key. This is algorithm specific.
 	* Example: 65537
 	*/
-	"tls.client.x509.public_key_exponent": number,
+	"tls.client.x509.public_key_exponent"?: number,
 
 	/**
 	* tls.client.x509.public_key_size
@@ -14164,7 +14164,7 @@ export interface EcsFields {
 	* Description: The size of the public key space in bits.
 	* Example: 2048
 	*/
-	"tls.client.x509.public_key_size": number,
+	"tls.client.x509.public_key_size"?: number,
 
 	/**
 	* tls.client.x509.serial_number
@@ -14175,7 +14175,7 @@ export interface EcsFields {
 	* Description: Unique serial number issued by the certificate authority. For consistency, if this value is alphanumeric, it should be formatted without colons and uppercase characters.
 	* Example: 55FBB9C7DEBF09809D12CCAA
 	*/
-	"tls.client.x509.serial_number": string,
+	"tls.client.x509.serial_number"?: string,
 
 	/**
 	* tls.client.x509.signature_algorithm
@@ -14186,7 +14186,7 @@ export interface EcsFields {
 	* Description: Identifier for certificate signature algorithm. We recommend using names found in Go Lang Crypto library. See https://github.com/golang/go/blob/go1.14/src/crypto/x509/x509.go#L337-L353.
 	* Example: SHA256-RSA
 	*/
-	"tls.client.x509.signature_algorithm": string,
+	"tls.client.x509.signature_algorithm"?: string,
 
 	/**
 	* tls.client.x509.subject.common_name
@@ -14197,7 +14197,7 @@ export interface EcsFields {
 	* Description: List of common names (CN) of subject.
 	* Example: shared.global.example.net
 	*/
-	"tls.client.x509.subject.common_name": string,
+	"tls.client.x509.subject.common_name"?: string,
 
 	/**
 	* tls.client.x509.subject.country
@@ -14208,7 +14208,7 @@ export interface EcsFields {
 	* Description: List of country (C) code
 	* Example: US
 	*/
-	"tls.client.x509.subject.country": string,
+	"tls.client.x509.subject.country"?: string,
 
 	/**
 	* tls.client.x509.subject.distinguished_name
@@ -14219,7 +14219,7 @@ export interface EcsFields {
 	* Description: Distinguished name (DN) of the certificate subject entity.
 	* Example: C=US, ST=California, L=San Francisco, O=Example, Inc., CN=shared.global.example.net
 	*/
-	"tls.client.x509.subject.distinguished_name": string,
+	"tls.client.x509.subject.distinguished_name"?: string,
 
 	/**
 	* tls.client.x509.subject.locality
@@ -14230,7 +14230,7 @@ export interface EcsFields {
 	* Description: List of locality names (L)
 	* Example: San Francisco
 	*/
-	"tls.client.x509.subject.locality": string,
+	"tls.client.x509.subject.locality"?: string,
 
 	/**
 	* tls.client.x509.subject.organization
@@ -14241,7 +14241,7 @@ export interface EcsFields {
 	* Description: List of organizations (O) of subject.
 	* Example: Example, Inc.
 	*/
-	"tls.client.x509.subject.organization": string,
+	"tls.client.x509.subject.organization"?: string,
 
 	/**
 	* tls.client.x509.subject.organizational_unit
@@ -14252,7 +14252,7 @@ export interface EcsFields {
 	* Description: List of organizational units (OU) of subject.
 	* Example: <None>
 	*/
-	"tls.client.x509.subject.organizational_unit": string,
+	"tls.client.x509.subject.organizational_unit"?: string,
 
 	/**
 	* tls.client.x509.subject.state_or_province
@@ -14263,7 +14263,7 @@ export interface EcsFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"tls.client.x509.subject.state_or_province": string,
+	"tls.client.x509.subject.state_or_province"?: string,
 
 	/**
 	* tls.client.x509.version_number
@@ -14274,7 +14274,7 @@ export interface EcsFields {
 	* Description: Version of x509 format.
 	* Example: 3
 	*/
-	"tls.client.x509.version_number": string,
+	"tls.client.x509.version_number"?: string,
 
 	/**
 	* tls.curve
@@ -14285,7 +14285,7 @@ export interface EcsFields {
 	* Description: String indicating the curve used for the given cipher, when applicable.
 	* Example: secp256r1
 	*/
-	"tls.curve": string,
+	"tls.curve"?: string,
 
 	/**
 	* tls.established
@@ -14296,7 +14296,7 @@ export interface EcsFields {
 	* Description: Boolean flag indicating if the TLS negotiation was successful and transitioned to an encrypted tunnel.
 	* Example: <None>
 	*/
-	"tls.established": boolean,
+	"tls.established"?: boolean,
 
 	/**
 	* tls.next_protocol
@@ -14307,7 +14307,7 @@ export interface EcsFields {
 	* Description: String indicating the protocol being tunneled. Per the values in the IANA registry (https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xhtml#alpn-protocol-ids), this string should be lower case.
 	* Example: http/1.1
 	*/
-	"tls.next_protocol": string,
+	"tls.next_protocol"?: string,
 
 	/**
 	* tls.resumed
@@ -14318,7 +14318,7 @@ export interface EcsFields {
 	* Description: Boolean flag indicating if this TLS connection was resumed from an existing TLS negotiation.
 	* Example: <None>
 	*/
-	"tls.resumed": boolean,
+	"tls.resumed"?: boolean,
 
 	/**
 	* tls.server.certificate
@@ -14329,7 +14329,7 @@ export interface EcsFields {
 	* Description: PEM-encoded stand-alone certificate offered by the server. This is usually mutually-exclusive of `server.certificate_chain` since this value also exists in that list.
 	* Example: MII...
 	*/
-	"tls.server.certificate": string,
+	"tls.server.certificate"?: string,
 
 	/**
 	* tls.server.certificate_chain
@@ -14340,7 +14340,7 @@ export interface EcsFields {
 	* Description: Array of PEM-encoded certificates that make up the certificate chain offered by the server. This is usually mutually-exclusive of `server.certificate` since that value should be the first certificate in the chain.
 	* Example: ["MII...", "MII..."]
 	*/
-	"tls.server.certificate_chain": string[],
+	"tls.server.certificate_chain"?: string[],
 
 	/**
 	* tls.server.hash.md5
@@ -14351,7 +14351,7 @@ export interface EcsFields {
 	* Description: Certificate fingerprint using the MD5 digest of DER-encoded version of certificate offered by the server. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 0F76C7F2C55BFD7D8E8B8F4BFBF0C9EC
 	*/
-	"tls.server.hash.md5": string,
+	"tls.server.hash.md5"?: string,
 
 	/**
 	* tls.server.hash.sha1
@@ -14362,7 +14362,7 @@ export interface EcsFields {
 	* Description: Certificate fingerprint using the SHA1 digest of DER-encoded version of certificate offered by the server. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 9E393D93138888D288266C2D915214D1D1CCEB2A
 	*/
-	"tls.server.hash.sha1": string,
+	"tls.server.hash.sha1"?: string,
 
 	/**
 	* tls.server.hash.sha256
@@ -14373,7 +14373,7 @@ export interface EcsFields {
 	* Description: Certificate fingerprint using the SHA256 digest of DER-encoded version of certificate offered by the server. For consistency with other hash values, this value should be formatted as an uppercase hash.
 	* Example: 0687F666A054EF17A08E2F2162EAB4CBC0D265E1D7875BE74BF3C712CA92DAF0
 	*/
-	"tls.server.hash.sha256": string,
+	"tls.server.hash.sha256"?: string,
 
 	/**
 	* tls.server.issuer
@@ -14384,7 +14384,7 @@ export interface EcsFields {
 	* Description: Subject of the issuer of the x.509 certificate presented by the server.
 	* Example: CN=Example Root CA, OU=Infrastructure Team, DC=example, DC=com
 	*/
-	"tls.server.issuer": string,
+	"tls.server.issuer"?: string,
 
 	/**
 	* tls.server.ja3s
@@ -14395,7 +14395,7 @@ export interface EcsFields {
 	* Description: A hash that identifies servers based on how they perform an SSL/TLS handshake.
 	* Example: 394441ab65754e2207b1e1b457b3641d
 	*/
-	"tls.server.ja3s": string,
+	"tls.server.ja3s"?: string,
 
 	/**
 	* tls.server.not_after
@@ -14406,7 +14406,7 @@ export interface EcsFields {
 	* Description: Timestamp indicating when server certificate is no longer considered valid.
 	* Example: 2021-01-01T00:00:00.000Z
 	*/
-	"tls.server.not_after": Date,
+	"tls.server.not_after"?: Date,
 
 	/**
 	* tls.server.not_before
@@ -14417,7 +14417,7 @@ export interface EcsFields {
 	* Description: Timestamp indicating when server certificate is first considered valid.
 	* Example: 1970-01-01T00:00:00.000Z
 	*/
-	"tls.server.not_before": Date,
+	"tls.server.not_before"?: Date,
 
 	/**
 	* tls.server.subject
@@ -14428,7 +14428,7 @@ export interface EcsFields {
 	* Description: Subject of the x.509 certificate presented by the server.
 	* Example: CN=www.example.com, OU=Infrastructure Team, DC=example, DC=com
 	*/
-	"tls.server.subject": string,
+	"tls.server.subject"?: string,
 
 	/**
 	* tls.server.x509.alternative_names
@@ -14439,7 +14439,7 @@ export interface EcsFields {
 	* Description: List of subject alternative names (SAN). Name types vary by certificate authority and certificate type but commonly contain IP addresses, DNS names (and wildcards), and email addresses.
 	* Example: *.elastic.co
 	*/
-	"tls.server.x509.alternative_names": string,
+	"tls.server.x509.alternative_names"?: string,
 
 	/**
 	* tls.server.x509.issuer.common_name
@@ -14450,7 +14450,7 @@ export interface EcsFields {
 	* Description: List of common name (CN) of issuing certificate authority.
 	* Example: Example SHA2 High Assurance Server CA
 	*/
-	"tls.server.x509.issuer.common_name": string,
+	"tls.server.x509.issuer.common_name"?: string,
 
 	/**
 	* tls.server.x509.issuer.country
@@ -14461,7 +14461,7 @@ export interface EcsFields {
 	* Description: List of country (C) codes
 	* Example: US
 	*/
-	"tls.server.x509.issuer.country": string,
+	"tls.server.x509.issuer.country"?: string,
 
 	/**
 	* tls.server.x509.issuer.distinguished_name
@@ -14472,7 +14472,7 @@ export interface EcsFields {
 	* Description: Distinguished name (DN) of issuing certificate authority.
 	* Example: C=US, O=Example Inc, OU=www.example.com, CN=Example SHA2 High Assurance Server CA
 	*/
-	"tls.server.x509.issuer.distinguished_name": string,
+	"tls.server.x509.issuer.distinguished_name"?: string,
 
 	/**
 	* tls.server.x509.issuer.locality
@@ -14483,7 +14483,7 @@ export interface EcsFields {
 	* Description: List of locality names (L)
 	* Example: Mountain View
 	*/
-	"tls.server.x509.issuer.locality": string,
+	"tls.server.x509.issuer.locality"?: string,
 
 	/**
 	* tls.server.x509.issuer.organization
@@ -14494,7 +14494,7 @@ export interface EcsFields {
 	* Description: List of organizations (O) of issuing certificate authority.
 	* Example: Example Inc
 	*/
-	"tls.server.x509.issuer.organization": string,
+	"tls.server.x509.issuer.organization"?: string,
 
 	/**
 	* tls.server.x509.issuer.organizational_unit
@@ -14505,7 +14505,7 @@ export interface EcsFields {
 	* Description: List of organizational units (OU) of issuing certificate authority.
 	* Example: www.example.com
 	*/
-	"tls.server.x509.issuer.organizational_unit": string,
+	"tls.server.x509.issuer.organizational_unit"?: string,
 
 	/**
 	* tls.server.x509.issuer.state_or_province
@@ -14516,7 +14516,7 @@ export interface EcsFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"tls.server.x509.issuer.state_or_province": string,
+	"tls.server.x509.issuer.state_or_province"?: string,
 
 	/**
 	* tls.server.x509.not_after
@@ -14527,7 +14527,7 @@ export interface EcsFields {
 	* Description: Time at which the certificate is no longer considered valid.
 	* Example: 2020-07-16 03:15:39+00:00
 	*/
-	"tls.server.x509.not_after": Date,
+	"tls.server.x509.not_after"?: Date,
 
 	/**
 	* tls.server.x509.not_before
@@ -14538,7 +14538,7 @@ export interface EcsFields {
 	* Description: Time at which the certificate is first considered valid.
 	* Example: 2019-08-16 01:40:25+00:00
 	*/
-	"tls.server.x509.not_before": Date,
+	"tls.server.x509.not_before"?: Date,
 
 	/**
 	* tls.server.x509.public_key_algorithm
@@ -14549,7 +14549,7 @@ export interface EcsFields {
 	* Description: Algorithm used to generate the public key.
 	* Example: RSA
 	*/
-	"tls.server.x509.public_key_algorithm": string,
+	"tls.server.x509.public_key_algorithm"?: string,
 
 	/**
 	* tls.server.x509.public_key_curve
@@ -14560,7 +14560,7 @@ export interface EcsFields {
 	* Description: The curve used by the elliptic curve public key algorithm. This is algorithm specific.
 	* Example: nistp521
 	*/
-	"tls.server.x509.public_key_curve": string,
+	"tls.server.x509.public_key_curve"?: string,
 
 	/**
 	* tls.server.x509.public_key_exponent
@@ -14571,7 +14571,7 @@ export interface EcsFields {
 	* Description: Exponent used to derive the public key. This is algorithm specific.
 	* Example: 65537
 	*/
-	"tls.server.x509.public_key_exponent": number,
+	"tls.server.x509.public_key_exponent"?: number,
 
 	/**
 	* tls.server.x509.public_key_size
@@ -14582,7 +14582,7 @@ export interface EcsFields {
 	* Description: The size of the public key space in bits.
 	* Example: 2048
 	*/
-	"tls.server.x509.public_key_size": number,
+	"tls.server.x509.public_key_size"?: number,
 
 	/**
 	* tls.server.x509.serial_number
@@ -14593,7 +14593,7 @@ export interface EcsFields {
 	* Description: Unique serial number issued by the certificate authority. For consistency, if this value is alphanumeric, it should be formatted without colons and uppercase characters.
 	* Example: 55FBB9C7DEBF09809D12CCAA
 	*/
-	"tls.server.x509.serial_number": string,
+	"tls.server.x509.serial_number"?: string,
 
 	/**
 	* tls.server.x509.signature_algorithm
@@ -14604,7 +14604,7 @@ export interface EcsFields {
 	* Description: Identifier for certificate signature algorithm. We recommend using names found in Go Lang Crypto library. See https://github.com/golang/go/blob/go1.14/src/crypto/x509/x509.go#L337-L353.
 	* Example: SHA256-RSA
 	*/
-	"tls.server.x509.signature_algorithm": string,
+	"tls.server.x509.signature_algorithm"?: string,
 
 	/**
 	* tls.server.x509.subject.common_name
@@ -14615,7 +14615,7 @@ export interface EcsFields {
 	* Description: List of common names (CN) of subject.
 	* Example: shared.global.example.net
 	*/
-	"tls.server.x509.subject.common_name": string,
+	"tls.server.x509.subject.common_name"?: string,
 
 	/**
 	* tls.server.x509.subject.country
@@ -14626,7 +14626,7 @@ export interface EcsFields {
 	* Description: List of country (C) code
 	* Example: US
 	*/
-	"tls.server.x509.subject.country": string,
+	"tls.server.x509.subject.country"?: string,
 
 	/**
 	* tls.server.x509.subject.distinguished_name
@@ -14637,7 +14637,7 @@ export interface EcsFields {
 	* Description: Distinguished name (DN) of the certificate subject entity.
 	* Example: C=US, ST=California, L=San Francisco, O=Example, Inc., CN=shared.global.example.net
 	*/
-	"tls.server.x509.subject.distinguished_name": string,
+	"tls.server.x509.subject.distinguished_name"?: string,
 
 	/**
 	* tls.server.x509.subject.locality
@@ -14648,7 +14648,7 @@ export interface EcsFields {
 	* Description: List of locality names (L)
 	* Example: San Francisco
 	*/
-	"tls.server.x509.subject.locality": string,
+	"tls.server.x509.subject.locality"?: string,
 
 	/**
 	* tls.server.x509.subject.organization
@@ -14659,7 +14659,7 @@ export interface EcsFields {
 	* Description: List of organizations (O) of subject.
 	* Example: Example, Inc.
 	*/
-	"tls.server.x509.subject.organization": string,
+	"tls.server.x509.subject.organization"?: string,
 
 	/**
 	* tls.server.x509.subject.organizational_unit
@@ -14670,7 +14670,7 @@ export interface EcsFields {
 	* Description: List of organizational units (OU) of subject.
 	* Example: <None>
 	*/
-	"tls.server.x509.subject.organizational_unit": string,
+	"tls.server.x509.subject.organizational_unit"?: string,
 
 	/**
 	* tls.server.x509.subject.state_or_province
@@ -14681,7 +14681,7 @@ export interface EcsFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"tls.server.x509.subject.state_or_province": string,
+	"tls.server.x509.subject.state_or_province"?: string,
 
 	/**
 	* tls.server.x509.version_number
@@ -14692,7 +14692,7 @@ export interface EcsFields {
 	* Description: Version of x509 format.
 	* Example: 3
 	*/
-	"tls.server.x509.version_number": string,
+	"tls.server.x509.version_number"?: string,
 
 	/**
 	* tls.version
@@ -14703,7 +14703,7 @@ export interface EcsFields {
 	* Description: Numeric part of the version parsed from the original string.
 	* Example: 1.2
 	*/
-	"tls.version": string,
+	"tls.version"?: string,
 
 	/**
 	* tls.version_protocol
@@ -14714,7 +14714,7 @@ export interface EcsFields {
 	* Description: Normalized lowercase protocol name parsed from original string.
 	* Example: tls
 	*/
-	"tls.version_protocol": string,
+	"tls.version_protocol"?: string,
 
 	/**
 	* trace.id
@@ -14725,7 +14725,7 @@ export interface EcsFields {
 	* Description: Unique identifier of the trace. A trace groups multiple events like transactions that belong together. For example, a user request handled by multiple inter-connected services.
 	* Example: 4bf92f3577b34da6a3ce929d0e0e4736
 	*/
-	"trace.id": string,
+	"trace.id"?: string,
 
 	/**
 	* transaction.id
@@ -14736,7 +14736,7 @@ export interface EcsFields {
 	* Description: Unique identifier of the transaction within the scope of its trace. A transaction is the highest level of work measured within a service, such as a request to a server.
 	* Example: 00f067aa0ba902b7
 	*/
-	"transaction.id": string,
+	"transaction.id"?: string,
 
 	/**
 	* url.domain
@@ -14747,7 +14747,7 @@ export interface EcsFields {
 	* Description: Domain of the url, such as "www.elastic.co". In some cases a URL may refer to an IP and/or port directly, without a domain name. In this case, the IP address would go to the `domain` field.
 	* Example: www.elastic.co
 	*/
-	"url.domain": string,
+	"url.domain"?: string,
 
 	/**
 	* url.extension
@@ -14760,7 +14760,7 @@ export interface EcsFields {
 	Note that when the file name has multiple extensions (example.tar.gz), only the last one should be captured ("gz", not "tar.gz").
 	* Example: png
 	*/
-	"url.extension": string,
+	"url.extension"?: string,
 
 	/**
 	* url.fragment
@@ -14771,7 +14771,7 @@ export interface EcsFields {
 	* Description: Portion of the url after the `#`, such as "top". The `#` is not part of the fragment.
 	* Example: <None>
 	*/
-	"url.fragment": string,
+	"url.fragment"?: string,
 
 	/**
 	* url.full
@@ -14782,7 +14782,7 @@ export interface EcsFields {
 	* Description: If full URLs are important to your use case, they should be stored in `url.full`, whether this field is reconstructed or present in the event source.
 	* Example: https://www.elastic.co:443/search?q=elasticsearch#top
 	*/
-	"url.full": string,
+	"url.full"?: string,
 
 	/**
 	* url.original
@@ -14794,7 +14794,7 @@ export interface EcsFields {
 	This field is meant to represent the URL as it was observed, complete or not.
 	* Example: https://www.elastic.co:443/search?q=elasticsearch#top or /search?q=elasticsearch
 	*/
-	"url.original": string,
+	"url.original"?: string,
 
 	/**
 	* url.password
@@ -14805,7 +14805,7 @@ export interface EcsFields {
 	* Description: Password of the request.
 	* Example: <None>
 	*/
-	"url.password": string,
+	"url.password"?: string,
 
 	/**
 	* url.path
@@ -14816,7 +14816,7 @@ export interface EcsFields {
 	* Description: Path of the request, such as "/search".
 	* Example: <None>
 	*/
-	"url.path": string,
+	"url.path"?: string,
 
 	/**
 	* url.port
@@ -14827,7 +14827,7 @@ export interface EcsFields {
 	* Description: Port of the request, such as 443.
 	* Example: 443
 	*/
-	"url.port": number,
+	"url.port"?: number,
 
 	/**
 	* url.query
@@ -14838,7 +14838,7 @@ export interface EcsFields {
 	* Description: The query field describes the query string of the request, such as "q=elasticsearch". The `?` is excluded from the query string. If a URL contains no `?`, there is no query field. If there is a `?` but no query, the query field exists with an empty string. The `exists` query can be used to differentiate between the two cases.
 	* Example: <None>
 	*/
-	"url.query": string,
+	"url.query"?: string,
 
 	/**
 	* url.registered_domain
@@ -14850,7 +14850,7 @@ export interface EcsFields {
 	This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last two labels will not work well for TLDs such as "co.uk".
 	* Example: example.com
 	*/
-	"url.registered_domain": string,
+	"url.registered_domain"?: string,
 
 	/**
 	* url.scheme
@@ -14861,7 +14861,7 @@ export interface EcsFields {
 	* Description: Scheme of the request, such as "https". Note: The `:` is not part of the scheme.
 	* Example: https
 	*/
-	"url.scheme": string,
+	"url.scheme"?: string,
 
 	/**
 	* url.subdomain
@@ -14872,7 +14872,7 @@ export interface EcsFields {
 	* Description: The subdomain portion of a fully qualified domain name includes all of the names except the host name under the registered_domain.  In a partially qualified domain, or if the the qualification level of the full name cannot be determined, subdomain contains all of the names below the registered domain. For example the subdomain portion of "www.east.mydomain.co.uk" is "east". If the domain has multiple levels of subdomain, such as "sub2.sub1.example.com", the subdomain field should contain "sub2.sub1", with no trailing period.
 	* Example: east
 	*/
-	"url.subdomain": string,
+	"url.subdomain"?: string,
 
 	/**
 	* url.top_level_domain
@@ -14883,7 +14883,7 @@ export interface EcsFields {
 	* Description: The effective top level domain (eTLD), also known as the domain suffix, is the last part of the domain name. For example, the top level domain for example.com is "com". This value can be determined precisely with a list like the public suffix list (http://publicsuffix.org). Trying to approximate this by simply taking the last label will not work well for effective TLDs such as "co.uk".
 	* Example: co.uk
 	*/
-	"url.top_level_domain": string,
+	"url.top_level_domain"?: string,
 
 	/**
 	* url.username
@@ -14894,7 +14894,7 @@ export interface EcsFields {
 	* Description: Username of the request.
 	* Example: <None>
 	*/
-	"url.username": string,
+	"url.username"?: string,
 
 	/**
 	* user.domain
@@ -14905,7 +14905,7 @@ export interface EcsFields {
 	* Description: Name of the directory the user is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"user.domain": string,
+	"user.domain"?: string,
 
 	/**
 	* user.email
@@ -14916,7 +14916,7 @@ export interface EcsFields {
 	* Description: User email address.
 	* Example: <None>
 	*/
-	"user.email": string,
+	"user.email"?: string,
 
 	/**
 	* user.full_name
@@ -14927,7 +14927,7 @@ export interface EcsFields {
 	* Description: User's full name, if available.
 	* Example: Albert Einstein
 	*/
-	"user.full_name": string,
+	"user.full_name"?: string,
 
 	/**
 	* user.group.domain
@@ -14938,7 +14938,7 @@ export interface EcsFields {
 	* Description: Name of the directory the group is a member of. For example, an LDAP or Active Directory domain name.
 	* Example: <None>
 	*/
-	"user.group.domain": string,
+	"user.group.domain"?: string,
 
 	/**
 	* user.group.id
@@ -14949,7 +14949,7 @@ export interface EcsFields {
 	* Description: Unique identifier for the group on the system/platform.
 	* Example: <None>
 	*/
-	"user.group.id": string,
+	"user.group.id"?: string,
 
 	/**
 	* user.group.name
@@ -14960,7 +14960,7 @@ export interface EcsFields {
 	* Description: Name of the group.
 	* Example: <None>
 	*/
-	"user.group.name": string,
+	"user.group.name"?: string,
 
 	/**
 	* user.hash
@@ -14971,7 +14971,7 @@ export interface EcsFields {
 	* Description: Unique user hash to correlate information for a user in anonymized form. Useful if `user.id` or `user.name` contain confidential information and cannot be used.
 	* Example: <None>
 	*/
-	"user.hash": string,
+	"user.hash"?: string,
 
 	/**
 	* user.id
@@ -14982,7 +14982,7 @@ export interface EcsFields {
 	* Description: Unique identifier of the user.
 	* Example: <None>
 	*/
-	"user.id": string,
+	"user.id"?: string,
 
 	/**
 	* user.name
@@ -14993,7 +14993,7 @@ export interface EcsFields {
 	* Description: Short name or login of the user.
 	* Example: albert
 	*/
-	"user.name": string,
+	"user.name"?: string,
 
 	/**
 	* user.roles
@@ -15004,7 +15004,7 @@ export interface EcsFields {
 	* Description: Array of user roles at the time of the event.
 	* Example: ["kibana_admin", "reporting_user"]
 	*/
-	"user.roles": string[],
+	"user.roles"?: string[],
 
 	/**
 	* user_agent.device.name
@@ -15015,7 +15015,7 @@ export interface EcsFields {
 	* Description: Name of the device.
 	* Example: iPhone
 	*/
-	"user_agent.device.name": string,
+	"user_agent.device.name"?: string,
 
 	/**
 	* user_agent.name
@@ -15026,7 +15026,7 @@ export interface EcsFields {
 	* Description: Name of the user agent.
 	* Example: Safari
 	*/
-	"user_agent.name": string,
+	"user_agent.name"?: string,
 
 	/**
 	* user_agent.original
@@ -15037,7 +15037,7 @@ export interface EcsFields {
 	* Description: Unparsed user_agent string.
 	* Example: Mozilla/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1
 	*/
-	"user_agent.original": string,
+	"user_agent.original"?: string,
 
 	/**
 	* user_agent.os.family
@@ -15048,7 +15048,7 @@ export interface EcsFields {
 	* Description: OS family (such as redhat, debian, freebsd, windows).
 	* Example: debian
 	*/
-	"user_agent.os.family": string,
+	"user_agent.os.family"?: string,
 
 	/**
 	* user_agent.os.full
@@ -15059,7 +15059,7 @@ export interface EcsFields {
 	* Description: Operating system name, including the version or code name.
 	* Example: Mac OS Mojave
 	*/
-	"user_agent.os.full": string,
+	"user_agent.os.full"?: string,
 
 	/**
 	* user_agent.os.kernel
@@ -15070,7 +15070,7 @@ export interface EcsFields {
 	* Description: Operating system kernel version as a raw string.
 	* Example: 4.4.0-112-generic
 	*/
-	"user_agent.os.kernel": string,
+	"user_agent.os.kernel"?: string,
 
 	/**
 	* user_agent.os.name
@@ -15081,7 +15081,7 @@ export interface EcsFields {
 	* Description: Operating system name, without the version.
 	* Example: Mac OS X
 	*/
-	"user_agent.os.name": string,
+	"user_agent.os.name"?: string,
 
 	/**
 	* user_agent.os.platform
@@ -15092,7 +15092,7 @@ export interface EcsFields {
 	* Description: Operating system platform (such centos, ubuntu, windows).
 	* Example: darwin
 	*/
-	"user_agent.os.platform": string,
+	"user_agent.os.platform"?: string,
 
 	/**
 	* user_agent.os.version
@@ -15103,7 +15103,7 @@ export interface EcsFields {
 	* Description: Operating system version as a raw string.
 	* Example: 10.14.1
 	*/
-	"user_agent.os.version": string,
+	"user_agent.os.version"?: string,
 
 	/**
 	* user_agent.version
@@ -15114,7 +15114,7 @@ export interface EcsFields {
 	* Description: Version of the user agent.
 	* Example: 12
 	*/
-	"user_agent.version": string,
+	"user_agent.version"?: string,
 
 	/**
 	* vlan.id
@@ -15125,7 +15125,7 @@ export interface EcsFields {
 	* Description: VLAN ID as reported by the observer.
 	* Example: 10
 	*/
-	"vlan.id": string,
+	"vlan.id"?: string,
 
 	/**
 	* vlan.name
@@ -15136,7 +15136,7 @@ export interface EcsFields {
 	* Description: Optional VLAN name as reported by the observer.
 	* Example: outside
 	*/
-	"vlan.name": string,
+	"vlan.name"?: string,
 
 	/**
 	* vulnerability.category
@@ -15147,7 +15147,7 @@ export interface EcsFields {
 	* Description: The type of system or architecture that the vulnerability affects. These may be platform-specific (for example, Debian or SUSE) or general (for example, Database or Firewall). For example (https://qualysguard.qualys.com/qwebhelp/fo_portal/knowledgebase/vulnerability_categories.htm[Qualys vulnerability categories]) This field must be an array.
 	* Example: ["Firewall"]
 	*/
-	"vulnerability.category": string[],
+	"vulnerability.category"?: string[],
 
 	/**
 	* vulnerability.classification
@@ -15158,7 +15158,7 @@ export interface EcsFields {
 	* Description: The classification of the vulnerability scoring system. For example (https://www.first.org/cvss/)
 	* Example: CVSS
 	*/
-	"vulnerability.classification": string,
+	"vulnerability.classification"?: string,
 
 	/**
 	* vulnerability.description
@@ -15169,7 +15169,7 @@ export interface EcsFields {
 	* Description: The description of the vulnerability that provides additional context of the vulnerability. For example (https://cve.mitre.org/about/faqs.html#cve_entry_descriptions_created[Common Vulnerabilities and Exposure CVE description])
 	* Example: In macOS before 2.12.6, there is a vulnerability in the RPC...
 	*/
-	"vulnerability.description": string,
+	"vulnerability.description"?: string,
 
 	/**
 	* vulnerability.enumeration
@@ -15180,7 +15180,7 @@ export interface EcsFields {
 	* Description: The type of identifier used for this vulnerability. For example (https://cve.mitre.org/about/)
 	* Example: CVE
 	*/
-	"vulnerability.enumeration": string,
+	"vulnerability.enumeration"?: string,
 
 	/**
 	* vulnerability.id
@@ -15191,7 +15191,7 @@ export interface EcsFields {
 	* Description: The identification (ID) is the number portion of a vulnerability entry. It includes a unique identification number for the vulnerability. For example (https://cve.mitre.org/about/faqs.html#what_is_cve_id)[Common Vulnerabilities and Exposure CVE ID]
 	* Example: CVE-2019-00001
 	*/
-	"vulnerability.id": string,
+	"vulnerability.id"?: string,
 
 	/**
 	* vulnerability.reference
@@ -15202,7 +15202,7 @@ export interface EcsFields {
 	* Description: A resource that provides additional information, context, and mitigations for the identified vulnerability.
 	* Example: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111
 	*/
-	"vulnerability.reference": string,
+	"vulnerability.reference"?: string,
 
 	/**
 	* vulnerability.report_id
@@ -15213,7 +15213,7 @@ export interface EcsFields {
 	* Description: The report or scan identification number.
 	* Example: 20191018.0001
 	*/
-	"vulnerability.report_id": string,
+	"vulnerability.report_id"?: string,
 
 	/**
 	* vulnerability.scanner.vendor
@@ -15224,7 +15224,7 @@ export interface EcsFields {
 	* Description: The name of the vulnerability scanner vendor.
 	* Example: Tenable
 	*/
-	"vulnerability.scanner.vendor": string,
+	"vulnerability.scanner.vendor"?: string,
 
 	/**
 	* vulnerability.score.base
@@ -15235,7 +15235,7 @@ export interface EcsFields {
 	* Description: Scores can range from 0.0 to 10.0, with 10.0 being the most severe. Base scores cover an assessment for exploitability metrics (attack vector, complexity, privileges, and user interaction), impact metrics (confidentiality, integrity, and availability), and scope. For example (https://www.first.org/cvss/specification-document)
 	* Example: 5.5
 	*/
-	"vulnerability.score.base": number,
+	"vulnerability.score.base"?: number,
 
 	/**
 	* vulnerability.score.environmental
@@ -15246,7 +15246,7 @@ export interface EcsFields {
 	* Description: Scores can range from 0.0 to 10.0, with 10.0 being the most severe. Environmental scores cover an assessment for any modified Base metrics, confidentiality, integrity, and availability requirements. For example (https://www.first.org/cvss/specification-document)
 	* Example: 5.5
 	*/
-	"vulnerability.score.environmental": number,
+	"vulnerability.score.environmental"?: number,
 
 	/**
 	* vulnerability.score.temporal
@@ -15257,7 +15257,7 @@ export interface EcsFields {
 	* Description: Scores can range from 0.0 to 10.0, with 10.0 being the most severe. Temporal scores cover an assessment for code maturity, remediation level, and confidence. For example (https://www.first.org/cvss/specification-document)
 	* Example: <None>
 	*/
-	"vulnerability.score.temporal": number,
+	"vulnerability.score.temporal"?: number,
 
 	/**
 	* vulnerability.score.version
@@ -15268,7 +15268,7 @@ export interface EcsFields {
 	* Description: The National Vulnerability Database (NVD) provides qualitative severity rankings of "Low", "Medium", and "High" for CVSS v2.0 base score ranges in addition to the severity ratings for CVSS v3.0 as they are defined in the CVSS v3.0 specification. CVSS is owned and managed by FIRST.Org, Inc. (FIRST), a US-based non-profit organization, whose mission is to help computer security incident response teams across the world. For example (https://nvd.nist.gov/vuln-metrics/cvss)
 	* Example: 2
 	*/
-	"vulnerability.score.version": string,
+	"vulnerability.score.version"?: string,
 
 	/**
 	* vulnerability.severity
@@ -15279,7 +15279,7 @@ export interface EcsFields {
 	* Description: The severity of the vulnerability can help with metrics and internal prioritization regarding remediation. For example (https://nvd.nist.gov/vuln-metrics/cvss)
 	* Example: Critical
 	*/
-	"vulnerability.severity": string,
+	"vulnerability.severity"?: string,
 
 	/**
 	* x509.alternative_names
@@ -15290,7 +15290,7 @@ export interface EcsFields {
 	* Description: List of subject alternative names (SAN). Name types vary by certificate authority and certificate type but commonly contain IP addresses, DNS names (and wildcards), and email addresses.
 	* Example: *.elastic.co
 	*/
-	"x509.alternative_names": string[],
+	"x509.alternative_names"?: string[],
 
 	/**
 	* x509.issuer.common_name
@@ -15301,7 +15301,7 @@ export interface EcsFields {
 	* Description: List of common name (CN) of issuing certificate authority.
 	* Example: Example SHA2 High Assurance Server CA
 	*/
-	"x509.issuer.common_name": string[],
+	"x509.issuer.common_name"?: string[],
 
 	/**
 	* x509.issuer.country
@@ -15312,7 +15312,7 @@ export interface EcsFields {
 	* Description: List of country (C) codes
 	* Example: US
 	*/
-	"x509.issuer.country": string[],
+	"x509.issuer.country"?: string[],
 
 	/**
 	* x509.issuer.distinguished_name
@@ -15323,7 +15323,7 @@ export interface EcsFields {
 	* Description: Distinguished name (DN) of issuing certificate authority.
 	* Example: C=US, O=Example Inc, OU=www.example.com, CN=Example SHA2 High Assurance Server CA
 	*/
-	"x509.issuer.distinguished_name": string,
+	"x509.issuer.distinguished_name"?: string,
 
 	/**
 	* x509.issuer.locality
@@ -15334,7 +15334,7 @@ export interface EcsFields {
 	* Description: List of locality names (L)
 	* Example: Mountain View
 	*/
-	"x509.issuer.locality": string[],
+	"x509.issuer.locality"?: string[],
 
 	/**
 	* x509.issuer.organization
@@ -15345,7 +15345,7 @@ export interface EcsFields {
 	* Description: List of organizations (O) of issuing certificate authority.
 	* Example: Example Inc
 	*/
-	"x509.issuer.organization": string[],
+	"x509.issuer.organization"?: string[],
 
 	/**
 	* x509.issuer.organizational_unit
@@ -15356,7 +15356,7 @@ export interface EcsFields {
 	* Description: List of organizational units (OU) of issuing certificate authority.
 	* Example: www.example.com
 	*/
-	"x509.issuer.organizational_unit": string[],
+	"x509.issuer.organizational_unit"?: string[],
 
 	/**
 	* x509.issuer.state_or_province
@@ -15367,7 +15367,7 @@ export interface EcsFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"x509.issuer.state_or_province": string[],
+	"x509.issuer.state_or_province"?: string[],
 
 	/**
 	* x509.not_after
@@ -15378,7 +15378,7 @@ export interface EcsFields {
 	* Description: Time at which the certificate is no longer considered valid.
 	* Example: 2020-07-16 03:15:39+00:00
 	*/
-	"x509.not_after": Date,
+	"x509.not_after"?: Date,
 
 	/**
 	* x509.not_before
@@ -15389,7 +15389,7 @@ export interface EcsFields {
 	* Description: Time at which the certificate is first considered valid.
 	* Example: 2019-08-16 01:40:25+00:00
 	*/
-	"x509.not_before": Date,
+	"x509.not_before"?: Date,
 
 	/**
 	* x509.public_key_algorithm
@@ -15400,7 +15400,7 @@ export interface EcsFields {
 	* Description: Algorithm used to generate the public key.
 	* Example: RSA
 	*/
-	"x509.public_key_algorithm": string,
+	"x509.public_key_algorithm"?: string,
 
 	/**
 	* x509.public_key_curve
@@ -15411,7 +15411,7 @@ export interface EcsFields {
 	* Description: The curve used by the elliptic curve public key algorithm. This is algorithm specific.
 	* Example: nistp521
 	*/
-	"x509.public_key_curve": string,
+	"x509.public_key_curve"?: string,
 
 	/**
 	* x509.public_key_exponent
@@ -15422,7 +15422,7 @@ export interface EcsFields {
 	* Description: Exponent used to derive the public key. This is algorithm specific.
 	* Example: 65537
 	*/
-	"x509.public_key_exponent": number,
+	"x509.public_key_exponent"?: number,
 
 	/**
 	* x509.public_key_size
@@ -15433,7 +15433,7 @@ export interface EcsFields {
 	* Description: The size of the public key space in bits.
 	* Example: 2048
 	*/
-	"x509.public_key_size": number,
+	"x509.public_key_size"?: number,
 
 	/**
 	* x509.serial_number
@@ -15444,7 +15444,7 @@ export interface EcsFields {
 	* Description: Unique serial number issued by the certificate authority. For consistency, if this value is alphanumeric, it should be formatted without colons and uppercase characters.
 	* Example: 55FBB9C7DEBF09809D12CCAA
 	*/
-	"x509.serial_number": string,
+	"x509.serial_number"?: string,
 
 	/**
 	* x509.signature_algorithm
@@ -15455,7 +15455,7 @@ export interface EcsFields {
 	* Description: Identifier for certificate signature algorithm. We recommend using names found in Go Lang Crypto library. See https://github.com/golang/go/blob/go1.14/src/crypto/x509/x509.go#L337-L353.
 	* Example: SHA256-RSA
 	*/
-	"x509.signature_algorithm": string,
+	"x509.signature_algorithm"?: string,
 
 	/**
 	* x509.subject.common_name
@@ -15466,7 +15466,7 @@ export interface EcsFields {
 	* Description: List of common names (CN) of subject.
 	* Example: shared.global.example.net
 	*/
-	"x509.subject.common_name": string[],
+	"x509.subject.common_name"?: string[],
 
 	/**
 	* x509.subject.country
@@ -15477,7 +15477,7 @@ export interface EcsFields {
 	* Description: List of country (C) code
 	* Example: US
 	*/
-	"x509.subject.country": string[],
+	"x509.subject.country"?: string[],
 
 	/**
 	* x509.subject.distinguished_name
@@ -15488,7 +15488,7 @@ export interface EcsFields {
 	* Description: Distinguished name (DN) of the certificate subject entity.
 	* Example: C=US, ST=California, L=San Francisco, O=Example, Inc., CN=shared.global.example.net
 	*/
-	"x509.subject.distinguished_name": string,
+	"x509.subject.distinguished_name"?: string,
 
 	/**
 	* x509.subject.locality
@@ -15499,7 +15499,7 @@ export interface EcsFields {
 	* Description: List of locality names (L)
 	* Example: San Francisco
 	*/
-	"x509.subject.locality": string[],
+	"x509.subject.locality"?: string[],
 
 	/**
 	* x509.subject.organization
@@ -15510,7 +15510,7 @@ export interface EcsFields {
 	* Description: List of organizations (O) of subject.
 	* Example: Example, Inc.
 	*/
-	"x509.subject.organization": string[],
+	"x509.subject.organization"?: string[],
 
 	/**
 	* x509.subject.organizational_unit
@@ -15521,7 +15521,7 @@ export interface EcsFields {
 	* Description: List of organizational units (OU) of subject.
 	* Example: <None>
 	*/
-	"x509.subject.organizational_unit": string[],
+	"x509.subject.organizational_unit"?: string[],
 
 	/**
 	* x509.subject.state_or_province
@@ -15532,7 +15532,7 @@ export interface EcsFields {
 	* Description: List of state or province names (ST, S, or P)
 	* Example: California
 	*/
-	"x509.subject.state_or_province": string[],
+	"x509.subject.state_or_province"?: string[],
 
 	/**
 	* x509.version_number
@@ -15543,7 +15543,7 @@ export interface EcsFields {
 	* Description: Version of x509 format.
 	* Example: 3
 	*/
-	"x509.version_number": string,
+	"x509.version_number"?: string,
 
 
 }

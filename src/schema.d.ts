@@ -1,21 +1,19 @@
 import { EcsFields } from './ecs'
 
-type EcsFieldNames = keyof EcsFields
-
 interface CustomFields {
     [fieldName: string]: any,
 }
 
-type Schema<CF extends CustomFields, AVAILABLE_ECS_FIELDS extends EcsFieldNames> = {
+type Schema<CF extends CustomFields, AVAILABLE_ECS_FIELDS extends EcsFields> = {
     customFields: CF,
-    ecsFields: {[EscField in AVAILABLE_ECS_FIELDS]: EcsFields[EscField]},
+    ecsFields: AVAILABLE_ECS_FIELDS,
 }
 type AssertValidSchema<CUSTOM> = keyof CUSTOM extends Exclude<keyof CUSTOM, keyof EcsFields> ? true : never
 
 // Create a new Schema type that can be used to generate type-safe event types and auto-validate your field sets
 // CF is a string-to-field-type mapping describing all the custom fields you define outside of ECS
 // UNUSED_ECS_FIELDS are all the ECS fields that shouldn't be avaiable to your application
-export type NewSchema<CF extends CustomFields, AVAILABLE_ECS_FIELDS extends EcsFieldNames> = 
+export type NewSchema<CF extends CustomFields, AVAILABLE_ECS_FIELDS extends EcsFields> = 
     AssertValidSchema<CF> extends never ?
         'Invalid Schema: Custom fields overlap with ECS fields' :
         Schema<CF, AVAILABLE_ECS_FIELDS>
@@ -53,5 +51,5 @@ export type NewEventType<
         AssertValidEvent<SCHEMA, REQUIRED_FIELDS, OPTIONAL_FIELDS>
 
 // Define an event type just like NewEventType but more verbosely by including the field types
-export type NewEventSchema<SCHEMA extends Schema<any, any>, EVENT_SCHEMA extends Partial<SCHEMA['ecsFields'] & SCHEMA['customFields']>> = 
+export type NewEventSchema<SCHEMA extends Schema<any, any>, EVENT_SCHEMA extends SCHEMA['ecsFields'] & SCHEMA['customFields']> = 
     EventType<SCHEMA, never, never, EVENT_SCHEMA>

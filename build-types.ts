@@ -80,7 +80,7 @@ async function generateEcsTypes(majorMinorVersion: string): Promise<void> {
         else {
                 const comment = toJsDoc(parent, fieldSet, majorMinorVersion);
                 const jsType = parseType(fieldSet, parent);
-                const fieldLine = `${tabComment(comment, '\t')}\n\t"${parent.name ? `${parent.name}.` : ''}${fieldSet.name}": ${jsType},\n\n`
+                const fieldLine = `${tabComment(comment, '\t')}\n\t"${parent.name ? `${parent.name}.` : ''}${fieldSet.name}"?: ${jsType},\n\n`
 
                 if (fieldSet.level === 'core') {
                     set(coreHierarchy, fieldSet.name, {__data__: { comment, jsType, name: fieldSet.name }})

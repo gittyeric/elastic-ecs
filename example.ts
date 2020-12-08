@@ -1,15 +1,22 @@
 // Define a custom ECS-based schema and define the first 2 event types in it
 
-import { NewEventType, NewSchema, EcsFields, NewEventSchema } from 'elastic-ecs'
+import { NewEventType, NewSchema, EcsFields, NewEventSchema } from './src'
 
 // All the custom fields you ever put in events should go here
 interface MyCustomFields {
+    // Optional fields on some events
+    'attempts.count'?: number,
+    
+    // Required fields on ALL events
     'customer.id': string,
-    'attempts.count': number,
 }
 
-// Use all ECS fields, another good option could be EcsCoreFields if you don't need extended fields
-type MyEcsFieldNames = keyof EcsFields 
+// Make all ECS fields available, another good option could be EcsCoreFields if you don't need extended fields
+type MyEcsFieldNames = EcsFields & {
+    // Required ECS fields
+    '@timestamp': Date,
+    'event.action': string,
+}
 
 // Define my schema based on my custom fields and the ECS fields I have available
 type MySchema = NewSchema<MyCustomFields, MyEcsFieldNames>
@@ -23,7 +30,7 @@ type MyLogoutEvent = NewEventSchema<MySchema, {
     'customer.id': string
     
     // Optional fields
-    'event.category'?: 'user'[],
+    'event.category'?: 'authentication'[],
 }>
 
 // Shorthand schema, don't need to include fields' types
