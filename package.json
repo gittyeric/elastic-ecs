@@ -28,6 +28,7 @@
     "prettier": "^2.0.5",
     "rimraf": "~2.6.2",
     "ts-node": "^9.0.0",
+    "tslib": "^2.4.0",
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.18.0",
     "ttypescript": "^1.5.12",
