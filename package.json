@@ -41,6 +41,7 @@
     "convert-yaml": "ts-node preprocess.ts",
     "build-types": "ECS_VERSION=8.4 && cd ecs && git checkout $ECS_VERSION && cd .. && npm run convert-yaml && ts-node build-types.ts $ECS_VERSION",
     "copy-generated": "rm -rf lib && mkdir lib && cp src/* lib/",
+    "prebuild": "rimraf ecs",
     "build": "npm run clone-ecs && npm run build-types && npm run copy-generated",
     "deploy-dry": "npm run clean && npm run clone-ecs && npm run build && npm run lint && git status",
     "watch": "tsc -w -p tsconfig.release.json",
