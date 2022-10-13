@@ -44,13 +44,13 @@ function parseType(row: ParseTypeRequirements, parent: {name?:string}): string {
     else if (row.type === 'date') {
         t = 'Date'
     }
-    else if (row.type in { keyword: 1, text: 1, ip: 1 }) {
+    else if (["keyword", "text", "ip", "match_only_text", 'constant_keyword', 'wildcard'].includes(row.type)) {
         t = 'string'
     }
-    else if (row.type === 'long' || row.type === 'float' || row.type === 'integer') {
+    else if (['long', 'float', 'scaled_float', 'integer'].includes(row.type)) {
         t = 'number'
     }
-    else if (row.type === 'object') {
+    else if (['object', 'flattened', 'nested'].includes(row.type)) {
         t = 'object'
     }
     else if (row.type === 'boolean') {
