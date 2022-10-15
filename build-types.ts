@@ -1,5 +1,5 @@
 import { set, merge } from 'lodash';
-import {  writeFileSync } from 'fs'
+import { writeFileSync } from 'fs'
 import rawSchema from './ecs/generated/beats/fields.ecs.yml.json';
 import rawAll from './ecs/all.json';
 
@@ -32,7 +32,7 @@ interface ParseTypeRequirements {
     name: string,
     type: string,
 }
-function parseType(row: ParseTypeRequirements, parent: {name?:string}): string {
+function parseType(row: ParseTypeRequirements, parent: { name?: string }): string {
     let t: string = ''
     const fsName = parent.name || 'base'
     const allMatchFs: any = rawAll.find((fs: any) => fs.name === fsName);
@@ -88,7 +88,7 @@ async function generateEcsTypes(majorMinorVersion: string): Promise<void> {
     const extendedFields: string[] = [];
     const coreHierarchy = {};
     const extendedHierarchy = {};
-    
+
     const processField = (fieldSet: any, parent: any) => {
         if (fieldSet.hasOwnProperty('group')) {
             fieldSet.fields.forEach((field: any) => {
@@ -96,18 +96,18 @@ async function generateEcsTypes(majorMinorVersion: string): Promise<void> {
             })
         }
         else {
-                const comment = toJsDoc(parent, fieldSet, majorMinorVersion);
-                const jsType = parseType(fieldSet, parent);
-                const fieldLine = `${tabComment(comment, '\t')}\n\t"${parent.name ? `${parent.name}.` : ''}${fieldSet.name}"?: ${jsType},\n\n`
+            const comment = toJsDoc(parent, fieldSet, majorMinorVersion);
+            const jsType = parseType(fieldSet, parent);
+            const fieldLine = `${tabComment(comment, '\t')}\n\t"${parent.name ? `${parent.name}.` : ''}${fieldSet.name}"?: ${jsType},\n\n`
 
-                if (fieldSet.level === 'core') {
-                    set(coreHierarchy, fieldSet.name, {__data__: { comment, jsType, name: fieldSet.name }})
-                    coreFields.push(fieldLine)
-                }
-                else {
-                    set(extendedHierarchy, fieldSet.name, {__data__: { comment, jsType, name: fieldSet.name }})
-                    extendedFields.push(fieldLine)
-                }
+            if (fieldSet.level === 'core') {
+                set(coreHierarchy, `${parent.name}.${fieldSet.name}`, { __data__: { comment, jsType, name: fieldSet.name } })
+                coreFields.push(fieldLine)
+            }
+            else {
+                set(extendedHierarchy, `${parent.name}.${fieldSet.name}`, { __data__: { comment, jsType, name: fieldSet.name } })
+                extendedFields.push(fieldLine)
+            }
         }
     }
 
