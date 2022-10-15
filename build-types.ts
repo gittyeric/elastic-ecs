@@ -59,6 +59,24 @@ function parseType(row: ParseTypeRequirements, parent: {name?:string}): string {
     else if (row.type === 'geo_point') {
         t = 'GeoPoint'
     }
+    else if (row.type === 'match_only_text') {
+        t = 'string'
+    }
+    else if (row.type === 'scaled_float') {
+        t = 'number'
+    }
+    else if (row.type === 'constant_keyword') {
+        t = 'string'
+    }
+    else if (row.type === 'flattened') {
+        t = 'object'
+    }
+    else if (row.type === 'nested') {
+        t = 'object'
+    }
+    else if (row.type === 'wildcard') {
+        t = 'string'
+    }
     else {
         throw new Error(`Unknown type ${row.type}, how to convert to JS primitive?`);
     }
