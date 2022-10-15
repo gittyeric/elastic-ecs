@@ -1,6 +1,6 @@
 # Elastic ECS Typescript Definitions
 
-This wraps up the Elastic Common Schema into strict Typescript types by parsing the official [ECS schema]("https://github.com/elastic/ecs") document.  Since this library is pure types and a strict reflection of ECS, the version is pinned to the ECS version itself, starting from version 1.7.  You can also clone this repo to build against a given ECS version yourself.
+This wraps up the Elastic Common Schema into strict Typescript types by parsing the official [ECS schema]("https://github.com/elastic/ecs") document.  Since this library is pure types and a strict reflection of ECS, the version is pinned to the ECS version itself, currently at version 8.4.  You can also clone this repo to build against a given ECS version yourself.
 
 ## Features
 
@@ -17,7 +17,7 @@ Run:
 
 ## Versioning
 
-This NPM package's version is pinned to the associated ECS version, so version 1.7.0 of this lib would represent ECS version 1.7.0, for example.
+This NPM package's version is pinned to the associated ECS version, so version 8.4.0 of this lib would represent ECS version 8.4, for example.
 
 Any patch or minor updates will be reflected with appending -[a-z]* to the ECS semver version.
 
@@ -108,8 +108,8 @@ please run the automated build process below and send me a pull request!  This'l
 
 1. Clone this repository and ensure you have Node.js version 10 or above installed.
 2. Use a terminal to cd into the rot of this repo.
-3. Change the version in `package.json` to match the ECS version you want to build against, plus an extra zero such as `1.7.0`.
-4. Change the ECS branch version number in `package.json` under the `build-types` script and make sure it matches the version from step 3, but without the last number, ex. `1.7`.
+3. Change the version in `package.json` to match the ECS version you want to build against, plus an extra zero such as `8.4.0`.
+4. Change the ECS branch version number in `package.json` under the `build-types` script and make sure it matches the version from step 3, but without the last number, ex. `8.4`.
 5. Run `npm install` to install dependencies.
 6. Run `npm run build` to build the type definitions.
 7. Open a Pull Request for me if it's the latest ECS version or copy index.ts to your project.
