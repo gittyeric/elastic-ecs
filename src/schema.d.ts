@@ -15,7 +15,7 @@ type AssertValidSchema<CUSTOM> = keyof CUSTOM extends Exclude<keyof CUSTOM, keyo
 // UNUSED_ECS_FIELDS are all the ECS fields that shouldn't be avaiable to your application
 export type NewSchema<CF extends CustomFields, AVAILABLE_ECS_FIELDS extends EcsFields> = 
     AssertValidSchema<CF> extends never ?
-        '<- Invalid Schema: Custom fields overlap with ECS fields' | (keyof CustomFields & keyof EcsFields) :
+        '<- Invalid Schema: Custom fields overlap with ECS fields' | (keyof CF & keyof EcsFields) :
         Schema<CF, AVAILABLE_ECS_FIELDS>
 
 type EventType<
