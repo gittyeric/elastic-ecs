@@ -1,6 +1,6 @@
 {
   "name": "elastic-ecs",
-  "version": "8.4.0-c",
+  "version": "8.4.0-d",
   "description": "Typescript type defs for ECS Schema",
   "keywords": [
     "Elastic",
